@@ -1,0 +1,21 @@
+<div class="mt-8">
+    <p-button label="Novo" icon="pi pi-plus" routerLink="novo"></p-button>
+
+    <h1>Lista de Motivos</h1>
+    <p-table [value]="motivos">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>ID</th>
+                <th>Descrição</th>
+                <th>Status</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-motivo>
+            <tr>
+                <td>{{ motivo.id }}</td>
+                <td>{{ motivo.descricao }}</td>
+                <td>{{ motivo.status }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
