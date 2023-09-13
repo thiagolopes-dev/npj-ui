@@ -8,23 +8,24 @@ import {
   ConfirmationService,
   MessageService,
 } from 'primeng/api';
-import { Motivos } from 'src/app/core/models/motivos.model';
+
 import { Regex } from 'src/app/core/validators/regex.model';
-import { MotivosService } from '../motivos.service';
+import { VarasService } from '../varas.service';
+import { Varas } from 'src/app/core/models/varas.model';
 
 @Component({
-  selector: 'app-cadastro-motivo',
-  templateUrl: './cadastro-motivo.component.html',
-  styleUrls: ['./cadastro-motivo.component.css'],
+  selector: 'app-cadastro-varas',
+  templateUrl: './cadastro-varas.component.html',
+  styleUrls: ['./cadastro-varas.component.css'],
 })
-export class CadastroMotivoComponent {
+export class CadastroVaraComponent {
   regex = new Regex();
-  newmotivo = new Motivos();
-  idmotivo: string;
+  newvara = new Varas();
+  idvara: string;
   salvando: boolean;
 
   constructor(
-    private motivoService: MotivosService,
+    private varaService: VarasService,
     private messageService: MessageService,
     private route: ActivatedRoute,
     private router: Router,
@@ -36,72 +37,72 @@ export class CadastroMotivoComponent {
   {}
 
   ngOnInit() {
-    this.idmotivo = this.route.snapshot.params['id'];
-    this.title.setTitle('Cadastro de Motivo');
+    this.idvara = this.route.snapshot.params['id'];
+    this.title.setTitle('Cadastro de Vara');
 
-    if (this.idmotivo) {
+    if (this.idvara) {
       this.spinner.show();
-      this.carregarMotivo(this.idmotivo);
+      this.carregarVara(this.idvara);
     } else {
-      this.newmotivo.status = true;
+      this.newvara.status = true;
     }
   }
 
   get editando() {
-    return Boolean(this.newmotivo.id);
+    return Boolean(this.newvara.id);
   }
 
   salvar(form: NgForm) {
     if (this.editando) {
-      this.atualizarMotivo(form);
+      this.atualizarVara(form);
     } else {
-      this.adicionarMotivo(form);
+      this.adicionarVara(form);
     }
   }
 
-  adicionarMotivo(form: NgForm) {
+  adicionarVara(form: NgForm) {
     this.salvando = true;
-    this.motivoService
-      .adicionarMotivo(this.newmotivo)
+    this.varaService
+      .adicionarVara(this.newvara)
       .then((obj) => {
         this.messageService.add({
           severity: 'success',
-          summary: 'Motivo',
+          summary: 'Vara',
           detail: `${obj.descricao}, adicionado com sucesso!`,
         });
         this.salvando = false;
-        this.router.navigate(['/motivos']);
+        this.router.navigate(['/varas']);
       })
       .catch((erro) => {
         this.salvando = false;
         // this.errorHandler.handle(erro);
       });
   }
-  atualizarMotivo(form: NgForm) {
+  atualizarVara(form: NgForm) {
     this.salvando = true;
-    this.motivoService
-      .atualizarMotivos(this.newmotivo)
+    this.varaService
+      .atualizarVaras(this.newvara)
       .then((obj) => {
-        this.newmotivo = obj;
+        this.newvara = obj;
         this.messageService.add({
           severity: 'info',
-          summary: 'Motivo',
+          summary: 'Vara',
           detail: `${obj.descricao}, alterado com sucesso!`,
         });
         this.atualizarTituloEdicao();
         this.salvando = false;
-        this.router.navigate(['/motivos']);
+        this.router.navigate(['/varas']);
       })
       .catch((erro) => {
         this.salvando = false;
         // this.errorHandler.handle(erro);
       });
   }
-  carregarMotivo(id: string) {
-    this.motivoService
+  carregarVara(id: string) {
+    this.varaService
       .buscarPorID(id)
       .then((obj) => {
-        this.newmotivo = obj;
+        this.newvara = obj;
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })
@@ -112,14 +113,14 @@ export class CadastroMotivoComponent {
   }
 
   atualizarTituloEdicao() {
-    this.title.setTitle(`Edição de Motivo: ${this.newmotivo.descricao}`);
+    this.title.setTitle(`Edição de Vara: ${this.newvara.descricao}`);
   }
 
   confirmarExclusao() {
     this.confirmation.confirm({
-      message: `Tem certeza que deseja excluir: <b>${this.newmotivo.descricao}</b> ?`,
+      message: `Tem certeza que deseja excluir: <b>${this.newvara.descricao}</b> ?`,
       accept: () => {
-        this.excluir(this.idmotivo);
+        this.excluir(this.idvara);
       },
       reject: (type) => {
         switch (type) {
@@ -143,15 +144,15 @@ export class CadastroMotivoComponent {
   }
 
   excluir(id: any) {
-    this.motivoService
+    this.varaService
       .excluir(id)
       .then(() => {
         this.messageService.add({
           severity: 'warn',
-          summary: 'Motivo',
-          detail: `${this.newmotivo.descricao}, excluído com sucesso!`,
+          summary: 'Vara',
+          detail: `${this.newvara.descricao}, excluído com sucesso!`,
         });
-        this.router.navigate(['/motivos']);
+        this.router.navigate(['/varas']);
       })
       .catch((erro) => {
         // this.errorHandler.handle(erro);

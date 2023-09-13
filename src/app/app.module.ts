@@ -1,17 +1,29 @@
 import { NgModule } from '@angular/core';
 
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxSpinnerModule } from 'ngx-spinner';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './core/layout/navbar/navbar.component';
+import { CoreModule } from './core/core.module';
 import { PrimeNGModule } from './primeng.module';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
-  imports: [BrowserModule,BrowserAnimationsModule, AppRoutingModule, PrimeNGModule],
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    HttpClientModule,
+    PrimeNGModule,
+    CoreModule,
+    NgxSpinnerModule
+  ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [NavbarComponent]
+  exports: []
 })
-export class AppModule {}
+export class AppModule { }

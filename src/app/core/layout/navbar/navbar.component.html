@@ -1,3 +1,17 @@
 <div class="colorNav">
-    NAVBAR
+    <span class="cursor-pointer">
+        <i class="pi pi-bars" (click)="sibebar = true" style="font-size: 2rem"></i>
+    </span>
+    
 </div>
+
+<p-sidebar [(visible)]="sibebar">
+   <div class="flex flex-wrap">
+    <div class="col-12">
+        <p-button  styleClass="p-button-outlined w-full" label="Motivos" routerLink="/motivos" (click)="sibebar = false" ></p-button>
+    </div>
+    <div class="col-12">
+        <p-button  styleClass="p-button-outlined w-full" label="Varas" routerLink="/varas" (click)="sibebar = false" ></p-button>
+    </div>
+   </div>
+</p-sidebar>

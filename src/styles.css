@@ -1,6 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+@import "primeicons/primeicons.css";
 
 * {
     font-family: 'Ubuntu', sans-serif;
 }
+
+h6 {
+    font-size: 0.8125rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #898989;
+    margin: 0rem;
+    margin-left: 0.375rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .obrigatorio {
+    color: #e74c3c;
+  }
+
+  .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+    background: #D97706;
+}
+
+.p-inputswitch.p-inputswitch-checked:not(.p-disabled):hover .p-inputswitch-slider {
+  background: #D97706;
+}
+  
+  

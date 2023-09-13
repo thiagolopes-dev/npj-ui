@@ -11,6 +11,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
+    "@angular/cdk": "^16.2.3",
     "@angular/common": "^16.0.0",
     "@angular/compiler": "^16.0.0",
     "@angular/core": "^16.0.0",
@@ -18,7 +19,11 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "moment": "2.29.4",
+    "moment-timezone": "0.5.38",
+    "ngx-spinner": "^16.0.2",
     "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
     "primeng": "^16.2.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -35,6 +40,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "prettier": "3.0.3",
     "typescript": "~5.0.2"
   }
 }

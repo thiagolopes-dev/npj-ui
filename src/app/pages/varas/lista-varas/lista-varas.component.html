@@ -1,11 +1,11 @@
 <main>
   <p-card styleClass="card-adjust">
-    <h4>MOTIVOS</h4>
+    <h4>VARAS</h4>
     <div class="flex justify-content-between mb-2">
       <div class="flex justify-content-start mb-2">
         <div>
           <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-plus"
-            pTooltip="Novo" tooltipPosition="top" routerLink="/motivos/novo"></button>
+            pTooltip="Novo" tooltipPosition="top" routerLink="/varas/novo"></button>
         </div>
         <div>
           <button pButton pRipple type="button" class="p-button-raised p-button-warning  ml-2" pTooltip="Atualizar"
@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <p-table #tabela [value]="motivos" [columns]="cols" [globalFilterFields]="cols"
+    <p-table #tabela [value]="varas" [columns]="cols" [globalFilterFields]="cols"
       [rowsPerPageOptions]="rowsPerPageTable" selectionMode="single" [showCurrentPageReport]="true" [rows]="10"
       styleClass="p-datatable-striped p-datatable-gridlines" [scrollable]="true"
       [currentPageReportTemplate]="messagePageReport">

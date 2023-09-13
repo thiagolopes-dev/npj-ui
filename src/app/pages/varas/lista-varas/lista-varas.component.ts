@@ -2,30 +2,31 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Table } from 'primeng/table';
-import { MotivosService } from '../motivos.service';
+import { VarasService } from '../varas.service';
+
 
 @Component({
-  selector: 'app-lista-motivos',
-  templateUrl: './lista-motivos.component.html',
-  styleUrls: ['./lista-motivos.component.css'],
+  selector: 'app-lista-varas',
+  templateUrl: './lista-varas.component.html',
+  styleUrls: ['./lista-varas.component.css'],
 })
-export class ListaMotivosComponent implements OnInit {
+export class ListaVarasComponent implements OnInit {
   @ViewChild('tabela') table: Table;
 
   rowsPerPageTable: number[] = [10, 20, 30, 50, 100, 200];
   messagePageReport: 'Mostrando {first} a {last} de {totalRecords} registros';
-  motivos: any;
+  varas: any;
   cols: any[] | undefined;
 
   constructor(
     private title: Title,
-    private motivoService: MotivosService,
+    private motivoService: VarasService,
     private ngxspinner: NgxSpinnerService,
   ) {}
 
   ngOnInit(): void {
     this.title.setTitle('Lista de Motivos');
-    this.carregarMotivos();
+    this.carregarVaras();
 
     this.cols = [
       { field: 'id', header: 'ID', width: '80px', type: 'text' },
@@ -38,12 +39,12 @@ export class ListaMotivosComponent implements OnInit {
 
   onClear() {}
 
-  carregarMotivos() {
+  carregarVaras() {
     this.ngxspinner.show();
     this.motivoService
-      .listarMotivos()
+      .listarVaras()
       .then((obj) => {
-        this.motivos = obj;
+        this.varas = obj;
         this.ngxspinner.hide();
       })
       .catch((erro) => {
