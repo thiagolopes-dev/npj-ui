@@ -12,6 +12,11 @@ const routes: Routes = [
     path: 'varas',
     loadChildren: () =>
       import('./pages/varas/varas.module').then((v) => v.VarasModule),
+  },
+  {
+    path: 'clientes',
+    loadChildren: () =>
+      import('./pages/clientes/clientes.module').then((c) => c.ClientesModule),
   }
 ];
 @NgModule({

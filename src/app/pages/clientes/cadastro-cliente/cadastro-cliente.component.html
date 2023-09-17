@@ -1,3 +1,115 @@
-<p>
-    cadastro-cliente works!
-</p>
+<main>
+  <p-card styleClass="card-adjust">
+    <h4>{{ editando ? 'EDIÇÃO DE' : 'CADASTRO DE'}} CLIENTE</h4>
+    <div class="flex justify-content-start mb-2">
+      <div>
+        <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-caret-left"
+          pTooltip="Voltar" tooltipPosition="top" routerLink="/clientes"></button>
+      </div>
+    </div>
+    <br>
+    <form #formCliente="ngForm" autocomplete="off" (ngSubmit)="salvar(formCliente)">
+      <div class="grid justify-content-center">
+        <div class="col-12 md:col-6 lg:col-4">
+          <h6><span class="obrigatorio">*</span>Nome</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.nome" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+              <h6><span class="obrigatorio">*</span>Cpf</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cpf" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+              <h6><span class="obrigatorio">*</span>Rg</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.rg" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+              <h6><span class="obrigatorio">*</span>Cep</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cep" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+
+              <h6><span class="obrigatorio">*</span>Logradouro</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.logradouro" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+              <h6><span class="obrigatorio">*</span>Bairro</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.bairro" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+              <h6><span class="obrigatorio">*</span>Numero</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.numero" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+              <h6>Complemento</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.complemento" #cliente="ngModel" [disabled]="editando"
+              unrequired minlength="3">
+              <h6><span class="obrigatorio">*</span>Cidade</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cidade" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+              <h6><span class="obrigatorio">*</span>UF</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.uf" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+              <h6><span class="obrigatorio">*</span>Whatsapp</h6>
+            <!--TODO Forma de input uppercase sem diretiva -->
+            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.whatsapp" #cliente="ngModel" [disabled]="editando"
+              required minlength="3">
+              
+
+              
+
+          <!-- <app-message [control]="cliente" error="required" text="Informe a descrição"></app-message>
+          <app-message [control]="cliente" error="minlength"
+            text="Mínimo de {{ descricao.errors?.minlength?.requiredLength }} caracteres"></app-message> -->
+        </div>
+      </div>
+      <div class="flex justify-content-center">
+        <div class="flex align-items-center justify-content-center">
+          <h6>Status</h6>
+        </div>
+      </div>
+      <div class="flex justify-content-center">
+        <div class="flex align-items-center justify-content-center">
+          <p-inputSwitch [(ngModel)]="newcliente.status" name="status" [ngModelOptions]="{standalone: true}"
+            binary="true">
+          </p-inputSwitch>
+        </div>
+      </div>
+      <br>
+      <div class="flex flex-wrap justify-content-center">
+        <div class="col-12 md:col-6 lg:col-4">
+          <button pButton pRipple type="submit" label="Salvar" icon="fas fa-save"
+            [disabled]="formCliente.invalid || salvando" class="p-button-raised p-button-warning w-full"></button>
+        </div>
+        <!-- <div class="col-12 md:col-6 lg:col-4">
+          <button pButton pRipple type="button" class="p-button-outlined p-button-primary w-full" icon="fas fa-trash"
+            pTooltip="Excluir" tooltipPosition="top"
+            (click)="confirmarExclusao()" label="Excluir"></button>
+        </div> -->
+      </div>
+      <div *ngIf="salvando" class="grid justify-content-center mt-4">
+        <div class="grid col-12 justify-content-center">
+          <p-progressSpinner [style]="{width: '50px', height: '50px'}" styleClass="custom-spinner" strokeWidth="8"
+            animationDuration=".5s">
+          </p-progressSpinner>
+        </div>
+        <div class="grid col-12 justify-content-center">
+          <h6>Salvando aguarde...</h6>
+        </div>
+      </div>
+    </form>
+  </p-card>
+</main>
