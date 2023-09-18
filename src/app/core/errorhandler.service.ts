@@ -29,9 +29,9 @@ export class ErrorHandleService {
                 } else {
                     msg =  errorResponse.error.message;
                 }
-                if(){
-
-                }
+                if(errorResponse.status === 403){
+                    msg = 'Você não tem permissão executar essa ação';
+              }
         }
     }
 }
