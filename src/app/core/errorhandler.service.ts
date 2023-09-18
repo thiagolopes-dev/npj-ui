@@ -11,5 +11,5 @@ export class ErrorHandleService {
         private router: Router
     ) { }
 
-    handle() { }
+    handle(errorResponse: any) { }
 }
