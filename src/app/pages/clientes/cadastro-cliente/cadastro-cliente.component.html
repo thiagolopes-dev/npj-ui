@@ -8,9 +8,9 @@
       </div>
     </div>
     <br>
-    <form #formCliente="ngForm" autocomplete="off" (ngSubmit)="salvar(formCliente)">
+    <form #formCliente="ngForm" autocomplete="off" (ngSubmit)="salvar(formCliente)" >
       <div class="grid justify-content-center">
-        <div class="col-12 md:col-6 lg:col-4">
+        <div class="col-3 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Nome</h6>
             <!--TODO Forma de input uppercase sem diretiva -->
             <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
