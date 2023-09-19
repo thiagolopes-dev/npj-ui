@@ -2,6 +2,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { MessageService } from 'primeng/api';
+import { NotAuthenticatedError } from '../pages/seguranca/npj-http';
 
 @Injectable()
 export class ErrorHandleService {

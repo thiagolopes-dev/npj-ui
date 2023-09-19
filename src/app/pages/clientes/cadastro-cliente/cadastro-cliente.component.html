@@ -8,68 +8,73 @@
       </div>
     </div>
     <br>
-    <form #formCliente="ngForm" autocomplete="off" (ngSubmit)="salvar(formCliente)" >
+     <form #formCliente="ngForm" autocomplete="off" (ngSubmit)="salvar(formCliente)">
       <div class="grid justify-content-center">
-        <div class="col-3 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Nome</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.nome" #cliente="ngModel" [disabled]="editando"
-              required minlength="3">
-              <h6><span class="obrigatorio">*</span>Cpf</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cpf" #cliente="ngModel" [disabled]="editando"
-              required minlength="3">
-              <h6><span class="obrigatorio">*</span>Rg</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.rg" #cliente="ngModel" [disabled]="editando"
-              required minlength="3">
-              <h6><span class="obrigatorio">*</span>Cep</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cep" #cliente="ngModel" [disabled]="editando"
-              required minlength="3">
+        <div class="col-12 md:col-6 lg:col-4">
 
-              <h6><span class="obrigatorio">*</span>Logradouro</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.logradouro" #cliente="ngModel" [disabled]="editando"
-              required minlength="3">
-              <h6><span class="obrigatorio">*</span>Bairro</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.bairro" #cliente="ngModel" [disabled]="editando"
-              required minlength="3">
-              <h6><span class="obrigatorio">*</span>Numero</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.numero" #cliente="ngModel" [disabled]="editando"
-              required minlength="3">
-              <h6>Complemento</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.complemento" #cliente="ngModel" [disabled]="editando"
-              unrequired minlength="3">
-              <h6><span class="obrigatorio">*</span>Cidade</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cidade" #cliente="ngModel" [disabled]="editando"
-              required minlength="3">
-              <h6><span class="obrigatorio">*</span>UF</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
-            <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
-              [pKeyFilter]="regex.string" [(ngModel)]="newcliente.uf" #cliente="ngModel" [disabled]="editando"
-              required minlength="3">
-              <h6><span class="obrigatorio">*</span>Whatsapp</h6>
-            <!--TODO Forma de input uppercase sem diretiva -->
+          <h6><span class="obrigatorio">*</span>Nome</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.nome" #cliente="ngModel" [disabled]="editando" required
+            minlength="3">
+
+          <h6><span class="obrigatorio">*</span>Cpf</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cpf" #cliente="ngModel" [disabled]="editando" required
+            minlength="3">
+
+          <h6><span class="obrigatorio">*</span>Rg</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.rg" #cliente="ngModel" [disabled]="editando" required
+            minlength="3">
+
+          <h6><span class="obrigatorio">*</span>Cep</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cep" #cliente="ngModel" [disabled]="editando" required
+            minlength="3">
+
+          <h6><span class="obrigatorio">*</span>Logradouro</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.logradouro" #cliente="ngModel" [disabled]="editando"
+            required minlength="3">
+          <h6><span class="obrigatorio">*</span>Bairro</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.bairro" #cliente="ngModel" [disabled]="editando"
+            required minlength="3">
+          <h6><span class="obrigatorio">*</span>Numero</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.numero" #cliente="ngModel" [disabled]="editando"
+            required minlength="3">
+          <h6>Complemento</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.complemento" #cliente="ngModel" [disabled]="editando"
+            required minlength="3">
+          <h6><span class="obrigatorio">*</span>Cidade</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cidade" #cliente="ngModel" [disabled]="editando"
+            required minlength="3">
+          <h6><span class="obrigatorio">*</span>UF</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.uf" #cliente="ngModel" [disabled]="editando" required
+            minlength="3">
+          <h6><span class="obrigatorio">*</span>Whatsapp</h6>
+          <!--TODO Forma de input uppercase sem diretiva -->
+          <form #formCliente="ngForm" autocomplete="off" (ngSubmit)="salvar(formCliente)">
             <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="cliente" type="text"
               [pKeyFilter]="regex.string" [(ngModel)]="newcliente.whatsapp" #cliente="ngModel" [disabled]="editando"
               required minlength="3">
-              
 
-              
+          </form>
+
 
           <!-- <app-message [control]="cliente" error="required" text="Informe a descrição"></app-message>
           <app-message [control]="cliente" error="minlength"

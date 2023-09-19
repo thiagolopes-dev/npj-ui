@@ -73,9 +73,9 @@ export class CadastroClienteComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-        // this.errorHandler.handle(erro);
+        //this.errorHandler.handle(erro);
       });
-  }
+  } 
   atualizarClientes(form: NgForm) {
     this.salvando = true;
     this.clienteService
@@ -106,7 +106,7 @@ export class CadastroClienteComponent {
       })
       .catch((erro) => {
         this.spinner.hide();
-        // this.errorHandler.handle(erro);
+        //this.errorHandler.handle(erro);
       });
   }
 
