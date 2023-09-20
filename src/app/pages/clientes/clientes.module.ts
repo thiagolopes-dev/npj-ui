@@ -4,6 +4,7 @@ import { PrimeNGModule } from 'src/app/primeng.module';
 import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
 import { ListaClientesComponent } from './lista-clientes/lista-clientes.component';
 import { ClientesRoutingModule } from './clientes.routing';
+import { SharedModule } from '../shared/shared.module';
 @NgModule({
   declarations: [
     CadastroClienteComponent,
@@ -13,7 +14,9 @@ import { ClientesRoutingModule } from './clientes.routing';
   imports: [
     FormsModule,
     PrimeNGModule,
-    ClientesRoutingModule
+    ClientesRoutingModule,
+    SharedModule,
+    FormsModule
 
   ],
 })

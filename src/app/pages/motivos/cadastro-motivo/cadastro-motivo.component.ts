@@ -1,13 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
-import {
-  ConfirmEventType,
-  ConfirmationService,
-  MessageService,
-} from 'primeng/api';
+import { ConfirmEventType, ConfirmationService, MessageService } from 'primeng/api';
 import { Motivos } from 'src/app/core/models/motivos.model';
 import { Regex } from 'src/app/core/validators/regex.model';
 import { MotivosService } from '../motivos.service';
@@ -15,9 +11,12 @@ import { MotivosService } from '../motivos.service';
 @Component({
   selector: 'app-cadastro-motivo',
   templateUrl: './cadastro-motivo.component.html',
-  styleUrls: ['./cadastro-motivo.component.css'],
+  styleUrls: ['./cadastro-motivo.component.css']
 })
 export class CadastroMotivoComponent {
+
+  @ViewChild('formMotivo') formMotivo: NgForm;
+
   regex = new Regex();
   newmotivo = new Motivos();
   idmotivo: string;
@@ -30,15 +29,14 @@ export class CadastroMotivoComponent {
     private router: Router,
     private title: Title,
     private confirmation: ConfirmationService,
-    private spinner: NgxSpinnerService,
-  ) // private errorHandler: ErrorHandlerService,
-  // public auth: AuthService,
-  {}
+    private spinner: NgxSpinnerService
+    // private errorHandler: ErrorHandlerService,
+    // public auth: AuthService,
+  ) { }
 
   ngOnInit() {
     this.idmotivo = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de Motivo');
-
     if (this.idmotivo) {
       this.spinner.show();
       this.carregarMotivo(this.idmotivo);
@@ -52,6 +50,10 @@ export class CadastroMotivoComponent {
   }
 
   salvar(form: NgForm) {
+    if (form.invalid) {
+      return; // Não prosseguir se o formulário não for válido
+    }
+  
     if (this.editando) {
       this.atualizarMotivo(form);
     } else {

@@ -4,8 +4,8 @@
     <div class="flex justify-content-between mb-2">
       <div class="flex justify-content-start mb-2">
         <div>
-          <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-plus"
-            pTooltip="Novo" tooltipPosition="top" routerLink="/motivos/novo"></button>
+          <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-plus" pTooltip="Novo"
+            tooltipPosition="top" routerLink="/motivos/novo" ></button>
         </div>
         <div>
           <button pButton pRipple type="button" class="p-button-raised p-button-warning  ml-2" pTooltip="Atualizar"
@@ -20,7 +20,7 @@
 
     <p-table #tabela [value]="motivos" [columns]="cols" [globalFilterFields]="cols"
       [rowsPerPageOptions]="rowsPerPageTable" selectionMode="single" [showCurrentPageReport]="true" [rows]="10"
-      styleClass="p-datatable-striped p-datatable-gridlines" [scrollable]="true"
+       styleClass="p-datatable-striped p-datatable-gridlines" [scrollable]="true"
       [currentPageReportTemplate]="messagePageReport">
 
       <ng-template pTemplate="caption">
@@ -67,7 +67,7 @@
       </ng-template>
       <ng-template pTemplate="emptymessage" let-columns>
         <tr>
-          <td>
+          <td colspan="4">
             <p class="emptyMessage">Nenhum registro encontrado...</p>
           </td>
         </tr>

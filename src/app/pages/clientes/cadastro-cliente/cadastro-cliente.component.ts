@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -31,8 +31,8 @@ export class CadastroClienteComponent {
     private title: Title,
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService, // private errorHandler: ErrorHandlerService,
-  ) // public auth: AuthService,
-  {}
+    // public auth: AuthService,
+  ) {}
 
   ngOnInit() {
     this.idcliente = this.route.snapshot.params['id'];
@@ -75,7 +75,7 @@ export class CadastroClienteComponent {
         this.salvando = false;
         //this.errorHandler.handle(erro);
       });
-  } 
+  }
   atualizarClientes(form: NgForm) {
     this.salvando = true;
     this.clienteService

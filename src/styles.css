@@ -5,6 +5,23 @@
 * {
     font-family: 'Ubuntu', sans-serif;
 }
+.card-adjust {
+  min-height: 84vh;
+  margin-top: 6rem;
+  margin-right: 0.625rem;
+  margin-left: 0.625rem;
+}
+
+h4 {
+  color: #6c757d;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.25rem;
+  margin-left: 0.0625rem;
+  margin-top: 0.4375rem;
+  margin-bottom: 0.375rem;
+}
 
 h6 {
     font-size: 0.8125rem;
