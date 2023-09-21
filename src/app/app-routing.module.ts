@@ -17,7 +17,12 @@ const routes: Routes = [
     path: 'clientes',
     loadChildren: () =>
       import('./pages/clientes/clientes.module').then((c) => c.ClientesModule),
-  }
+  },
+  {
+    path: 'status',
+    loadChildren: () =>
+      import('./pages/status/status.module').then((s) => s.StatusModule),
+  },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

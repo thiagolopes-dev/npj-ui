@@ -1,27 +1,57 @@
 <main>
   <p-card styleClass="card-adjust">
-    <h4>{{ editando ? 'EDIÇÃO DE' : 'CADASTRO DE'}} CLIENTE</h4>
+    <h4>{{ editando ? "EDIÇÃO DE" : "CADASTRO DE" }} CLIENTE</h4>
     <div class="flex justify-content-start mb-2">
       <div>
-        <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-caret-left"
-          pTooltip="Voltar" tooltipPosition="top" routerLink="/clientes"></button>
+        <button
+          pButton
+          pRipple
+          type="button"
+          class="p-button-raised p-button-warning"
+          icon="pi pi-caret-left"
+          pTooltip="Voltar"
+          tooltipPosition="top"
+          routerLink="/clientes"
+        ></button>
       </div>
     </div>
-    <br>
-    <form #formCliente="ngForm" autocomplete="off" (ngSubmit)="salvar(formCliente)">
+    <br />
+    <form
+      #formCliente="ngForm"
+      autocomplete="off"
+      (ngSubmit)="salvar(formCliente)"
+    >
       <div class="grid">
         <div class="field col-12 md:col-3">
           <h6><span class="obrigatorio">*</span>Nome</h6>
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.nome" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.nome" #cliente="ngModel" [disabled]="editando"
-            minlength="3" maxlength="30" id="nome" type="nome" aria-describedby="nome-help" required >
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="nome"
+            type="text"
+            [pKeyFilter]="regex.string"
+            [(ngModel)]="newcliente.nome"
+            #nome="ngModel"
+            [disabled]="editando"
+            minlength="3"
+            maxlength="30"
+            required
+          />
 
-          <app-message id="nome-help" [control]="cliente" error="required" text="Informe o seu nome"></app-message>
-          <app-message id="nome-help" [control]="cliente" error="minlength"
-            text="Mínimo de {{ cliente.errors?.minlength?.requiredLength }} caracteres"></app-message>
+          <app-message
+            [control]="nome"
+            error="required"
+            text="Informe o seu nome"
+          ></app-message>
+          <app-message
+            [control]="nome"
+            error="minlength"
+            text="Mínimo de {{
+              nome.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
 
         <div class="field col-12 md:col-3">
@@ -29,13 +59,32 @@
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.cpf" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cpf" #cliente="ngModel" [disabled]="editando"
-            minlength="11" maxlength="11" aria-describedby="cpf" required>
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="cpf"
+            type="text"
+            [pKeyFilter]="regex.number"
+            [(ngModel)]="newcliente.cpf"
+            #cpf="ngModel"
+            [disabled]="editando"
+            minlength="11"
+            maxlength="11"
+            aria-describedby="cpf"
+            required
+          />
 
-          <app-message id="cpf" [control]="cliente" error="required" text="Informe o seu cpf"></app-message>
-          <app-message id="cpf" [control]="cliente" error="minlength"
-            text="Mínimo de {{ cliente.errors?.minlength?.requiredLength }} caracteres"></app-message>
+          <app-message
+            [control]="cpf"
+            error="required"
+            text="Informe o seu cpf"
+          ></app-message>
+          <app-message
+            [control]="cpf"
+            error="minlength"
+            text="Mínimo de {{
+              cpf.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
 
         <div class="field col-12 md:col-3">
@@ -43,9 +92,31 @@
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.rg" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.rg" #cliente="ngModel" [disabled]="editando"
-            minlength="7" maxlength="10" required>
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="rg"
+            type="text"
+            [pKeyFilter]="regex.number"
+            [(ngModel)]="newcliente.rg"
+            #rg="ngModel"
+            [disabled]="editando"
+            minlength="7"
+            maxlength="10"
+            required
+          />
+
+          <app-message
+            [control]="rg"
+            error="required"
+            text="Informe o seu rg"
+          ></app-message>
+          <app-message
+            [control]="rg"
+            error="minlength"
+            text="Mínimo de {{
+              rg.errors?.minlength?.requiredLength
+            }}X caracteres"
+          ></app-message>
         </div>
 
         <div class="field col-12 md:col-3">
@@ -53,9 +124,31 @@
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.cep" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cep" #cliente="ngModel" [disabled]="editando"
-            minlength="8" maxlength="8" required>
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="cep"
+            type="text"
+            [pKeyFilter]="regex.number"
+            [(ngModel)]="newcliente.cep"
+            #cep="ngModel"
+            [disabled]="editando"
+            minlength="8"
+            maxlength="8"
+            required
+          />
+
+          <app-message
+            [control]="cep"
+            error="required"
+            text="Informe o seu cep"
+          ></app-message>
+          <app-message
+            [control]="cep"
+            error="minlength"
+            text="Mínimo de {{
+              cep.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
 
         <div class="field col-12 md:col-3">
@@ -63,9 +156,31 @@
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.logradouro" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.logradouro" #cliente="ngModel" [disabled]="editando"
-            minlength="3" maxlength="25" required>
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="logradouro"
+            type="text"
+            [pKeyFilter]="regex.stringEspecial"
+            [(ngModel)]="newcliente.logradouro"
+            #logradouro="ngModel"
+            [disabled]="editando"
+            minlength="3"
+            maxlength="25"
+            required
+          />
+
+          <app-message
+            [control]="logradouro"
+            error="required"
+            text="Informe o seu logradouro"
+          ></app-message>
+          <app-message
+            [control]="logradouro"
+            error="minlength"
+            text="Mínimo de {{
+              logradouro.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
 
         <div class="field col-12 md:col-3">
@@ -73,9 +188,31 @@
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.bairro" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.bairro" #cliente="ngModel" [disabled]="editando"
-            minlength="3" maxlength="20" required>
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="bairro"
+            type="text"
+            [pKeyFilter]="regex.stringEspecial"
+            [(ngModel)]="newcliente.bairro"
+            #bairro="ngModel"
+            [disabled]="editando"
+            minlength="3"
+            maxlength="20"
+            required
+          />
+
+          <app-message
+            [control]="bairro"
+            error="required"
+            text="Informe o seu bairro"
+          ></app-message>
+          <app-message
+            [control]="bairro"
+            error="minlength"
+            text="Mínimo de {{
+              bairro.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
 
         <div class="field col-12 md:col-3">
@@ -83,19 +220,49 @@
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.numero" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.numero" #cliente="ngModel" [disabled]="editando"
-            minlength="1" maxlength="8" required>
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="numero"
+            type="text"
+            [pKeyFilter]="regex.number"
+            [(ngModel)]="newcliente.numero"
+            #numero="ngModel"
+            [disabled]="editando"
+            minlength="1"
+            maxlength="8"
+            required
+          />
+
+          <app-message
+            [control]="numero"
+            error="required"
+            text="Informe o seu numero"
+          ></app-message>
+          <app-message
+            [control]="numero"
+            error="minlength"
+            text="Mínimo de {{
+              numero.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
 
         <div class="field col-12 md:col-3">
-          <h6><span class="obrigatorio">*</span>Complemento</h6>
+          <h6><span></span>Complemento</h6>
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.complemento" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.complemento" #cliente="ngModel" [disabled]="editando"
-            minlength="5" maxlength="255">
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="complemento"
+            type="text"
+            [pKeyFilter]="regex.stringEspecial"
+            [(ngModel)]="newcliente.complemento"
+            #complemento="ngModel"
+            [disabled]="editando"
+            minlength="0"
+            maxlength="255"
+          />
         </div>
 
         <div class="field col-12 md:col-3">
@@ -103,18 +270,62 @@
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.cidade" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.cidade" #cliente="ngModel" [disabled]="editando"
-            minlength="3" maxlength="30" required>
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="cidade"
+            type="text"
+            [pKeyFilter]="regex.stringEspecial"
+            [(ngModel)]="newcliente.cidade"
+            #cidade="ngModel"
+            [disabled]="editando"
+            minlength="3"
+            maxlength="30"
+            required
+          />
+
+          <app-message
+            [control]="cidade"
+            error="required"
+            text="Informe o seu cidade"
+          ></app-message>
+          <app-message
+            [control]="cidade"
+            error="minlength"
+            text="Mínimo de {{
+              cidade.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
         <div class="field col-12 md:col-3">
           <h6><span class="obrigatorio">*</span>UF</h6>
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.uf" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.uf" #cliente="ngModel" [disabled]="editando"
-            minlength="3" maxlength="30" required>
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="uf"
+            type="text"
+            [pKeyFilter]="regex.string"
+            [(ngModel)]="newcliente.uf"
+            #uf="ngModel"
+            [disabled]="editando"
+            minlength="2"
+            maxlength="2"
+            required
+          />
+
+          <app-message
+            [control]="uf"
+            error="required"
+            text="Informe o seu uf"
+          ></app-message>
+          <app-message
+            [control]="uf"
+            error="minlength"
+            text="Mínimo de {{
+              uf.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
 
         <div class="field col-12 md:col-3">
@@ -122,13 +333,32 @@
           <!--TODO Forma de input uppercase sem diretiva -->
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="cliente.whatsapp" type="text"
-            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.whatsapp" #cliente="ngModel" [disabled]="editando"
-            minlength="9" maxlength="12" required>
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="whatsapp"
+            type="text"
+            [pKeyFilter]="regex.number"
+            [(ngModel)]="newcliente.whatsapp"
+            #whatsapp="ngModel"
+            [disabled]="editando"
+            minlength="9"
+            maxlength="12"
+            required
+          />
+
+          <app-message
+            [control]="whatsapp"
+            error="required"
+            text="Informe o seu whatsapp"
+          ></app-message>
+          <app-message
+            [control]="whatsapp"
+            error="minlength"
+            text="Mínimo de {{
+              whatsapp.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
-
-
-
       </div>
       <div class="flex justify-content-center">
         <div class="flex align-items-center justify-content-center">
@@ -137,16 +367,27 @@
       </div>
       <div class="flex justify-content-center">
         <div class="flex align-items-center justify-content-center">
-          <p-inputSwitch [(ngModel)]="newcliente.status" name="status" [ngModelOptions]="{standalone: true}"
-            binary="true">
+          <p-inputSwitch
+            [(ngModel)]="newcliente.status"
+            name="status"
+            [ngModelOptions]="{ standalone: true }"
+            binary="true"
+          >
           </p-inputSwitch>
         </div>
       </div>
-      <br>
+      <br />
       <div class="flex flex-wrap justify-content-center">
         <div class="col-12 md:col-6 lg:col-4">
-          <button pButton pRipple type="submit" label="Salvar" icon="fas fa-save"
-            [disabled]="formCliente.invalid || salvando" class="p-button-raised p-button-warning w-full"></button>
+          <button
+            pButton
+            pRipple
+            type="submit"
+            label="Salvar"
+            icon="fas fa-save"
+            [disabled]="formCliente.invalid || salvando"
+            class="p-button-raised p-button-warning w-full"
+          ></button>
         </div>
         <!-- <div class="col-12 md:col-6 lg:col-4">
           <button pButton pRipple type="button" class="p-button-outlined p-button-primary w-full" icon="fas fa-trash"
@@ -156,8 +397,12 @@
       </div>
       <div *ngIf="salvando" class="grid justify-content-center mt-4">
         <div class="grid col-12 justify-content-center">
-          <p-progressSpinner [style]="{width: '50px', height: '50px'}" styleClass="custom-spinner" strokeWidth="8"
-            animationDuration=".5s">
+          <p-progressSpinner
+            [style]="{ width: '50px', height: '50px' }"
+            styleClass="custom-spinner"
+            strokeWidth="8"
+            animationDuration=".5s"
+          >
           </p-progressSpinner>
         </div>
         <div class="grid col-12 justify-content-center">

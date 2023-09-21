@@ -11,9 +11,7 @@ import { SharedModule } from './pages/shared/shared.module';
 import { PrimeNGModule } from './primeng.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -22,10 +20,10 @@ import { PrimeNGModule } from './primeng.module';
     PrimeNGModule,
     SharedModule,
     CoreModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: []
+  exports: [],
 })
-export class AppModule { }
+export class AppModule {}

@@ -5,7 +5,7 @@ import { MessageService } from 'primeng/api';
 import { NotAuthenticatedError } from '../pages/seguranca/npj-http';
 
 @Injectable()
-export class ErrorHandleService {
+export class ErrorHandlerService {
   constructor(
     private messageService: MessageService,
     private router: Router,

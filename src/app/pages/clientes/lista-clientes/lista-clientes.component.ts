@@ -3,6 +3,7 @@ import { Title } from '@angular/platform-browser';
 import { Table } from 'primeng/table';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ClientesService } from '../clientes.service';
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 
 @Component({
   selector: 'app-lista-clientes',
@@ -21,10 +22,11 @@ export class ListaClientesComponent implements OnInit {
     private title: Title,
     private clienteService: ClientesService,
     private ngxspinner: NgxSpinnerService,
+    //private errorHandler: ErrorHandlerService,
   ) {}
   ngOnInit(): void {
     this.title.setTitle('Lista de Clientes');
-    this.carregarMotivos();
+    this.carregarClientes();
 
     this.cols = [
       { field: 'id', header: 'ID', width: '80px', type: 'text' },
@@ -51,7 +53,7 @@ export class ListaClientesComponent implements OnInit {
 
   onClear() {}
 
-  carregarMotivos() {
+  carregarClientes() {
     this.ngxspinner.show();
     this.clienteService
       .listarClientes()
@@ -61,7 +63,7 @@ export class ListaClientesComponent implements OnInit {
       })
       .catch((erro) => {
         this.ngxspinner.hide();
-        // this.errorHandler.handle(erro);
+        //this.errorHandler.handle(erro);
       });
   }
 }

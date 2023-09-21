@@ -3,6 +3,7 @@ import { Title } from '@angular/platform-browser';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Table } from 'primeng/table';
 import { MotivosService } from '../motivos.service';
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 
 @Component({
   selector: 'app-lista-motivos',
@@ -21,6 +22,7 @@ export class ListaMotivosComponent implements OnInit {
     private title: Title,
     private motivoService: MotivosService,
     private ngxspinner: NgxSpinnerService,
+    //private errorHandler: ErrorHandlerService
   ) {}
 
   ngOnInit(): void {
@@ -48,7 +50,7 @@ export class ListaMotivosComponent implements OnInit {
       })
       .catch((erro) => {
         this.ngxspinner.hide();
-        // this.errorHandler.handle(erro);
+        //this.errorHandler.handle(erro);
       });
   }
 }

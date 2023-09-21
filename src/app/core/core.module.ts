@@ -8,6 +8,7 @@ import { PrimeNGModule } from "../primeng.module";
 import { NavbarComponent } from "./layout/navbar/navbar.component";
 import { VarasService } from "../pages/varas/varas.service";
 import { ClientesService } from "../pages/clientes/clientes.service";
+import { StatusService } from "../pages/status/status.service";
 
 
 @NgModule({
@@ -25,7 +26,8 @@ providers:[
     ConfirmationService,
     MotivosService,
     VarasService,
-    ClientesService
+    ClientesService,
+    StatusService
 ],
 exports: [
     NavbarComponent,

@@ -10,24 +10,23 @@ import {
 } from 'primeng/api';
 
 import { Regex } from 'src/app/core/validators/regex.model';
-import { VarasService } from '../varas.service';
-import { Varas } from 'src/app/core/models/varas.model';
-//import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-//import { AuthService } from '../../seguranca/auth.service';
+import { Status } from 'src/app/core/models/status.model';
+import { StatusService } from '../status.service';
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 
 @Component({
-  selector: 'app-cadastro-varas',
-  templateUrl: './cadastro-varas.component.html',
-  styleUrls: ['./cadastro-varas.component.css'],
+  selector: 'app-cadastro-status',
+  templateUrl: './cadastro-status.component.html',
+  styleUrls: ['./cadastro-status.component.css'],
 })
-export class CadastroVaraComponent {
+export class CadastroStatusComponent {
   regex = new Regex();
-  newvara = new Varas();
-  idvara: string;
+  newstatus = new Status();
+  idstatus: string;
   salvando: boolean;
 
   constructor(
-    private varaService: VarasService,
+    private statusService: StatusService,
     private messageService: MessageService,
     private route: ActivatedRoute,
     private router: Router,
@@ -35,94 +34,94 @@ export class CadastroVaraComponent {
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService,
     //private errorHandler: ErrorHandlerService,
-    //public auth: AuthService,
-  ) {}
+  ) // public auth: AuthService,
+  {}
 
   ngOnInit() {
-    this.idvara = this.route.snapshot.params['id'];
+    this.idstatus = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de Vara');
 
-    if (this.idvara) {
+    if (this.idstatus) {
       this.spinner.show();
-      this.carregarVara(this.idvara);
+      this.carregarStatus(this.idstatus);
     } else {
-      this.newvara.status = true;
+      this.newstatus.status = true;
     }
   }
 
   get editando() {
-    return Boolean(this.newvara.id);
+    return Boolean(this.newstatus.id);
   }
 
   salvar(form: NgForm) {
     if (this.editando) {
-      this.atualizarVara(form);
+      this.atualizarStatus(form);
     } else {
-      this.adicionarVara(form);
+      this.adicionarStatus(form);
     }
   }
 
-  adicionarVara(form: NgForm) {
+  adicionarStatus(form: NgForm) {
     this.salvando = true;
-    this.varaService
-      .adicionarVara(this.newvara)
+    this.statusService
+      .adicionarStatus(this.newstatus)
       .then((obj) => {
         this.messageService.add({
           severity: 'success',
-          summary: 'Vara',
+          summary: 'Status',
           detail: `${obj.descricao}, adicionado com sucesso!`,
         });
         this.salvando = false;
-        this.router.navigate(['/varas']);
+        this.router.navigate(['/status']);
       })
       .catch((erro) => {
         this.salvando = false;
-     //   this.errorHandler.handle(erro);
+        // this.errorHandler.handle(erro);
       });
   }
-  atualizarVara(form: NgForm) {
+  atualizarStatus(form: NgForm) {
     this.salvando = true;
-    this.varaService
-      .atualizarVaras(this.newvara)
+    this.statusService
+      .atualizarStatus(this.newstatus)
       .then((obj) => {
-        this.newvara = obj;
+        this.newstatus = obj;
         this.messageService.add({
           severity: 'info',
-          summary: 'Vara',
+          summary: 'Status',
           detail: `${obj.descricao}, alterado com sucesso!`,
         });
         this.atualizarTituloEdicao();
         this.salvando = false;
-        this.router.navigate(['/varas']);
+        this.router.navigate(['/Status']);
       })
       .catch((erro) => {
         this.salvando = false;
-     //   this.errorHandler.handle(erro);
+        // this.errorHandler.handle(erro);
       });
   }
-  carregarVara(id: string) {
-    this.varaService
+  carregarStatus(id: string) {
+    this.statusService
       .buscarPorID(id)
       .then((obj) => {
-        this.newvara = obj;
+        this.newstatus = obj;
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })
       .catch((erro) => {
         this.spinner.hide();
-     //   this.errorHandler.handle(erro);
+        // this.errorHandler.handle(erro);
       });
   }
 
   atualizarTituloEdicao() {
-    this.title.setTitle(`Edição de Vara: ${this.newvara.descricao}`);
+    this.title.setTitle(`Edição de Status: ${this.newstatus.descricao}`);
   }
 
   confirmarExclusao() {
     this.confirmation.confirm({
-      message: `Tem certeza que deseja excluir: <b>${this.newvara.descricao}</b> ?`,
+      message: `Tem certeza que deseja excluir: <b>${this.newstatus.descricao}</b> ?`,
       accept: () => {
-        this.excluir(this.idvara);
+        this.excluir(this.idstatus);
       },
       reject: (type) => {
         switch (type) {
@@ -146,18 +145,18 @@ export class CadastroVaraComponent {
   }
 
   excluir(id: any) {
-    this.varaService
+    this.statusService
       .excluir(id)
       .then(() => {
         this.messageService.add({
           severity: 'warn',
-          summary: 'Vara',
-          detail: `${this.newvara.descricao}, excluído com sucesso!`,
+          summary: 'Status',
+          detail: `${this.newstatus.descricao}, excluído com sucesso!`,
         });
-        this.router.navigate(['/varas']);
+        this.router.navigate(['/status']);
       })
       .catch((erro) => {
-     //   this.errorHandler.handle(erro);
+        // this.errorHandler.handle(erro);
       });
   }
 }

@@ -1,6 +1,6 @@
 <main>
   <p-card styleClass="card-adjust">
-    <h4>VARAS</h4>
+    <h4>STATUS</h4>
     <div class="flex justify-content-between mb-2">
       <div class="flex justify-content-start mb-2">
         <div>
@@ -12,7 +12,7 @@
             icon="pi pi-plus"
             pTooltip="Novo"
             tooltipPosition="top"
-            routerLink="/varas/novo"
+            routerLink="/status/novo"
           ></button>
         </div>
         <div>
@@ -36,7 +36,7 @@
 
     <p-table
       #tabela
-      [value]="varas"
+      [value]="status"
       [columns]="cols"
       [globalFilterFields]="cols"
       [rowsPerPageOptions]="rowsPerPageTable"

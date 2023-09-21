@@ -1,29 +1,62 @@
 <div class="colorNav">
-    <span class="cursor-pointer">
-        <i class="pi pi-bars text-white" (click)="sibebar = true" style="font-size: 2rem"></i>
-    </span>
-    
+  <span class="cursor-pointer">
+    <i
+      class="pi pi-bars text-white"
+      (click)="sibebar = true"
+      style="font-size: 2rem"
+    ></i>
+  </span>
 </div>
 
 <p-sidebar [(visible)]="sibebar">
-   <div class="flex flex-wrap">
+  <div class="flex flex-wrap">
     <div class="col-12">
-        <p-button  styleClass="p-button-text p-button-warning w-full text-2xl" label="Motivos" routerLink="/motivos" (click)="sibebar = false" ></p-button>
+      <p-button
+        styleClass="p-button-text p-button-warning w-full text-2xl"
+        label="Motivos"
+        routerLink="/motivos"
+        (click)="sibebar = false"
+      ></p-button>
     </div>
     <div class="col-12">
-        <p-button  styleClass="p-button-text p-button-warning w-full text-2xl" label="Varas" routerLink="/varas" (click)="sibebar = false" ></p-button>
+      <p-button
+        styleClass="p-button-text p-button-warning w-full text-2xl"
+        label="Varas"
+        routerLink="/varas"
+        (click)="sibebar = false"
+      ></p-button>
     </div>
     <div class="col-12">
-        <p-button  styleClass="p-button-text p-button-warning w-full text-2xl" label="Status" routerLink="/status" (click)="sibebar = false" ></p-button>
+      <p-button
+        styleClass="p-button-text p-button-warning w-full text-2xl"
+        label="Status"
+        routerLink="/status"
+        (click)="sibebar = false"
+      ></p-button>
     </div>
     <div class="col-12">
-        <p-button  styleClass="p-button-text p-button-warning w-full text-2xl" label="Clientes" routerLink="/clientes" (click)="sibebar = false" ></p-button>
+      <p-button
+        styleClass="p-button-text p-button-warning w-full text-2xl"
+        label="Clientes"
+        routerLink="/clientes"
+        (click)="sibebar = false"
+      ></p-button>
     </div>
     <div class="col-12">
-        <p-button  styleClass="p-button-text p-button-warning w-full text-2xl" label="Agendamento" routerLink="/agendamento" (click)="sibebar = false" ></p-button>
+      <p-button
+        styleClass="p-button-text p-button-warning w-full text-2xl"
+        label="Agendamento"
+        routerLink="/agendamento"
+        (click)="sibebar = false"
+      ></p-button>
     </div>
     <div class="col-12">
-        <p-button  styleClass="p-button-text p-button-warning w-full text-2xl" label="Acom Jurídico" routerLink="/acompanhamento" (click)="sibebar = false" ></p-button>
+      <p-button
+        styleClass="p-button-text p-button-warning w-full text-2xl"
+        label="Acom Jurídico"
+        routerLink="/acompanhamento"
+        (click)="sibebar = false"
+      ></p-button>
     </div>
-   </div>
+  </div>
 </p-sidebar>

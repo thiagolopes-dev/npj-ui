@@ -11,6 +11,8 @@ import {
 import { Regex } from 'src/app/core/validators/regex.model';
 import { ClientesService } from '../clientes.service';
 import { Clientes } from 'src/app/core/models/cliente.model';
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { AuthService } from '../../seguranca/auth.service';
 
 @Component({
   selector: 'app-cadastro-cliente',
@@ -30,7 +32,8 @@ export class CadastroClienteComponent {
     private router: Router,
     private title: Title,
     private confirmation: ConfirmationService,
-    private spinner: NgxSpinnerService, // private errorHandler: ErrorHandlerService,
+    private spinner: NgxSpinnerService,
+    // private errorHandler: ErrorHandlerService,
     // public auth: AuthService,
   ) {}
 
@@ -93,7 +96,7 @@ export class CadastroClienteComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-        // this.errorHandler.handle(erro);
+        //this.errorHandler.handle(erro);
       });
   }
   carregarCliente(id: string) {
@@ -102,7 +105,7 @@ export class CadastroClienteComponent {
       .then((obj) => {
         this.newcliente = obj;
         this.atualizarTituloEdicao();
-        this.spinner.hide();
+        //this.spinner.hide();
       })
       .catch((erro) => {
         this.spinner.hide();
@@ -153,7 +156,7 @@ export class CadastroClienteComponent {
         this.router.navigate(['/clientes']);
       })
       .catch((erro) => {
-        // this.errorHandler.handle(erro);
+        //this.errorHandler.handle(erro);
       });
   }
 }

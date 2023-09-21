@@ -7,15 +7,7 @@ import { ListaMotivosComponent } from './lista-motivos/lista-motivos.component';
 import { MotivosRoutingModule } from './motivos.routing';
 
 @NgModule({
-  declarations: [
-    CadastroMotivoComponent,
-    ListaMotivosComponent
-  ],
-  imports: [
-    PrimeNGModule,
-    SharedModule,
-    FormsModule,
-    MotivosRoutingModule
-  ],
+  declarations: [CadastroMotivoComponent, ListaMotivosComponent],
+  imports: [PrimeNGModule, SharedModule, FormsModule, MotivosRoutingModule],
 })
-export class MotivosModule { }
+export class MotivosModule {}

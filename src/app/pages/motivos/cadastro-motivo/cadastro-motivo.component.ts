@@ -7,6 +7,8 @@ import { ConfirmEventType, ConfirmationService, MessageService } from 'primeng/a
 import { Motivos } from 'src/app/core/models/motivos.model';
 import { Regex } from 'src/app/core/validators/regex.model';
 import { MotivosService } from '../motivos.service';
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { AuthService } from '../../seguranca/auth.service';
 
 @Component({
   selector: 'app-cadastro-motivo',
@@ -29,7 +31,7 @@ export class CadastroMotivoComponent {
     private router: Router,
     private title: Title,
     private confirmation: ConfirmationService,
-    private spinner: NgxSpinnerService
+    private spinner: NgxSpinnerService,
     // private errorHandler: ErrorHandlerService,
     // public auth: AuthService,
   ) { }
@@ -51,7 +53,7 @@ export class CadastroMotivoComponent {
 
   salvar(form: NgForm) {
     if (form.invalid) {
-      return; // Não prosseguir se o formulário não for válido
+      return; //Não prosseguir se o formulário não for válido
     }
   
     if (this.editando) {
@@ -76,7 +78,7 @@ export class CadastroMotivoComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-        // this.errorHandler.handle(erro);
+      //  this.errorHandler.handle(erro);
       });
   }
   atualizarMotivo(form: NgForm) {
@@ -96,7 +98,7 @@ export class CadastroMotivoComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-        // this.errorHandler.handle(erro);
+      //  this.errorHandler.handle(erro);
       });
   }
   carregarMotivo(id: string) {
@@ -109,7 +111,7 @@ export class CadastroMotivoComponent {
       })
       .catch((erro) => {
         this.spinner.hide();
-        // this.errorHandler.handle(erro);
+      //  this.errorHandler.handle(erro);
       });
   }
 
@@ -156,7 +158,7 @@ export class CadastroMotivoComponent {
         this.router.navigate(['/motivos']);
       })
       .catch((erro) => {
-        // this.errorHandler.handle(erro);
+      //  this.errorHandler.handle(erro);
       });
   }
 }
