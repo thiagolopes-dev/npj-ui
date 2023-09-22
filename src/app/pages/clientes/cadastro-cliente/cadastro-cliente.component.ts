@@ -27,8 +27,9 @@ export class CadastroClienteComponent {
   newcliente = new Clientes();
   idcliente: string;
   salvando: boolean;
-  cep: string;
 
+  regexNumeros: RegExp = /^\d+$/;
+ 
 
   constructor(
     private clienteService: ClientesService,
@@ -179,6 +180,38 @@ export class CadastroClienteComponent {
   //     });
   //   }
   // }
+
+  getCep() {
+    const url = `https://viacep.com.br/ws/${this.newcliente.cep}/json/`
+    const resultRegex = this.regexNumeros.test(this.newcliente.cep);
+
+    if (this.newcliente.cep.length !== 8 || resultRegex === false) {
+      this.clearInputs();
+    } else {
+      fetch(url)
+        .then((response) => response.json())
+        .then((endereco) => {
+          if (endereco.erro === true) {
+            alert("Digite um CEP válido");
+            this.clearInputs();
+          } else {
+            // Preencha as informações do cliente
+            this.newcliente.localidade = endereco.localidade;
+            this.newcliente.uf = endereco.uf;
+            this.newcliente.logradouro = endereco.logradouro;
+            this.newcliente.bairro = endereco.bairro;
+          }
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    }
+  }
+
+  clearInputs() {
+    this.newcliente = {}; // Limpa as informações do cliente
+    this.newcliente.cep = '';
+  }
 
 
 

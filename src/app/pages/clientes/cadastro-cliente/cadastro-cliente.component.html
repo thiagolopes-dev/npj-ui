@@ -31,7 +31,7 @@
             pInputText
             name="nome"
             type="text"
-            placeholder="THIAGO MAIA"
+            placeholder="THIAGO SARTORI"
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.nome"
             #nome="ngModel"
@@ -66,7 +66,7 @@
             type="text"
             [mask]="'000.000.000-00'"
             placeholder="000.000.000-00"
-            [pKeyFilter]="regex.number"
+            [pKeyFilter]="regex.blockSpecial"
             [(ngModel)]="newcliente.cpf"
             #cpf="ngModel"
             [disabled]="editando"
@@ -101,7 +101,7 @@
             type="text"
             [mask]="'00.000.000-0'"
             placeholder="00.000.000-0"
-            [pKeyFilter]="regex.number"
+            [pKeyFilter]="regex.blockSpecial"
             [(ngModel)]="newcliente.rg"
             #rg="ngModel"
             [disabled]="editando"
@@ -133,17 +133,18 @@
             pInputText
             name="cep"
             type="text"
-            [mask]="'00000-000'"
+            mask="00000-000"
             placeholder="00000-000"
             handlerChange
-            [pKeyFilter]="regex.number"
+            (blur)="getCep()"
+            [pKeyFilter]="regex.blockSpecial"
             [(ngModel)]="newcliente.cep"
             #cep="ngModel"
             [disabled]="editando"
             minlength="8"
-            maxlength="9"
+            maxlength="10"
             required
-          />
+          >
 
           <app-message
             [control]="cep"
@@ -171,11 +172,13 @@
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.logradouro"
             #logradouro="ngModel"
-            [disabled]="editando"
             minlength="3"
             maxlength="25"
             required
+            disabled
           />
+          <!-- [disabled]="editando"  -->
+
 
           <app-message
             [control]="logradouro"
@@ -203,11 +206,13 @@
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.bairro"
             #bairro="ngModel"
-            [disabled]="editando"
             minlength="3"
             maxlength="20"
             required
+            disabled
           />
+          <!-- [disabled]="editando"  -->
+          
 
           <app-message
             [control]="bairro"
@@ -235,11 +240,11 @@
             [pKeyFilter]="regex.number"
             [(ngModel)]="newcliente.numero"
             #numero="ngModel"
-            [disabled]="editando"
             minlength="1"
             maxlength="8"
             required
           />
+          <!-- [disabled]="editando"  -->
 
           <app-message
             [control]="numero"
@@ -285,12 +290,12 @@
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.localidade"
             #localidade="ngModel"
-            [disabled]="editando"
             minlength="3"
             maxlength="30"
             required
+            disabled
           />
-
+          <!-- [disabled]="editando"  -->
           <app-message
             [control]="localidade"
             error="required"
@@ -316,12 +321,12 @@
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.uf"
             #uf="ngModel"
-            [disabled]="editando"
             minlength="2"
             maxlength="2"
             required
+            disabled
           />
-
+          <!-- [disabled]="editando"  -->
           <app-message
             [control]="uf"
             error="required"

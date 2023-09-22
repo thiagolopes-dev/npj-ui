@@ -6,6 +6,8 @@ import { ListaClientesComponent } from './lista-clientes/lista-clientes.componen
 import { ClientesRoutingModule } from './clientes.routing';
 import { SharedModule } from '../shared/shared.module';
 import { NgxModule } from 'src/app/ngx.module';
+import { InputMaskModule } from 'primeng/inputmask';
+
 
 @NgModule({
   declarations: [CadastroClienteComponent, ListaClientesComponent],
@@ -15,6 +17,7 @@ import { NgxModule } from 'src/app/ngx.module';
     ClientesRoutingModule,
     SharedModule,
     NgxModule,
+    InputMaskModule
     
   ],
 })
