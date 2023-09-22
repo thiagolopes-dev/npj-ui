@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -11,8 +11,11 @@ import {
 import { Regex } from 'src/app/core/validators/regex.model';
 import { ClientesService } from '../clientes.service';
 import { Clientes } from 'src/app/core/models/cliente.model';
-import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { AuthService } from '../../seguranca/auth.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { map, filter, switchMap } from 'rxjs/operators';
+
+
+
 
 @Component({
   selector: 'app-cadastro-cliente',
@@ -24,6 +27,8 @@ export class CadastroClienteComponent {
   newcliente = new Clientes();
   idcliente: string;
   salvando: boolean;
+  cep: string;
+
 
   constructor(
     private clienteService: ClientesService,
@@ -33,9 +38,10 @@ export class CadastroClienteComponent {
     private title: Title,
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService,
-    // private errorHandler: ErrorHandlerService,
+    private httpCliente: HttpClient
     // public auth: AuthService,
-  ) {}
+  ) // private errorHandler: ErrorHandlerService,
+  {}
 
   ngOnInit() {
     this.idcliente = this.route.snapshot.params['id'];
@@ -158,5 +164,26 @@ export class CadastroClienteComponent {
       .catch((erro) => {
         //this.errorHandler.handle(erro);
       });
+  }
+
+  // (blur)="buscarCEP()"
+  // Tentativa de API para buscar o CEP automaticamente
+  // buscarCEP() {
+  //   if (this.newcliente.cep && this.newcliente.cep.length === 8) {
+  //     // Use uma API de busca de CEP, como a dos Correios
+  //     const url = `https://viacep.com.br/ws/${this.cep}/json/`;
+
+  //     this.httpCliente.get(url).subscribe((data) => {
+  //       this.newcliente = data;
+  //       // Atualize os campos relevantes na interface do usuário com os dados obtidos
+  //     });
+  //   }
+  // }
+
+
+
+  handlerChange(event: any) {
+    console.log(this.newcliente.whatsapp);
+    console.log(this.newcliente.cep);
   }
 }

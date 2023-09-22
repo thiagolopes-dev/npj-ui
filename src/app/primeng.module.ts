@@ -108,6 +108,7 @@ import { TreeTableModule } from 'primeng/treetable';
     SplitButtonModule,
     CarouselModule,
     DynamicDialogModule
+
   ]
 })
 export class PrimeNGModule { }

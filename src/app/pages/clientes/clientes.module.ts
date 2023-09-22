@@ -5,19 +5,17 @@ import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.co
 import { ListaClientesComponent } from './lista-clientes/lista-clientes.component';
 import { ClientesRoutingModule } from './clientes.routing';
 import { SharedModule } from '../shared/shared.module';
-@NgModule({
-  declarations: [
-    CadastroClienteComponent,
-    ListaClientesComponent,
+import { NgxModule } from 'src/app/ngx.module';
 
-  ],
+@NgModule({
+  declarations: [CadastroClienteComponent, ListaClientesComponent],
   imports: [
     FormsModule,
     PrimeNGModule,
     ClientesRoutingModule,
     SharedModule,
-    FormsModule
-
+    NgxModule,
+    
   ],
 })
-export class ClientesModule { }
+export class ClientesModule {}

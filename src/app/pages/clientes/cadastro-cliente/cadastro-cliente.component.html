@@ -31,6 +31,7 @@
             pInputText
             name="nome"
             type="text"
+            placeholder="THIAGO MAIA"
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.nome"
             #nome="ngModel"
@@ -63,12 +64,14 @@
             pInputText
             name="cpf"
             type="text"
+            [mask]="'000.000.000-00'"
+            placeholder="000.000.000-00"
             [pKeyFilter]="regex.number"
             [(ngModel)]="newcliente.cpf"
             #cpf="ngModel"
             [disabled]="editando"
             minlength="11"
-            maxlength="11"
+            maxlength="14"
             aria-describedby="cpf"
             required
           />
@@ -96,12 +99,14 @@
             pInputText
             name="rg"
             type="text"
+            [mask]="'00.000.000-0'"
+            placeholder="00.000.000-0"
             [pKeyFilter]="regex.number"
             [(ngModel)]="newcliente.rg"
             #rg="ngModel"
             [disabled]="editando"
             minlength="7"
-            maxlength="10"
+            maxlength="12"
             required
           />
 
@@ -128,12 +133,15 @@
             pInputText
             name="cep"
             type="text"
+            [mask]="'00000-000'"
+            placeholder="00000-000"
+            handlerChange
             [pKeyFilter]="regex.number"
             [(ngModel)]="newcliente.cep"
             #cep="ngModel"
             [disabled]="editando"
             minlength="8"
-            maxlength="8"
+            maxlength="9"
             required
           />
 
@@ -275,8 +283,8 @@
             name="cidade"
             type="text"
             [pKeyFilter]="regex.stringEspecial"
-            [(ngModel)]="newcliente.cidade"
-            #cidade="ngModel"
+            [(ngModel)]="newcliente.localidade"
+            #localidade="ngModel"
             [disabled]="editando"
             minlength="3"
             maxlength="30"
@@ -284,15 +292,15 @@
           />
 
           <app-message
-            [control]="cidade"
+            [control]="localidade"
             error="required"
             text="Informe o seu cidade"
           ></app-message>
           <app-message
-            [control]="cidade"
+            [control]="localidade"
             error="minlength"
             text="Mínimo de {{
-              cidade.errors?.minlength?.requiredLength
+              localidade.errors?.minlength?.requiredLength
             }} caracteres"
           ></app-message>
         </div>
@@ -337,13 +345,18 @@
             pInputText
             name="whatsapp"
             type="text"
-            [pKeyFilter]="regex.number"
+            (change)="handlerChange($event)"
+            [mask]="'(00) 0 0000-0000'"
+            placeholder="(99) 9 9999-9999"
+            [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.whatsapp"
             #whatsapp="ngModel"
             [disabled]="editando"
+            
             minlength="9"
-            maxlength="12"
+            maxlength="16"
             required
+            
           />
 
           <app-message

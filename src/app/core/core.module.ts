@@ -1,5 +1,6 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
+import { NgxModule } from "../ngx.module";
 import { ConfirmationService, MessageService } from "primeng/api";
 import { ConfirmDialogModule } from "primeng/confirmdialog";
 import { ToastModule } from 'primeng/toast';
@@ -11,6 +12,7 @@ import { ClientesService } from "../pages/clientes/clientes.service";
 import { StatusService } from "../pages/status/status.service";
 
 
+
 @NgModule({
     declarations: [
         NavbarComponent
@@ -19,7 +21,9 @@ imports:[
     PrimeNGModule,
     RouterModule,
     ToastModule,
-    ConfirmDialogModule
+    ConfirmDialogModule,
+    NgxModule
+    
 ],
 providers:[
     MessageService,
@@ -27,12 +31,15 @@ providers:[
     MotivosService,
     VarasService,
     ClientesService,
-    StatusService
+    StatusService,
+
+    
 ],
 exports: [
     NavbarComponent,
     ToastModule,
-    ConfirmDialogModule
+    ConfirmDialogModule,
+    
 ]
 })
 

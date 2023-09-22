@@ -8,7 +8,7 @@ export class Clientes {
     bairro?: string;
     numero?: number;
     complemento?: string;
-    cidade?: string;
+    localidade?: string;
     uf?: string;
     whatsapp?: number;
     status?: boolean;
