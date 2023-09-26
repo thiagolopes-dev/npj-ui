@@ -4,11 +4,10 @@ import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ConfirmEventType, ConfirmationService, MessageService } from 'primeng/api';
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { Motivos } from 'src/app/core/models/motivos.model';
 import { Regex } from 'src/app/core/validators/regex.model';
 import { MotivosService } from '../motivos.service';
-import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { AuthService } from '../../seguranca/auth.service';
 
 @Component({
   selector: 'app-cadastro-motivo',
@@ -32,13 +31,15 @@ export class CadastroMotivoComponent {
     private title: Title,
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService,
-    // private errorHandler: ErrorHandlerService,
+    private errorHandler: ErrorHandlerService,
     // public auth: AuthService,
   ) { }
 
   ngOnInit() {
+    this.newmotivo.status = true;
     this.idmotivo = this.route.snapshot.params['id'];
-    this.title.setTitle('Cadastro de Motivo');
+    this.title.setTitle('Cadastro de Convênio');
+
     if (this.idmotivo) {
       this.spinner.show();
       this.carregarMotivo(this.idmotivo);
@@ -48,8 +49,11 @@ export class CadastroMotivoComponent {
   }
 
   get editando() {
-    return Boolean(this.newmotivo.id);
+    console.log(this.newmotivo._id);
+    return Boolean(this.newmotivo._id);
+   
   }
+
 
   salvar(form: NgForm) {
     if (form.invalid) {
@@ -64,6 +68,7 @@ export class CadastroMotivoComponent {
   }
 
   adicionarMotivo(form: NgForm) {
+    console.log('entrei no adicionar');
     this.salvando = true;
     this.motivoService
       .adicionarMotivo(this.newmotivo)
@@ -78,10 +83,11 @@ export class CadastroMotivoComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-      //  this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
   atualizarMotivo(form: NgForm) {
+    console.log('entrei no atualizar');
     this.salvando = true;
     this.motivoService
       .atualizarMotivos(this.newmotivo)
@@ -98,20 +104,21 @@ export class CadastroMotivoComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-      //  this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
-  carregarMotivo(id: string) {
+  carregarMotivo(_id: string) {
     this.motivoService
-      .buscarPorID(id)
+      .buscarPorID(_id)
       .then((obj) => {
         this.newmotivo = obj;
+        console.log(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })
       .catch((erro) => {
         this.spinner.hide();
-      //  this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
 
@@ -123,7 +130,7 @@ export class CadastroMotivoComponent {
     this.confirmation.confirm({
       message: `Tem certeza que deseja excluir: <b>${this.newmotivo.descricao}</b> ?`,
       accept: () => {
-        this.excluir(this.idmotivo);
+        this.excluir(this.newmotivo._id);
       },
       reject: (type) => {
         switch (type) {
@@ -146,9 +153,9 @@ export class CadastroMotivoComponent {
     });
   }
 
-  excluir(id: any) {
+  excluir(_id: any) {
     this.motivoService
-      .excluir(id)
+      .excluir(_id)
       .then(() => {
         this.messageService.add({
           severity: 'warn',
@@ -158,7 +165,7 @@ export class CadastroMotivoComponent {
         this.router.navigate(['/motivos']);
       })
       .catch((erro) => {
-      //  this.errorHandler.handle(erro);
+       this.errorHandler.handle(erro);
       });
   }
 }

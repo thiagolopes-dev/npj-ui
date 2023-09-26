@@ -1,15 +1,16 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
-import { NgxModule } from "../ngx.module";
 import { ConfirmationService, MessageService } from "primeng/api";
 import { ConfirmDialogModule } from "primeng/confirmdialog";
 import { ToastModule } from 'primeng/toast';
-import { MotivosService } from "../pages/motivos/motivos.service";
-import { PrimeNGModule } from "../primeng.module";
-import { NavbarComponent } from "./layout/navbar/navbar.component";
-import { VarasService } from "../pages/varas/varas.service";
+import { NgxModule } from "../ngx.module";
 import { ClientesService } from "../pages/clientes/clientes.service";
+import { MotivosService } from "../pages/motivos/motivos.service";
 import { StatusService } from "../pages/status/status.service";
+import { VarasService } from "../pages/varas/varas.service";
+import { PrimeNGModule } from "../primeng.module";
+import { ErrorHandlerService } from "./errorhandler.service";
+import { NavbarComponent } from "./layout/navbar/navbar.component";
 
 
 
@@ -26,6 +27,7 @@ imports:[
     
 ],
 providers:[
+    ErrorHandlerService,
     MessageService,
     ConfirmationService,
     MotivosService,

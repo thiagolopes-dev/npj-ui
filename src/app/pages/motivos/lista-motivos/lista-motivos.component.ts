@@ -4,6 +4,7 @@ import { NgxSpinnerService } from 'ngx-spinner';
 import { Table } from 'primeng/table';
 import { MotivosService } from '../motivos.service';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { Motivos } from 'src/app/core/models/motivos.model';
 
 @Component({
   selector: 'app-lista-motivos',
@@ -15,14 +16,15 @@ export class ListaMotivosComponent implements OnInit {
 
   rowsPerPageTable: number[] = [10, 20, 30, 50, 100, 200];
   messagePageReport: 'Mostrando {first} a {last} de {totalRecords} registros';
-  motivos: any;
+  newmotivos= new Motivos();
   cols: any[] | undefined;
+
 
   constructor(
     private title: Title,
     private motivoService: MotivosService,
     private ngxspinner: NgxSpinnerService,
-    //private errorHandler: ErrorHandlerService
+    private errorHandler: ErrorHandlerService
   ) {}
 
   ngOnInit(): void {
@@ -30,27 +32,35 @@ export class ListaMotivosComponent implements OnInit {
     this.carregarMotivos();
 
     this.cols = [
-      { field: 'id', header: 'ID', width: '80px', type: 'text' },
+      { field: 'codigo', header: 'Código', width: '80px', type: 'text' },
       { field: 'descricao', header: 'Descrição', width: '150px', type: 'text' },
       { field: 'status', header: 'Status', width: '80px', type: 'boolean' },
     ];
   }
 
-  refresh() {}
+  refresh(): void {
+    window.location.reload();
+}
 
-  onClear() {}
+  onClear() {
+    this.newmotivos._id = null;
+    this.newmotivos.descricao = null;
+    this.newmotivos.status = null;
+    console.log(this.onClear)
+  }
 
   carregarMotivos() {
     this.ngxspinner.show();
     this.motivoService
       .listarMotivos()
       .then((obj) => {
-        this.motivos = obj;
+        this.newmotivos = obj;
+        console.log(obj);
         this.ngxspinner.hide();
       })
       .catch((erro) => {
         this.ngxspinner.hide();
-        //this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
 }

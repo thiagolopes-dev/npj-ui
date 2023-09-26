@@ -115,7 +115,11 @@
           >
             <span class="p-column-title">{{ cols.header }}:</span>
             {{
-              cols.data
+              cols.field === "status"
+                ? rowData[cols.field]
+                  ? "Ativo"
+                  : "Inativo"
+                : cols.data
                 ? (rowData[cols.field] | date: cols.format)
                 : rowData[cols.field]
             }}

@@ -12,7 +12,7 @@ import {
 import { Regex } from 'src/app/core/validators/regex.model';
 import { VarasService } from '../varas.service';
 import { Varas } from 'src/app/core/models/varas.model';
-//import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 //import { AuthService } from '../../seguranca/auth.service';
 
 @Component({
@@ -34,7 +34,7 @@ export class CadastroVaraComponent {
     private title: Title,
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService,
-    //private errorHandler: ErrorHandlerService,
+    private errorHandler: ErrorHandlerService,
     //public auth: AuthService,
   ) {}
 
@@ -51,7 +51,7 @@ export class CadastroVaraComponent {
   }
 
   get editando() {
-    return Boolean(this.newvara.id);
+    return Boolean(this.newvara._id);
   }
 
   salvar(form: NgForm) {
@@ -77,7 +77,7 @@ export class CadastroVaraComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-     //   this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
   atualizarVara(form: NgForm) {
@@ -97,7 +97,7 @@ export class CadastroVaraComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-     //   this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
   carregarVara(id: string) {
@@ -110,7 +110,7 @@ export class CadastroVaraComponent {
       })
       .catch((erro) => {
         this.spinner.hide();
-     //   this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
 
@@ -157,7 +157,7 @@ export class CadastroVaraComponent {
         this.router.navigate(['/varas']);
       })
       .catch((erro) => {
-     //   this.errorHandler.handle(erro);
+      this.errorHandler.handle(erro);
       });
   }
 }

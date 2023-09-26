@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -11,11 +11,9 @@ import {
 import { Regex } from 'src/app/core/validators/regex.model';
 import { ClientesService } from '../clientes.service';
 import { Clientes } from 'src/app/core/models/cliente.model';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { map, filter, switchMap } from 'rxjs/operators';
 
-
-
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-cadastro-cliente',
@@ -28,8 +26,8 @@ export class CadastroClienteComponent {
   idcliente: string;
   salvando: boolean;
 
+  http: any;
   regexNumeros: RegExp = /^\d+$/;
- 
 
   constructor(
     private clienteService: ClientesService,
@@ -39,9 +37,9 @@ export class CadastroClienteComponent {
     private title: Title,
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService,
-    private httpCliente: HttpClient
-    // public auth: AuthService,
-  ) // private errorHandler: ErrorHandlerService,
+    private errorHandler: ErrorHandlerService,
+    private httpCliente: HttpClient,
+  ) // public auth: AuthService,
   {}
 
   ngOnInit() {
@@ -57,7 +55,7 @@ export class CadastroClienteComponent {
   }
 
   get editando() {
-    return Boolean(this.newcliente.id);
+    return Boolean(this.newcliente._id);
   }
 
   salvar(form: NgForm) {
@@ -83,7 +81,7 @@ export class CadastroClienteComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-        //this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
   atualizarClientes(form: NgForm) {
@@ -103,7 +101,7 @@ export class CadastroClienteComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-        //this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
   carregarCliente(id: string) {
@@ -116,7 +114,7 @@ export class CadastroClienteComponent {
       })
       .catch((erro) => {
         this.spinner.hide();
-        //this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
 
@@ -163,57 +161,34 @@ export class CadastroClienteComponent {
         this.router.navigate(['/clientes']);
       })
       .catch((erro) => {
-        //this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
 
-  // (blur)="buscarCEP()"
-  // Tentativa de API para buscar o CEP automaticamente
-  // buscarCEP() {
-  //   if (this.newcliente.cep && this.newcliente.cep.length === 8) {
-  //     // Use uma API de busca de CEP, como a dos Correios
-  //     const url = `https://viacep.com.br/ws/${this.cep}/json/`;
-
-  //     this.httpCliente.get(url).subscribe((data) => {
-  //       this.newcliente = data;
-  //       // Atualize os campos relevantes na interface do usuário com os dados obtidos
-  //     });
-  //   }
-  // }
-
   getCep() {
-    const url = `https://viacep.com.br/ws/${this.newcliente.cep}/json/`
-    const resultRegex = this.regexNumeros.test(this.newcliente.cep);
-
-    if (this.newcliente.cep.length !== 8 || resultRegex === false) {
-      this.clearInputs();
-    } else {
-      fetch(url)
-        .then((response) => response.json())
-        .then((endereco) => {
-          if (endereco.erro === true) {
-            alert("Digite um CEP válido");
-            this.clearInputs();
-          } else {
-            // Preencha as informações do cliente
-            this.newcliente.localidade = endereco.localidade;
-            this.newcliente.uf = endereco.uf;
-            this.newcliente.logradouro = endereco.logradouro;
-            this.newcliente.bairro = endereco.bairro;
+  const cep = this.newcliente.cep;
+  this.clienteService.consultaCEP(cep).subscribe(
+    (endereco: any) => {
+      if (endereco.erro) {
+        alert('CEP não encontrado. Por favor, verifique o CEP.');
+      } else {
+        // Preencha as informações do cliente com os dados da API
+        this.newcliente.logradouro = endereco.street.toUpperCase();
+            this.newcliente.uf = endereco.state.toUpperCase();
+            this.newcliente.bairro = endereco.neighborhood.toUpperCase();
+            this.newcliente.cidade = endereco.city.toUpperCase();
+      }
+          },
+          (error: any) => {
+            console.error(error);
           }
-        })
-        .catch((error) => {
-          console.error(error);
-        });
-    }
+        );
   }
 
   clearInputs() {
-    this.newcliente = {}; // Limpa as informações do cliente
+    this.newcliente = {}; // Limpa as informações do cliente      
     this.newcliente.cep = '';
   }
-
-
 
   handlerChange(event: any) {
     console.log(this.newcliente.whatsapp);

@@ -23,12 +23,12 @@ export class ListaVarasComponent implements OnInit {
     private title: Title,
     private motivoService: VarasService,
     private ngxspinner: NgxSpinnerService,
-    //private errorHandler: ErrorHandlerService
+    private errorHandler: ErrorHandlerService
 
   ) {}
 
   ngOnInit(): void {
-    this.title.setTitle('Lista de Motivos');
+    this.title.setTitle('Lista de Varas');
     this.carregarVaras();
 
     this.cols = [
@@ -38,7 +38,9 @@ export class ListaVarasComponent implements OnInit {
     ];
   }
 
-  refresh() {}
+  refresh(): void {
+    window.location.reload();
+}
 
   onClear() {}
 
@@ -52,7 +54,7 @@ export class ListaVarasComponent implements OnInit {
       })
       .catch((erro) => {
         this.ngxspinner.hide();
-       // this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
 }

@@ -28,7 +28,7 @@ export class StatusService {
 
   atualizarStatus(obj: Status): Promise<Status> {
     return firstValueFrom(
-      this.http.put<Status>(`${this.statusURL}/${obj.id}`, obj),
+      this.http.put<Status>(`${this.statusURL}/${obj._id}`, obj),
     ).then((response) => response as Status);
   }
 

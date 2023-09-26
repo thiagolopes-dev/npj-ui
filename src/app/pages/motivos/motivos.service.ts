@@ -28,7 +28,7 @@ export class MotivosService {
 
   atualizarMotivos(obj: Motivos): Promise<Motivos> {
     return firstValueFrom(
-      this.http.put<Motivos>(`${this.motivoURL}/${obj.id}`, obj),
+      this.http.put<Motivos>(`${this.motivoURL}/${obj._id}`, obj),
     ).then((response) => response as Motivos);
   }
 
