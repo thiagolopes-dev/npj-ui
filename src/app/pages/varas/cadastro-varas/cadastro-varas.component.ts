@@ -9,10 +9,10 @@ import {
   MessageService,
 } from 'primeng/api';
 
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { Varas } from 'src/app/core/models/varas.model';
 import { Regex } from 'src/app/core/validators/regex.model';
 import { VarasService } from '../varas.service';
-import { Varas } from 'src/app/core/models/varas.model';
-import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 //import { AuthService } from '../../seguranca/auth.service';
 
 @Component({
@@ -39,7 +39,7 @@ export class CadastroVaraComponent {
   ) {}
 
   ngOnInit() {
-    this.idvara = this.route.snapshot.params['id'];
+    this.idvara = this.route.snapshot.params['_id'];
     this.title.setTitle('Cadastro de Vara');
 
     if (this.idvara) {

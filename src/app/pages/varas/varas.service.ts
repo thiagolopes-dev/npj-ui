@@ -32,8 +32,8 @@ export class VarasService {
     ).then((response) => response as Varas);
   }
 
-  buscarPorID(id: string) {
-    return firstValueFrom(this.http.get(`${this.varaURL}/${id}`)).then(
+  buscarPorID(_id: string) {
+    return firstValueFrom(this.http.get(`${this.varaURL}/${_id}`)).then(
       (response) => response as Varas,
     );
   }
