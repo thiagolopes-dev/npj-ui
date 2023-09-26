@@ -1,5 +1,5 @@
 export class Motivos {
-    id?: string;
+    _id?: string;
     descricao?: string;
     status?: boolean;
 }

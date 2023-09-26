@@ -3,7 +3,6 @@ import { Title } from '@angular/platform-browser';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Table } from 'primeng/table';
 import { MotivosService } from '../motivos.service';
-import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 
 @Component({
   selector: 'app-lista-motivos',
@@ -30,7 +29,7 @@ export class ListaMotivosComponent implements OnInit {
     this.carregarMotivos();
 
     this.cols = [
-      { field: 'id', header: 'ID', width: '80px', type: 'text' },
+      { field: 'codigo', header: 'Código', width: '80px', type: 'text' },
       { field: 'descricao', header: 'Descrição', width: '150px', type: 'text' },
       { field: 'status', header: 'Status', width: '80px', type: 'boolean' },
     ];
@@ -46,6 +45,7 @@ export class ListaMotivosComponent implements OnInit {
       .listarMotivos()
       .then((obj) => {
         this.motivos = obj;
+        console.log(obj);
         this.ngxspinner.hide();
       })
       .catch((erro) => {

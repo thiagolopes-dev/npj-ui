@@ -45,11 +45,11 @@
           </th>
         </tr>
       </ng-template>
-      <ng-template pTemplate="body" let-convenio let-columns="columns" let-rowData>
+      <ng-template pTemplate="body" let-motivo let-columns="columns" let-rowData>
         <tr [pSelectableRow]="rowData">
           <td class="btnEditar">
-            <button pButton pRipple type="button" class="p-button-text p-button-primary" pTooltip="Editar"
-              icon="fas fa-pen" tooltipPosition="top" [routerLink]="['/convenios', convenio.id]">
+            <button pButton pRipple type="button" class="p-button-warning" pTooltip="Editar"
+              icon="pi pi-file-edit" tooltipPosition="top" [routerLink]="['/motivos', motivo._id]">
             </button>
           </td>
           <td *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}" tooltipPosition="top"

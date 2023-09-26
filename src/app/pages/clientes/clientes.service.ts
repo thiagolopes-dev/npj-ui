@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
-import { environment } from 'src/environment/environment';
 import { Clientes } from 'src/app/core/models/cliente.model';
+import { environment } from 'src/environment/environment';
 
 import * as moment from 'moment-timezone';
 
@@ -16,7 +16,7 @@ export class ClientesService {
   constructor(
     private http: HttpClient
   ) {
-    this.clienteURL = `${environment.apiURL}/cliente`;
+    this.clienteURL = `${environment.apiURL}/clientes`;
   }
 
   listarClientes(): Promise<Clientes> {
