@@ -31,7 +31,7 @@
             pInputText
             name="nome"
             type="text"
-            placeholder="THIAGO SARTORI"
+            placeholder="Digite seu nome"
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.nome"
             #nome="ngModel"
@@ -65,7 +65,7 @@
             name="cpf"
             type="text"
             [mask]="'000.000.000-00'"
-            placeholder="000.000.000-00"
+            placeholder="Informe o CPF"
             [pKeyFilter]="regex.blockSpecial"
             [(ngModel)]="newcliente.cpf"
             #cpf="ngModel"
@@ -100,7 +100,7 @@
             name="rg"
             type="text"
             [mask]="'00.000.000-0'"
-            placeholder="00.000.000-0"
+            placeholder="Informe o RG"
             [pKeyFilter]="regex.blockSpecial"
             [(ngModel)]="newcliente.rg"
             #rg="ngModel"
@@ -134,7 +134,7 @@
             name="cep"
             type="text"
             mask="00000-000"
-            placeholder="00000-000"
+            placeholder="Informe o CEP"
             handlerChange
             (blur)="getCep()"
             [pKeyFilter]="regex.blockSpecial"
@@ -169,16 +169,15 @@
             pInputText
             name="logradouro"
             type="text"
+            placeholder="Informe sua rua"
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.logradouro"
             #logradouro="ngModel"
             minlength="3"
-            maxlength="25"
+            maxlength="30"
             required
-            disabled
+            [disabled]="editando"
           />
-          <!-- [disabled]="editando"  -->
-
 
           <app-message
             [control]="logradouro"
@@ -203,16 +202,14 @@
             pInputText
             name="bairro"
             type="text"
-            [pKeyFilter]="regex.stringEspecial"
+            placeholder="Informe seu bairro"
             [(ngModel)]="newcliente.bairro"
             #bairro="ngModel"
             minlength="3"
-            maxlength="20"
+            maxlength="30"
             required
-            disabled
-          />
-          <!-- [disabled]="editando"  -->
-          
+            [disabled]="editando"
+          />          
 
           <app-message
             [control]="bairro"
@@ -237,14 +234,15 @@
             pInputText
             name="numero"
             type="text"
+            placeholder="Informe seu número"
             [pKeyFilter]="regex.number"
             [(ngModel)]="newcliente.numero"
             #numero="ngModel"
             minlength="1"
             maxlength="8"
+            [disabled]="editando"
             required
           />
-          <!-- [disabled]="editando"  -->
 
           <app-message
             [control]="numero"
@@ -287,25 +285,26 @@
             pInputText
             name="cidade"
             type="text"
+            placeholder="Informe sua cidade"
             [pKeyFilter]="regex.stringEspecial"
-            [(ngModel)]="newcliente.localidade"
-            #localidade="ngModel"
+            [(ngModel)]="newcliente.cidade"
+            #cidade="ngModel"
             minlength="3"
             maxlength="30"
             required
-            disabled
+            [disabled]="editando"
           />
           <!-- [disabled]="editando"  -->
           <app-message
-            [control]="localidade"
+            [control]="cidade"
             error="required"
             text="Informe o seu cidade"
           ></app-message>
           <app-message
-            [control]="localidade"
+            [control]="cidade"
             error="minlength"
             text="Mínimo de {{
-              localidade.errors?.minlength?.requiredLength
+              cidade.errors?.minlength?.requiredLength
             }} caracteres"
           ></app-message>
         </div>
@@ -318,13 +317,14 @@
             pInputText
             name="uf"
             type="text"
+            placeholder="Informe seu Estado"
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.uf"
             #uf="ngModel"
             minlength="2"
             maxlength="2"
             required
-            disabled
+            [disabled]="editando"
           />
           <!-- [disabled]="editando"  -->
           <app-message
@@ -352,16 +352,14 @@
             type="text"
             (change)="handlerChange($event)"
             [mask]="'(00) 0 0000-0000'"
-            placeholder="(99) 9 9999-9999"
+            placeholder="Informe seu Whatsapp"
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.whatsapp"
             #whatsapp="ngModel"
             [disabled]="editando"
-            
             minlength="9"
             maxlength="16"
             required
-            
           />
 
           <app-message

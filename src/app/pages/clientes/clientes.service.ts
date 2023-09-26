@@ -29,7 +29,7 @@ export class ClientesService {
   }
 
   atualizarClientes(obj: Clientes): Promise<Clientes> {
-    return firstValueFrom(this.http.put<Clientes>(`${this.clienteURL}/${obj.id}`, obj))
+    return firstValueFrom(this.http.put<Clientes>(`${this.clienteURL}/${obj._id}`, obj))
       .then((response) => response as Clientes);
   }
 
@@ -51,4 +51,12 @@ export class ClientesService {
     });
 
   }
+  
+  consultaCEP(cep: string) {
+    if (cep !== '') {
+      const validacep = /^[0-9]{8}$/;
+      if (validacep.test(cep)) {
+        return this.http.get(`https://brasilapi.com.br/api/cep/v2/${cep}`);
+      }}
+    }
 }

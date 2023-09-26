@@ -1,5 +1,5 @@
 export class Clientes {
-    id?: string;
+    _id?: string;
     nome?: string;
     cpf?: string;
     rg?: string;
@@ -8,7 +8,7 @@ export class Clientes {
     bairro?: string;
     numero?: number;
     complemento?: string;
-    localidade?: string;
+    cidade?: string;
     uf?: string;
     whatsapp?: number;
     status?: boolean;

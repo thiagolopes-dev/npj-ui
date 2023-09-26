@@ -28,7 +28,7 @@ export class VarasService {
 
   atualizarVaras(obj: Varas): Promise<Varas> {
     return firstValueFrom(
-      this.http.put<Varas>(`${this.varaURL}/${obj.id}`, obj),
+      this.http.put<Varas>(`${this.varaURL}/${obj._id}`, obj),
     ).then((response) => response as Varas);
   }
 

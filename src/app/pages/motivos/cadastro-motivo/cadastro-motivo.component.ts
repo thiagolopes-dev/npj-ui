@@ -107,9 +107,9 @@ export class CadastroMotivoComponent {
         this.errorHandler.handle(erro);
       });
   }
-  carregarMotivo(id: string) {
+  carregarMotivo(_id: string) {
     this.motivoService
-      .buscarPorID(id)
+      .buscarPorID(_id)
       .then((obj) => {
         this.newmotivo = obj;
         console.log(obj);
@@ -130,7 +130,7 @@ export class CadastroMotivoComponent {
     this.confirmation.confirm({
       message: `Tem certeza que deseja excluir: <b>${this.newmotivo.descricao}</b> ?`,
       accept: () => {
-        this.excluir(this.idmotivo);
+        this.excluir(this.newmotivo._id);
       },
       reject: (type) => {
         switch (type) {
@@ -153,9 +153,9 @@ export class CadastroMotivoComponent {
     });
   }
 
-  excluir(id: any) {
+  excluir(_id: any) {
     this.motivoService
-      .excluir(id)
+      .excluir(_id)
       .then(() => {
         this.messageService.add({
           severity: 'warn',

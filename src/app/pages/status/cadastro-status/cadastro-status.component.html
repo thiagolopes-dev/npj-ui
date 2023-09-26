@@ -1,6 +1,6 @@
 <main>
   <p-card styleClass="card-adjust">
-    <h4>{{ editando ? "EDIÇÃO DE" : "CADASTRO DE" }} STATUS</h4>
+    <h4>{{ editando ? "EDIÇÃO DE" : "CADASTRO DE" }} VARA</h4>
     <div class="flex justify-content-start mb-2">
       <div>
         <button
@@ -16,11 +16,7 @@
       </div>
     </div>
     <br />
-    <form
-      #formStatus="ngForm"
-      autocomplete="off"
-      (ngSubmit)="salvar(formStatus)"
-    >
+    <form #formStatus="ngForm" autocomplete="off" (ngSubmit)="salvar(formStatus)">
       <div class="grid justify-content-center">
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Descrição</h6>
@@ -29,9 +25,9 @@
             class="w-full"
             oninput="this.value = this.value.toUpperCase()"
             pInputText
-            name="status"
+            name="vara"
             type="text"
-            [pKeyFilter]="regex.string"
+            [pKeyFilter]="regex.stringNumber"
             [(ngModel)]="newstatus.descricao"
             #status="ngModel"
             [disabled]="editando"

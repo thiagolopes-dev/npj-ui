@@ -10,9 +10,10 @@ import {
 } from 'primeng/api';
 
 import { Regex } from 'src/app/core/validators/regex.model';
-import { Status } from 'src/app/core/models/status.model';
-import { StatusService } from '../status.service';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { StatusService } from '../status.service';
+import { Status } from 'src/app/core/models/status.model';
+//import { AuthService } from '../../seguranca/auth.service';
 
 @Component({
   selector: 'app-cadastro-status',
@@ -33,13 +34,13 @@ export class CadastroStatusComponent {
     private title: Title,
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService,
-    //private errorHandler: ErrorHandlerService,
-  ) // public auth: AuthService,
-  {}
+    private errorHandler: ErrorHandlerService,
+    //public auth: AuthService,
+  ) {}
 
   ngOnInit() {
     this.idstatus = this.route.snapshot.params['id'];
-    this.title.setTitle('Cadastro de Vara');
+    this.title.setTitle('Cadastro de Status');
 
     if (this.idstatus) {
       this.spinner.show();
@@ -50,7 +51,7 @@ export class CadastroStatusComponent {
   }
 
   get editando() {
-    return Boolean(this.newstatus.id);
+    return Boolean(this.newstatus._id);
   }
 
   salvar(form: NgForm) {
@@ -76,7 +77,7 @@ export class CadastroStatusComponent {
       })
       .catch((erro) => {
         this.salvando = false;
-        // this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
   atualizarStatus(form: NgForm) {
@@ -92,11 +93,11 @@ export class CadastroStatusComponent {
         });
         this.atualizarTituloEdicao();
         this.salvando = false;
-        this.router.navigate(['/Status']);
+        this.router.navigate(['/status']);
       })
       .catch((erro) => {
         this.salvando = false;
-        // this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
   carregarStatus(id: string) {
@@ -109,12 +110,12 @@ export class CadastroStatusComponent {
       })
       .catch((erro) => {
         this.spinner.hide();
-        // this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
   }
 
   atualizarTituloEdicao() {
-    this.title.setTitle(`Edição de Status: ${this.newstatus.descricao}`);
+    this.title.setTitle(`Edição de Vara: ${this.newstatus.descricao}`);
   }
 
   confirmarExclusao() {
@@ -150,13 +151,13 @@ export class CadastroStatusComponent {
       .then(() => {
         this.messageService.add({
           severity: 'warn',
-          summary: 'Status',
+          summary: 'Vara',
           detail: `${this.newstatus.descricao}, excluído com sucesso!`,
         });
         this.router.navigate(['/status']);
       })
       .catch((erro) => {
-        // this.errorHandler.handle(erro);
+      this.errorHandler.handle(erro);
       });
   }
 }

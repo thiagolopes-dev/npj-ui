@@ -86,7 +86,7 @@
       </ng-template>
       <ng-template
         pTemplate="body"
-        let-convenio
+        let-status
         let-columns="columns"
         let-rowData
       >
@@ -96,11 +96,11 @@
               pButton
               pRipple
               type="button"
-              class="p-button-text p-button-primary"
+              class="p-button-warning"
               pTooltip="Editar"
-              icon="fas fa-pen"
+              icon="pi pi-file-edit"
               tooltipPosition="top"
-              [routerLink]="['/convenios', convenio.id]"
+              [routerLink]="['/status', status._id]"
             ></button>
           </td>
           <td
@@ -113,9 +113,13 @@
                 : rowData[cols.field]
             }}"
           >
-            <span class="p-column-title">{{ cols.header }}:</span>
+            <span class="p-column-title">{{ cols.header }} :</span>
             {{
-              cols.data
+              cols.field === "status"
+                ? rowData[cols.field]
+                  ? "Ativo"
+                  : "Inativo"
+                : cols.data
                 ? (rowData[cols.field] | date: cols.format)
                 : rowData[cols.field]
             }}
@@ -136,7 +140,7 @@
       </ng-template>
       <ng-template pTemplate="emptymessage" let-columns>
         <tr>
-          <td>
+          <td colspan="4">
             <p class="emptyMessage">Nenhum registro encontrado...</p>
           </td>
         </tr>
