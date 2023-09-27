@@ -39,16 +39,18 @@ export class CadastroVaraComponent {
   ) {}
 
   ngOnInit() {
-    this.idvara = this.route.snapshot.params['_id'];
+    this.newvara.status = true;
+    this.idvara = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de Vara');
 
     if (this.idvara) {
+      console.log(this.idvara);
       this.spinner.show();
       this.carregarVara(this.idvara);
     } else {
       this.newvara.status = true;
     }
-  }
+  }  
 
   get editando() {
     return Boolean(this.newvara._id);
@@ -100,11 +102,13 @@ export class CadastroVaraComponent {
         this.errorHandler.handle(erro);
       });
   }
-  carregarVara(id: string) {
+
+  carregarVara(_id: string) {
     this.varaService
-      .buscarPorID(id)
+      .buscarPorID(_id)
       .then((obj) => {
         this.newvara = obj;
+        console.log(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })

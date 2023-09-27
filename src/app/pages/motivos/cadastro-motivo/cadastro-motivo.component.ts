@@ -49,7 +49,6 @@ export class CadastroMotivoComponent {
   }
 
   get editando() {
-    console.log(this.newmotivo._id);
     return Boolean(this.newmotivo._id);
    
   }

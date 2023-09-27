@@ -39,7 +39,7 @@ export class ListaMotivosComponent implements OnInit {
   }
 
   refresh(): void {
-    window.location.reload();
+    this.carregarMotivos();
 }
 
   onClear() {
@@ -61,5 +61,9 @@ export class ListaMotivosComponent implements OnInit {
         this.ngxspinner.hide();
         this.errorHandler.handle(erro);
       });
+  }
+
+  valorMotivo(_id: string){
+    console.log(_id);
   }
 }

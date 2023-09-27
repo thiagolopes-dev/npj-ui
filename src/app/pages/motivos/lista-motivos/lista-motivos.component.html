@@ -48,7 +48,7 @@
         <tr [pSelectableRow]="rowData">
           <td class="btnEditar">
             <button pButton pRipple type="button" class="p-button-warning" pTooltip="Editar" icon="pi pi-file-edit"
-              tooltipPosition="top" [routerLink]="['/motivos', motivo._id]">
+              tooltipPosition="top" (click)="valorMotivo(motivo._id)" [routerLink]="['/motivos', motivo._id]">
             </button>
           </td>
           <td *ngFor="let cols of columns" [ngStyle]="{ 'min-width': cols.width }" tooltipPosition="top" pTooltip="{{

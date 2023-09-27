@@ -2,8 +2,8 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Table } from 'primeng/table';
-import { VarasService } from '../varas.service';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { VarasService } from '../varas.service';
 
 
 @Component({
@@ -32,7 +32,7 @@ export class ListaVarasComponent implements OnInit {
     this.carregarVaras();
 
     this.cols = [
-      { field: 'id', header: 'ID', width: '80px', type: 'text' },
+      { field: 'codigo', header: 'Código', width: '80px', type: 'text' },
       { field: 'descricao', header: 'Descrição', width: '150px', type: 'text' },
       { field: 'status', header: 'Status', width: '80px', type: 'boolean' },
     ];
@@ -57,4 +57,5 @@ export class ListaVarasComponent implements OnInit {
         this.errorHandler.handle(erro);
       });
   }
+
 }
