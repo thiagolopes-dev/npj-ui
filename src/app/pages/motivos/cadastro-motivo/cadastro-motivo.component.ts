@@ -22,6 +22,7 @@ export class CadastroMotivoComponent {
   newmotivo = new Motivos();
   idmotivo: string;
   salvando: boolean;
+  mostrarToast: true;
 
   constructor(
     private motivoService: MotivosService,
@@ -38,7 +39,7 @@ export class CadastroMotivoComponent {
   ngOnInit() {
     this.newmotivo.status = true;
     this.idmotivo = this.route.snapshot.params['id'];
-    this.title.setTitle('Cadastro de Convênio');
+    this.title.setTitle('Cadastro de Motivos');
 
     if (this.idmotivo) {
       this.spinner.show();
@@ -69,6 +70,7 @@ export class CadastroMotivoComponent {
   adicionarMotivo(form: NgForm) {
     console.log('entrei no adicionar');
     this.salvando = true;
+    this.mostrarToast= true;
     this.motivoService
       .adicionarMotivo(this.newmotivo)
       .then((obj) => {
@@ -76,6 +78,7 @@ export class CadastroMotivoComponent {
           severity: 'success',
           summary: 'Motivo',
           detail: `${obj.descricao}, adicionado com sucesso!`,
+          life: 10000,
         });
         this.salvando = false;
         this.router.navigate(['/motivos']);
