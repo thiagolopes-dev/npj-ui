@@ -3,8 +3,9 @@ import { Title } from '@angular/platform-browser';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Table } from 'primeng/table';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { Motivos } from 'src/app/core/models/motivos.model';
 import { StatusService } from '../status.service';
+import { Status } from 'src/app/core/models/status.model';
+
 
 @Component({
   selector: 'app-lista-status',
@@ -16,7 +17,7 @@ export class ListaStatusComponent implements OnInit {
 
   rowsPerPageTable: number[] = [10, 20, 30, 50, 100, 200];
   messagePageReport: 'Mostrando {first} a {last} de {totalRecords} registros';
-  status: any;
+  newstatus= new Status();
   cols: any[] | undefined;
 
 
@@ -28,8 +29,8 @@ export class ListaStatusComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.title.setTitle('Lista de Motivos');
-    this.carregarMotivos();
+    this.title.setTitle('Lista de Status');
+    this.carregarStatus();
 
     this.cols = [
       { field: 'codigo', header: 'Código', width: '80px', type: 'text' },
@@ -39,24 +40,27 @@ export class ListaStatusComponent implements OnInit {
   }
 
   refresh(): void {
-    window.location.reload();
+    this.carregarStatus();
 }
 
   onClear() {
   }
 
-  carregarMotivos() {
+  carregarStatus() {
     this.ngxspinner.show();
     this.statusService
       .listarStatus()
       .then((obj) => {
-        this.status = obj;
-        console.log(obj);
+        this.newstatus = obj;
         this.ngxspinner.hide();
       })
       .catch((erro) => {
         this.ngxspinner.hide();
         this.errorHandler.handle(erro);
       });
+  }
+
+  valorStatus(_id: string){
+    console.log(_id);
   }
 }

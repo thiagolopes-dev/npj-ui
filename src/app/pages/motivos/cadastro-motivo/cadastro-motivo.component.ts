@@ -65,7 +65,7 @@ export class CadastroMotivoComponent {
       this.adicionarMotivo(form);
     }
   }
-
+  
   adicionarMotivo(form: NgForm) {
     console.log('entrei no adicionar');
     this.salvando = true;
@@ -167,4 +167,6 @@ export class CadastroMotivoComponent {
        this.errorHandler.handle(erro);
       });
   }
+
+  
 }

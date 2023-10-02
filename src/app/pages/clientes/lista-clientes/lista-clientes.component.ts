@@ -4,6 +4,7 @@ import { Table } from 'primeng/table';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ClientesService } from '../clientes.service';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { Clientes } from 'src/app/core/models/cliente.model';
 
 @Component({
   selector: 'app-lista-clientes',
@@ -15,15 +16,16 @@ export class ListaClientesComponent implements OnInit {
 
   rowsPerPageTable: number[] = [10, 20, 30, 50, 100, 200];
   messagePageReport: 'Mostrando {first} a {last} de {totalRecords} registros';
-  clientes: any;
+  newcliente= new Clientes();
   cols: any[] | undefined;
 
   constructor(
     private title: Title,
     private clienteService: ClientesService,
     private ngxspinner: NgxSpinnerService,
-    //private errorHandler: ErrorHandlerService,
-  ) {}
+   private errorHandler: ErrorHandlerService,
+  )
+  {}
   ngOnInit(): void {
     this.title.setTitle('Lista de Clientes');
     this.carregarClientes();
@@ -49,7 +51,9 @@ export class ListaClientesComponent implements OnInit {
     ];
   }
 
-  refresh() {}
+  refresh(): void {
+    this.carregarClientes();
+  }
 
   onClear() {}
 
@@ -58,12 +62,16 @@ export class ListaClientesComponent implements OnInit {
     this.clienteService
       .listarClientes()
       .then((obj) => {
-        this.clientes = obj;
+        this.newcliente = obj;
         this.ngxspinner.hide();
       })
       .catch((erro) => {
         this.ngxspinner.hide();
-        //this.errorHandler.handle(erro);
+        this.errorHandler.handle(erro);
       });
+  }
+
+  valorCliente(_id: string){
+    console.log(_id);
   }
 }

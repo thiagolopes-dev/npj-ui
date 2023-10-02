@@ -36,7 +36,7 @@
 
     <p-table
       #tabela
-      [value]="clientes"
+      [value]="newcliente"
       [columns]="cols"
       [globalFilterFields]="cols"
       [rowsPerPageOptions]="rowsPerPageTable"
@@ -86,7 +86,7 @@
       </ng-template>
       <ng-template
         pTemplate="body"
-        let-convenio
+        let-cliente
         let-columns="columns"
         let-rowData
       >
@@ -99,8 +99,7 @@
               class="p-button-text p-button-primary"
               pTooltip="Editar"
               icon="fas fa-pen"
-              tooltipPosition="top"
-              [routerLink]="['/convenios', convenio.id]"
+              tooltipPosition="top" (click)="valorCliente(cliente._id)" [routerLink]="['/clientes', cliente._id]">
             ></button>
           </td>
           <td
