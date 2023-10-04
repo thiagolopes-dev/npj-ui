@@ -6,4 +6,38 @@ import { Injectable } from '@angular/core';
 export class SegurancaService {
 
   constructor() { }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
