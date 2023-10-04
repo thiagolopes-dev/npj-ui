@@ -1,26 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
-import {
-  ConfirmEventType,
-  ConfirmationService,
-  MessageService,
-} from 'primeng/api';
-
-import { Regex } from 'src/app/core/validators/regex.model';
+import { ConfirmEventType, ConfirmationService, MessageService } from 'primeng/api';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { StatusService } from '../status.service';
+import { Regex } from 'src/app/core/validators/regex.model';
 import { Status } from 'src/app/core/models/status.model';
-//import { AuthService } from '../../seguranca/auth.service';
+import { StatusService } from '../status.service';
 
 @Component({
   selector: 'app-cadastro-status',
   templateUrl: './cadastro-status.component.html',
-  styleUrls: ['./cadastro-status.component.css'],
+  styleUrls: ['./cadastro-status.component.css']
 })
 export class CadastroStatusComponent {
+
+  @ViewChild('formStatus') formStatus: NgForm;
+
   regex = new Regex();
   newstatus = new Status();
   idstatus: string;
@@ -35,12 +32,13 @@ export class CadastroStatusComponent {
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService,
     private errorHandler: ErrorHandlerService,
-    //public auth: AuthService,
-  ) {}
+    // public auth: AuthService,
+  ) { }
 
   ngOnInit() {
+    this.newstatus.status = true;
     this.idstatus = this.route.snapshot.params['id'];
-    this.title.setTitle('Cadastro de Status');
+    this.title.setTitle('Cadastro de Convênio');
 
     if (this.idstatus) {
       this.spinner.show();
@@ -52,17 +50,24 @@ export class CadastroStatusComponent {
 
   get editando() {
     return Boolean(this.newstatus._id);
+   
   }
 
+
   salvar(form: NgForm) {
+    if (form.invalid) {
+      return; //Não prosseguir se o formulário não for válido
+    }
+  
     if (this.editando) {
       this.atualizarStatus(form);
     } else {
       this.adicionarStatus(form);
     }
   }
-
+  
   adicionarStatus(form: NgForm) {
+    console.log('entrei no adicionar');
     this.salvando = true;
     this.statusService
       .adicionarStatus(this.newstatus)
@@ -81,6 +86,7 @@ export class CadastroStatusComponent {
       });
   }
   atualizarStatus(form: NgForm) {
+    console.log('entrei no atualizar');
     this.salvando = true;
     this.statusService
       .atualizarStatus(this.newstatus)
@@ -100,11 +106,12 @@ export class CadastroStatusComponent {
         this.errorHandler.handle(erro);
       });
   }
-  carregarStatus(id: string) {
+  carregarStatus(_id: string) {
     this.statusService
-      .buscarPorID(id)
+      .buscarPorID(_id)
       .then((obj) => {
         this.newstatus = obj;
+        console.log(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })
@@ -115,14 +122,14 @@ export class CadastroStatusComponent {
   }
 
   atualizarTituloEdicao() {
-    this.title.setTitle(`Edição de Vara: ${this.newstatus.descricao}`);
+    this.title.setTitle(`Edição de Status: ${this.newstatus.descricao}`);
   }
 
   confirmarExclusao() {
     this.confirmation.confirm({
       message: `Tem certeza que deseja excluir: <b>${this.newstatus.descricao}</b> ?`,
       accept: () => {
-        this.excluir(this.idstatus);
+        this.excluir(this.newstatus._id);
       },
       reject: (type) => {
         switch (type) {
@@ -145,19 +152,21 @@ export class CadastroStatusComponent {
     });
   }
 
-  excluir(id: any) {
+  excluir(_id: any) {
     this.statusService
-      .excluir(id)
+      .excluir(_id)
       .then(() => {
         this.messageService.add({
           severity: 'warn',
-          summary: 'Vara',
+          summary: 'Status',
           detail: `${this.newstatus.descricao}, excluído com sucesso!`,
         });
         this.router.navigate(['/status']);
       })
       .catch((erro) => {
-      this.errorHandler.handle(erro);
+       this.errorHandler.handle(erro);
       });
   }
+
+  
 }
