@@ -39,8 +39,8 @@ export class ListaVarasComponent implements OnInit {
   }
 
   refresh(): void {
-    window.location.reload();
-}
+    this.carregarVaras();
+  }
 
   onClear() {}
 

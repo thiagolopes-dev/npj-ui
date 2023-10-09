@@ -31,7 +31,7 @@
             pInputText
             name="nome"
             type="text"
-            placeholder="Digite seu nome"
+            placeholder="Informe seu nome"
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.nome"
             #nome="ngModel"
@@ -317,7 +317,7 @@
             pInputText
             name="uf"
             type="text"
-            placeholder="Informe seu Estado"
+            placeholder="Informe seu estado"
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.uf"
             #uf="ngModel"
@@ -352,7 +352,7 @@
             type="text"
             (change)="handlerChange($event)"
             [mask]="'(00) 0 0000-0000'"
-            placeholder="Informe seu Whatsapp"
+            placeholder="Informe seu whatsapp"
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.whatsapp"
             #whatsapp="ngModel"

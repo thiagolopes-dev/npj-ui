@@ -19,7 +19,7 @@
     </div>
 
     <p-table #tabela [value]="varas" [columns]="cols" [globalFilterFields]="cols"
-      [rowsPerPageOptions]="rowsPerPageTable" selectionMode="single" [showCurrentPageReport]="true" [rows]="10"
+      [rowsPerPageOptions]="rowsPerPageTable" selectionMode="single" [showCurrentPageReport]="true" [rows]="10" [scrollable]="true"
       styleClass="p-datatable-striped p-datatable-gridlines" [scrollable]="true"
       [currentPageReportTemplate]="messagePageReport">
       <ng-template pTemplate="caption">
