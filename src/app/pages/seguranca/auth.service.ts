@@ -4,8 +4,8 @@ import { Injectable } from '@angular/core';
 import { MessageService } from 'primeng/api';
 
 import { JwtHelperService } from '@auth0/angular-jwt';
-import { environment } from 'src/environment/environment';
 import { firstValueFrom } from 'rxjs';
+import { environment } from 'src/environment/environment';
 
 @Injectable()
 export class AuthService {
@@ -49,7 +49,7 @@ export class AuthService {
       }),
     )
       .then((response) => {
-        this.armazenarToken(response['access_token']);
+        this.armazenarToken(response['accessToken']);
         this.messageService.add({
           severity: 'success',
           summary: 'login',
@@ -71,7 +71,7 @@ export class AuthService {
       .set('Authorization', 'Basic SEcdks#W$2nk')
       .set('Content-Type', 'aplication/x-www-form-urlencoded');
 
-    const body = 'grant_type=refresh_token';
+    const body = 'grant_type=accessToken';
 
     return firstValueFrom(
       this.http.post(this.oauthTokenUrl, body, {
@@ -80,7 +80,7 @@ export class AuthService {
       })
     )
       .then((response) => {
-        this.armazenarToken(response['access_token']);
+        this.armazenarToken(response['accessToken']);
         return Promise.resolve(null);
       })
       .catch((response) => {
