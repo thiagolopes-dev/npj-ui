@@ -1,0 +1,87 @@
+<main>
+  <p-card styleClass="card-adjust">
+    <h4>ACOMPANHAMENTOS</h4>
+    <div class="flex justify-content-between mb-2">
+      <div class="flex justify-content-start mb-2">
+        <div>
+          <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-plus"
+            pTooltip="Novo" tooltipPosition="top" routerLink="/acompanhamentos/novo"></button>
+        </div>
+        <div>
+          <button pButton pRipple type="button" class="p-button-raised p-button-warning ml-2" pTooltip="Atualizar"
+            tooltipPosition="top" icon="pi pi-refresh" (click)="refresh()"></button>
+        </div>
+      </div>
+      <div>
+        <!-- <p-splitButton styleClass="p-button-primary" #ua label="Opções" icon="pi pi-cog"
+          (onClick)="ua.onDropdownButtonClick(null)" [model]="items"></p-splitButton> -->
+      </div>
+    </div>
+
+    <p-table #tabela [value]="newacompanhamento" [columns]="cols" [globalFilterFields]="cols"
+      [rowsPerPageOptions]="rowsPerPageTable" selectionMode="single" [showCurrentPageReport]="true" [rows]="10"
+      styleClass="p-datatable-striped p-datatable-gridlines" [scrollable]="true"
+      [currentPageReportTemplate]="messagePageReport">
+      <ng-template pTemplate="caption">
+        <div class="flex flex-wrap">
+          <div class="col-12 md:col-6 lg:col-2">
+            <div class="col-12">
+              <input class="responsivetable p-text-nowrap p-text-truncate" pInputText type="text"
+                (input)="tabela.filterGlobal($event.target.value, 'contains')" placeholder="Pesquisa Global"
+                pTooltip="Pesquisa em todas colunas" tooltipPosition="top" />
+            </div>
+          </div>
+        </div>
+      </ng-template>
+
+      <ng-template pTemplate="header" let-columns>
+        <tr>
+          <th class="btnEditar">&nbsp;</th>
+          <th *ngFor="let cols of columns" [pSortableColumn]="cols.field" [ngStyle]="{ 'min-width': cols.width }">
+            {{ cols.header }}
+            <p-sortIcon [field]="cols.field"></p-sortIcon>
+            <p-columnFilter [type]="cols.type" [field]="cols.field" display="menu" class="p-ml-auto"></p-columnFilter>
+          </th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-acompanhamento let-columns="columns" let-rowData>
+        <tr [pSelectableRow]="rowData">
+          <td class="btnEditar">
+            <button pButton pRipple type="button" class="p-button-warning" pTooltip="Editar" icon="pi pi-file-edit"
+              tooltipPosition="top" (click)="valorAcompanhamento(acompanhamento._id)" [routerLink]="['/acompanhamentos', acompanhamento._id]">
+            </button>
+          </td>
+          <td *ngFor="let cols of columns" [ngStyle]="{ 'min-width': cols.width }" tooltipPosition="top" pTooltip="{{
+              rowData[cols.field] && cols.data
+                ? (rowData[cols.field] | date: 'dd/MM/yyyy H:mm')
+                : rowData[cols.field]
+            }}">
+            <span class="p-column-title">{{ cols.header }} :</span>
+            {{
+            cols.field === "status"
+            ? rowData[cols.field]
+            ? "Ativo"
+            : "Inativo"
+            : cols.data
+            ? (rowData[cols.field] | date: cols.format)
+            : rowData[cols.field]
+            }}
+          </td>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="summary">
+        <div>
+          <button pButton pRipple class="p-button-raised p-button-warning" icon="pi pi-times" label="Limpar Filtros"
+            (click)="onClear()"></button>
+        </div>
+      </ng-template>
+      <ng-template pTemplate="emptymessage" let-columns>
+        <tr>
+          <td colspan="4">
+            <p class="emptyMessage">Nenhum registro encontrado...</p>
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </p-card>
+</main>

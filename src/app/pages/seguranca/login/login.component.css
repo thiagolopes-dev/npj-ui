@@ -1,0 +1,6 @@
+.centered-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura para preencher a altura da janela do navegador */
+  }

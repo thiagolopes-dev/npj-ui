@@ -12,4 +12,5 @@ export class Clientes {
     uf?: string;
     whatsapp?: number;
     status?: boolean;
+    static _id: any;
 }

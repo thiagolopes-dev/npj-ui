@@ -1,5 +1,5 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 
 import { MessageService } from 'primeng/api';
 
@@ -77,7 +77,7 @@ export class AuthService {
       this.http.post(this.oauthTokenUrl, body, {
         headers,
         withCredentials: true,
-      })
+      }),
     )
       .then((response) => {
         this.armazenarToken(response['accessToken']);

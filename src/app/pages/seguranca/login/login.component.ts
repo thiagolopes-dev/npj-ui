@@ -19,8 +19,4 @@ export class LoginComponent implements OnInit {
     this.title.setTitle('Login');
   }
 
-  logar() {
-    this.router.navigate(['/pessoas']);
-  }
-
 }
