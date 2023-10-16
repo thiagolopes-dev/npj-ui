@@ -23,6 +23,10 @@ const routes: Routes = [
     loadChildren: () =>
       import('./pages/status/status.module').then((s) => s.StatusModule),
   },
+  {
+    path: 'agendamento',
+    loadChildren: () => import('./pages/agendamentos/agendamentos.module').then ((s) => s.AgendamentosModule)
+  }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -78,7 +78,6 @@ export class CadastroMotivoComponent {
           severity: 'success',
           summary: 'Motivo',
           detail: `${obj.descricao}, adicionado com sucesso!`,
-          life: 10000,
         });
         this.salvando = false;
         this.router.navigate(['/motivos']);
