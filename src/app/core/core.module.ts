@@ -11,6 +11,7 @@ import { VarasService } from "../pages/varas/varas.service";
 import { PrimeNGModule } from "../primeng.module";
 import { ErrorHandlerService } from "./errorhandler.service";
 import { NavbarComponent } from "./layout/navbar/navbar.component";
+import { AcompanhamentosService } from "../pages/acompanhamentos/acompanhamentos.service";
 
 
 
@@ -34,6 +35,7 @@ providers:[
     VarasService,
     ClientesService,
     StatusService,
+    AcompanhamentosService,
 
     
 ],
