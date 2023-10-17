@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { PrimeNGConfig } from 'primeng/api';
 
 @Component({
@@ -9,7 +10,10 @@ import { PrimeNGConfig } from 'primeng/api';
 export class AppComponent implements OnInit {
   title = 'npj-ui';
 
-  constructor(private config: PrimeNGConfig){}
+  constructor(
+    private config: PrimeNGConfig,
+    private router: Router
+    ){}
 
   ngOnInit() {
     this.config.setTranslation({
@@ -66,5 +70,15 @@ export class AppComponent implements OnInit {
       ],
       dayNamesMin: ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
     });
+  }
+
+  exibindoNavbar(){
+    let chave: boolean;
+    if(this.router.url === '/login'){
+      chave = false;
+    }else {
+      chave = true;
+    }
+    return chave;
   }
 }
