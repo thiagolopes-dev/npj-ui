@@ -1,73 +1,107 @@
 <main>
   <p-card styleClass="card-adjust">
-    <h4>{{ editando ? 'EDIÇÃO DE' : 'CADASTRO DE'}} Agendamento</h4>
+    <h4>{{ editando ? "EDIÇÃO DE" : "CADASTRO DE" }} Agendamento</h4>
     <div class="flex justify-content-start mb-2">
       <div>
-        <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-caret-left"
-          pTooltip="Voltar" tooltipPosition="top" routerLink="/agendamento"></button>
+        <button
+          pButton
+          pRipple
+          type="button"
+          class="p-button-raised p-button-warning"
+          icon="pi pi-caret-left"
+          pTooltip="Voltar"
+          tooltipPosition="top"
+          routerLink="/agendamento"
+        ></button>
       </div>
     </div>
     <br />
-    <form #formAgendamento="ngForm" autocomplete="off" (ngSubmit)="salvar(formAgendamento)">
-      <div class="grid justify-content-center">
-        <div class="col-12 md:col-6 lg:col-4 mb-2">
-          <h6><span class="obrigatorio">*</span>Nome</h6>
-          <!--TODO Forma de input uppercase sem diretiva -->
-          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="agendamento" type="text" placeholder="Informe o nome" minlength="3"
-            maxlength="30"
-            [pKeyFilter]="regex.string" [(ngModel)]="newagendamento.cliente" #agendamento="ngModel"
-            minlength="3"
-            maxlength="30"
-            required />
-          <app-message [control]="agendamento" error="required" text="Informe o nome"></app-message>
-          <app-message [control]="agendamento" error="minlength" text="Mínimo de {{
-              agendamento.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
+    <form
+      #formAgendamento="ngForm"
+      autocomplete="off"
+      (ngSubmit)="salvar(formAgendamento)"
+    >
+      <div class="grid">
+
+        <div class="col-12 md:col-6 lg:col-4">
+          <h6><span class="obrigatorio">*</span>Cliente</h6>
+          <p-dropdown
+          styleClass="w-full"
+            [(ngModel)]="newagendamento.cliente"
+            #cliente="ngModel"
+            name="cliente"
+            placeholder="Selecione o Cliente"
+            optionLabel="cliente"
+            [showClear]="true"
+            required
+          ></p-dropdown>
+
+          <app-message
+            [control]="cliente"
+            error="required"
+            text="Informe o Cliente"
+          ></app-message>
+          <app-message
+            [control]="cliente"
+            error="minlength"
+            text="Mínimo de {{
+              cliente.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
+        </div>
+        <div class="col-12 md:col-6 lg:col-4">
+          <h6><span class="obrigatorio">*</span>Data Atendimento</h6>
+          <!-- TODO Forma de input uppercase sem diretiva -->
+          <p-calendar class=" w-full"
+            styleClass="w-full"
+            [readonlyInput]="true"
+            oninput="this.value = this.value.toUpperCase()" 
+            name="data"
+            [(ngModel)]="newagendamento.dataatendimento"
+            #data="ngModel"
+            required
+          />
+          <app-message
+            [control]="data"
+            error="required"
+            text="Informe a Data"
+          ></app-message>
+          <app-message
+            [control]="data"
+            error="minlength"
+            text="Mínimo de {{
+              data.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
+        </div>
+        <div class="col-12 md:col-6 lg:col-4">
+          <h6><span class="obrigatorio">*</span>Motivo</h6>
+          <!-- TODO Forma de input uppercase sem diretiva -->
+          <p-dropdown
+          styleClass="w-full"
+            [(ngModel)]="newagendamento.motivo"
+            #motivo="ngModel"
+            name="motivo"
+            placeholder="Selecione Motivo"
+            optionLabel="motivo"
+            [showClear]="true"
+            required
+          />
+          <app-message
+            [control]="motivo"
+            error="required"
+            text="Informe o Motivo"
+          ></app-message>
+          <app-message
+            [control]="motivo"
+            error="minlength"
+            text="Mínimo de {{
+              motivo.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
         </div>
       </div>
-      <div class="grid justify-content-center">
-        <div class="col-12 md:col-6 lg:col-4 mb-2">
-          <h6><span class="obrigatorio">*</span>Número do Prontuário</h6>
-          <!--TODO Forma de input uppercase sem diretiva -->
-          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="agendamento" type="text" placeholder="Informe o número do Prontuário"
-            [pKeyFilter]="regex.number" [(ngModel)]="newagendamento.numeroprontuario" #numeroprontuario="ngModel"
-            minlength="3"
-            maxlength="30"
-            [disabled]="editando"/>
-          <app-message [control]="agendamento" error="required" text="Informe o número do prontuário"></app-message>
-          <app-message [control]="agendamento" error="minlength" text="Mínimo de {{
-              agendamento.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
-        </div>
-      </div>
-      <div class="grid justify-content-center">
-        <div class="col-12 md:col-6 lg:col-4 mb-2">
-          <h6><span class="obrigatorio">*</span>Data do Atendimento</h6>
-          <!--TODO Forma de input uppercase sem diretiva -->
-          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="agendamento" type="text" placeholder="Informe a Data"
-            [pKeyFilter]="regex.number" [(ngModel)]="newagendamento.dataatendimento" #dataatendimento="ngModel"
-            maxlength="8" 
-            [disabled]="editando"/>
-          <app-message [control]="agendamento" error="required" text="Informe a data"></app-message>
-          <app-message [control]="agendamento" error="minlength" text="Mínimo de {{
-              agendamento.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
-        </div>
-      </div>
-      <div class="grid justify-content-center">
-        <div class="col-12 md:col-6 lg:col-4 mb-2">
-          <h6><span class="obrigatorio">*</span>Motivo do Agendamento</h6>
-          <!--TODO Forma de input uppercase sem diretiva -->
-          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="agendamento" type="text" placeholder="Informe o nome" minlength="3"
-            maxlength="30"
-            [pKeyFilter]="regex.string" [(ngModel)]="newagendamento.motivo" #agendamento="ngModel"
-            minlength required="3" />
-          <app-message [control]="agendamento" error="required" text="Informe o nome"></app-message>
-          <app-message [control]="agendamento" error="minlength" text="Mínimo de {{
-              agendamento.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
-        </div>
-      </div>
+
       <div class="flex justify-content-center">
         <div class="flex align-items-center justify-content-center">
           <h6>Status</h6>
@@ -75,16 +109,29 @@
       </div>
       <div class="flex justify-content-center">
         <div class="flex align-items-center justify-content-center">
-          <p-inputSwitch [(ngModel)]="newagendamento.status" name="status" [ngModelOptions]="{ standalone: true }"
-            binary="true">
+          <p-inputSwitch
+            [(ngModel)]="newagendamento.status"
+            name="status"
+            [ngModelOptions]="{ standalone: true }"
+            binary="true"
+          >
           </p-inputSwitch>
         </div>
       </div>
+
       <br />
       <div class="flex flex-wrap justify-content-center">
         <div class="col-12 md:col-6 lg:col-4">
-          <button pButton pRipple type="submit" label="Salvar" icon="fas fa-save"
-            [disabled]="formAgendamento.invalid || salvando" class="p-button-raised p-button-warning w-full"></button>
+          <button
+            pButton
+            pRipple
+            type="submit"
+            label="Salvar"
+            icon="fas fa-save"
+            [disabled]="formAgendamento.invalid || salvando"
+            class="p-button-raised p-button-warning w-full"
+          ></button>
+
         </div>
         <!-- <div class="col-12 md:col-6 lg:col-4">
           <button pButton pRipple type="button" class="p-button-outlined p-button-primary w-full" icon="fas fa-trash"
@@ -92,10 +139,15 @@
             (click)="confirmarExclusao()" label="Excluir"></button>
         </div> -->
       </div>
+      
       <div *ngIf="salvando" class="grid justify-content-center mt-4">
         <div class="grid col-12 justify-content-center">
-          <p-progressSpinner [style]="{ width: '50px', height: '50px' }" styleClass="custom-spinner" strokeWidth="8"
-            animationDuration=".5s">
+          <p-progressSpinner
+            [style]="{ width: '50px', height: '50px' }"
+            styleClass="custom-spinner"
+            strokeWidth="8"
+            animationDuration=".5s"
+          >
           </p-progressSpinner>
         </div>
         <div class="grid col-12 justify-content-center">

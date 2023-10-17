@@ -1,4 +1,3 @@
-import { ClienteAgenda } from './../../../core/models/agendamento.model';
 import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
@@ -9,7 +8,6 @@ import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { Regex } from 'src/app/core/validators/regex.model';
 import { AgendamentosService } from '../agendamentos.service';
 import { Agendamento } from 'src/app/core/models/agendamento.model';
-import { FormBuilder, FormGroup } from '@angular/forms';
 
 
 @Component({
@@ -17,180 +15,157 @@ import { FormBuilder, FormGroup } from '@angular/forms';
   templateUrl: './cadastro-agendamento.component.html',
   styleUrls: ['./cadastro-agendamento.component.css']
 })
-export class CadastroAgendamentoComponent{ @ViewChild('formAgendamento') formAgendamento: NgForm;
+export class CadastroAgendamentoComponent{
+  @ViewChild('formAgendamento') formAgendamento: NgForm;
 
-regex = new Regex();
-newagendamento = new Agendamento();
-atendimento: string;
-salvando: boolean;
-mostrarToast: true;
-agendamentoForm: FormGroup;
+  regex = new Regex();
+  newagendamento = new Agendamento();
+  idagendamento: string;
+  salvando: boolean;
+  mostrarToast: true;
 
-constructor(
-  private formBuilder: FormBuilder,
-  private agendamentoService: AgendamentosService,
-  private messageService: MessageService,
-  private route: ActivatedRoute,
-  private router: Router,
-  private title: Title,
-  private confirmation: ConfirmationService,
-  private spinner: NgxSpinnerService,
-  private errorHandler: ErrorHandlerService,
-  // public auth: AuthService,
-) { 
-  this.agendamentoForm = this.formBuilder.group({
-    atendimento: [''],
-    numeroprontuario: [''],
-    dataatendimento: [''],
-    cliente: this.formBuilder.group({
-      _id: [''],
-      nome: [''],
-    }),
-    status: this.formBuilder.group({
-      codigo: [''],
-      descricao: [''],
-    }),
-    motivo: this.formBuilder.group({
-      codigo: [''],
-      descricao: [''],
-    }),
-  });
-}
-  
+  constructor(
+    private agendamentoService: AgendamentosService,
+    private messageService: MessageService,
+    private route: ActivatedRoute,
+    private router: Router,
+    private title: Title,
+    private confirmation: ConfirmationService,
+    private spinner: NgxSpinnerService,
+    private errorHandler: ErrorHandlerService, // public auth: AuthService,
+  ) {}
 
-ngOnInit() {
-  this.atendimento = this.route.snapshot.params['atendimento'];
-  this.title.setTitle('Cadastro de Agendamento');
+  ngOnInit() {
+    this.newagendamento.status = true;
+    this.idagendamento = this.route.snapshot.params['id'];
+    this.title.setTitle('Cadastro de Agendamentos');
 
-  if (this.atendimento) {
-    this.spinner.show();
-    this.carregarAgendamento(this.atendimento);
-  } 
-  // else {
-  //   this.newagendamento.ClienteAgenda = true;
-  // }
-}
-
-get editando() {
-  return Boolean(this.newagendamento.atendimento);
- 
-}
-
-
-salvar(form: NgForm) {
-  if (form.invalid) {
-    return; //Não prosseguir se o formulário não for válido
+    if (this.idagendamento) {
+      this.spinner.show();
+      this.carregarAgendamentos(this.idagendamento);
+    } else {
+      this.newagendamento.status = true;
+    }
   }
 
-  if (this.editando) {
-    this.atualizarAgendamento(form);
-  } else {
-    this.adicionarAgendamento(form);
+  get editando() {
+    return Boolean(this.newagendamento._id);
   }
-}
 
-adicionarAgendamento(form: NgForm) {
-  console.log('entrei no adicionar');
-  this.salvando = true;
-  this.mostrarToast= true;
-  this.agendamentoService
-    .adicionarAgendamento(this.newagendamento)
-    .then((obj) => {
-      this.messageService.add({
-        severity: 'success',
-        summary: 'Agendamento',
-        detail: `${obj.cliente}, Agendado com sucesso!`,
+  salvar(form: NgForm) {
+    if (form.invalid) {
+      return; //Não prosseguir se o formulário não for válido
+    }
+
+    if (this.editando) {
+      this.atualizarAgendamento(form);
+    } else {
+      this.adicionarAgendamento(form);
+    }
+  }
+
+  adicionarAgendamento(form: NgForm) {
+    console.log('entrei no adicionar');
+    this.salvando = true;
+    this.mostrarToast = true;
+    this.agendamentoService
+      .adicionarAgendamento(this.newagendamento)
+      .then((obj) => {
+        this.messageService.add({
+          severity: 'success',
+          summary: 'agendamento',
+          detail: `${obj.cliente}, Agendado com sucesso!`,
+        });
+        this.salvando = false;
+        this.router.navigate(['/agendamento']);
+      })
+      .catch((erro) => {
+        this.salvando = false;
+        this.errorHandler.handle(erro);
       });
-      this.salvando = false;
-      this.router.navigate(['/agendamento']);
-    })
-    .catch((erro) => {
-      this.salvando = false;
-      this.errorHandler.handle(erro);
-    });
-}
-atualizarAgendamento(form: NgForm) {
-  console.log('entrei no atualizar');
-  this.salvando = true;
-  this.agendamentoService
-    .atualizarAgendamentos(this.newagendamento)
-    .then((obj) => {
-      this.newagendamento = obj;
-      this.messageService.add({
-        severity: 'info',
-        summary: 'Agendamento',
-        detail: `${obj.atendimento}, alterado com sucesso!`,
+  }
+  atualizarAgendamento(form: NgForm) {
+    console.log('entrei no atualizar');
+    this.salvando = true;
+    this.agendamentoService
+      .atualizarAgendamentos(this.newagendamento)
+      .then((obj) => {
+        this.newagendamento = obj;
+        this.messageService.add({
+          severity: 'info',
+          summary: 'agendamento',
+          detail: `${obj.cliente}, alterado com sucesso!`,
+        });
+        this.atualizarTituloEdicao();
+        this.salvando = false;
+        this.router.navigate(['/agendamento']);
+      })
+      .catch((erro) => {
+        this.salvando = false;
+        this.errorHandler.handle(erro);
       });
-      this.atualizarTituloEdicao();
-      this.salvando = false;
-      this.router.navigate(['/agendamento']);
-    })
-    .catch((erro) => {
-      this.salvando = false;
-      this.errorHandler.handle(erro);
-    });
-}
-carregarAgendamento(_id: string) {
-  this.agendamentoService
-    .buscarPorID(_id)
-    .then((obj) => {
-      this.newagendamento = obj;
-      console.log(obj);
-      this.atualizarTituloEdicao();
-      this.spinner.hide();
-    })
-    .catch((erro) => {
-      this.spinner.hide();
-      this.errorHandler.handle(erro);
-    });
-}
-
-atualizarTituloEdicao() {
-  this.title.setTitle(`Edição de Agendamento: ${this.newagendamento.atendimento}`);
-}
-
-confirmarExclusao() {
-  this.confirmation.confirm({
-    message: `Tem certeza que deseja excluir: <b>${this.newagendamento.atendimento}</b> ?`,
-    accept: () => {
-      this.excluir(this.newagendamento.atendimento);
-    },
-    reject: (type) => {
-      switch (type) {
-        case ConfirmEventType.REJECT:
-          this.messageService.add({
-            severity: 'warn',
-            summary: 'Ação cancelada',
-            detail: 'Você cancelou',
-          });
-          break;
-        case ConfirmEventType.CANCEL:
-          this.messageService.add({
-            severity: 'error',
-            summary: 'Ação rejeitada',
-            detail: 'Você rejeitou',
-          });
-          break;
-      }
-    },
-  });
-}
-
-excluir(atendimento: any) {
-  this.agendamentoService
-    .excluir(atendimento)
-    .then(() => {
-      this.messageService.add({
-        severity: 'warn',
-        summary: 'Agendamento',
-        detail: `${this.newagendamento.atendimento}, excluído com sucesso!`,
+  }
+  carregarAgendamentos(_id: string) {
+    this.agendamentoService
+      .buscarPorID(_id)
+      .then((obj) => {
+        this.newagendamento = obj;
+        console.log(obj);
+        this.atualizarTituloEdicao();
+        this.spinner.hide();
+      })
+      .catch((erro) => {
+        this.spinner.hide();
+        this.errorHandler.handle(erro);
       });
-      this.router.navigate(['/agendamento']);
-    })
-    .catch((erro) => {
-     this.errorHandler.handle(erro);
+  }
+
+  atualizarTituloEdicao() {
+    this.title.setTitle(
+      `Edição de Agendamento: ${this.newagendamento.cliente}`,
+    );
+  }
+
+  confirmarExclusao() {
+    this.confirmation.confirm({
+      message: `Tem certeza que deseja excluir: <b>${this.newagendamento.cliente}</b> ?`,
+      accept: () => {
+        this.excluir(this.newagendamento._id);
+      },
+      reject: (type) => {
+        switch (type) {
+          case ConfirmEventType.REJECT:
+            this.messageService.add({
+              severity: 'warn',
+              summary: 'Ação cancelada',
+              detail: 'Você cancelou',
+            });
+            break;
+          case ConfirmEventType.CANCEL:
+            this.messageService.add({
+              severity: 'error',
+              summary: 'Ação rejeitada',
+              detail: 'Você rejeitou',
+            });
+            break;
+        }
+      },
     });
-}
+  }
 
-
+  excluir(_id: any) {
+    this.agendamentoService
+      .excluir(_id)
+      .then(() => {
+        this.messageService.add({
+          severity: 'warn',
+          summary: 'Agendamento',
+          detail: `${this.newagendamento.cliente}, excluído com sucesso!`,
+        });
+        this.router.navigate(['/agendamento']);
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
 }
