@@ -78,7 +78,7 @@ export class CadastroAcompanhamentoComponent {
         this.messageService.add({
           severity: 'success',
           summary: 'acompanhamento',
-          detail: `${obj.descricao}, adicionado com sucesso!`,
+          detail: `${obj.numeroProcesso}, adicionado com sucesso!`,
           life: 10000,
         });
         this.salvando = false;
@@ -99,7 +99,7 @@ export class CadastroAcompanhamentoComponent {
         this.messageService.add({
           severity: 'info',
           summary: 'acompanhamento',
-          detail: `${obj.descricao}, alterado com sucesso!`,
+          detail: `${obj.numeroProcesso}, alterado com sucesso!`,
         });
         this.atualizarTituloEdicao();
         this.salvando = false;
@@ -127,13 +127,13 @@ export class CadastroAcompanhamentoComponent {
 
   atualizarTituloEdicao() {
     this.title.setTitle(
-      `Edição de Acompanhamento: ${this.newacompanhamento.descricao}`,
+      `Edição de Acompanhamento: ${this.newacompanhamento.numeroProcesso}`,
     );
   }
 
   confirmarExclusao() {
     this.confirmation.confirm({
-      message: `Tem certeza que deseja excluir: <b>${this.newacompanhamento.descricao}</b> ?`,
+      message: `Tem certeza que deseja excluir: <b>${this.newacompanhamento.numeroProcesso}</b> ?`,
       accept: () => {
         this.excluir(this.newacompanhamento._id);
       },
@@ -165,7 +165,7 @@ export class CadastroAcompanhamentoComponent {
         this.messageService.add({
           severity: 'warn',
           summary: 'Acompanhamento',
-          detail: `${this.newacompanhamento.descricao}, excluído com sucesso!`,
+          detail: `${this.newacompanhamento.numeroProcesso}, excluído com sucesso!`,
         });
         this.router.navigate(['/acompanhamento']);
       })

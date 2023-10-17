@@ -11,7 +11,7 @@
           icon="pi pi-caret-left"
           pTooltip="Voltar"
           tooltipPosition="top"
-          routerLink="/acompanhamento"
+          routerLink="/acompanhamentos"
         ></button>
       </div>
     </div>
@@ -21,13 +21,44 @@
       autocomplete="off"
       (ngSubmit)="salvar(formAcompanhamento)"
     >
+    <p-tabView>
+      <p-tabPanel header="Acompanhamento">
       <div class="grid">
+        <div class="col-12 md:col-6 lg:col-4">
+          <h6><span class="obrigatorio">*</span>Numero do Processo</h6>
+          <!-- TODO Forma de input uppercase sem diretiva -->
+          <input
+            class="w-full"
+            oninput="this.value = this.value.toUpperCase()"
+            pInputText
+            name="processo"
+            type="text"
+            [pKeyFilter]="regex.stringNumber"
+            [(ngModel)]="newacompanhamento.numeroProcesso"
+            #processo="ngModel"
+            required
+            minlength="3"
+            disabled
+          />
+          <app-message
+            [control]="processo"
+            error="required"
+            text="Informe o Numero do Processo"
+          ></app-message>
+          <app-message
+            [control]="processo"
+            error="minlength"
+            text="Mínimo de {{
+              processo.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
+        </div>
 
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Cliente</h6>
           <p-dropdown
           styleClass="w-full"
-            [(ngModel)]="newacompanhamento.cliente"
+            [(ngModel)]="newacompanhamento.clientedescricao"
             #cliente="ngModel"
             name="cliente"
             placeholder="Selecione o Cliente"
@@ -55,7 +86,7 @@
           <!-- TODO Forma de input uppercase sem diretiva -->
           <p-dropdown
           styleClass="w-full"
-            [(ngModel)]="newacompanhamento.vara"
+            [(ngModel)]="newacompanhamento.varadescricao"
             #vara="ngModel"
             name="vara"
             placeholder="Selecione a Vara"
@@ -76,93 +107,131 @@
             }} caracteres"
           ></app-message>
         </div>
-
+        
         <div class="col-12 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Numero do Processo</h6>
-          <!-- TODO Forma de input uppercase sem diretiva -->
-          <input
-            class="w-full"
-            oninput="this.value = this.value.toUpperCase()"
-            pInputText
-            name="processo"
-            type="text"
-            [pKeyFilter]="regex.stringNumber"
-            [(ngModel)]="newacompanhamento.numeroProcesso"
-            #processo="ngModel"
+          <h6><span class="obrigatorio">*</span>Status</h6>
+          <p-dropdown
+          styleClass="w-full"
+            [(ngModel)]="newacompanhamento.statusdescricao"
+            #status="ngModel"
+            name="status"
+            placeholder="Selecione o Status"
+            optionLabel="status"
+            [showClear]="true"
             required
-            minlength="3"
-          />
+          ></p-dropdown>
+
           <app-message
-            [control]="processo"
+            [control]="status"
             error="required"
-            text="Informe o Numero do Processo"
+            text="Informe o Status"
           ></app-message>
           <app-message
-            [control]="processo"
+            [control]="status"
             error="minlength"
             text="Mínimo de {{
-              processo.errors?.minlength?.requiredLength
+              status.errors?.minlength?.requiredLength
             }} caracteres"
           ></app-message>
         </div>
+
+        <div class="col-12 md:col-6 lg:col-4">
+          <h6><span class="obrigatorio">*</span>Motivo</h6>
+          <p-dropdown
+          styleClass="w-full"
+            [(ngModel)]="newacompanhamento.motivosdescricao"
+            #motivo="ngModel"
+            name="motivo"
+            placeholder="Selecione o Motivo"
+            optionLabel="motivo"
+            [showClear]="true"
+            required
+          ></p-dropdown>
+
+          <app-message
+            [control]="motivo"
+            error="required"
+            text="Informe o Motivo"
+          ></app-message>
+          <app-message
+            [control]="motivo"
+            error="minlength"
+            text="Mínimo de {{
+              motivo.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
+        </div> 
+
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Data</h6>
-          <!-- TODO Forma de input uppercase sem diretiva -->
+
           <p-calendar
-            styleClass="w-full"
-            [touchUI]="true"
-            [readonlyInput]="true"
-            oninput="this.value = this.value.toUpperCase()"
-            name="data"
-            [(ngModel)]="newacompanhamento.data"
+            styleClass="w-full "
             #data="ngModel"
+            responsiveOptions
+            [(ngModel)]="newacompanhamento.processos.data"
+            name="data"
+            type="text"
             required
-            
-          />
+          ></p-calendar>
 
           <app-message
-            [control]="data"
-            error="required"
-            text="Informe a Data"
-          ></app-message>
-          <app-message
-            [control]="data"
-            error="minlength"
-            text="Mínimo de {{
-              data.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
+          [control]="data"
+          error="required"
+          text="Informe a Data"
+        ></app-message>
+        <app-message
+          [control]="data"
+          error="minlength"
+          text="Mínimo de {{
+            data.errors?.minlength?.requiredLength
+          }} caracteres"
+        ></app-message>
         </div>
 
+      </div>
+      </p-tabPanel>
+
+      <p-tabPanel header="Acompanhamento Informações">
+        <div class="grid">
+  
         <div class="col-12 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Descrição</h6>
+          <h6><span class="obrigatorio">*</span>Descricao</h6>
           <!-- TODO Forma de input uppercase sem diretiva -->
           <input
-            class="w-full"
-            oninput="this.value = this.value.toUpperCase()"
-            pInputText
-            name="descricao"
-            type="text"
-            [pKeyFilter]="regex.stringNumber"
-            [(ngModel)]="newacompanhamento.descricao"
-            #descricao="ngModel"
-            required
-            minlength="3"
+          class="w-full"
+          oninput="this.value = this.value.toUpperCase()"
+          pInputText
+          name="informacoes"
+          type="text"
+          [pKeyFilter]="regex.stringNumber"
+          [(ngModel)]="newacompanhamento.processos.informacoes"
+          #informacoes="ngModel"
+          required
+          minlength="3"
           />
+
           <app-message
-            [control]="descricao"
+            [control]="informacoes"
             error="required"
-            text="Informe a descrição"
+            text="Informe o Processo"
           ></app-message>
           <app-message
-            [control]="descricao"
+            [control]="informacoes"
             error="minlength"
             text="Mínimo de {{
-              descricao.errors?.minlength?.requiredLength
+              informacoes.errors?.minlength?.requiredLength
             }} caracteres"
           ></app-message>
         </div>
+
+
+      
+
+      
       </div>
+    </p-tabPanel>
+    </p-tabView>
 
       <div class="flex justify-content-center">
         <div class="flex align-items-center justify-content-center">
