@@ -52,25 +52,25 @@
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Data Atendimento</h6>
           <!-- TODO Forma de input uppercase sem diretiva -->
-          <p-calendar class=" w-full"
+          <p-calendar
             styleClass="w-full"
+            name="dataatendimento"
+            dateFormat="dd/mm/yy"
             [readonlyInput]="true"
-            oninput="this.value = this.value.toUpperCase()" 
-            name="data"
             [(ngModel)]="newagendamento.dataatendimento"
-            #data="ngModel"
+            #dataatendimento="ngModel"
             required
           />
           <app-message
-            [control]="data"
+            [control]="dataatendimento"
             error="required"
             text="Informe a Data"
           ></app-message>
           <app-message
-            [control]="data"
+            [control]="dataatendimento"
             error="minlength"
             text="Mínimo de {{
-              data.errors?.minlength?.requiredLength
+              dataatendimento.errors?.minlength?.requiredLength
             }} caracteres"
           ></app-message>
         </div>

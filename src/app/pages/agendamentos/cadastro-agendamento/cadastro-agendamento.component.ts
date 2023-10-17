@@ -5,9 +5,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ConfirmEventType, ConfirmationService, MessageService } from 'primeng/api';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { Agendamento } from 'src/app/core/models/agendamento.model';
 import { Regex } from 'src/app/core/validators/regex.model';
 import { AgendamentosService } from '../agendamentos.service';
-import { Agendamento } from 'src/app/core/models/agendamento.model';
 
 
 @Component({
@@ -36,6 +36,7 @@ export class CadastroAgendamentoComponent{
   ) {}
 
   ngOnInit() {
+    this.newagendamento.dataatendimento = new Date();
     this.newagendamento.status = true;
     this.idagendamento = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de Agendamentos');
