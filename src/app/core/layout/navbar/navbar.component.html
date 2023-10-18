@@ -8,7 +8,7 @@
   </span>
 </div>
 
-<p-sidebar [(visible)]="sibebar" >
+<p-sidebar style="z-index: 999;" [(visible)]="sibebar" >
   <div class="flex flex-wrap">
     <div class="col-12">
       <p-button
@@ -53,8 +53,8 @@
     <div class="col-12">
       <p-button
         styleClass="p-button-text p-button-warning w-full text-2xl"
-        label="Acom Jurídico"
-        routerLink="/acompanhamentos"
+        label="Processo"
+        routerLink="/processos"
         (click)="sibebar = false"
       ></p-button>
     </div>

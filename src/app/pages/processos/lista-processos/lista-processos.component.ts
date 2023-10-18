@@ -1,34 +1,35 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Table } from 'primeng/table';
-import { Acompanhamentos } from 'src/app/core/models/acompanhamentos.model';
-import { AcompanhamentosService } from '../acompanhamentos.service';
+
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { ProcessosService } from '../processos.service';
+import { Processos } from 'src/app/core/models/processo.model';
 
 @Component({
-  selector: 'app-lista-acompanhamentos',
-  templateUrl: './lista-acompanhamentos.component.html',
-  styleUrls: ['./lista-acompanhamentos.component.css'],
+  selector: 'app-lista-processos',
+  templateUrl: './lista-processos.component.html',
+  styleUrls: ['./lista-processos.component.css'],
 })
-export class ListaAcompanhamentosComponent implements OnInit {
+export class ListaProcessosComponent implements OnInit {
   @ViewChild('tabela') table: Table;
 
   rowsPerPageTable: number[] = [10, 20, 30, 50, 100, 200];
   messagePageReport: 'Mostrando {first} a {last} de {totalRecords} registros';
-  newacompanhamento = new Acompanhamentos();
+  newprocesso = new Processos();
   cols: any[] | undefined;
 
   constructor(
     private title: Title,
-    private acompanhamentosService: AcompanhamentosService,
+    private processosService: ProcessosService,
     private ngxspinner: NgxSpinnerService,
     private errorHandler: ErrorHandlerService,
   ) {}
 
   ngOnInit(): void {
-    this.title.setTitle('Lista de Acompanhamentos');
-    this.carregarAcompanhamentos();
+    this.title.setTitle('Lista de Processos');
+    this.carregarProcessos();
 
     this.cols = [
       { field: 'codigo', header: 'Código', width: '80px', type: 'text' },
@@ -43,34 +44,36 @@ export class ListaAcompanhamentosComponent implements OnInit {
       { field: 'status', header: 'Status', width: '80px', type: 'text' },
       { field: 'motivo', header: 'Motivos', width: '80px', type: 'text' },
       { field: 'descricao', header: 'Descrição', width: '80px', type: 'text' },
+      { field: 'usuario', header: 'Usuario', width: '80px', type: 'text' },
       { field: 'data', header: 'Data', width: '80px', type: 'date' },
       { field: 'status', header: 'Status', width: '80px', type: 'boolean' },
     ];
   }
 
   refresh(): void {
-    this.carregarAcompanhamentos();
+    this.carregarProcessos();
   }
 
   onClear() {
-    this.newacompanhamento._id = null;
-    this.newacompanhamento.numeroProcesso = null;
-    this.newacompanhamento.clientedescricao = null;
-    this.newacompanhamento.varadescricao = null;
-    this.newacompanhamento.statusdescricao = null;
-    this.newacompanhamento.motivosdescricao = null;
-    this.newacompanhamento.processos.informacoes = null;
-    this.newacompanhamento.processos.data = null;
-    this.newacompanhamento.status = null;
+    this.newprocesso._id = null;
+    this.newprocesso.numeroProcesso = null;
+    this.newprocesso.clientedescricao = null;
+    this.newprocesso.varadescricao = null;
+    this.newprocesso.statusdescricao = null;
+    this.newprocesso.motivosdescricao = null;
+    this.newprocesso.processos.informacoes = null;
+    this.newprocesso.processos.datacriacao = null;
+    this.newprocesso.processos.usuariocriacao = null;
+    this.newprocesso.status = null;
     console.log(this.onClear);
   }
 
-  carregarAcompanhamentos() {
+  carregarProcessos() {
     this.ngxspinner.show();
-    this.acompanhamentosService
-      .listarAcompanhamentos()
+    this.processosService
+      .listarProcessos()
       .then((obj) => {
-        this.newacompanhamento = obj;
+        this.newprocesso = obj;
         this.ngxspinner.hide();
       })
       .catch((erro) => {

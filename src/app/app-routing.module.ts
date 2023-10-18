@@ -33,13 +33,16 @@ const routes: Routes = [
   },
   {
     path: 'agendamento',
-    loadChildren: () => import('./pages/agendamentos/agendamentos.module').then ((s) => s.AgendamentosModule)
+    loadChildren: () =>
+      import('./pages/agendamentos/agendamentos.module').then(
+        (s) => s.AgendamentosModule,
+      ),
   },
   {
-    path: 'acompanhamentos',
+    path: 'processos',
     loadChildren: () =>
-      import('./pages/acompanhamentos/acompanhamentos.module').then(
-        (a) => a.AcompanhamentosModule,
+      import('./pages/processos/processos.module').then(
+        (p) => p.ProcessoModule,
       ),
   },
 ];

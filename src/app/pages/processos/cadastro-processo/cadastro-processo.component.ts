@@ -11,25 +11,25 @@ import {
 import { Regex } from 'src/app/core/validators/regex.model';
 
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { Acompanhamentos } from 'src/app/core/models/acompanhamentos.model';
-import { AcompanhamentosService } from '../acompanhamentos.service';
+import { Processos } from 'src/app/core/models/processo.model';
+import { ProcessosService } from '../processos.service';
 
 @Component({
-  selector: 'app-cadastro-acompanhamento',
-  templateUrl: './cadastro-acompanhamento.component.html',
-  styleUrls: ['./cadastro-acompanhamento.component.css'],
+  selector: 'app-cadastro-processo',
+  templateUrl: './cadastro-processo.component.html',
+  styleUrls: ['./cadastro-processo.component.css'],
 })
-export class CadastroAcompanhamentoComponent {
-  @ViewChild('formAcompanhamento') formAcompanhamento: NgForm;
+export class CadastroProcessoComponent {
+  @ViewChild('formProcesso') formProcesso: NgForm;
 
   regex = new Regex();
-  newacompanhamento = new Acompanhamentos();
-  idacompanhamento: string;
+  newprocesso = new Processos();
+  idprocesso: string;
   salvando: boolean;
   mostrarToast: true;
 
   constructor(
-    private acompanhamentoService: AcompanhamentosService,
+    private processoService: ProcessosService,
     private messageService: MessageService,
     private route: ActivatedRoute,
     private router: Router,
@@ -40,20 +40,21 @@ export class CadastroAcompanhamentoComponent {
   ) {}
 
   ngOnInit() {
-    this.newacompanhamento.status = true;
-    this.idacompanhamento = this.route.snapshot.params['id'];
-    this.title.setTitle('Cadastro de acompanhamentos');
+    this.newprocesso.processos.datacriacao = new Date();
+    this.newprocesso.status = true;
+    this.idprocesso = this.route.snapshot.params['id'];
+    this.title.setTitle('Cadastro de processos');
 
-    if (this.idacompanhamento) {
+    if (this.idprocesso) {
       this.spinner.show();
-      this.carregarAcompanhamentos(this.idacompanhamento);
+      this.carregarProcessos(this.idprocesso);
     } else {
-      this.newacompanhamento.status = true;
+      this.newprocesso.status = true;
     }
   }
 
   get editando() {
-    return Boolean(this.newacompanhamento._id);
+    return Boolean(this.newprocesso._id);
   }
 
   salvar(form: NgForm) {
@@ -62,59 +63,59 @@ export class CadastroAcompanhamentoComponent {
     }
 
     if (this.editando) {
-      this.atualizarAcompanhamento(form);
+      this.atualizarProcesso(form);
     } else {
-      this.adicionarAcompanhamento(form);
+      this.adicionarProcesso(form);
     }
   }
 
-  adicionarAcompanhamento(form: NgForm) {
+  adicionarProcesso(form: NgForm) {
     console.log('entrei no adicionar');
     this.salvando = true;
     this.mostrarToast = true;
-    this.acompanhamentoService
-      .adicionarAcompanhamentos(this.newacompanhamento)
+    this.processoService
+      .adicionarProcessos(this.newprocesso)
       .then((obj) => {
         this.messageService.add({
           severity: 'success',
-          summary: 'acompanhamento',
+          summary: 'processo',
           detail: `${obj.numeroProcesso}, adicionado com sucesso!`,
           life: 10000,
         });
         this.salvando = false;
-        this.router.navigate(['/acompanhamento']);
+        this.router.navigate(['/processo']);
       })
       .catch((erro) => {
         this.salvando = false;
         this.errorHandler.handle(erro);
       });
   }
-  atualizarAcompanhamento(form: NgForm) {
+  atualizarProcesso(form: NgForm) {
     console.log('entrei no atualizar');
     this.salvando = true;
-    this.acompanhamentoService
-      .atualizarAcompanhamentos(this.newacompanhamento)
+    this.processoService
+      .atualizarProcessos(this.newprocesso)
       .then((obj) => {
-        this.newacompanhamento = obj;
+        this.newprocesso = obj;
         this.messageService.add({
           severity: 'info',
-          summary: 'acompanhamento',
+          summary: 'processo',
           detail: `${obj.numeroProcesso}, alterado com sucesso!`,
         });
         this.atualizarTituloEdicao();
         this.salvando = false;
-        this.router.navigate(['/acompanhamento']);
+        this.router.navigate(['/processo']);
       })
       .catch((erro) => {
         this.salvando = false;
         this.errorHandler.handle(erro);
       });
   }
-  carregarAcompanhamentos(_id: string) {
-    this.acompanhamentoService
+  carregarProcessos(_id: string) {
+    this.processoService
       .buscarPorID(_id)
       .then((obj) => {
-        this.newacompanhamento = obj;
+        this.newprocesso = obj;
         console.log(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
@@ -127,15 +128,15 @@ export class CadastroAcompanhamentoComponent {
 
   atualizarTituloEdicao() {
     this.title.setTitle(
-      `Edição de Acompanhamento: ${this.newacompanhamento.numeroProcesso}`,
+      `Edição de processo: ${this.newprocesso.numeroProcesso}`,
     );
   }
 
   confirmarExclusao() {
     this.confirmation.confirm({
-      message: `Tem certeza que deseja excluir: <b>${this.newacompanhamento.numeroProcesso}</b> ?`,
+      message: `Tem certeza que deseja excluir: <b>${this.newprocesso.numeroProcesso}</b> ?`,
       accept: () => {
-        this.excluir(this.newacompanhamento._id);
+        this.excluir(this.newprocesso._id);
       },
       reject: (type) => {
         switch (type) {
@@ -159,15 +160,15 @@ export class CadastroAcompanhamentoComponent {
   }
 
   excluir(_id: any) {
-    this.acompanhamentoService
+    this.processoService
       .excluir(_id)
       .then(() => {
         this.messageService.add({
           severity: 'warn',
-          summary: 'Acompanhamento',
-          detail: `${this.newacompanhamento.numeroProcesso}, excluído com sucesso!`,
+          summary: 'processo',
+          detail: `${this.newprocesso.numeroProcesso}, excluído com sucesso!`,
         });
-        this.router.navigate(['/acompanhamento']);
+        this.router.navigate(['/processo']);
       })
       .catch((erro) => {
         this.errorHandler.handle(erro);

@@ -1,4 +1,3 @@
-import { ClienteAgenda } from './../../core/models/agendamento.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
@@ -29,7 +28,7 @@ export class AgendamentosService {
 
   atualizarAgendamentos(obj: Agendamento): Promise<Agendamento> {
     return firstValueFrom(
-      this.http.put<Agendamento>(`${this.agendamentoURL}/${obj.atendimento}`, obj),
+      this.http.put<Agendamento>(`${this.agendamentoURL}/${obj.cliente}`, obj),
     ).then((response) => response as Agendamento);
   }
 

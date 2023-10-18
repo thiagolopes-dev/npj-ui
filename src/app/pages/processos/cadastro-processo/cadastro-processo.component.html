@@ -1,6 +1,6 @@
 <main>
   <p-card styleClass="card-adjust">
-    <h4>{{ editando ? "EDIÇÃO DE" : "CADASTRO DE" }} Acompanhamento</h4>
+    <h4>{{ editando ? "EDIÇÃO DE" : "CADASTRO DE" }} Processo</h4>
     <div class="flex justify-content-start mb-2">
       <div>
         <button
@@ -11,18 +11,18 @@
           icon="pi pi-caret-left"
           pTooltip="Voltar"
           tooltipPosition="top"
-          routerLink="/acompanhamentos"
+          routerLink="/processos"
         ></button>
       </div>
     </div>
     <br />
     <form
-      #formAcompanhamento="ngForm"
+      #formProcesso="ngForm"
       autocomplete="off"
-      (ngSubmit)="salvar(formAcompanhamento)"
+      (ngSubmit)="salvar(formProcesso)"
     >
     <p-tabView>
-      <p-tabPanel header="Acompanhamento">
+      <p-tabPanel header="Processo">
       <div class="grid">
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Numero do Processo</h6>
@@ -34,7 +34,7 @@
             name="processo"
             type="text"
             [pKeyFilter]="regex.stringNumber"
-            [(ngModel)]="newacompanhamento.numeroProcesso"
+            [(ngModel)]="newprocesso.numeroProcesso"
             #processo="ngModel"
             required
             minlength="3"
@@ -58,13 +58,14 @@
           <h6><span class="obrigatorio">*</span>Cliente</h6>
           <p-dropdown
           styleClass="w-full"
-            [(ngModel)]="newacompanhamento.clientedescricao"
+            [(ngModel)]="newprocesso.clientedescricao"
             #cliente="ngModel"
             name="cliente"
             placeholder="Selecione o Cliente"
             optionLabel="cliente"
             [showClear]="true"
             required
+            [disabled]="editando"
           ></p-dropdown>
 
           <app-message
@@ -86,13 +87,14 @@
           <!-- TODO Forma de input uppercase sem diretiva -->
           <p-dropdown
           styleClass="w-full"
-            [(ngModel)]="newacompanhamento.varadescricao"
+            [(ngModel)]="newprocesso.varadescricao"
             #vara="ngModel"
             name="vara"
             placeholder="Selecione a Vara"
             optionLabel="vara"
             [showClear]="true"
             required
+            [disabled]="editando"
           />
           <app-message
             [control]="vara"
@@ -108,17 +110,18 @@
           ></app-message>
         </div>
         
-        <div class="col-12 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Status</h6>
+        <div class="col-12 md:col-6 lg:col-4" hidden="novo" >
+          <h6><span class="obrigatorio" >*</span>Status</h6>
           <p-dropdown
           styleClass="w-full"
-            [(ngModel)]="newacompanhamento.statusdescricao"
+            [(ngModel)]="newprocesso.statusdescricao"
             #status="ngModel"
             name="status"
             placeholder="Selecione o Status"
             optionLabel="status"
             [showClear]="true"
             required
+            
           ></p-dropdown>
 
           <app-message
@@ -139,13 +142,14 @@
           <h6><span class="obrigatorio">*</span>Motivo</h6>
           <p-dropdown
           styleClass="w-full"
-            [(ngModel)]="newacompanhamento.motivosdescricao"
+            [(ngModel)]="newprocesso.motivosdescricao"
             #motivo="ngModel"
             name="motivo"
             placeholder="Selecione o Motivo"
             optionLabel="motivo"
             [showClear]="true"
             required
+            [disabled]="editando"
           ></p-dropdown>
 
           <app-message
@@ -167,24 +171,25 @@
 
           <p-calendar
             styleClass="w-full "
-            #data="ngModel"
-            responsiveOptions
-            [(ngModel)]="newacompanhamento.processos.data"
-            name="data"
+            #datacricao="ngModel"
+            dateFormat="dd/mm/yy"
+            [readonlyInput]="true"
+            [(ngModel)]="newprocesso.processos.datacriacao"
+            name="datacricao"
             type="text"
             required
           ></p-calendar>
 
           <app-message
-          [control]="data"
+          [control]="datacricao"
           error="required"
           text="Informe a Data"
         ></app-message>
         <app-message
-          [control]="data"
+          [control]="datacricao"
           error="minlength"
           text="Mínimo de {{
-            data.errors?.minlength?.requiredLength
+            datacricao.errors?.minlength?.requiredLength
           }} caracteres"
         ></app-message>
         </div>
@@ -192,24 +197,26 @@
       </div>
       </p-tabPanel>
 
-      <p-tabPanel header="Acompanhamento Informações">
+      <p-tabPanel header="Processo Informações">
         <div class="grid">
   
-        <div class="col-12 md:col-6 lg:col-4">
+       
           <h6><span class="obrigatorio">*</span>Descricao</h6>
           <!-- TODO Forma de input uppercase sem diretiva -->
-          <input
+          <textarea
           class="w-full"
           oninput="this.value = this.value.toUpperCase()"
-          pInputText
+          pInputTextarea
+          rows="2"
+          [autoResize]="true"
           name="informacoes"
           type="text"
           [pKeyFilter]="regex.stringNumber"
-          [(ngModel)]="newacompanhamento.processos.informacoes"
+          [(ngModel)]="newprocesso.processos.informacoes"
           #informacoes="ngModel"
           required
           minlength="3"
-          />
+          ></textarea>
 
           <app-message
             [control]="informacoes"
@@ -223,7 +230,7 @@
               informacoes.errors?.minlength?.requiredLength
             }} caracteres"
           ></app-message>
-        </div>
+        
 
 
       
@@ -241,7 +248,7 @@
       <div class="flex justify-content-center">
         <div class="flex align-items-center justify-content-center">
           <p-inputSwitch
-            [(ngModel)]="newacompanhamento.status"
+            [(ngModel)]="newprocesso.status"
             name="status"
             [ngModelOptions]="{ standalone: true }"
             binary="true"
@@ -259,7 +266,7 @@
             type="submit"
             label="Salvar"
             icon="fas fa-save"
-            [disabled]="formAcompanhamento.invalid || salvando"
+            [disabled]="formProcesso.invalid || salvando"
             class="p-button-raised p-button-warning w-full"
           ></button>
 

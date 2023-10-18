@@ -35,7 +35,7 @@ ngOnInit(): void {
 
   this.cols = [
     { field: 'atendimento', header: 'Atendimento', width: '80px', type: 'text' },
-    { field: 'id', header: 'Codigo', width: '80px', type: 'text' },
+    { field: 'id', header: 'Código', width: '80px', type: 'text' },
     { field: 'ClienteAgenda', header: 'Nome', width: '150px', type: 'text' },
     { field: 'dataatendimento', header: 'Data atendimento', width: '150px', type: 'text' },
     { field: 'MotivoAgenda', header: 'Motivo', width: '150px', type: 'text' },
