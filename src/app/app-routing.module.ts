@@ -3,14 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   // { path: 'motivos', component: ListaMotivosComponent },
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
-  {
-    path: 'login',
-    loadChildren: () =>
-      import('./pages/seguranca/seguranca.module').then(
-        (l) => l.SegurancaModule,
-      ),
-  },
+  // { path: '', redirectTo: '/login', pathMatch: 'full' },
+  // {
+  //   path: 'login',
+  //   loadChildren: () =>
+  //     import('./pages/seguranca/seguranca.module').then(
+  //       (l) => l.SegurancaModule,
+  //     ),
+  // },
   {
     path: 'motivos',
     loadChildren: () =>
@@ -32,7 +32,7 @@ const routes: Routes = [
       import('./pages/status/status.module').then((s) => s.StatusModule),
   },
   {
-    path: 'agendamento',
+    path: 'agendamentos',
     loadChildren: () =>
       import('./pages/agendamentos/agendamentos.module').then(
         (s) => s.AgendamentosModule,

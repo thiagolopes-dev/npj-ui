@@ -1,6 +1,20 @@
-.centered-container {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Define a altura para preencher a altura da janela do navegador */
+:host ::ng-deep .pi-eye,
+:host ::ng-deep .pi-eye-slash {
+  transform: scale(1.6);
+  margin-right: 1rem;
+  color: var(--primary-color) !important;
+}
+
+.message-toast {
+  position: absolute !important;
+  width: 28rem !important;
+}
+
+/* Mobile Css */
+@media screen and (max-width: 40rem) {
+
+  .widthLogin {
+    width: 90% !important;
   }
+
+}

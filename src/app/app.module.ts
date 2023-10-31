@@ -10,17 +10,19 @@ import { SharedModule } from './pages/shared/shared.module';
 import { PrimeNGModule } from './primeng.module';
 
 import { NgxModule } from './ngx.module';
+import { SegurancaModule } from './pages/seguranca/seguranca.module';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule,
     HttpClientModule,
+    CoreModule,
+    SegurancaModule,
+    AppRoutingModule,
     PrimeNGModule,
     SharedModule,
-    CoreModule,
     NgxModule,
   ],
   providers: [],

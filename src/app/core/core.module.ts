@@ -6,12 +6,13 @@ import { ToastModule } from 'primeng/toast';
 import { NgxModule } from '../ngx.module';
 import { ClientesService } from '../pages/clientes/clientes.service';
 import { MotivosService } from '../pages/motivos/motivos.service';
+import { ProcessosService } from '../pages/processos/processos.service';
+import { AuthService } from '../pages/seguranca/auth.service';
 import { StatusService } from '../pages/status/status.service';
 import { VarasService } from '../pages/varas/varas.service';
 import { PrimeNGModule } from '../primeng.module';
 import { ErrorHandlerService } from './errorhandler.service';
 import { NavbarComponent } from './layout/navbar/navbar.component';
-import { ProcessosService } from '../pages/processos/processos.service';
 
 @NgModule({
   declarations: [NavbarComponent],
@@ -23,6 +24,7 @@ import { ProcessosService } from '../pages/processos/processos.service';
     NgxModule,
   ],
   providers: [
+    AuthService,
     ErrorHandlerService,
     MessageService,
     ConfirmationService,
