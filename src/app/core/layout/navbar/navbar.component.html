@@ -1,60 +1,80 @@
 <div class="colorNav">
-  <span class="cursor-pointer">
-    <i
-      class="pi pi-bars text-white"
-      (click)="sibebar = true"
-      style="font-size: 2rem"
-    ></i>
-  </span>
+  <div class="flex justify-content-between flex-wrap">
+    <span class="cursor-pointer">
+      <i
+        class="pi pi-bars text-white"
+        (click)="sibebar = true"
+        style="font-size: 1rem"
+      ></i>
+    </span>
+    <i class="pi pi-arrow-right text-white cursor-pointer" style="font-size: 1rem" (click)="confirmarLogout()"></i>
+    <!-- <button pButton class="p-button-text btnSenha" icon="pi pi-chevron-right" label="Sair"
+    (click)="confirmarLogout(sair)"></button> -->
+</div>
 </div>
 
-<p-sidebar style="z-index: 999;" [(visible)]="sibebar" >
+<p-sidebar [(visible)]="sibebar" >
   <div class="flex flex-wrap">
     <div class="col-12">
       <p-button
-        styleClass="p-button-text p-button-warning w-full text-2xl"
+        styleClass="p-button-text p-button-warning w-full text-1xl"
         label="Motivos"
-        routerLink="/motivos"
+        [routerLink]="auth.jwtPayload?.permissao.motivos ? '/motivos' : null"
+        [disabled]="!auth.jwtPayload?.permissao.motivos"
         (click)="sibebar = false"
       ></p-button>
     </div>
     <div class="col-12">
       <p-button
-        styleClass="p-button-text p-button-warning w-full text-2xl"
+        styleClass="p-button-text p-button-warning w-full text-1xl"
         label="Varas"
-        routerLink="/varas"
+        [routerLink]="auth.jwtPayload?.permissao.varas ? '/varas' : null"
+        [disabled]="!auth.jwtPayload?.permissao.varas"
         (click)="sibebar = false"
       ></p-button>
     </div>
     <div class="col-12">
       <p-button
-        styleClass="p-button-text p-button-warning w-full text-2xl"
+        styleClass="p-button-text p-button-warning w-full text-1xl"
         label="Status"
-        routerLink="/status"
+        [routerLink]="auth.jwtPayload?.permissao.status ? '/status' : null"
+        [disabled]="!auth.jwtPayload?.permissao.status"
         (click)="sibebar = false"
       ></p-button>
     </div>
     <div class="col-12">
       <p-button
-        styleClass="p-button-text p-button-warning w-full text-2xl"
+        styleClass="p-button-text p-button-warning w-full text-1xl"
         label="Clientes"
-        routerLink="/clientes"
+        [routerLink]="auth.jwtPayload?.permissao.clientes ? '/clientes' : null"
+        [disabled]="!auth.jwtPayload?.permissao.clientes"
         (click)="sibebar = false"
       ></p-button>
     </div>
     <div class="col-12">
       <p-button
-        styleClass="p-button-text p-button-warning w-full text-2xl"
-        label="Agendamento"
-        routerLink="/agendamento"
+        styleClass="p-button-text p-button-warning w-full text-1xl"
+        label="Agendamentos"
+        [routerLink]="auth.jwtPayload?.permissao.agendamentos ? '/agendamentos' : null"
+        [disabled]="!auth.jwtPayload?.permissao.agendamentos"
         (click)="sibebar = false"
       ></p-button>
     </div>
     <div class="col-12">
       <p-button
-        styleClass="p-button-text p-button-warning w-full text-2xl"
-        label="Processo"
-        routerLink="/processos"
+        styleClass="p-button-text p-button-warning w-full text-1xl"
+        label="Processos"
+        [routerLink]="auth.jwtPayload?.permissao.processos ? '/processos' : null"
+        [disabled]="!auth.jwtPayload?.permissao.processos"
+        (click)="sibebar = false"
+      ></p-button>
+    </div>
+    <div class="col-12">
+      <p-button
+        styleClass="p-button-text p-button-warning w-full text-1xl"
+        label="Usuários"
+        [routerLink]="auth.jwtPayload?.permissao.usuarios ? '/usuarios' : null"
+        [disabled]="!auth.jwtPayload?.permissao.usuarios"
         (click)="sibebar = false"
       ></p-button>
     </div>

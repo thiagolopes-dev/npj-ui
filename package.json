@@ -24,6 +24,7 @@
     "moment-timezone": "0.5.38",
     "ngx-mask": "15.1.0",
     "ngx-spinner": "15.0.1",
+    "ng-validate-equal": "6.0.1",
     "primeflex": "3.3.1",
     "primeicons": "6.0.1",
     "primeng": "15.1.1",

@@ -1,4 +1,4 @@
-<div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">
+<!-- <div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">
   <div class="flex flex-column align-items-center justify-content-center">
     <div
       style="border-radius:56px; padding:0.3rem; background: linear-gradient(180deg, rgb(5 23 72 / 56%) 10%, rgba(33, 150, 243, 0) 30%);">
@@ -43,4 +43,43 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<div class="background">
+  <p-card class="col-12 md:col-6 lg:col-4">
+    <div class="p-fluid">
+      <form #formLogin="ngForm" (keyup.enter)="
+          EnterSubmit($event, formLogin, usuario.value, senha.value)">
+        <div class="flex justify-content-center mt-2">
+         <span class="text-7xl">NPJ</span>
+        </div>
+        <div class="col-12">
+          <h6 class="noselection">Usuário</h6>
+          <span class="p-input-icon-left">
+            <i class="pi pi-user"></i>
+            <input pInputText type="text" name="usuario" id="usuario" autocapitalize="off" class="p-inputtext-sm"
+              ngModel required #usuario>
+          </span>
+        </div>
+        <br />
+        <div class="col-12">
+          <h6 class="noselection">Senha</h6>
+          <span class="p-input-icon-left">
+            <i class="pi pi-lock"></i>
+            <input pInputText type="password" name="senha" class="p-inputtext-sm" ngModel required #senha />
+            <span (click)="
+                senha.type = senha.type == 'password' ? 'text' : 'password'
+              " class="pi pi-eye-slash field-icon" [ngClass]="
+                senha.type == 'password' ? 'pi-eye-slash' : 'pi pi-eye'
+              "></span>
+          </span>
+        </div>
+        <div class="col-12">
+          <button pButton pRipple type="button" label="Entrar"
+            class="p-button-raised p-button-warning p-button-sm btnLogin p-mt-5" iconPos="right"
+            [disabled]="!formLogin.valid" (click)="login(usuario.value, senha.value); senha.value = ''"></button>
+        </div>
+      </form>
+    </div>
+  </p-card>
+

@@ -2,7 +2,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { MessageService } from 'primeng/api';
-import { NotAuthenticatedError } from '../pages/seguranca/npj-http';
+// import { NotAuthenticatedError } from '../demo/components/pages/seguranca/login/daring-http';
 
 @Injectable()
 export class ErrorHandlerService {
@@ -18,21 +18,22 @@ export class ErrorHandlerService {
     if (typeof errorResponse === 'string') {
       msg = errorResponse;
 
-    } else if (errorResponse instanceof NotAuthenticatedError) {
-      msg = 'Sua conexão expirou!';
-      this.router.navigate(['/login']);
-
     } else if (errorResponse instanceof HttpErrorResponse
       && errorResponse.status >= 400 && errorResponse.status <= 499) {
       let errors;
-      if (errorResponse.error.message === undefined) {
+      if (errorResponse.error.mensagem === undefined) {
         msg = 'Ocorreu algum erro no app, tente novamente...';
       } else {
-        msg = errorResponse.error.message;
+        msg = errorResponse.error.mensagem;
       }
 
       if (errorResponse.status === 403) {
-        msg = 'Você não tem permissão para executar esta ação';
+        if (errorResponse.error.mensagem === undefined) {
+          msg = 'Você não tem permissão para executar esta ação';
+        } else {
+          msg = errorResponse.error.mensagem;
+          console.log(msg);
+        }
       }
 
       try {
@@ -47,10 +48,10 @@ export class ErrorHandlerService {
     else if (errorResponse instanceof HttpErrorResponse
       && errorResponse.status >= 500 && errorResponse.status <= 599) {
       let errors;
-      if (errorResponse.error.message === undefined) {
+      if (errorResponse.error.mensagem === undefined) {
         msg = 'Ocorreu um erro no servidor...';
       } else {
-        msg = errorResponse.error.message;
+        msg = errorResponse.error.mensagem;
       }
       try {
         errors = errorResponse.error;
@@ -61,10 +62,10 @@ export class ErrorHandlerService {
     else if (errorResponse instanceof HttpErrorResponse
       && errorResponse.status >= 300 && errorResponse.status <= 399) {
       let errors;
-      if (errorResponse.error.message === undefined) {
+      if (errorResponse.error.mensagem === undefined) {
         msg = 'Ocorreu um erro de redirecionamento...';
       } else {
-        msg = errorResponse.error.message;
+        msg = errorResponse.error.mensagem;
       }
       try {
         errors = errorResponse.error;

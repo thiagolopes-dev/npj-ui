@@ -1,0 +1,75 @@
+<main>
+  <p-card styleClass="card-adjust">
+    <h4>Usuários</h4>
+    <div class="flex justify-content-between mb-2">
+      <div class="flex justify-content-start mb-2">
+        <div class="ml-2">
+          <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-plus" pTooltip="Novo"
+            tooltipPosition="right" routerLink="/usuarios/novo"></button>
+        </div>
+        <div>
+          <button pButton pRipple type="button" class=" p-button-raised p-button-warning ml-2" pTooltip="Atualizar"
+            tooltipPosition="right" icon="pi pi-refresh" (click)="refresh()"></button>
+        </div>
+      </div>
+    </div>
+  
+    <p-table #tabela styleClass="p-datatable-striped p-datatable-gridlines" [value]="usuarios" [columns]="cols"
+      [currentPageReportTemplate]="messagePageReport" [globalFilterFields]="cols" [rowsPerPageOptions]="rowsPerPageTable"
+      totalRecords="{{usuarios.length}}" [showCurrentPageReport]="true" [scrollable]="true" [rows]="10" [paginator]="true"
+      selectionMode="single">
+      <ng-template pTemplate="header" let-columns>
+        <tr>
+          <th class="btnEditar">&nbsp;</th>
+          <th class="responsivetable" *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}"
+            pReorderableColumn>
+            {{cols.header}}
+          </th>
+        </tr>
+        <tr>
+          <th class="btnEditar"></th>
+          <th class="responsivetable" *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}"
+            [pSortableColumn]="cols.field">
+            <p-sortIcon [field]="cols.field"></p-sortIcon>
+            <p-columnFilter [type]="cols.type" [field]="cols.field" display="menu" class="ml-auto"></p-columnFilter>
+          </th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-user let-columns="columns" let-rowData>
+        <tr class="ui-selectable-row" [pSelectableRow]="user">
+          <td class="btnEditar">
+            <button pButton pRipple type="button" class="p-button-text p-button-warning" icon="pi pi-pencil"
+              pTooltip="Editar" tooltipPosition="top" [routerLink]="['/usuarios', user._id]"></button>
+  
+            <button pButton pRipple type="button" class="p-button-text p-button-warning  ml-1"
+              pTooltip="Alterar Senha" tooltipPosition="top" icon="pi pi-lock"
+              [routerLink]="['/usuarios', user._id, 'senha']"></button>
+          </td>
+          <td *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}" tooltipPosition="top" pReorderableColumn
+            pTooltip="{{rowData[cols.field] &&  cols.data ? (rowData[cols.field] | date: 'dd/MM/yyyy H:mm') :  rowData[cols.field]}}">
+            <span class="p-column-title">{{cols.header}}:</span>
+            {{
+            cols.status ? (rowData[cols.field] ? 'Ativo' : 'Inativo'): rowData[cols.field]
+            &&
+            cols.data ? (rowData[cols.field]| date : cols.format) : rowData[cols.field]}}
+          </td>
+        </tr>
+  
+      </ng-template>
+      <ng-template pTemplate="emptymessage" let-columns>
+        <tr>
+          <td [colSpan]="4">
+            <p class="emptyMessage">Nenhum registro encontrado...</p>
+          </td>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="summary">
+        <div>
+          <button pButton pRipple class="p-button-raised p-button-warning" icon="pi pi-times"
+            pTooltip="Limpar Filtros" tooltipPosition="top" label="Limpar Filtros" (click)="onClear()"></button>
+        </div>
+      </ng-template>
+    </p-table>
+  </p-card>
+  
+</main>

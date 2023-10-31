@@ -4,4 +4,13 @@
 
 <p-toast  click=(mostrarToast) position="bottom-right" styleClass="p-toast-message" life="500"></p-toast>
 
-<ngx-spinner bdColor="rgba(0, 0, 0, 0.8)" size="medium" color="#fff" type="square-spin" [fullScreen]="true"><p style="color: white" > Carregando... </p></ngx-spinner>
+<p-confirmDialog header="Confirmação" icon="pi pi-exclamation-triangle" #confirmacao>
+    <p-footer>
+      <button type="button" pButton pRipple icon="pi pi-check" label="Sim" (click)="confirmacao.accept()"
+        class="p-button-success"></button>
+      <button type="button" pButton pRipple icon="pi pi-times" label="Não" (click)="confirmacao.reject()"
+        class="p-button-secondary"></button>
+    </p-footer>
+  </p-confirmDialog>
+
+<ngx-spinner bdColor="rgba(0, 0, 0, 0.8)" size="medium" color="#fff" type="ball-fall" [fullScreen]="true"><p style="color: white" > Carregando... </p></ngx-spinner>

@@ -22,12 +22,47 @@ export class AuthService {
   ) {
     this.carregarToken();
     this.oauthTokenUrl = `${environment.apiURL}/oauth/token`;
-    this.tokensRevokeUrl = `${environment.apiURL}/tokens/revoke`;
+    this.tokensRevokeUrl = `${environment.apiURL}/oauth/logout`;
+  }
+
+    private carregarToken() {
+    const token = localStorage.getItem('token');
+    if (token) {
+      this.armazenarToken(token);
+    }
+  }
+
+
+  login(username: string, password: string): Promise<void> {
+    return firstValueFrom(
+      this.http.post(this.oauthTokenUrl, {
+        username, password
+      }, {
+        withCredentials: true,
+      })
+    )
+      .then((response) => {
+        this.armazenarToken(response['accessToken']);
+        this.messageService.add({
+          severity: 'success',
+          summary: 'Login',
+          detail: 'Efetuado com sucesso',
+        });
+      })
+      .catch((response) => {
+        const responseError = response.error;
+        if (response.statusCode === 400) {
+          if (responseError.error === 'invalid_grant') {
+            return Promise.reject('Usuário ou senha inválido');
+          }
+        }
+        return Promise.reject(response.error.message);
+      });
   }
 
   logout() {
-    return firstValueFrom(
-      this.http.delete(this.tokensRevokeUrl, { withCredentials: true }),
+     return firstValueFrom(
+      this.http.get(this.tokensRevokeUrl, {})
     ).then(() => {
       this.limparAccessToken();
       this.messageService.add({
@@ -36,68 +71,6 @@ export class AuthService {
         detail: 'até breve...',
       });
     });
-  }
-
-  async login(username: string, password: string) {
-    try {
-      const response = await this.http.post<any>(
-        `${environment.apiURL}/oauth/token`,
-        { username, password }).toPromise();
-
-      if (response.accessToken) {
-        this.armazenarToken(response.accessToken);
-        return true;
-      }
-
-      return false;
-    } catch (error) {
-      // throw new Error(this.errorHandle(error));
-    }
-  }
-
-  obterNovoAccessToken(): Promise<void> {
-    const headers = new HttpHeaders()
-      .set('Authorization', 'Basic SEcdks#W$2nk')
-      .set('Content-Type', 'aplication/x-www-form-urlencoded');
-
-    const body = 'grant_type=accessToken';
-
-    return firstValueFrom(
-      this.http.post(this.oauthTokenUrl, body, {
-        headers,
-        withCredentials: true,
-      }),
-    )
-      .then((response) => {
-        this.armazenarToken(response['accessToken']);
-        return Promise.resolve(null);
-      })
-      .catch((response) => {
-        console.log(response);
-      });
-  }
-
-  temPermissão(permissao: string) {
-    return this.jwtPayload && this.jwtPayload.authrities.includes(permissao);
-  }
-
-  regrasdePermissao(roles) {
-    for (const role of roles) {
-      return true;
-    }
-    return false;
-  }
-
-  armazenarToken(token: string) {
-    this.jwtPayload = this.jwtHelper.decodeToken(token);
-    localStorage.setItem('token', token);
-  }
-
-  carregarToken() {
-    const token = localStorage.getItem('token');
-    if (token) {
-      this.armazenarToken(token);
-    }
   }
 
   limparAccessToken() {
@@ -109,4 +82,52 @@ export class AuthService {
     const token = localStorage.getItem('token');
     return !token || this.jwtHelper.isTokenExpired(token);
   }
+
+  temPermissao(permissao: string) {
+    const token = localStorage.getItem('token');
+    this.jwtPayload = this.jwtHelper.decodeToken(token);
+    
+    return this.jwtPayload && this.jwtPayload.permissao[permissao];
+  }
+
+  private armazenarToken(token: string) {
+    this.jwtPayload = this.jwtHelper.decodeToken(token);
+    localStorage.setItem('token', token);
+  }
+
+  regrasdePermissao(roles) {   
+    for (const role of roles) {
+      if (this.temPermissao(role)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  obterNovoAccessToken(): Promise<void> {
+    const headers = new HttpHeaders()
+      .set('Authorization', 'Basic ZGV2QG5wajIz')
+      .set('Content-Type', 'application/x-www-form-urlencoded');
+
+    const body = 'grant_type=refresh_token';
+
+    return firstValueFrom(
+      this.http.post(this.oauthTokenUrl, body, {
+        headers,
+        withCredentials: true,
+      })
+    )
+      .then((response) => {
+        // tslint:disable-next-line: no-string-literal
+        this.armazenarToken(response['access_token']);
+        return Promise.resolve(null);
+      })
+      .catch((response) => {
+        // console.error('Erro ao renovar token', response);
+      });
+  }
+
+
+
+
 }

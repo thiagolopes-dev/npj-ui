@@ -31,12 +31,11 @@ export class LoginComponent implements OnInit {
   }
 
   login(email: string, senha: string){
-    console.log(email, senha);
     this.spinner.show();
     this.auth.login(email, senha)
     .then(()=> {
       this.spinner.hide();
-      this.router.navigate(['/agendamentos']);
+      this.router.navigate(['/dashboard']);
     })
     .catch(erro => {
       this.spinner.hide();

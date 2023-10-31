@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { NaoAutorizadoComponent } from './core/layout/navbar/nao-autorizado/nao-autorizado.component';
+import { PaginaNaoEncontradaComponent } from './core/layout/navbar/pagina-nao-encontrada/pagina-nao-encontrada.component';
 
 const routes: Routes = [
-  // { path: 'motivos', component: ListaMotivosComponent },
-  // { path: '', redirectTo: '/login', pathMatch: 'full' },
-  // {
-  //   path: 'login',
-  //   loadChildren: () =>
-  //     import('./pages/seguranca/seguranca.module').then(
-  //       (l) => l.SegurancaModule,
-  //     ),
-  // },
+
+  // { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+  {
+    path: 'dashboard',
+    loadChildren: () =>
+      import('./pages/dashboards/dashboard.module').then((m) => m.DashboardsModule),
+  },
   {
     path: 'motivos',
     loadChildren: () =>
@@ -45,6 +46,18 @@ const routes: Routes = [
         (p) => p.ProcessoModule,
       ),
   },
+  {
+    path: 'usuarios',
+    loadChildren: () =>
+      import('./pages/usuarios/usuarios.module').then(
+        (s) => s.UsuariosModule,
+      ),
+  },
+  { path: 'nao-autorizado', component: NaoAutorizadoComponent },
+
+  { path: 'pagina-nao-encontrada', component: PaginaNaoEncontradaComponent },
+
+  { path: '**', redirectTo: 'pagina-nao-encontrada' }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
