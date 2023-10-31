@@ -27,7 +27,6 @@ export class FiltroMotivosService {
             filtro.descricao = value.qty;
         }
 
-    
         if (value.field === 'usuariocriacao') {
             filtro.usuariocriacao = value.qty;
         }
