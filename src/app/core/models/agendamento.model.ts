@@ -1,10 +1,10 @@
-import { Motivos } from "./motivos.model";
 import { Clientes } from "./cliente.model";
+import { Motivos } from "./motivos.model";
 
 export class Agendamento {
     _id?: string;
     dataatendimento?: Date;
-    cliente?: Clientes["nome"];
+    clientes = new Clientes();
     status?: boolean;
-    motivo?: Motivos["descricao"];
+    motivos = new Motivos();
 }

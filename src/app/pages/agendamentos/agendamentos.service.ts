@@ -28,7 +28,7 @@ export class AgendamentosService {
 
   atualizarAgendamentos(obj: Agendamento): Promise<Agendamento> {
     return firstValueFrom(
-      this.http.put<Agendamento>(`${this.agendamentoURL}/${obj.cliente}`, obj),
+      this.http.put<Agendamento>(`${this.agendamentoURL}/${obj.clientes}`, obj),
     ).then((response) => response as Agendamento);
   }
 

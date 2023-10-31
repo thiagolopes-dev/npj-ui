@@ -1,6 +1,6 @@
 <main>
   <p-card styleClass="card-adjust">
-    <h4>{{ editando ? "EDIÇÃO DE" : "CADASTRO DE" }} Agendamento</h4>
+    <h4>{{ editando ? "Edição de" : "Cadastro de" }} Agendamento</h4>
     <div class="flex justify-content-start mb-2">
       <div>
         <button
@@ -22,20 +22,19 @@
       (ngSubmit)="salvar(formAgendamento)"
     >
       <div class="grid">
-
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Cliente</h6>
           <p-dropdown
           styleClass="w-full"
-            [(ngModel)]="newagendamento.cliente"
+            [(ngModel)]="newagendamento.clientes.codigo"
             #cliente="ngModel"
             name="cliente"
             placeholder="Selecione o Cliente"
-            optionLabel="cliente"
+            optionLabel="nome"
+            optionValue="codigo"
             [showClear]="true"
             required
           ></p-dropdown>
-
           <app-message
             [control]="cliente"
             error="required"
@@ -79,7 +78,7 @@
           <!-- TODO Forma de input uppercase sem diretiva -->
           <p-dropdown
           styleClass="w-full"
-            [(ngModel)]="newagendamento.motivo"
+            [(ngModel)]="newagendamento.motivos.codigo"
             #motivo="ngModel"
             name="motivo"
             placeholder="Selecione Motivo"

@@ -19,9 +19,9 @@ export class ClientesService {
     this.clienteURL = `${environment.apiURL}/clientes`;
   }
 
-  listarClientes(): Promise<Clientes> {
+  listarClientes(): Promise<any> {
     return firstValueFrom(this.http.get(`${this.clienteURL}`))
-      .then((response) => response as Clientes);
+      .then((response) => response as any[]);
   }
 
   adicionarCliente(obj: Clientes): Promise<Clientes> {

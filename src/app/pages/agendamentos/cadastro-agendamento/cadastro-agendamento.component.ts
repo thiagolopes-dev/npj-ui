@@ -7,6 +7,7 @@ import { ConfirmEventType, ConfirmationService, MessageService } from 'primeng/a
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { Agendamento } from 'src/app/core/models/agendamento.model';
 import { Regex } from 'src/app/core/validators/regex.model';
+import { ClientesService } from '../../clientes/clientes.service';
 import { AgendamentosService } from '../agendamentos.service';
 
 
@@ -23,9 +24,11 @@ export class CadastroAgendamentoComponent{
   idagendamento: string;
   salvando: boolean;
   mostrarToast: true;
+  clientes = [];
 
   constructor(
     private agendamentoService: AgendamentosService,
+    private clientesService: ClientesService,
     private messageService: MessageService,
     private route: ActivatedRoute,
     private router: Router,
@@ -40,7 +43,7 @@ export class CadastroAgendamentoComponent{
     this.newagendamento.status = true;
     this.idagendamento = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de Agendamentos');
-
+    this.carregarClientes();
     if (this.idagendamento) {
       this.spinner.show();
       this.carregarAgendamentos(this.idagendamento);
@@ -75,7 +78,7 @@ export class CadastroAgendamentoComponent{
         this.messageService.add({
           severity: 'success',
           summary: 'agendamento',
-          detail: `${obj.cliente}, Agendado com sucesso!`,
+          detail: `${obj.clientes}, Agendado com sucesso!`,
         });
         this.salvando = false;
         this.router.navigate(['/agendamento']);
@@ -95,7 +98,7 @@ export class CadastroAgendamentoComponent{
         this.messageService.add({
           severity: 'info',
           summary: 'agendamento',
-          detail: `${obj.cliente}, alterado com sucesso!`,
+          detail: `${obj.clientes}, alterado com sucesso!`,
         });
         this.atualizarTituloEdicao();
         this.salvando = false;
@@ -123,13 +126,13 @@ export class CadastroAgendamentoComponent{
 
   atualizarTituloEdicao() {
     this.title.setTitle(
-      `Edição de Agendamento: ${this.newagendamento.cliente}`,
+      `Edição de Agendamento: ${this.newagendamento.clientes}`,
     );
   }
 
   confirmarExclusao() {
     this.confirmation.confirm({
-      message: `Tem certeza que deseja excluir: <b>${this.newagendamento.cliente}</b> ?`,
+      message: `Tem certeza que deseja excluir: <b>${this.newagendamento.clientes}</b> ?`,
       accept: () => {
         this.excluir(this.newagendamento._id);
       },
@@ -161,7 +164,7 @@ export class CadastroAgendamentoComponent{
         this.messageService.add({
           severity: 'warn',
           summary: 'Agendamento',
-          detail: `${this.newagendamento.cliente}, excluído com sucesso!`,
+          detail: `${this.newagendamento.clientes}, excluído com sucesso!`,
         });
         this.router.navigate(['/agendamento']);
       })
@@ -169,4 +172,22 @@ export class CadastroAgendamentoComponent{
         this.errorHandler.handle(erro);
       });
   }
+
+  carregarClientes() {
+    return this.clientesService
+      .listarClientes()
+      .then((response) => {
+        const clientes = response.data; // Acesse a lista de clientes dentro de "data"
+        console.log(clientes); // Verifique se você recebe a lista de clientes no console
+        this.clientes = clientes.map((cliente) => ({
+          label: cliente.nome,
+          value: cliente.codigo,
+        }));
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
+  
+  
 }

@@ -1,5 +1,6 @@
 export class Clientes {
     _id?: string;
+    codigo?: number;
     nome?: string;
     cpf?: string;
     rg?: string;
