@@ -5,6 +5,7 @@ import { environment } from 'src/environment/environment';
 
 import * as moment from 'moment-timezone';
 import { Status } from 'src/app/core/models/status.model';
+import { FiltroStatus } from 'src/app/core/models/filtros.model';
 
 @Injectable({
   providedIn: 'root',
@@ -14,6 +15,77 @@ export class StatusService {
 
   constructor(private http: HttpClient) {
     this.statusURL = `${environment.apiURL}/status`;
+  }
+
+  listarComFiltro(filtro: FiltroStatus): Promise<any> {
+    const param: { [k: string]: any } = this.validarParametros(filtro);
+    return firstValueFrom(this.http.get(`${this.statusURL}`, { params: param })).then(
+      (response: any) => {
+        this.converterStringsParaDatas(response.data);
+        return response;
+      }
+    );
+  }
+
+  validarParametros(filtro: FiltroStatus) {
+    const obj: { [k: string]: any } = {};
+
+    obj.page = filtro.pagina;
+    obj.perPage = filtro.itensPorPagina;
+
+    if (filtro.codigo) {
+      obj.codigo = filtro.codigo;
+    }
+
+    if (filtro.descricao) {
+      obj.descricao = filtro.descricao;
+    }
+
+    if (filtro.usuariocriacao) {
+      obj.usuariocriacao = filtro.usuariocriacao;
+    }
+
+    if (filtro.usuarioalteracao) {
+      obj.usuarioalteracao = filtro.usuarioalteracao;
+    }
+
+
+    if (filtro.datacriacaode) {
+      obj.datacriacaode = filtro.datacriacaode;
+    }
+
+    if (filtro.datacriacaoate) {
+      obj.datacriacaoate = filtro.datacriacaoate;
+    }
+
+    if (filtro.dataalteracaode) {
+      obj.dataalteracaode = filtro.dataalteracaode;
+    }
+
+    if (filtro.dataalteracaoate) {
+      obj.dataalteracaoate = filtro.dataalteracaoate;
+    }
+
+    if (filtro.status) {
+      obj.status = filtro.status;
+    }
+
+    return obj;
+  }
+
+  private converterStringsParaDatas(obj: any[]) {
+    obj.forEach((element) => {
+      if (element.datacriacao) {
+        element.datacriacao = moment(element.datacriacao, 'YYYY-MM-DD H:mm')
+          .tz('America/Sao_Paulo')
+          .toDate();
+      }
+      if (element.dataalteracao) {
+        element.dataalteracao = moment(element.dataalteracao, 'YYYY-MM-DD H:mm')
+          .tz('America/Sao_Paulo')
+          .toDate();
+      }
+    });
   }
 
   listarStatus(): Promise<Status> {

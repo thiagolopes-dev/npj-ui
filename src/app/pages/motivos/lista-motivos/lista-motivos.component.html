@@ -59,9 +59,9 @@
                         <app-message [control]="dtcriacaode" error="minlength" text="Digite uma data completa">
                         </app-message>
                       </div>
-                      <div class="col-1">
+                      <div class="col-1"> 
                         <span class="spanDeAte">Até</span>
-                      </div>
+                      </div> 
                       <div class="col-5">
                         <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaoate"
                           (keyup)="searchData('datacriacaoate')" (blur)="searchData('datacriacaoate')" type="tel"
@@ -75,6 +75,7 @@
                       <button pButton pRipple type="button" label="Limpar Filtro" class="p-button-raised p-button-warning"
                         icon="fa-solid fa-filter" (click)="limparData('dataCriacao')"></button>
                     </div>
+                    
                   </ng-template>
                 </p-overlayPanel>
                 <button pButton pRipple type="button" label="Pesquisar"
@@ -114,6 +115,7 @@
                         icon="fa-solid fa-filter" (click)="limparData('dataAlteracao')"></button>
                     </div>
                   </ng-template>
+                  
                 </p-overlayPanel>
                 <button pButton pRipple type="button" label="Pesquisar"
                   [ngClass]="(dataalteracaode || dataalteracaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"

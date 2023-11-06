@@ -1,6 +1,6 @@
 <main>
   <p-card styleClass="card-adjust">
-    <h4>{{ editando ? "EDIÇÃO DE" : "CADASTRO DE" }} CLIENTE</h4>
+    <h4>{{ editando ? "Edição De" : "Cadastro De" }} Cliente</h4>
     <div class="flex justify-content-start mb-2">
       <div>
         <button
@@ -57,16 +57,12 @@
 
         <div class="field col-12 md:col-3">
           <h6><span class="obrigatorio">*</span>Cpf</h6>
-          <!--TODO Forma de input uppercase sem diretiva -->
-          <input
-            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()"
-            pInputText
+          <p-inputMask
+            styleClass="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
             name="cpf"
-            type="text"
-            [mask]="'000.000.000-00'"
+            mask="999.999.999-99"
             placeholder="Informe o CPF"
-            [pKeyFilter]="regex.blockSpecial"
+            [pKeyFilter]="regex.number"
             [(ngModel)]="newcliente.cpf"
             #cpf="ngModel"
             [disabled]="editando"
@@ -74,7 +70,7 @@
             maxlength="14"
             aria-describedby="cpf"
             required
-          />
+          ></p-inputMask>
 
           <app-message
             [control]="cpf"

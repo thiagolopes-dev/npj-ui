@@ -1,145 +1,174 @@
 <main>
   <p-card styleClass="card-adjust">
-    <h4>CLIENTES</h4>
+    <h4>Clientes</h4>
     <div class="flex justify-content-between mb-2">
       <div class="flex justify-content-start mb-2">
         <div>
-          <button
-            pButton
-            pRipple
-            type="button"
-            class="p-button-raised p-button-warning"
-            icon="pi pi-plus"
-            pTooltip="Novo"
-            tooltipPosition="top"
-            routerLink="/clientes/novo"
-          ></button>
+          <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-plus" pTooltip="Novo"
+            tooltipPosition="top" routerLink="novo"></button>
         </div>
         <div>
-          <button
-            pButton
-            pRipple
-            type="button"
-            class="p-button-raised p-button-warning ml-2"
-            pTooltip="Atualizar"
-            tooltipPosition="top"
-            icon="pi pi-refresh"
-            (click)="refresh()"
-          ></button>
+          <button pButton pRipple type="button" class=" p-button-raised p-button-warning ml-2" pTooltip="Atualizar" tooltipPosition="top"
+            icon="pi pi-refresh" (click)="refresh()"></button>
         </div>
       </div>
       <div>
-        <!-- <p-splitButton styleClass="p-button-primary" #ua label="Opções" icon="pi pi-cog"
-          (onClick)="ua.onDropdownButtonClick(null)" [model]="items"></p-splitButton> -->
+        <p-splitButton styleClass="p-button-warning" #ua label="Opções" icon="pi pi-cog"
+          (onClick)="ua.onDropdownButtonClick(null)" [model]="items"></p-splitButton>
       </div>
     </div>
-
-    <p-table
-      #tabela
-      [value]="newcliente"
-      [columns]="cols"
-      [globalFilterFields]="cols"
-      [rowsPerPageOptions]="rowsPerPageTable"
-      selectionMode="single"
-      [showCurrentPageReport]="true"
-      [rows]="10"
-      styleClass="p-datatable-striped p-datatable-gridlines"
-      [scrollable]="true"
-      [currentPageReportTemplate]="messagePageReport"
-    >
-      <ng-template pTemplate="caption">
-        <div class="flex flex-wrap">
-          <div class="col-12 md:col-6 lg:col-2">
-            <div class="col-12">
-              <input
-                class="responsivetable p-text-nowrap p-text-truncate"
-                pInputText
-                type="text"
-                (input)="tabela.filterGlobal($event.target.value, 'contains')"
-                placeholder="Pesquisa Global"
-                pTooltip="Pesquisa em todas colunas"
-                tooltipPosition="top"
-              />
+  
+    <p-table #tabela [value]="clientes" [columns]="selectedColumns" styleClass="p-datatable-striped p-datatable-gridlines"
+      [rowsPerPageOptions]="rowsPerPageTable" [rowHover]="true" [showCurrentPageReport]="true"
+      (onLazyLoad)="changePage($event)" (onColReorder)="eventReorder()" selectionMode="single"
+      [(selection)]="selectionCols" [reorderableColumns]="true" [rows]="filtro.itensPorPagina" [lazy]="true"
+      [totalRecords]="totalRegistros" responsiveLayout="scroll" stateKey="state-clientes" stateStorage="local" dataKey="codigo">
+  
+      <ng-template pTemplate="header" let-columns>
+        <tr>
+          <th class="tdAcoes">&nbsp;</th>
+          <th *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}" pReorderableColumn>
+            {{cols.header}}
+          </th>
+        </tr>
+  
+        <tr>
+          <th class="tdAcoes">&nbsp;</th>
+          <th *ngFor="let cols of columns; let i = index" [ngStyle]="{'min-width': cols.width}">
+            <form #formFiltro="ngForm" autocomplete="off">
+              <div *ngIf="cols.type !== 'date' && cols.type !== 'status'" class="flex p-2"
+                [ngStyle]="{'min-width': cols.width}">
+                <input pInputText class="white-space-nowrap overflow-hidden text-overflow-ellipsis mr-2 w-full"
+                  placeholder="Pesquisar" type="text" name="pesquisa{{i}}" [(ngModel)]="cols.qty" validateQuantity
+                  #qtyInput (keyup)="search(cols)" (blur)="applySearch(cols)" pTooltip="Pesquisa nessa coluna"
+                  tooltipPosition="top">
+              </div>
+              <div *ngIf="cols.type === 'date' && cols.field === 'datacriacao'" class="flex p-2"
+                [ngStyle]="{'min-width': cols.width}">
+                <p-overlayPanel #dataCriacao>
+                  <ng-template pTemplate>
+                    <div class="grid flex justify-content-center align-items-center">
+                      <div class="col-1">
+                        <span class="spanDeAte">De</span>
+                      </div>
+                      <div class="col-5">
+                        <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaode"
+                          (keyup)="searchData('datacriacaode')" (blur)="searchData('datacriacaode')" type="tel"
+                          class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="datacriacaode"
+                          #dtcriacaode="ngModel" minlength="10" />
+                        <app-message [control]="dtcriacaode" error="minlength" text="Digite uma data completa">
+                        </app-message>
+                      </div>
+                      <div class="col-1"> 
+                        <span class="spanDeAte">Até</span>
+                      </div> 
+                      <div class="col-5">
+                        <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaoate"
+                          (keyup)="searchData('datacriacaoate')" (blur)="searchData('datacriacaoate')" type="tel"
+                          class="w-full" [(ngModel)]="datacriacaoate" [dropSpecialCharacters]="false"
+                          #dtcriacaoate="ngModel" minlength="10" />
+                        <app-message [control]="dtcriacaoate" error="minlength" text="Digite uma data completa">
+                        </app-message>
+                      </div>
+                    </div>
+                    <div class="grid flex justify-content-end align-items-center mt-2 mr-1">
+                      <button pButton pRipple type="button" label="Limpar Filtro" class="p-button-raised p-button-warning"
+                        icon="fa-solid fa-filter" (click)="limparData('dataCriacao')"></button>
+                    </div>
+                    
+                  </ng-template>
+                </p-overlayPanel>
+                <button pButton pRipple type="button" label="Pesquisar"
+                  [ngClass]="(datacriacaode || datacriacaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
+                  class="p-button-raised  w-full" (click)="dataCriacao.toggle($event)"></button>
+              </div>
+              <div *ngIf="cols.type === 'date' && cols.field === 'dataalteracao'" class="flex p-2"
+                [ngStyle]="{'min-width': cols.width}">
+                <p-overlayPanel #dataAlteracao>
+                  <ng-template pTemplate>
+                    <div class="grid flex justify-content-center align-items-center">
+                      <div class="col-1">
+                        <span class="spanDeAte">De</span>
+                      </div>
+                      <div class="col-5">
+                        <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtalteracaode"
+                          (keyup)="searchData('dataalteracaode')" (blur)="searchData('dataalteracaode')" type="tel"
+                          class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="dataalteracaode"
+                          #dtalteracaode="ngModel" minlength="10" />
+                        <app-message [control]="dtalteracaode" error="minlength" text="Digite uma data completa">
+                        </app-message>
+                      </div>
+                      <div class="col-1">
+                        <span class="spanDeAte">Até</span>
+                      </div>
+                      <div class="col-5">
+                        <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtalteracaoate"
+                          (keyup)="searchData('dataalteracaoate')" (blur)="searchData('dataalteracaoate')" type="tel"
+                          class="w-full" [(ngModel)]="dataalteracaoate" [dropSpecialCharacters]="false"
+                          #dtalteracaoate="ngModel" minlength="10" />
+                        <app-message [control]="dtalteracaoate" error="minlength" text="Digite uma data completa">
+                        </app-message>
+                      </div>
+                    </div>
+                    <div class="grid flex justify-content-end align-items-center mt-2 mr-1">
+                      <button pButton pRipple type="button" label="Limpar Filtro" class="p-button-raised p-button-warning"
+                        icon="fa-solid fa-filter" (click)="limparData('dataAlteracao')"></button>
+                    </div>
+                  </ng-template>
+                  
+                </p-overlayPanel>
+                <button pButton pRipple type="button" label="Pesquisar"
+                  [ngClass]="(dataalteracaode || dataalteracaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
+                  class="p-button-raised  w-full" (click)="dataAlteracao.toggle($event)"></button>
+              </div>
+            </form>
+          </th>
+        </tr>
+      </ng-template>
+  
+      <ng-template pTemplate="body" let-clientes let-columns="columns" let-rowData>
+        <tr class="ui-selectable-row" [pSelectableRow]="clientes">
+          <td class="tdEditar">
+            <button pButton pRipple type="button" class="p-button-text p-button-warning"
+              pTooltip="Editar" icon="pi pi-pencil" tooltipPosition="top" [routerLink]="['/clientes', clientes._id]"
+              ></button>
+          </td>
+          <td class="responsivetable" *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}"
+            pReorderableColumn
+            pTooltip="{{rowData[cols.field] &&  cols.data ? (rowData[cols.field] | date: 'dd/MM/yyyy H:mm') :  rowData[cols.field]}}"
+            tooltipPosition="top">
+            <span class="p-column-title">{{cols.header}}:</span>
+            {{ cols.data ? (rowData[cols.field]| date :
+            cols.format) : cols.status ? (rowData[cols.field] ? 'Ativo' : 'Inativo') : rowData[cols.field]}}
+          </td>
+        </tr>
+  
+      </ng-template>
+      <ng-template pTemplate="summary">
+        <div class="flex flex-wrap justify-content-between flex-wrap card-container purple-container"
+          (mouseenter)="verifyFocus()">
+          <div class="col-12 md:col-4 lg:col-5 flex align-items-center justify-content-start"
+            (mouseenter)="verifyFocus()">
+            <button pButton pRipple type="button" class="p-button-raised p-button-warning" (mouseenter)="verifyFocus()"
+              [icon]="blockBtnFilter ? 'pi pi-filter-slash' : 'pi pi-filter'" #buttonFilter label="Limpar Filtros"
+              (click)="onClear()" [disabled]="blockBtnFilter"></button>
+          </div>
+          <div class="col-12 md:col-8 lg:col-7 flex flex-wrap align-items-center justify-content-end">
+            <div class="flex col-12 md:col-6 lg:col-5 justify-content-end">
+              <span class="currentPageTemplate">Página {{filtro.pagina + 1}} de {{totalPages}} ({{totalRegistros}}
+                registros)</span>
+            </div>
+            <div class="flex justify-content-end">
+              <p-paginator #paginator [rows]="filtro.itensPorPagina" [totalRecords]="totalRegistros"
+                [rowsPerPageOptions]="rowsPerPageTable" (onPageChange)="changePage($event)"></p-paginator>
             </div>
           </div>
         </div>
       </ng-template>
-
-      <ng-template pTemplate="header" let-columns>
-        <tr>
-          <th class="btnEditar">&nbsp;</th>
-          <th
-            *ngFor="let cols of columns"
-            [pSortableColumn]="cols.field"
-            [ngStyle]="{ 'min-width': cols.width }"
-          >
-            {{ cols.header }}
-            <p-sortIcon [field]="cols.field"></p-sortIcon>
-            <p-columnFilter
-              [type]="cols.type"
-              [field]="cols.field"
-              display="menu"
-              class="p-ml-auto"
-            ></p-columnFilter>
-          </th>
-        </tr>
-      </ng-template>
-      <ng-template
-        pTemplate="body"
-        let-cliente
-        let-columns="columns"
-        let-rowData
-      >
-        <tr [pSelectableRow]="rowData">
-          <td class="btnEditar">
-            <button
-              pButton
-              pRipple
-              type="button"
-              class="p-button-text p-button-primary"
-              pTooltip="Editar"
-              icon="fas fa-pen"
-              tooltipPosition="top" (click)="valorCliente(cliente._id)" [routerLink]="['/clientes', cliente._id]">
-            ></button>
-          </td>
-          <td
-            *ngFor="let cols of columns"
-            [ngStyle]="{ 'min-width': cols.width }"
-            tooltipPosition="top"
-            pTooltip="{{
-              rowData[cols.field] && cols.data
-                ? (rowData[cols.field] | date: 'dd/MM/yyyy H:mm')
-                : rowData[cols.field]
-            }}"
-          >
-            <span class="p-column-title">{{ cols.header }}:</span>
-            {{
-              cols.field === "status"
-                ? rowData[cols.field]
-                  ? "Ativo"
-                  : "Inativo"
-                : cols.data
-                ? (rowData[cols.field] | date: cols.format)
-                : rowData[cols.field]
-            }}
-          </td>
-        </tr>
-      </ng-template>
-      <ng-template pTemplate="summary">
-        <div>
-          <button
-            pButton
-            pRipple
-            class="p-button-raised p-button-warning"
-            icon="pi pi-times"
-            label="Limpar Filtros"
-            (click)="onClear()"
-          ></button>
-        </div>
-      </ng-template>
+  
       <ng-template pTemplate="emptymessage" let-columns>
-        <tr>
-          <td>
+        <tr [hidden]="noRecords">
+          <td colspan="18">
             <p class="emptyMessage">Nenhum registro encontrado...</p>
           </td>
         </tr>

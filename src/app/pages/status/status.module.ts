@@ -5,9 +5,17 @@ import { SharedModule } from '../shared/shared.module';
 import { ListaStatusComponent } from './lista-status/lista-status.component';
 import { CadastroStatusComponent } from './cadastro-status/cadastro-status.component';
 import { StatusRoutingModule } from './status.routing';
+import { NgxMaskDirective, NgxMaskPipe } from 'ngx-mask';
 
 @NgModule({
   declarations: [ListaStatusComponent, CadastroStatusComponent],
-  imports: [PrimeNGModule, FormsModule, StatusRoutingModule, SharedModule],
+  imports: [
+    PrimeNGModule,
+    FormsModule,
+    StatusRoutingModule,
+    SharedModule,
+    NgxMaskDirective,
+    NgxMaskPipe,
+  ],
 })
 export class StatusModule {}

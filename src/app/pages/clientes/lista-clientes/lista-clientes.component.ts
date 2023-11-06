@@ -1,77 +1,570 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  Input,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Table } from 'primeng/table';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ClientesService } from '../clientes.service';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { Clientes } from 'src/app/core/models/cliente.model';
+import { LazyLoadEvent, MenuItem } from 'primeng/api';
+import { Paginator } from 'primeng/paginator';
+import { FiltroClientes } from 'src/app/core/models/filtros.model';
+import { FiltroClientesService } from 'src/app/core/services/filtros-services/filtro-clientes.service';
+import { AuthService } from '../../seguranca/auth.service';
+import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
 
 @Component({
   selector: 'app-lista-clientes',
   templateUrl: './lista-clientes.component.html',
   styleUrls: ['./lista-clientes.component.css'],
 })
-export class ListaClientesComponent implements OnInit {
+export class ListaClientesComponent implements OnInit, AfterViewInit {
   @ViewChild('tabela') table: Table;
+  @ViewChild('paginator') paginator: Paginator;
+  @ViewChild('buttonFilter') buttonFilter: ElementRef;
 
-  rowsPerPageTable: number[] = [10, 20, 30, 50, 100, 200];
-  messagePageReport: 'Mostrando {first} a {last} de {totalRecords} registros';
-  newcliente= new Clientes();
-  cols: any[] | undefined;
+  rowsPerPageTable: number[] = [10, 25, 50, 100, 200];
+  messagePageReport = 'Mostrando {first} a {last} de {totalRecords} registros';
+  sinal = true;
+  selectionCols: Clientes;
+  clientes: Clientes[];
+  items: MenuItem[];
+  cols = [];
+  exportColumns: any[];
+  _selectedColumns: any[];
+  valorTooltip = 'Inativos';
+  dialogColunas: boolean;
+  filtro = new FiltroClientes();
+  totalRegistros = 0;
+  totalPages = 0;
+  blockBtnFilter = false;
+  timeout: any;
+  datacriacaode: string;
+  datacriacaoate: string;
+  dataalteracaode: string;
+  dataalteracaoate: string;
+  firstLoading = true;
+  noRecords = true;
+  state = 'state-clientes';
+  nameColumns = 'clientesColumns';
 
   constructor(
     private title: Title,
-    private clienteService: ClientesService,
-    private ngxspinner: NgxSpinnerService,
-   private errorHandler: ErrorHandlerService,
-  )
-  {}
-  ngOnInit(): void {
+    private clientesService: ClientesService,
+    private errorHandler: ErrorHandlerService,
+    private filtroClientes: FiltroClientesService,
+    public auth: AuthService,
+    private spinner: NgxSpinnerService,
+    private localstorageTableService: LocalstorageTableService,
+  ) {}
+
+  onClear() {
+    this.selectedColumns.forEach((col) => {
+      if (col.qty === null || col.qty === undefined) {
+      } else {
+        col.qty = null;
+      }
+    });
+    this.selectedColumns.forEach((col) => {
+      if (col.datacriacaode === null || col.datacriacaode === undefined) {
+      } else {
+        col.datacriacaode = null;
+      }
+      if (col.datacriacaoate === null || col.datacriacaoate === undefined) {
+      } else {
+        col.datacriacaoate = null;
+      }
+
+      if (col.dataalteracaode === null || col.dataalteracaode === undefined) {
+      } else {
+        col.dataalteracaode = null;
+      }
+      if (col.dataalteracaoate === null || col.dataalteracaoate === undefined) {
+      } else {
+        col.dataalteracaoate = null;
+      }
+    });
+    this.datacriacaode = null;
+    this.datacriacaoate = null;
+    this.dataalteracaode = null;
+    this.dataalteracaoate = null;
+    this.filtro = new FiltroClientes();
+    this.filtroDefault();
+    this.saveLocalStorage(null);
+    this.carregar();
+  }
+
+  ngOnInit() {
     this.title.setTitle('Lista de Clientes');
-    this.carregarClientes();
+    this.filtroDefault();
+    this.items = [
+      {
+        label: 'Ativo / Inativo',
+        icon: 'pi pi-sort-alt',
+        command: () => {
+          this.AlternarLista();
+        },
+      },
+    ];
 
     this.cols = [
-      { field: 'id', header: 'ID', width: '80px', type: 'text' },
-      { field: 'nome', header: 'Nome', width: '150px', type: 'text' },
-      { field: 'cpf', header: 'Cpf', width: '150px', type: 'text' },
-      { field: 'rg', header: 'Rg', width: '150px', type: 'text' },
-      { field: 'cep', header: 'Cep', width: '150px', type: 'text' },
-      { field: 'bairro', header: 'Bairro', width: '150px', type: 'text' },
-      { field: 'numero', header: 'Numero', width: '150px', type: 'text' },
+      {
+        field: 'codigo',
+        header: 'Código',
+        width: '130px',
+        key: 1,
+        type: 'numeric',
+        qty: '',
+      },
+      {
+        field: 'nome',
+        header: 'Nome',
+        key: 2,
+        width: '250px',
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'cpf',
+        header: 'Cpf',
+        key: 2,
+        width: '250px',
+        type: 'number',
+        qty: '',
+      },
+      {
+        field: 'rg',
+        header: 'Rg',
+        key: 2,
+        width: '250px',
+        type: 'number',
+        qty: '',
+      },
+      {
+        field: 'cep',
+        header: 'Cep',
+        key: 2,
+        width: '250px',
+        type: 'number',
+        qty: '',
+      },
+      {
+        field: 'logradouro',
+        header: 'Logradouro',
+        key: 2,
+        width: '250px',
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'bairro',
+        header: 'Bairro',
+        key: 2,
+        width: '250px',
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'numero',
+        header: 'Numero',
+        key: 2,
+        width: '250px',
+        type: 'number',
+        qty: '',
+      },
       {
         field: 'complemento',
         header: 'Complemento',
-        width: '150px',
+        key: 2,
+        width: '250px',
         type: 'text',
+        qty: '',
       },
-      { field: 'cidade', header: 'Cidade', width: '150px', type: 'text' },
-      { field: 'uf', header: 'Uf', width: '150px', type: 'text' },
-      { field: 'whatsapp', header: 'Whatsapp', width: '150px', type: 'text' },
-      { field: 'status', header: 'Status', width: '80px', type: 'boolean' },
+      {
+        field: 'cidade',
+        header: 'Cidade',
+        key: 2,
+        width: '250px',
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'uf',
+        header: 'Uf',
+        key: 2,
+        width: '250px',
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'whatsapp',
+        header: 'Whatsapp',
+        key: 2,
+        width: '250px',
+        type: 'number',
+        qty: '',
+      },
+
+      {
+        field: 'usuarioalteracao',
+        header: 'Usuário Alteração',
+        width: '200px',
+        key: 3,
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'dataalteracao',
+        header: 'Data Alteração',
+        width: '200px',
+        data: true,
+        format: `dd/MM/yyyy H:mm`,
+        key: 4,
+        type: 'date',
+        dataalteracaode: '',
+        dataalteracaoate: '',
+      },
+      {
+        field: 'usuariocriacao',
+        header: 'Usuário Criação',
+        width: '200px',
+        key: 5,
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'datacriacao',
+        header: 'Data Criação',
+        width: '200px',
+        data: true,
+        format: `dd/MM/yyyy H:mm`,
+        key: 6,
+        type: 'date',
+        datacriacaode: '',
+        datacriacaoate: '',
+      },
+
+      {
+        field: 'status',
+        header: 'Status',
+        width: '120px',
+        type: 'status',
+        status: true,
+        key: 7,
+        qty: '',
+      },
     ];
+
+    if (!localStorage.getItem('clientesColumns')) {
+      this.setColumnsDefaultValue();
+    } else {
+      // get selected columns from local storage
+      this.selectedColumns = JSON.parse(localStorage.getItem('clientesColumns'));
+    }
   }
 
-  refresh(): void {
-    this.carregarClientes();
+  ngAfterViewInit() {
+    this.table.filterGlobal('', 'contains');
+    this.buscarFiltroLocalStorage();
   }
 
-  onClear() {}
+  setColumnsDefaultValue() {
+    this.selectedColumns = this.cols;
+    this.saveLocalStorage(null);
+  }
 
-  carregarClientes() {
-    this.ngxspinner.show();
-    this.clienteService
-      .listarClientes()
+  @Input('clientesColumns')
+  set selectedColumns(selectedColumns: any) {
+    this._selectedColumns = selectedColumns;
+  }
+
+  get selectedColumns(): any {
+    return this._selectedColumns;
+  }
+
+  saveLocalStorage(event: any) {
+    this.localstorageTableService.saveLocalStorage(
+      event,
+      this.selectedColumns,
+      this.state,
+      this.nameColumns,
+    );
+  }
+
+  eventReorder() {
+    setTimeout(() => {
+      this.localstorageTableService.eventReorder(
+        this.state,
+        this.selectedColumns,
+        this.nameColumns,
+      );
+    }, 300);
+  }
+
+  refresh() {
+    this.carregar();
+  }
+
+  carregar() {
+    this.spinner.show();
+    this.clientesService
+      .listarComFiltro(this.filtro)
       .then((obj) => {
-        this.newcliente = obj;
-        this.ngxspinner.hide();
+        this.clientes = obj.data;
+        if (this.clientes.length > 0) {
+          this.noRecords = true;
+        } else {
+          this.noRecords = false;
+        }
+        this.totalRegistros = obj.totalCount;
+        this.totalPages = obj.totalPages;
+        this.spinner.hide();
       })
       .catch((erro) => {
-        this.ngxspinner.hide();
+        this.spinner.hide();
         this.errorHandler.handle(erro);
       });
   }
 
-  valorCliente(_id: string){
-    console.log(_id);
+  changePage(event: LazyLoadEvent) {
+    this.filtro.pagina = event.first / event.rows;
+    this.filtro.itensPorPagina = event?.rows;
+    if (this.firstLoading === true) {
+      this.firstLoading = false;
+    } else {
+      this.carregar();
+    }
+  }
+
+  search(value: any) {
+    if (this.timeout) {
+      clearTimeout(this.timeout);
+    }
+    this.timeout = setTimeout(() => {
+      this.applySearch(value);
+    }, 800);
+  }
+
+  buscarFiltroLocalStorage() {
+    this.selectedColumns.forEach((element: any) => {
+      if (element.qty) {
+        this.filtro[element.field] = element.qty;
+      }
+      if (element.field === 'datacriacao') {
+        if (element.datacriacaode) {
+          this.filtro.datacriacaode = element.datacriacaode;
+          const valorFormatadode = element.datacriacaode
+            .split('-')
+            .reverse()
+            .join('-');
+          this.datacriacaode = valorFormatadode.replace(/-/g, '');
+        }
+
+        if (element.datacriacaoate) {
+          this.filtro.datacriacaoate = element.datacriacaoate;
+          const valorFormatadoate = element.datacriacaoate
+            .split('-')
+            .reverse()
+            .join('-');
+          this.datacriacaoate = valorFormatadoate.replace(/-/g, '');
+        }
+      }
+      if (element.field === 'dataalteracao') {
+        if (element.dataalteracaode) {
+          this.filtro.dataalteracaode = element.dataalteracaode;
+          const valorFormatadode = element.dataalteracaode
+            .split('-')
+            .reverse()
+            .join('-');
+          this.dataalteracaode = valorFormatadode.replace(/-/g, '');
+        }
+        if (element.dataalteracaoate) {
+          this.filtro.dataalteracaoate = element.dataalteracaoate;
+          const valorFormatadoate = element.dataalteracaoate
+            .split('-')
+            .reverse()
+            .join('-');
+          this.dataalteracaoate = valorFormatadoate.replace(/-/g, '');
+        }
+      }
+    });
+  }
+
+  applySearch(value: any) {
+    this.blockBtnFilter = true;
+    if (value.qty === null || value.qty === undefined) {
+      this.btnBlock();
+    } else {
+      this.filtroClientes
+        .filtro(value, this.filtro)
+        .then((obj) => {
+          this.filtro = obj;
+          this.saveLocalStorage(null);
+          this.carregar();
+          this.FirstPage();
+          this.btnBlock();
+        })
+        .catch((erro) => {
+          this.btnBlock();
+          this.errorHandler.handle(erro);
+        });
+    }
+  }
+
+  FirstPage() {
+    this.paginator.changePage(0);
+  }
+
+  btnBlock() {
+    setTimeout(() => {
+      this.blockBtnFilter = false;
+    }, 680);
+  }
+
+  filtroDefault() {
+    this.filtro.pagina = 0;
+    this.filtro.itensPorPagina = 10;
+    this.filtro.status = 'true';
+  }
+
+  salvarDataLocalStorage(tipo: string, valor: string, nome: string) {
+    const itemEncontrado = this.selectedColumns.find(
+      (item) => item.field === nome,
+    );
+    if (itemEncontrado) {
+      itemEncontrado[tipo] = valor;
+    }
+  }
+
+  searchData(tipo: string) {
+    this.filtroDefault();
+    if (tipo === 'datacriacaode') {
+      if (this.datacriacaode && this.datacriacaode.length === 10) {
+        const dia = this.datacriacaode.substring(0, 2);
+        const mes = this.datacriacaode.substring(3, 5);
+        const ano = this.datacriacaode.substring(6, 10);
+        this.filtro.datacriacaode = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.datacriacaode,
+          'datacriacao',
+        );
+      } else {
+        this.filtro.datacriacaode = '';
+      }
+    }
+    if (tipo === 'datacriacaoate') {
+      if (this.datacriacaoate && this.datacriacaoate.length === 10) {
+        const dia = this.datacriacaoate.substring(0, 2);
+        const mes = this.datacriacaoate.substring(3, 5);
+        const ano = this.datacriacaoate.substring(6, 10);
+        this.filtro.datacriacaoate = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.datacriacaoate,
+          'datacriacao',
+        );
+      } else {
+        this.filtro.datacriacaoate = '';
+      }
+    }
+
+    if (tipo === 'dataalteracaode') {
+      if (this.dataalteracaode && this.dataalteracaode.length === 10) {
+        const dia = this.dataalteracaode.substring(0, 2);
+        const mes = this.dataalteracaode.substring(3, 5);
+        const ano = this.dataalteracaode.substring(6, 10);
+        this.filtro.dataalteracaode = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.dataalteracaode,
+          'dataalteracao',
+        );
+      } else {
+        this.filtro.dataalteracaode = '';
+      }
+    }
+    if (tipo === 'dataalteracaoate') {
+      if (this.dataalteracaoate && this.dataalteracaoate.length === 10) {
+        const dia = this.dataalteracaoate.substring(0, 2);
+        const mes = this.dataalteracaoate.substring(3, 5);
+        const ano = this.dataalteracaoate.substring(6, 10);
+        this.filtro.dataalteracaoate = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.dataalteracaoate,
+          'dataalteracao',
+        );
+      } else {
+        this.filtro.dataalteracaoate = '';
+      }
+    }
+    if (this.timeout) {
+      clearTimeout(this.timeout);
+    }
+    this.timeout = setTimeout(() => {
+      this.carregar();
+      this.FirstPage();
+      this.saveLocalStorage(null);
+    }, 800);
+  }
+
+  limparData(tipo: string) {
+    if (tipo === 'dataCriacao') {
+      this.filtro.datacriacaode = '';
+      this.filtro.datacriacaoate = '';
+      this.datacriacaode = '';
+      this.datacriacaoate = '';
+      this.removerDataLocalStorage(
+        'datacriacao',
+        'datacriacaode',
+        'datacriacaoate',
+      );
+    }
+
+    if (tipo === 'dataAlteracao') {
+      this.filtro.dataalteracaode = '';
+      this.filtro.dataalteracaoate = '';
+      this.dataalteracaode = '';
+      this.dataalteracaoate = '';
+      this.removerDataLocalStorage(
+        'dataalteracao',
+        'dataalteracaode',
+        'dataalteracaoate',
+      );
+    }
+
+    this.saveLocalStorage(null);
+    this.carregar();
+  }
+
+  removerDataLocalStorage(nome: string, tipode: string, tipoate: string) {
+    const itemEncontrado = this.selectedColumns.find(
+      (item) => item.field === nome,
+    );
+
+    if (itemEncontrado) {
+      itemEncontrado[tipode] = '';
+      itemEncontrado[tipoate] = '';
+    }
+  }
+
+  verifyFocus() {
+    this.buttonFilter.nativeElement.focus();
+  }
+
+  AlternarLista() {
+    if (this.filtro.status === 'true') {
+      this.filtro.status = 'false';
+    } else {
+      this.filtro.status = 'true';
+    }
+    this.carregar();
   }
 }

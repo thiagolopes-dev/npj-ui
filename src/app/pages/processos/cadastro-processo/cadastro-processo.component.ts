@@ -28,6 +28,9 @@ export class CadastroProcessoComponent {
   salvando: boolean;
   mostrarToast: true;
 
+  displayTextarea = false;
+
+
   constructor(
     private processoService: ProcessosService,
     private messageService: MessageService,
@@ -51,6 +54,10 @@ export class CadastroProcessoComponent {
     } else {
       this.newprocesso.status = true;
     }
+  }
+
+  toggleTextarea() {
+    this.displayTextarea = !this.displayTextarea;
   }
 
   get editando() {
