@@ -4,8 +4,8 @@ import { firstValueFrom } from 'rxjs';
 import { environment } from 'src/environment/environment';
 
 import * as moment from 'moment-timezone';
-import { Status } from 'src/app/core/models/status.model';
 import { FiltroStatus } from 'src/app/core/models/filtros.model';
+import { Status } from 'src/app/core/models/status.model';
 
 @Injectable({
   providedIn: 'root',
@@ -88,9 +88,9 @@ export class StatusService {
     });
   }
 
-  listarStatus(): Promise<Status> {
+  listarStatus(): Promise<any> {
     return firstValueFrom(this.http.get(`${this.statusURL}`)).then(
-      (response) => response as Status,
+      (response) => response as any[],
     );
   }
 

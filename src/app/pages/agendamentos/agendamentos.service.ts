@@ -28,13 +28,17 @@ export class AgendamentosService {
 
   atualizarAgendamentos(obj: Agendamento): Promise<Agendamento> {
     return firstValueFrom(
-      this.http.put<Agendamento>(`${this.agendamentoURL}/${obj.clientes}`, obj),
+      this.http.put<Agendamento>(`${this.agendamentoURL}/${obj._id}`, obj),
     ).then((response) => response as Agendamento);
   }
 
   buscarPorID(id: string) {
     return firstValueFrom(this.http.get(`${this.agendamentoURL}/${id}`)).then(
-      (response) => response as Agendamento,
+      (response) => {
+        response as Agendamento;
+        this.converteStringParaData(response);
+        return response;
+      } 
     );
   }
 
@@ -50,5 +54,12 @@ export class AgendamentosService {
         .tz('America/Sao_Paulo')
         .toDate();
     });
+  }
+
+  converteStringParaData(obj: any) {
+      obj.dataatendimento = moment(obj.dataatendimento, 'YYYY/MM/DD H:mm')
+        .tz('America/Sao_Paulo')
+        .toDate();
+ 
   }
 }

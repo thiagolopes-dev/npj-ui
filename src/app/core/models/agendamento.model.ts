@@ -1,10 +1,11 @@
 import { Clientes } from "./cliente.model";
 import { Motivos } from "./motivos.model";
+import { Status } from "./status.model";
 
 export class Agendamento {
     _id?: string;
     dataatendimento?: Date;
-    clientes = new Clientes();
-    status?: boolean;
-    motivos = new Motivos();
+    cliente = new Clientes();
+    motivo = new Motivos();
+    status = new Status();
 }

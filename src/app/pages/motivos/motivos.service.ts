@@ -88,9 +88,9 @@ export class MotivosService {
     });
   }
 
-  listarMotivos(): Promise<Motivos> {
+  listarMotivos(): Promise<any> {
     return firstValueFrom(this.http.get(`${this.motivoURL}`)).then(
-      (response) => response as Motivos,
+      (response) => response as any[],
     );
   }
 

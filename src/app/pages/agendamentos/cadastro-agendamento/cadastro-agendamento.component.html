@@ -25,14 +25,13 @@
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Cliente</h6>
           <p-dropdown
-          styleClass="w-full"
-            [(ngModel)]="newagendamento.clientes.codigo"
+          styleClass="w-full" [options]="clientes"
+            [(ngModel)]="newagendamento.cliente"
             #cliente="ngModel"
             name="cliente"
             placeholder="Selecione o Cliente"
-            optionLabel="nome"
-            optionValue="codigo"
             [showClear]="true"
+            optionLabel="nome"
             required
           ></p-dropdown>
           <app-message
@@ -77,13 +76,13 @@
           <h6><span class="obrigatorio">*</span>Motivo</h6>
           <!-- TODO Forma de input uppercase sem diretiva -->
           <p-dropdown
-          styleClass="w-full"
-            [(ngModel)]="newagendamento.motivos.codigo"
+          styleClass="w-full" [options]="motivos"
+            [(ngModel)]="newagendamento.motivo"
             #motivo="ngModel"
             name="motivo"
             placeholder="Selecione Motivo"
-            optionLabel="motivo"
             [showClear]="true"
+            optionLabel="descricao"
             required
           />
           <app-message
@@ -99,9 +98,36 @@
             }} caracteres"
           ></app-message>
         </div>
+
+        <div class="col-12 md:col-6 lg:col-4">
+          <h6><span class="obrigatorio">*</span>Status</h6>
+          <!-- TODO Forma de input uppercase sem diretiva -->
+          <p-dropdown
+          styleClass="w-full" [options]="statusoptions"
+            [(ngModel)]="newagendamento.status"
+            #status="ngModel"
+            name="status"
+            placeholder="Selecione Status"
+            [showClear]="true"
+            optionLabel="descricao"
+            required
+          />
+          <app-message
+            [control]="status"
+            error="required"
+            text="Informe o Status"
+          ></app-message>
+          <app-message
+            [control]="status"
+            error="minlength"
+            text="Mínimo de {{
+              status.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
+        </div>
       </div>
 
-      <div class="flex justify-content-center">
+      <!-- <div class="flex justify-content-center">
         <div class="flex align-items-center justify-content-center">
           <h6>Status</h6>
         </div>
@@ -116,7 +142,7 @@
           >
           </p-inputSwitch>
         </div>
-      </div>
+      </div> -->
 
       <br />
       <div class="flex flex-wrap justify-content-center">
