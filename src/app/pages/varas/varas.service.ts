@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
 import { Varas } from 'src/app/core/models/varas.model';
-import { environment } from 'src/environment/environment';
+import { environment } from 'src/environments/environment';
 
 import * as moment from 'moment-timezone';
 import { FiltroMotivos } from 'src/app/core/models/filtros.model';

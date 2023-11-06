@@ -6,7 +6,7 @@ import { MessageService } from 'primeng/api';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { firstValueFrom } from 'rxjs';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { environment } from 'src/environment/environment';
+import { environment } from 'src/environments/environment';
 
 @Injectable()
 export class AuthService {

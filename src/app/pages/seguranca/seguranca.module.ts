@@ -6,7 +6,7 @@ import { SharedModule } from 'primeng/api';
 import { MessagesModule } from 'primeng/messages';
 import { CoreModule } from 'src/app/core/core.module';
 import { PrimeNGModule } from 'src/app/primeng.module';
-import { environment } from 'src/environment/environment';
+import { environment } from 'src/environments/environment';
 import { AuthGuard } from './auth.guard';
 import { LoginComponent } from './login/login.component';
 import { NpjHttpInterceptor } from './npj-http';
