@@ -18,6 +18,14 @@
     <div class="col-12">
       <p-button
         styleClass="p-button-text p-button-warning w-full text-1xl"
+        label="Início"
+        routerLink="/dashboard"
+        (click)="sibebar = false"
+      ></p-button>
+    </div>
+    <div class="col-12">
+      <p-button
+        styleClass="p-button-text p-button-warning w-full text-1xl"
         label="Motivos"
         [routerLink]="auth.jwtPayload?.permissao.motivos ? '/motivos' : null"
         [disabled]="!auth.jwtPayload?.permissao.motivos"

@@ -14,7 +14,7 @@ import { AuthService } from '../auth.service';
 })
 export class LoginComponent implements OnInit {
 
-  logo: any = '/assets/icons/logo_icon.png';
+  logo: any = '/assets/images/npj_logo.png';
   messages: Message[] | undefined;
 
   constructor(

@@ -1,57 +1,10 @@
-<!-- <div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">
-  <div class="flex flex-column align-items-center justify-content-center">
-    <div
-      style="border-radius:56px; padding:0.3rem; background: linear-gradient(180deg, rgb(5 23 72 / 56%) 10%, rgba(33, 150, 243, 0) 30%);">
-      <div class="w-24rem sm:w-12 md:w-12 lg:w-12 xl:w-12 surface-card py-8 px-5 sm:px-8" style="border-radius:53px">
-        <div class="text-center">
-          
-          <div class="flex col-12">
-            <span class="col-12 text-600 font-medium">NPJ</span>
-          </div>
-        </div>
-
-        <div class="md:w-30rem widthLogin">
-          <form #formLogin="ngForm" (keyup.enter)="EnterSubmit($event, formLogin, email.value, senha.value)">
-
-            <div class="col-12">
-              <h6>E-mail</h6>
-              <input id="email" name="email" type="email" placeholder="Endereço de Email" pInputText [required]="true"
-                ngModel #email="ngModel" class="w-full">
-              <app-message [control]="email" error="required" text="Informe um e-mail!"></app-message>
-              <app-message [control]="email" error="email" text="Informe um e-mail válido"></app-message>
-            </div>
-
-            <div class="col-12">
-              <h6>Senha</h6>
-              <p-password id="senha" [feedback]="false" name="senha" #senha="ngModel" placeholder="Senha"
-                [required]="true" strongLabel="Senha Forte" [toggleMask]="true" styleClass="w-ful" ngModel></p-password>
-            </div>
-
-
-            <div class="col-12">
-             
-              <button pButton pRipple label="Login" class="w-full text-xl" [disabled]="!formLogin.valid"
-                (click)="login(email.value, senha.value)"></button>
-            </div>
-
-            <div class="col-12">
-              <p-messages class="message-toast" [(value)]="messages" [enableService]="false"
-                [closable]="false"></p-messages>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
 <div class="background">
   <p-card class="col-12 md:col-6 lg:col-4">
     <div class="p-fluid">
       <form #formLogin="ngForm" (keyup.enter)="
           EnterSubmit($event, formLogin, usuario.value, senha.value)">
         <div class="flex justify-content-center mt-2">
-         <span class="text-7xl">NPJ</span>
+        <img src="assets/images/npj_logo.png" alt="Logo NPJ" width="300px">
         </div>
         <div class="col-12">
           <h6 class="noselection">Usuário</h6>
