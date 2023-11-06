@@ -26,6 +26,15 @@
     <div class="col-12">
       <p-button
         styleClass="p-button-text p-button-warning w-full text-1xl"
+        label="Usuários"
+        [routerLink]="auth.jwtPayload?.permissao.usuarios ? '/usuarios' : null"
+        [disabled]="!auth.jwtPayload?.permissao.usuarios"
+        (click)="sibebar = false"
+      ></p-button>
+    </div>
+    <div class="col-12">
+      <p-button
+        styleClass="p-button-text p-button-warning w-full text-1xl"
         label="Motivos"
         [routerLink]="auth.jwtPayload?.permissao.motivos ? '/motivos' : null"
         [disabled]="!auth.jwtPayload?.permissao.motivos"
@@ -59,6 +68,7 @@
         (click)="sibebar = false"
       ></p-button>
     </div>
+    <p-divider class="w-full"></p-divider>
     <div class="col-12">
       <p-button
         styleClass="p-button-text p-button-warning w-full text-1xl"
@@ -77,14 +87,6 @@
         (click)="sibebar = false"
       ></p-button>
     </div>
-    <div class="col-12">
-      <p-button
-        styleClass="p-button-text p-button-warning w-full text-1xl"
-        label="Usuários"
-        [routerLink]="auth.jwtPayload?.permissao.usuarios ? '/usuarios' : null"
-        [disabled]="!auth.jwtPayload?.permissao.usuarios"
-        (click)="sibebar = false"
-      ></p-button>
-    </div>
+    
   </div>
 </p-sidebar>
