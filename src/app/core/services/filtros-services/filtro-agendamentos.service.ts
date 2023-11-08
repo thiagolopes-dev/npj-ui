@@ -35,8 +35,8 @@ export class FiltroAgendamentosService {
             filtro.motivo = value.qty;
         }
 
-        if (value.field === 'statusopção') {
-            filtro.statusopção = value.qty;
+        if (value.field === 'status') {
+            filtro.status = value.qty;
         }
 
         if (value.field === 'usuariocriacao') {

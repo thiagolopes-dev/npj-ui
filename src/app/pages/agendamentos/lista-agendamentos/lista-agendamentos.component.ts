@@ -106,7 +106,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
       { field: 'dataatendimento', header: 'Data Atendimento', width: '250px', key: 2, type: '', qty: '' },
       { field: 'cliente', header: 'Cliente', key: 3, width: '250px', type: 'text', qty: '' },
       { field: 'motivo', header: 'Motivo', key: 4, width: '250px', type: 'text', qty: '' },
-      { field: 'statusopção', header: 'Status', key: 5, width: '250px', type: 'text', qty: '' },
+      { field: 'status', header: 'Status', key: 5, width: '250px', type: 'text', qty: '' },
    
       {
         field: 'usuarioalteracao',
@@ -147,15 +147,6 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         datacriacaoate: ''
       },
      
-      {
-        field: 'status',
-        header: 'Status',
-        width: '120px',
-        type: 'status',
-        status: true,
-        key: 10,
-        qty: ''
-      }
     ];
 
     if (!localStorage.getItem('agendamentosColumns')) {

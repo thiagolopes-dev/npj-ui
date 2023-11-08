@@ -34,7 +34,6 @@
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.nome"
             #nome="ngModel"
-            [disabled]="editando"
             minlength="3"
             maxlength="30"
             required
@@ -65,11 +64,11 @@
             [pKeyFilter]="regex.number"
             [(ngModel)]="newcliente.cpf"
             #cpf="ngModel"
-            [disabled]="editando"
             minlength="11"
             maxlength="14"
             aria-describedby="cpf"
             required
+            [dropSpecialCharacters]="true"
           />
 
           <app-message
@@ -99,10 +98,10 @@
             [pKeyFilter]="regex.blockSpecial"
             [(ngModel)]="newcliente.rg"
             #rg="ngModel"
-            [disabled]="editando"
             minlength="7"
             maxlength="12"
             required
+            [dropSpecialCharacters]="true"
           />
 
           <app-message
@@ -134,10 +133,10 @@
             [pKeyFilter]="regex.blockSpecial"
             [(ngModel)]="newcliente.cep"
             #cep="ngModel"
-            [disabled]="editando"
             minlength="8"
             maxlength="10"
             required
+            [dropSpecialCharacters]="true"
           >
 
           <app-message
@@ -169,7 +168,6 @@
             minlength="3"
             maxlength="30"
             required
-            [disabled]="editando"
           />
 
           <app-message
@@ -200,7 +198,6 @@
             minlength="3"
             maxlength="30"
             required
-            [disabled]="editando"
           />          
 
           <app-message
@@ -231,7 +228,6 @@
             #numero="ngModel"
             minlength="1"
             maxlength="8"
-            [disabled]="editando"
             required
           />
 
@@ -281,7 +277,6 @@
             minlength="3"
             maxlength="30"
             required
-            [disabled]="editando"
           />
           <!-- [disabled]="editando"  -->
           <app-message
@@ -312,7 +307,7 @@
             minlength="2"
             maxlength="2"
             required
-            [disabled]="editando"
+            
           />
           <!-- [disabled]="editando"  -->
           <app-message
@@ -343,10 +338,10 @@
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.whatsapp"
             #whatsapp="ngModel"
-            [disabled]="editando"
             minlength="9"
             maxlength="16"
             required
+            [dropSpecialCharacters]="true"
           />
 
           <app-message

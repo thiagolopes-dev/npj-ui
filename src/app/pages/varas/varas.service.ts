@@ -27,6 +27,15 @@ export class VarasService {
     );
   }
 
+  ListarDrop(): Promise<any> {
+    return firstValueFrom(
+      this.http.get(`${this.varaURL}/all`),
+    ).then((response: any) => {
+      this.converterStringsParaDatas(response);
+      return response;
+    });
+  }
+
   validarParametros(filtro: FiltroVaras) {
     const obj: { [k: string]: any } = {};
 

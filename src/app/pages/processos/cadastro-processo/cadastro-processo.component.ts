@@ -213,9 +213,9 @@ export class CadastroProcessoComponent {
 
   carregarClientes() {
     return this.clientesService
-      .listarClientes()
+      .ListarDrop()
       .then((response) => {
-        this.clientes = response.data.map((cliente) => ({
+        this.clientes = response.map((cliente) => ({
           nome: cliente.nome,
           codigo: cliente.codigo,
         }));
@@ -227,9 +227,9 @@ export class CadastroProcessoComponent {
 
   carregarMotivos() {
     return this.motivosService
-      .listarMotivos()
+      .ListarDrop()
       .then((response) => {
-        this.motivos = response.data.map((motivo) => ({
+        this.motivos = response.map((motivo) => ({
           descricao: motivo.descricao,
           codigo: motivo.codigo,
         }));
@@ -242,9 +242,9 @@ export class CadastroProcessoComponent {
   // TODO Resolver o porque varas não aparece
   carregarVaras() {
     return this.varasService
-      .listarVaras()
+      .ListarDrop()
       .then((response) => {
-        this.varas = response.data.map((vara) => ({
+        this.varas = response.map((vara) => ({
           descricao: vara.descricao,
           codigo: vara.codigo,
         }));
@@ -256,9 +256,9 @@ export class CadastroProcessoComponent {
 
   carregarStatus() {
     return this.statusService
-      .listarStatus()
+      .ListarDrop()
       .then((response) => {
-        this.statusdescricao = response.data.map((status) => ({
+        this.statusdescricao = response.map((status) => ({
           descricao: status.descricao,
           codigo: status.codigo,
         }));

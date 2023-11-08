@@ -32,7 +32,6 @@ export class AuthService {
     }
   }
 
-
   login(username: string, password: string): Promise<void> {
     return firstValueFrom(
       this.http.post(this.oauthTokenUrl, {

@@ -49,8 +49,8 @@ export class AgendamentosService {
       obj.motivo = filtro.motivo;
     }
 
-    if (filtro.statusopção) {
-      obj.statusopção = filtro.statusopção;
+    if (filtro.status) {
+      obj.status = filtro.status;
     }
 
     if (filtro.usuariocriacao) {
@@ -76,10 +76,6 @@ export class AgendamentosService {
 
     if (filtro.dataalteracaoate) {
       obj.dataalteracaoate = filtro.dataalteracaoate;
-    }
-
-    if (filtro.status) {
-      obj.status = filtro.status;
     }
 
     return obj;
