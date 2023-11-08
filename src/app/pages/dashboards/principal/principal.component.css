@@ -1,54 +1,7 @@
-.background {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  background: #9cecfb; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0052d4,
-    #65c7f7,
-    #9cecfb
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0052d4,
-    #65c7f7,
-    #9cecfb
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.metabase {
+  width: 100%;
+  min-height: 87vh;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 0px;
 }
-h2{
-    margin-top: 15px;
-    color: #455d7a;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 20px;
-  }
-  :host ::ng-deep
-  .novos {
-   background-color:#36A2EB;
-   text-align: center;
-   margin: 10px;
-   color: white;
-   box-shadow: none;
- }
- :host ::ng-deep
- .andamento {
-   background-color: #e17055;
-   text-align: center;
-   margin: 10px;
-   color: white;
-   box-shadow: none;
- }
- :host ::ng-deep
- .finalizado {
-   background-color:  #ff6384;
-   text-align: center;
-   margin: 10px;
-   color: white;
-   box-shadow: none;
- }
- h5{
-   color: #2d3436;
- }
