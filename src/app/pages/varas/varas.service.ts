@@ -5,7 +5,7 @@ import { Varas } from 'src/app/core/models/varas.model';
 import { environment } from 'src/environments/environment';
 
 import * as moment from 'moment-timezone';
-import { FiltroMotivos } from 'src/app/core/models/filtros.model';
+import { FiltroVaras } from 'src/app/core/models/filtros.model';
 
 @Injectable({
   providedIn: 'root',
@@ -17,7 +17,7 @@ export class VarasService {
     this.varaURL = `${environment.apiURL}/varas`;
   }
 
-  listarComFiltro(filtro: FiltroMotivos): Promise<any> {
+  listarComFiltro(filtro: FiltroVaras): Promise<any> {
     const param: { [k: string]: any } = this.validarParametros(filtro);
     return firstValueFrom(this.http.get(`${this.varaURL}`, { params: param })).then(
       (response: any) => {
@@ -27,7 +27,7 @@ export class VarasService {
     );
   }
 
-  validarParametros(filtro: FiltroMotivos) {
+  validarParametros(filtro: FiltroVaras) {
     const obj: { [k: string]: any } = {};
 
     obj.page = filtro.pagina;
@@ -88,12 +88,11 @@ export class VarasService {
     });
   }
 
-  listarVaras(): Promise<Varas> {
+  listarVaras(): Promise<any> {
     return firstValueFrom(this.http.get(`${this.varaURL}`)).then(
-      (response) => response as Varas,
+      (response) => response as any[],
     );
   }
-
   adicionarVara(obj: Varas): Promise<Varas> {
     return firstValueFrom(this.http.post<Varas>(this.varaURL, obj));
   }

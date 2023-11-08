@@ -31,7 +31,6 @@
             pInputText
             name="nome"
             type="text"
-            placeholder="Informe seu nome"
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.nome"
             #nome="ngModel"
@@ -57,11 +56,12 @@
 
         <div class="field col-12 md:col-3">
           <h6><span class="obrigatorio">*</span>Cpf</h6>
-          <p-inputMask
-            styleClass="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
             name="cpf"
-            mask="999.999.999-99"
-            placeholder="Informe o CPF"
+            pInputText
+            type="text"
+            [mask]="'000.000.000-00'"
             [pKeyFilter]="regex.number"
             [(ngModel)]="newcliente.cpf"
             #cpf="ngModel"
@@ -70,7 +70,7 @@
             maxlength="14"
             aria-describedby="cpf"
             required
-          ></p-inputMask>
+          />
 
           <app-message
             [control]="cpf"
@@ -96,7 +96,6 @@
             name="rg"
             type="text"
             [mask]="'00.000.000-0'"
-            placeholder="Informe o RG"
             [pKeyFilter]="regex.blockSpecial"
             [(ngModel)]="newcliente.rg"
             #rg="ngModel"
@@ -130,7 +129,6 @@
             name="cep"
             type="text"
             mask="00000-000"
-            placeholder="Informe o CEP"
             handlerChange
             (blur)="getCep()"
             [pKeyFilter]="regex.blockSpecial"
@@ -165,7 +163,6 @@
             pInputText
             name="logradouro"
             type="text"
-            placeholder="Informe sua rua"
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.logradouro"
             #logradouro="ngModel"
@@ -198,7 +195,6 @@
             pInputText
             name="bairro"
             type="text"
-            placeholder="Informe seu bairro"
             [(ngModel)]="newcliente.bairro"
             #bairro="ngModel"
             minlength="3"
@@ -230,7 +226,6 @@
             pInputText
             name="numero"
             type="text"
-            placeholder="Informe seu número"
             [pKeyFilter]="regex.number"
             [(ngModel)]="newcliente.numero"
             #numero="ngModel"
@@ -263,11 +258,9 @@
             pInputText
             name="complemento"
             type="text"
-            placeholder="Informe o complemento"
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.complemento"
             #complemento="ngModel"
-            [disabled]="editando"
             minlength="0"
             maxlength="255"
           />
@@ -282,7 +275,6 @@
             pInputText
             name="cidade"
             type="text"
-            placeholder="Informe sua cidade"
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.cidade"
             #cidade="ngModel"
@@ -314,7 +306,6 @@
             pInputText
             name="uf"
             type="text"
-            placeholder="Informe seu estado"
             [pKeyFilter]="regex.string"
             [(ngModel)]="newcliente.uf"
             #uf="ngModel"
@@ -349,7 +340,6 @@
             type="text"
             (change)="handlerChange($event)"
             [mask]="'(00) 0 0000-0000'"
-            placeholder="Informe seu whatsapp"
             [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.whatsapp"
             #whatsapp="ngModel"

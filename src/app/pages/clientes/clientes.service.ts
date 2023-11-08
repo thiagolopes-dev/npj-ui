@@ -27,6 +27,15 @@ export class ClientesService {
     });
   }
 
+  ListarDrop(): Promise<any> {
+    return firstValueFrom(
+      this.http.get(`${this.clienteURL}/all`),
+    ).then((response: any) => {
+      this.converterStringsParaDatas(response);
+      return response;
+    });
+  }
+
   validarParametros(filtro: FiltroClientes) {
     const obj: { [k: string]: any } = {};
 

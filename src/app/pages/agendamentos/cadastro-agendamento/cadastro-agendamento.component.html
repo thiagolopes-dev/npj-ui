@@ -23,31 +23,6 @@
     >
       <div class="grid">
         <div class="col-12 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Cliente</h6>
-          <p-dropdown
-          styleClass="w-full" [options]="clientes"
-            [(ngModel)]="newagendamento.cliente"
-            #cliente="ngModel"
-            name="cliente"
-            placeholder="Selecione o Cliente"
-            [showClear]="true"
-            optionLabel="nome"
-            required
-          ></p-dropdown>
-          <app-message
-            [control]="cliente"
-            error="required"
-            text="Informe o Cliente"
-          ></app-message>
-          <app-message
-            [control]="cliente"
-            error="minlength"
-            text="Mínimo de {{
-              cliente.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
-        </div>
-        <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Data Atendimento</h6>
           <!-- TODO Forma de input uppercase sem diretiva -->
           <p-calendar
@@ -69,6 +44,33 @@
             error="minlength"
             text="Mínimo de {{
               dataatendimento.errors?.minlength?.requiredLength
+            }} caracteres"
+          ></app-message>
+        </div>
+        
+        <div class="col-12 md:col-6 lg:col-4">
+          <h6><span class="obrigatorio">*</span>Cliente</h6>
+          <p-dropdown
+          styleClass="w-full" [options]="clientes"
+            [(ngModel)]="newagendamento.cliente"
+            #cliente="ngModel"
+            name="cliente"
+            placeholder="Selecione o Cliente"
+            [showClear]="true"
+            optionLabel="nome"
+            required
+          ></p-dropdown>
+          
+          <app-message
+            [control]="cliente"
+            error="required"
+            text="Informe o Cliente"
+          ></app-message>
+          <app-message
+            [control]="cliente"
+            error="minlength"
+            text="Mínimo de {{
+              cliente.errors?.minlength?.requiredLength
             }} caracteres"
           ></app-message>
         </div>

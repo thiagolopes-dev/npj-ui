@@ -8,9 +8,9 @@ import { Table } from 'primeng/table';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { FiltrosUsuario } from 'src/app/core/models/filtros.model';
 import { Usuarios } from 'src/app/core/models/usuarios.model';
-import { FiltroUsuarioService } from 'src/app/core/services/filtros-services/filtro-usuario.service';
 import { AuthService } from '../../seguranca/auth.service';
 import { UsuariosService } from '../usuarios.service';
+import { FiltrosUsuarioService } from 'src/app/core/services/filtros-services/filtro-usuario.service';
 
 @Component({
   selector: 'app-usuarios-lista',
@@ -57,7 +57,7 @@ export class UsuariosListaComponent implements OnInit {
     private router: Router,
     private errorHandler: ErrorHandlerService,
     private spinner: NgxSpinnerService,
-    private filtroUsuario: FiltroUsuarioService,
+    private filtroUsuario: FiltrosUsuarioService,
     public auth: AuthService
   ) {
     this.timeout = 0;
@@ -65,10 +65,10 @@ export class UsuariosListaComponent implements OnInit {
 
 
 
-  // onPageChange(event: PageEvent) {
-  //   this.first = event.first;
-  //   this.rows = event.rows;
-  // }
+  //  onPageChange(event: PageEvent) {
+  //    this.first = event.first;
+  //    this.rows = event.rows;
+  //  }
 
   ngOnInit() {
     this.title.setTitle('Lista de Usuários');
@@ -101,38 +101,43 @@ export class UsuariosListaComponent implements OnInit {
         key: 3,
       },
 
-      // {
-      //   field: 'emailusuario',
-      //   header: 'Usuário Alteração',
-      //   width: '200px',
-      //   key: 4,
-      //   type: 'text',
-      // },
-      // {
-      //   field: 'datagravacao',
-      //   header: 'Data Alteração',
-      //   width: '200px',
-      //   data: true,
-      //   format: `dd/MM/yyyy H:mm`,
-      //   key: 5,
-      //   type: 'date',
-      // },
-      // {
-      //   field: 'usucriacao',
-      //   header: 'Usuário Criação',
-      //   width: '200px',
-      //   key: 6,
-      //   type: 'text',
-      // },
-      // {
-      //   field: 'datausucriacao',
-      //   header: 'Data Criação',
-      //   width: '200px',
-      //   data: true,
-      //   format: `dd/MM/yyyy H:mm`,
-      //   key: 7,
-      //   type: 'date',
-      // },
+      { field: 'celular', header: 'Celular', width: '200px', type: 'text', key: 2 },
+      { field: 'tipo', header: 'Tipo', width: '200px', type: 'text', key: 2 },
+
+
+
+     {
+       field: 'emailusuario',
+       header: 'Usuário Alteração',
+       width: '200px',
+       key: 4,
+       type: 'text',
+     },
+     {
+       field: 'datagravacao',
+       header: 'Data Alteração',
+       width: '200px',
+       data: true,
+       format: `dd/MM/yyyy H:mm`,
+       key: 5,
+       type: 'date',
+     },
+     {
+       field: 'usucriacao',
+       header: 'Usuário Criação',
+       width: '200px',
+       key: 6,
+       type: 'text',
+     },
+     {
+       field: 'datausucriacao',
+       header: 'Data Criação',
+       width: '200px',
+       data: true,
+       format: `dd/MM/yyyy H:mm`,
+       key: 7,
+       type: 'date',
+     },
       { field: 'status', header: 'Status', width: '100px', type: 'status', status: true, key: 8 }
     ];
   }
@@ -270,19 +275,19 @@ export class UsuariosListaComponent implements OnInit {
   }
 
   carregarUsers() {
-    // this.spinner.show();
-    // this.usuarioService
-    //   .listarComFiltro(this.filtro)
-    //   .then((obj) => {
-    //     this.usuarios = obj.content;
-    //     this.totalRegistros = obj.totalElements;
-    //     this.totalPages = obj.totalPages;
-    //     this.spinner.hide();
-    //   })
-    //   .catch((erro) => {
-    //     this.spinner.hide();
-    //     this.errorHandler.handle(erro);
-    //   });
+   this.spinner.show();
+   this.usuarioService
+     .listarComFiltro(this.filtro)
+     .then((obj) => {
+       this.usuarios = obj.content;
+       this.totalRegistros = obj.totalElements;
+       this.totalPages = obj.totalPages;
+       this.spinner.hide();
+     })
+     .catch((erro) => {
+       this.spinner.hide();
+       this.errorHandler.handle(erro);
+     });
     this.spinner.show();
     this.usuarioService
       .listarUsuarios()
@@ -290,8 +295,8 @@ export class UsuariosListaComponent implements OnInit {
 
         this.usuarios = obj;
         console.log(this.usuarios);
-        // this.totalRegistros = obj.totalElements;
-        // this.totalPages = obj.totalPages;
+       this.totalRegistros = obj.totalElements;
+       this.totalPages = obj.totalPages;
         this.spinner.hide();
       })
       .catch((erro) => {

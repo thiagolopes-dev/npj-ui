@@ -27,6 +27,15 @@ export class MotivosService {
     );
   }
 
+   ListarDrop(): Promise<any> {
+    return firstValueFrom(
+      this.http.get(`${this.motivoURL}/all`),
+    ).then((response: any) => {
+      this.converterStringsParaDatas(response);
+      return response;
+    });
+  }
+
   validarParametros(filtro: FiltroMotivos) {
     const obj: { [k: string]: any } = {};
 
@@ -114,13 +123,5 @@ export class MotivosService {
     return firstValueFrom(this.http.delete(`${this.motivoURL}/${id}`)).then(
       () => null,
     );
-  }
-
-  converteStringParaDatas(obj: any) {
-    obj.forEach((element: any) => {
-      element.datagravacao = moment(element.datagravacao, 'YYYY/MM/DD H:mm')
-        .tz('America/Sao_Paulo')
-        .toDate();
-    });
   }
 }

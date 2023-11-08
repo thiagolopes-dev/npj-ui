@@ -13,6 +13,13 @@ import { Regex } from 'src/app/core/validators/regex.model';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { Processos } from 'src/app/core/models/processo.model';
 import { ProcessosService } from '../processos.service';
+import { ClientesService } from '../../clientes/clientes.service';
+import { MotivosService } from '../../motivos/motivos.service';
+import { StatusService } from '../../status/status.service';
+import { VarasService } from '../../varas/varas.service';
+import { AuthService } from '../../seguranca/auth.service';
+import { Usuarios } from 'src/app/core/models/usuarios.model';
+import { UsuariosService } from '../../usuarios/usuarios.service';
 
 @Component({
   selector: 'app-cadastro-processo',
@@ -27,19 +34,30 @@ export class CadastroProcessoComponent {
   idprocesso: string;
   salvando: boolean;
   mostrarToast: true;
-
+  clientes = [];
+  motivos = [];
+  varas = [];
+  usuarios = [];
+  statusdescricao = [];
+  descricoes: any[] = [];
   displayTextarea = false;
-
+  visible: boolean = false;
 
   constructor(
     private processoService: ProcessosService,
+    private clientesService: ClientesService,
+    private motivosService: MotivosService,
+    private statusService: StatusService,
+    private varasService: VarasService,
+    private usuarioService: UsuariosService,
     private messageService: MessageService,
     private route: ActivatedRoute,
     private router: Router,
     private title: Title,
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService,
-    private errorHandler: ErrorHandlerService, // public auth: AuthService,
+    private errorHandler: ErrorHandlerService,
+    public auth: AuthService,
   ) {}
 
   ngOnInit() {
@@ -47,6 +65,9 @@ export class CadastroProcessoComponent {
     this.newprocesso.status = true;
     this.idprocesso = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de processos');
+    this.carregarClientes();
+    this.carregarMotivos();
+    this.carregarStatus();
 
     if (this.idprocesso) {
       this.spinner.show();
@@ -54,6 +75,10 @@ export class CadastroProcessoComponent {
     } else {
       this.newprocesso.status = true;
     }
+  }
+
+  showDialog() {
+    this.visible = true;
   }
 
   toggleTextarea() {
@@ -80,6 +105,10 @@ export class CadastroProcessoComponent {
     console.log('entrei no adicionar');
     this.salvando = true;
     this.mostrarToast = true;
+    this.descricoes.push({
+      usuario: this.newprocesso.usuarios.name, // Substitua pela lógica real para obter o usuário
+      descricao: this.newprocesso.processos.informacoes,
+    });
     this.processoService
       .adicionarProcessos(this.newprocesso)
       .then((obj) => {
@@ -180,5 +209,81 @@ export class CadastroProcessoComponent {
       .catch((erro) => {
         this.errorHandler.handle(erro);
       });
+  }
+
+  carregarClientes() {
+    return this.clientesService
+      .listarClientes()
+      .then((response) => {
+        this.clientes = response.data.map((cliente) => ({
+          nome: cliente.nome,
+          codigo: cliente.codigo,
+        }));
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
+
+  carregarMotivos() {
+    return this.motivosService
+      .listarMotivos()
+      .then((response) => {
+        this.motivos = response.data.map((motivo) => ({
+          descricao: motivo.descricao,
+          codigo: motivo.codigo,
+        }));
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
+
+  // TODO Resolver o porque varas não aparece
+  carregarVaras() {
+    return this.varasService
+      .listarVaras()
+      .then((response) => {
+        this.varas = response.data.map((vara) => ({
+          descricao: vara.descricao,
+          codigo: vara.codigo,
+        }));
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
+
+  carregarStatus() {
+    return this.statusService
+      .listarStatus()
+      .then((response) => {
+        this.statusdescricao = response.data.map((status) => ({
+          descricao: status.descricao,
+          codigo: status.codigo,
+        }));
+        this.atribuirStatus();
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
+
+  atribuirStatus() {
+    this.newprocesso.status = this.statusdescricao.find(
+      (obj) => obj.descricao === 'ABERTO',
+    );
+  }
+
+// TODO Salvar Usuario
+  salvarDescricao() {
+    // Adicione a descrição ao array
+    this.descricoes.push({
+      usuario: this.newprocesso.usuarios.name || "userpadrão",
+      descricao: this.newprocesso.processos.informacoes,
+    });
+    this.visible = false;
+    this.newprocesso.processos.informacoes = '';
+    this.descricoes = [...this.descricoes];
   }
 }

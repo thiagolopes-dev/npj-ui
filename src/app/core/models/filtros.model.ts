@@ -64,8 +64,28 @@ export class FiltroClientes {
   status: string;
 }
 
+export class FiltroAgendamentos {
+  pagina: number;
+  itensPorPagina: number;
+  atendimento: string;
+  dataatendimento: string;
+  cliente: string;
+  motivo: string;
+  statusopção: string;
+  datacriacaode: string;
+  datacriacaoate: string;
+  dataalteracaode: string;
+  dataalteracaoate: string;
+  usuariocriacao: string;
+  usuarioalteracao: string;
+  status: string;
+}
+
 
   export class FiltrosUsuario {
+    dataalteracaode?(tipo: string, dataalteracaode: any, arg2: string) {
+      throw new Error('Method not implemented.');
+    }
     pagina: number;
     itensPorPagina: number;
     id: string;

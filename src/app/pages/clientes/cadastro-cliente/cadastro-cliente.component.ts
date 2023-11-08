@@ -55,6 +55,7 @@ export class CadastroClienteComponent {
   }
 
   get editando() {
+    console.log()
     return Boolean(this.newcliente._id);
   }
 
@@ -110,7 +111,7 @@ export class CadastroClienteComponent {
       .then((obj) => {
         this.newcliente = obj;
         this.atualizarTituloEdicao();
-        //this.spinner.hide();
+        this.spinner.hide();
       })
       .catch((erro) => {
         this.spinner.hide();

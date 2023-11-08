@@ -27,6 +27,15 @@ export class StatusService {
     );
   }
 
+  ListarDrop(): Promise<any> {
+    return firstValueFrom(
+      this.http.get(`${this.statusURL}/all`),
+    ).then((response: any) => {
+      this.converterStringsParaDatas(response);
+      return response;
+    });
+  }
+
   validarParametros(filtro: FiltroStatus) {
     const obj: { [k: string]: any } = {};
 

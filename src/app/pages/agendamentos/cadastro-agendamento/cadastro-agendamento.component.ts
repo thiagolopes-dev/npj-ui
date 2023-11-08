@@ -6,12 +6,13 @@ import * as moment from 'moment';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ConfirmEventType, ConfirmationService, MessageService } from 'primeng/api';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { Agendamento } from 'src/app/core/models/agendamento.model';
+import { Agendamentos } from 'src/app/core/models/agendamento.model';
 import { Regex } from 'src/app/core/validators/regex.model';
 import { ClientesService } from '../../clientes/clientes.service';
 import { MotivosService } from '../../motivos/motivos.service';
 import { StatusService } from '../../status/status.service';
 import { AgendamentosService } from '../agendamentos.service';
+import { AuthService } from '../../seguranca/auth.service';
 
 
 @Component({
@@ -23,7 +24,7 @@ export class CadastroAgendamentoComponent {
   @ViewChild('formAgendamento') formAgendamento: NgForm;
 
   regex = new Regex();
-  newagendamento = new Agendamento();
+  newagendamento = new Agendamentos();
   idagendamento: string;
   salvando: boolean;
   mostrarToast: true;
@@ -43,7 +44,7 @@ export class CadastroAgendamentoComponent {
     private confirmation: ConfirmationService,
     private spinner: NgxSpinnerService,
     private errorHandler: ErrorHandlerService,
-    // public auth: AuthService,
+    public auth: AuthService,
   ) { }
 
   ngOnInit() {
@@ -124,7 +125,7 @@ export class CadastroAgendamentoComponent {
   carregarAgendamentos(_id: string) {
     this.agendamentoService
       .buscarPorID(_id)
-      .then((obj: Agendamento) => {
+      .then((obj: Agendamentos) => {
         this.newagendamento = obj;
         this.atualizarTituloEdicao();
         this.spinner.hide();
@@ -186,9 +187,9 @@ export class CadastroAgendamentoComponent {
 
   carregarClientes() {
     return this.clientesService
-      .listarClientes()
+      .ListarDrop()
       .then((response) => {
-        this.clientes = response.data.map((cliente) => ({
+        this.clientes = response.map((cliente) => ({
           nome: cliente.nome,
           codigo: cliente.codigo,
         }));
@@ -200,9 +201,9 @@ export class CadastroAgendamentoComponent {
 
   carregarMotivos() {
     return this.motivosService
-      .listarMotivos()
+      .ListarDrop()
       .then((response) => {
-        this.motivos = response.data.map((motivo) => ({
+        this.motivos = response.map((motivo) => ({
           descricao: motivo.descricao,
           codigo: motivo.codigo,
         }));
@@ -214,11 +215,11 @@ export class CadastroAgendamentoComponent {
 
   carregarStatus() {
     return this.statusService
-      .listarStatus()
+      .ListarDrop()
       .then((response) => {
-        this.statusoptions = response.data.map((motivo) => ({
-          descricao: motivo.descricao,
-          codigo: motivo.codigo,
+        this.statusoptions = response.map((status) => ({
+          descricao: status.descricao,
+          codigo: status.codigo,
         }));
         this.atribuirStatus();
       })

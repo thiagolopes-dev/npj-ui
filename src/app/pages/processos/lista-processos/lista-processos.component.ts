@@ -57,10 +57,10 @@ export class ListaProcessosComponent implements OnInit {
   onClear() {
     this.newprocesso._id = null;
     this.newprocesso.numeroProcesso = null;
-    this.newprocesso.clientedescricao = null;
-    this.newprocesso.varadescricao = null;
+    this.newprocesso.cliente = null;
+    this.newprocesso.varas = null;
     this.newprocesso.statusdescricao = null;
-    this.newprocesso.motivosdescricao = null;
+    this.newprocesso.motivos = null;
     this.newprocesso.processos.informacoes = null;
     this.newprocesso.processos.datacriacao = null;
     this.newprocesso.processos.usuariocriacao = null;

@@ -1,15 +1,17 @@
 import { Clientes } from './cliente.model';
 import { Motivos } from './motivos.model';
 import { Status } from './status.model';
+import { Usuarios } from './usuarios.model';
 import { Varas } from './varas.model';
 
 export class Processos {
   _id?: string;
   numeroProcesso?: number;
-  clientedescricao?: Clientes['nome'];
-  varadescricao?: Varas['descricao'];
-  statusdescricao?: Status['descricao'];
-  motivosdescricao?: Motivos['descricao'];
+  cliente = new Clientes();
+  varas =  new Varas();
+  statusdescricao = new Status();
+  motivos = new Motivos();
+  usuarios = new Usuarios();
   processos?: ProcessoInfo;
   status: boolean;
 

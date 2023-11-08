@@ -57,15 +57,15 @@
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Cliente</h6>
           <p-dropdown
-          styleClass="w-full"
-            [(ngModel)]="newprocesso.clientedescricao"
+          styleClass="w-full" 
+          [options]="clientes"
+            [(ngModel)]="newprocesso.cliente"
             #cliente="ngModel"
             name="cliente"
             placeholder="Selecione o Cliente"
-            optionLabel="cliente"
             [showClear]="true"
+            optionLabel="nome"
             required
-            [disabled]="editando"
           ></p-dropdown>
 
           <app-message
@@ -84,18 +84,19 @@
 
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Vara</h6>
-          <!-- TODO Forma de input uppercase sem diretiva -->
+          <!-- TODO Resolver o porque varas não aparece -->
           <p-dropdown
-          styleClass="w-full"
-            [(ngModel)]="newprocesso.varadescricao"
+          styleClass="w-full" 
+          [options]="varas"
+            [(ngModel)]="newprocesso.varas"
             #vara="ngModel"
             name="vara"
             placeholder="Selecione a Vara"
-            optionLabel="vara"
             [showClear]="true"
+            optionLabel="descricao"
             required
-            [disabled]="editando"
-          />
+          ></p-dropdown>
+
           <app-message
             [control]="vara"
             error="required"
@@ -113,15 +114,14 @@
         <div class="col-12 md:col-6 lg:col-4" hidden="novo" >
           <h6><span class="obrigatorio" >*</span>Status</h6>
           <p-dropdown
-          styleClass="w-full"
+          styleClass="w-full" [options]="statusdescricao"
             [(ngModel)]="newprocesso.statusdescricao"
             #status="ngModel"
             name="status"
             placeholder="Selecione o Status"
-            optionLabel="status"
             [showClear]="true"
+            optionLabel="descricao"
             required
-            
           ></p-dropdown>
 
           <app-message
@@ -141,15 +141,14 @@
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Motivo</h6>
           <p-dropdown
-          styleClass="w-full"
-            [(ngModel)]="newprocesso.motivosdescricao"
+          styleClass="w-full" [options]="motivos"
+            [(ngModel)]="newprocesso.motivos"
             #motivo="ngModel"
             name="motivo"
             placeholder="Selecione o Motivo"
-            optionLabel="motivo"
             [showClear]="true"
+            optionLabel="descricao"
             required
-            [disabled]="editando"
           ></p-dropdown>
 
           <app-message
@@ -199,11 +198,14 @@
 
       <p-tabPanel header="Processo Informações">
         <div class="grid">
-  
-       
-          <h6><span class="obrigatorio">*</span>Descricao</h6>
+          <div class="col-12 md:col-6 lg:col-4">
+
           <!-- TODO Forma de input uppercase sem diretiva -->
-          <textarea
+
+          <p-button  class="obrigatorio" (click)="showDialog()" icon="pi pi-external-link" label="Informe a Descrição"></p-button>
+          <p-dialog header="Informação" [(visible)]="visible" [style]="{ width: '50vw' }">
+            <div class="flex py-2 justify-content-center">
+          <input
           class="w-full"
           oninput="this.value = this.value.toUpperCase()"
           pInputTextarea
@@ -216,7 +218,11 @@
           #informacoes="ngModel"
           required
           minlength="3"
-          ></textarea>
+          />
+        </div>
+        <p-button (click)="salvarDescricao()" icon="pi pi-check" label="Salvar"></p-button>
+
+        </p-dialog>
 
           <app-message
             [control]="informacoes"
@@ -230,12 +236,26 @@
               informacoes.errors?.minlength?.requiredLength
             }} caracteres"
           ></app-message>
-        
-
-
       
+        </div>  
+      </div>
 
-      
+      <div>
+        <p-table [value]="descricoes">
+          <!-- Defina as colunas da tabela aqui -->
+          <ng-template pTemplate="header">
+            <tr>
+              <th>Usuário</th>
+              <th>Descrição</th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-descricao>
+            <tr>
+              <td>{{ descricao.usuario }}</td>
+              <td>{{ descricao.descricao }}</td>
+            </tr>
+          </ng-template>
+        </p-table>
       </div>
     </p-tabPanel>
     </p-tabView>

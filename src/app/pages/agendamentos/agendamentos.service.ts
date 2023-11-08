@@ -1,10 +1,11 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
-import { Agendamento } from 'src/app/core/models/agendamento.model';
+import { Agendamentos } from 'src/app/core/models/agendamento.model';
 import { environment } from 'src/environments/environment';
 
 import * as moment from 'moment-timezone';
+import { FiltroAgendamentos } from 'src/app/core/models/filtros.model';
 
 @Injectable({
   providedIn: 'root',
@@ -16,26 +17,109 @@ export class AgendamentosService {
     this.agendamentoURL = `${environment.apiURL}/agendamentos`;
   }
 
-  listarAgendamentos(): Promise<Agendamento> {
-    return firstValueFrom(this.http.get(`${this.agendamentoURL}`)).then(
-      (response) => response as Agendamento,
+  listarComFiltro(filtro: FiltroAgendamentos): Promise<any> {
+    const param: { [k: string]: any } = this.validarParametros(filtro);
+    return firstValueFrom(this.http.get(`${this.agendamentoURL}`, { params: param })).then(
+      (response: any) => {
+        this.converterStringsParaDatas(response.data);
+        return response;
+      }
     );
   }
 
-  adicionarAgendamento(obj: Agendamento): Promise<Agendamento> {
-    return firstValueFrom(this.http.post<Agendamento>(this.agendamentoURL, obj));
+  validarParametros(filtro: FiltroAgendamentos) {
+    const obj: { [k: string]: any } = {};
+
+    obj.page = filtro.pagina;
+    obj.perPage = filtro.itensPorPagina;
+
+    if (filtro.atendimento) {
+      obj.atendimento = filtro.atendimento;
+    }
+
+    if (filtro.dataatendimento) {
+      obj.dataatendimento = filtro.dataatendimento;
+    }
+
+    if (filtro.cliente) {
+      obj.cliente = filtro.cliente;
+    }
+
+    if (filtro.motivo) {
+      obj.motivo = filtro.motivo;
+    }
+
+    if (filtro.statusopção) {
+      obj.statusopção = filtro.statusopção;
+    }
+
+    if (filtro.usuariocriacao) {
+      obj.usuariocriacao = filtro.usuariocriacao;
+    }
+
+    if (filtro.usuarioalteracao) {
+      obj.usuarioalteracao = filtro.usuarioalteracao;
+    }
+
+
+    if (filtro.datacriacaode) {
+      obj.datacriacaode = filtro.datacriacaode;
+    }
+
+    if (filtro.datacriacaoate) {
+      obj.datacriacaoate = filtro.datacriacaoate;
+    }
+
+    if (filtro.dataalteracaode) {
+      obj.dataalteracaode = filtro.dataalteracaode;
+    }
+
+    if (filtro.dataalteracaoate) {
+      obj.dataalteracaoate = filtro.dataalteracaoate;
+    }
+
+    if (filtro.status) {
+      obj.status = filtro.status;
+    }
+
+    return obj;
   }
 
-  atualizarAgendamentos(obj: Agendamento): Promise<Agendamento> {
+  private converterStringsParaDatas(obj: any[]) {
+    obj.forEach((element) => {
+      if (element.datacriacao) {
+        element.datacriacao = moment(element.datacriacao, 'YYYY-MM-DD H:mm')
+          .tz('America/Sao_Paulo')
+          .toDate();
+      }
+      if (element.dataalteracao) {
+        element.dataalteracao = moment(element.dataalteracao, 'YYYY-MM-DD H:mm')
+          .tz('America/Sao_Paulo')
+          .toDate();
+      }
+    });
+  }
+
+  listarAgendamentos(): Promise<Agendamentos> {
+    return firstValueFrom(this.http.get(`${this.agendamentoURL}`)).then(
+      (response) => response as Agendamentos,
+    );
+  }
+
+  adicionarAgendamento(obj: Agendamentos): Promise<Agendamentos> {
+    return firstValueFrom(this.http.post<Agendamentos>(this.agendamentoURL, obj));
+  }
+
+  atualizarAgendamentos(obj: Agendamentos): Promise<Agendamentos> {
     return firstValueFrom(
-      this.http.put<Agendamento>(`${this.agendamentoURL}/${obj._id}`, obj),
-    ).then((response) => response as Agendamento);
+      this.http.put<Agendamentos>(`${this.agendamentoURL}/${obj._id}`, obj),
+    ).then((response) => response as Agendamentos);
   }
 
   buscarPorID(id: string) {
     return firstValueFrom(this.http.get(`${this.agendamentoURL}/${id}`)).then(
       (response) => {
-        response as Agendamento;
+        response as Agendamentos;
         this.converteStringParaData(response);
         return response;
       } 
