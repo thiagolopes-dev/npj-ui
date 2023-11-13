@@ -114,7 +114,7 @@
         <div class="col-12 md:col-6 lg:col-4"  >
           <h6><span class="obrigatorio" >*</span>Status</h6>
           <p-dropdown
-          styleClass="w-full" [options]="status"
+          styleClass="w-full" [options]="statusoptions"
             [(ngModel)]="newprocesso.status"
             #status="ngModel"
             name="status"
@@ -173,7 +173,7 @@
             #datacricao="ngModel"
             dateFormat="dd/mm/yy"
             [readonlyInput]="true"
-            [(ngModel)]="newprocesso.processos.datacriacao"
+            [(ngModel)]="newprocesso.itensprocesso.datacriacao"
             name="datacricao"
             type="text"
             required
@@ -246,7 +246,7 @@
             <ng-template pTemplate="body" let-descricao>
               <tr>
                 <td class="tabela300px" > {{ descricao.descricao }}</td>
-                <td class="tabela200px">{{ descricao.usuarioCriacao }}</td>
+                <td class="tabela200px">{{ descricao.usuario }}</td>
                 <td class="tabela200px">{{ descricao.dataCriacao.toLocaleDateString('pt-BR') }}</td>
               </tr>
             </ng-template>

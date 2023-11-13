@@ -56,36 +56,29 @@ export class UsuariosService {
       obj.email = filtro.email;
     }
 
-    if (filtro.celular) {
-      obj.celular = filtro.celular;
+    if (filtro.usuariocriacao) {
+      obj.usuariocriacao = filtro.usuariocriacao;
     }
 
-    if (filtro.tipo) {
-      obj.tipo = filtro.tipo;
+    if (filtro.usuarioalteracao) {
+      obj.usuarioalteracao = filtro.usuarioalteracao;
     }
 
-    if (filtro.emailusuario) {
-      obj.emailusuario = filtro.emailusuario;
+
+    if (filtro.datacriacaode) {
+      obj.datacriacaode = filtro.datacriacaode;
     }
 
-    if (filtro.usucriacao) {
-      obj.usucriacao = filtro.usucriacao;
+    if (filtro.datacriacaoate) {
+      obj.datacriacaoate = filtro.datacriacaoate;
     }
 
-    if (filtro.datagravacaode) {
-      obj.datagravacaode = filtro.datagravacaode;
+    if (filtro.dataalteracaode) {
+      obj.dataalteracaode = filtro.dataalteracaode;
     }
 
-    if (filtro.datagravacaoate) {
-      obj.datagravacaoate = filtro.datagravacaoate;
-    }
-
-    if (filtro.datausucriacaode) {
-      obj.datausucriacaode = filtro.datausucriacaode;
-    }
-
-    if (filtro.datausucriacaoate) {
-      obj.datausucriacaoate = filtro.datausucriacaoate;
+    if (filtro.dataalteracaoate) {
+      obj.dataalteracaoate = filtro.dataalteracaoate;
     }
 
     if (filtro.status) {

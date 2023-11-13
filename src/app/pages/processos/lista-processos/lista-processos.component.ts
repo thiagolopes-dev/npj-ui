@@ -104,10 +104,11 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
 
     this.cols = [
       { field: 'numeroProcesso', header: 'Numero do Processo', width: '130px', key: 1, type: 'numeric', qty: '' },
-      { field: 'cliente', header: 'Cliente', key: 2, width: '250px', type: 'text', qty: '' },
-      { field: 'varas', header: 'Varas', key: 3, width: '250px', type: 'text', qty: '' },
-      { field: 'motivos', header: 'Motivos', key: 4, width: '250px', type: 'text', qty: '' },
-      { field: 'processos', header: 'Processos', key: 5, width: '250px', type: 'text', qty: '' },
+      { field: 'desccliente', header: 'Cliente', key: 4, width: '250px', type: 'text', qty: '' },
+      { field: 'descmotivo', header: 'Motivo', key: 5, width: '250px', type: 'text', qty: '' },
+      { field: 'descstatus', header: 'Status', key: 6, width: '250px', type: 'text', qty: '' },
+      { field: 'descvaras', header: 'Varas', key: 6, width: '250px', type: 'text', qty: '' },
+      { field: 'processoProcesso', header: 'Processos', key: 5, width: '250px', type: 'text', qty: '' },
    
       {
         field: 'usuarioalteracao',
@@ -147,16 +148,6 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
         datacriacaode: '',
         datacriacaoate: ''
       },
-     
-      {
-        field: 'status',
-        header: 'Status',
-        width: '120px',
-        type: 'status',
-        status: true,
-        key: 10,
-        qty: ''
-      }
     ];
 
     if (!localStorage.getItem('processosColumns')) {

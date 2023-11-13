@@ -100,22 +100,17 @@ export class FiltroProcessos {
 
 
   export class FiltrosUsuario {
-    dataalteracaode?(tipo: string, dataalteracaode: any, arg2: string) {
-      throw new Error('Method not implemented.');
-    }
     pagina: number;
     itensPorPagina: number;
     id: string;
     codigo: string;
     nome: string;
     email: string;
-    celular: string;
-    tipo: string;
-    datagravacaode: string;
-    datagravacaoate: string;
-    datausucriacaode: string;
-    datausucriacaoate: string;
-    usucriacao: string;
-    emailusuario: string;
+    usuariocriacao: string;
+    datacriacaode: string;
+    datacriacaoate: string;
+    usuarioalteracao: string;
+    dataalteracaode: string;
+    dataalteracaoate: string;
     status: string;
   }

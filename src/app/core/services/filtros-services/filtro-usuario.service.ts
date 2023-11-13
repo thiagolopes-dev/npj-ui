@@ -31,25 +31,14 @@ export class FiltrosUsuarioService {
       filtro.email = value.qty;
     }
 
+    if (value.field === 'usuariocriacao') {
+      filtro.usuariocriacao = value.qty;
+  }
 
-    if (value.field === 'celular') {
-      filtro.celular = value.qty;
-    }
-
-    if (value.field === 'tipo') {
-      filtro.tipo = value.qty;
-    }
-
-    if (value.field === 'emailusuario') {
-      filtro.emailusuario = value.qty;
-    }
-
-    if (value.field === 'usucriacao') {
-      filtro.usucriacao = value.qty;
-    }
-
-    
-
+  if (value.field === 'usuarioalteracao') {
+      filtro.usuarioalteracao = value.qty;
+  }
+  
     return filtro;
   }
 }

@@ -11,16 +11,16 @@ export class Processos {
   varas =  new Varas();
   status = new Status();
   motivos = new Motivos();
-  processos?: ProcessoInfo;
+  itensprocesso?: ItensProcesso;
 
   constructor() {
-    this.processos = new ProcessoInfo();
+    this.itensprocesso = new ItensProcesso();
   }
 }
 
-export class ProcessoInfo {
+export class ItensProcesso {
   codigo?: string;
   informacoes?: string;
-  usuariocriacao?: string;
+  usuariocriacao= new Usuarios();
   datacriacao?: Date;
 }

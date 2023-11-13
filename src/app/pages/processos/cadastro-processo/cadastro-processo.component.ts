@@ -19,6 +19,7 @@ import { StatusService } from '../../status/status.service';
 import { UsuariosService } from '../../usuarios/usuarios.service';
 import { VarasService } from '../../varas/varas.service';
 import { ProcessosService } from '../processos.service';
+import { Usuarios } from 'src/app/core/models/usuarios.model';
 
 @Component({
   selector: 'app-cadastro-processo',
@@ -36,8 +37,8 @@ export class CadastroProcessoComponent {
   clientes = [];
   motivos = [];
   varas = [];
-  usuarios = [];
-  status = [];
+  usuarios = new Usuarios();
+  statusoptions = [];
   descricoes: any[] = [];
   displayTextarea = false;
   visible: boolean = false;
@@ -65,7 +66,7 @@ export class CadastroProcessoComponent {
   ) {}
 
   ngOnInit() {
-    this.newprocesso.processos.datacriacao = new Date();
+    this.newprocesso.itensprocesso.datacriacao = new Date();
     this.idprocesso = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de processos');
     this.carregarClientes();
@@ -85,19 +86,17 @@ export class CadastroProcessoComponent {
     } else {
       this.tabProcessoInformacoesAtiva = false;
     }
+    console.log('tabProcessoInformacoesAtiva:', this.tabProcessoInformacoesAtiva);
   }
-
-
   abrirDialog() {
     this.showDialog = true;
   }
-
   salvarDescricao() {
     // Adicione a nova descrição à lista
     this.descricoes.push({
-      usuarioCriacao: this.newprocesso.processos.usuariocriacao,
+      usuario: this.newprocesso.itensprocesso.usuariocriacao,
       descricao: this.novaDescricao,
-      dataCriacao: this.newprocesso.processos.datacriacao,
+      dataCriacao: this.newprocesso.itensprocesso.datacriacao,
     });
   
     // Limpe o campo de descrição
@@ -277,11 +276,13 @@ export class CadastroProcessoComponent {
     return this.statusService
       .ListarDrop()
       .then((response) => {
-        this.status = response.map((status) => ({
+        this.statusoptions = response.map((status) => ({
           descricao: status.descricao,
           codigo: status.codigo,
         }));
-        this.atribuirStatus();
+        if(!this.idprocesso){
+          this.atribuirStatus();
+        }
       })
       .catch((erro) => {
         this.errorHandler.handle(erro);
@@ -289,7 +290,7 @@ export class CadastroProcessoComponent {
   }
 
   atribuirStatus() {
-    this.newprocesso.status = this.status.find(
+    this.newprocesso.status = this.statusoptions.find(
       (obj) => obj.descricao === 'ABERTO'
     );
   }

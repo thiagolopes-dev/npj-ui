@@ -1,4 +1,11 @@
-import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  Input,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
@@ -39,10 +46,10 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
   totalPages = 0;
   blockBtnFilter = false;
   timeout: any;
-  datagravacaode: string;
-  datagravacaoate: string;
-  datausucriacaode: string;
-  datausucriacaoate: string;
+  datacriacaode: string;
+  datacriacaoate: string;
+  dataalteracaode: string;
+  dataalteracaoate: string;
   firstLoading = true;
   noRecords = true;
   state = 'state-usuarios';
@@ -56,13 +63,10 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
     private spinner: NgxSpinnerService,
     private filtroUsuario: FiltrosUsuarioService,
     public auth: AuthService,
-    private localstorageTableService: LocalstorageTableService
-
+    private localstorageTableService: LocalstorageTableService,
   ) {
     this.timeout = 0;
   }
-
-
 
   onClear() {
     this.selectedColumns.forEach(col => {
@@ -71,24 +75,24 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
       }
     });
     this.selectedColumns.forEach(col => {
-      if (col.datagravacaode === null || col.datagravacaode === undefined) { } else {
-        col.datagravacaode = null;
+      if (col.datacriacaode === null || col.datacriacaode === undefined) { } else {
+        col.datacriacaode = null;
       }
-      if (col.datagravacaoate === null || col.datagravacaoate === undefined) { } else {
-        col.datagravacaoate = null;
+      if (col.datacriacaoate === null || col.datacriacaoate === undefined) { } else {
+        col.datacriacaoate = null;
       }
 
-      if (col.datausucriacaode === null || col.datausucriacaode === undefined) { } else {
-        col.datausucriacaode = null;
+      if (col.dataalteracaode === null || col.dataalteracaode === undefined) { } else {
+        col.dataalteracaode = null;
       }
-      if (col.datausucriacaoate === null || col.datausucriacaoate === undefined) { } else {
-        col.datausucriacaoate = null;
+      if (col.dataalteracaoate === null || col.dataalteracaoate === undefined) { } else {
+        col.dataalteracaoate = null;
       }
     });
-    this.datagravacaode = null;
-    this.datagravacaoate = null;
-    this.datausucriacaode = null;
-    this.datausucriacaoate = null;
+    this.datacriacaode = null;
+    this.datacriacaoate = null;
+    this.dataalteracaode = null;
+    this.dataalteracaoate = null;
     this.filtro = new FiltrosUsuario();
     this.filtroDefault();
     this.saveLocalStorage(null);
@@ -96,9 +100,8 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit() {
-    this.title.setTitle('Lista de Usuários');
+    this.title.setTitle('Lista de Usuarios');
     this.filtroDefault();
-    this.carregar();
     this.items = [
       {
         label: 'Ativo / Inativo',
@@ -106,7 +109,7 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
         command: () => {
           this.AlternarLista();
         },
-      }
+      },
     ];
 
     this.cols = [
@@ -125,301 +128,309 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
         type: 'text',
         key: 3,
       },
-
-      { field: 'celular', header: 'Celular', width: '200px', type: 'text', key: 2 },
-      { field: 'tipo', header: 'Tipo', width: '200px', type: 'text', key: 2 },
-
-
-
-     {
-       field: 'emailusuario',
-       header: 'Usuário Alteração',
-       width: '200px',
-       key: 4,
-       type: 'text',
-     },
-     {
-       field: 'datagravacao',
-       header: 'Data Gravacao',
-       width: '200px',
-       data: true,
-       format: `dd/MM/yyyy H:mm`,
-       key: 5,
-       type: 'date',
-     },
-     {
-       field: 'usucriacao',
-       header: 'Usuário Criação',
-       width: '200px',
-       key: 6,
-       type: 'text',
-     },
-     {
-       field: 'datausucriacao',
-       header: 'Data Criação',
-       width: '200px',
-       data: true,
-       format: `dd/MM/yyyy H:mm`,
-       key: 7,
-       type: 'date',
-     },
-      { field: 'status', header: 'Status', width: '100px', type: 'status', status: true, key: 8 }
+      {
+        field: 'usuarioalteracao',
+        header: 'Usuário Alteração',
+        width: '200px',
+        key: 4,
+        type: 'text',
+        qty: ''
+      },
+      {
+        field: 'dataalteracao',
+        header: 'Data Alteração',
+        width: '200px',
+        data: true,
+        format: `dd/MM/yyyy H:mm`,
+        key: 5,
+        type: 'date',
+        dataalteracaode: '',
+        dataalteracaoate: ''
+      },
+      {
+        field: 'usuariocriacao',
+        header: 'Usuário Criação',
+        width: '200px',
+        key: 6,
+        type: 'text',
+        qty: ''
+      },
+      {
+        field: 'datacriacao',
+        header: 'Data Criação',
+        width: '200px',
+        data: true,
+        format: `dd/MM/yyyy H:mm`,
+        key: 7,
+        type: 'date',
+        datacriacaode: '',
+        datacriacaoate: ''
+      },
+     
+      {
+        field: 'status',
+        header: 'Status',
+        width: '120px',
+        type: 'status',
+        status: true,
+        key: 8,
+        qty: ''
+      }
     ];
-  
 
-  if (!localStorage.getItem('usuariosColumns')) {
-    this.setColumnsDefaultValue();
-  } else {
-    // get selected columns from local storage
-    this.selectedColumns = JSON.parse(localStorage.getItem('usuariosColumns'));
-  }
-}
-
-ngAfterViewInit() {
-  this.table.filterGlobal('', 'contains');
-  this.buscarFiltroLocalStorage();
-}
-
-setColumnsDefaultValue() {
-  this.selectedColumns = this.cols;
-  this.saveLocalStorage(null);
-}
-
-@Input('usuariosColumns')
-set selectedColumns(selectedColumns: any) {
-  this._selectedColumns = selectedColumns;
-}
-
-get selectedColumns(): any {
-  return this._selectedColumns;
-}
-
-saveLocalStorage(event: any) {
-  this.localstorageTableService.saveLocalStorage(event, this.selectedColumns, this.state, this.nameColumns)
-}
-
-eventReorder() {
-  setTimeout(() => {
-    this.localstorageTableService.eventReorder(this.state, this.selectedColumns, this.nameColumns)
-  }, 300);
-}
-
-refresh() {
-  this.carregar();
-}
-
-carregar() {
-  this.spinner.show();
-  this.usuarioService
-    .listarComFiltro(this.filtro)
-    .then((obj) => {
-      this.usuarios = obj.data;
-      if (this.usuarios.length > 0) {
-        this.noRecords = true;
-      }
-      else {
-        this.noRecords = false;
-      }
-      this.totalRegistros = obj.totalCount;
-      this.totalPages = obj.totalPages;
-      this.spinner.hide();
-    })
-    .catch((erro) => {
-      this.spinner.hide();
-      this.errorHandler.handle(erro);
-    });
-}
-
-changePage(event: LazyLoadEvent) {
-  this.filtro.pagina = event.first / event.rows;
-  this.filtro.itensPorPagina = event?.rows;
-  if (this.firstLoading === true) {
-    this.firstLoading = false;
-  } else {
-    this.carregar();
-  }
-}
-
-search(value: any) {
-  if (this.timeout) { clearTimeout(this.timeout); }
-  this.timeout = setTimeout(() => {
-    this.applySearch(value);
-  }, 800);
-}
-
-buscarFiltroLocalStorage() {
-  this.selectedColumns.forEach((element: any) => {
-    if (element.qty) {
-      this.filtro[element.field] = element.qty;
-    }
-    if (element.field === 'datagravacao') {
-      if (element.datagravacaode) {
-        this.filtro.datagravacaode = element.datagravacaode;
-        const valorFormatadode = element.datagravacaode.split('-').reverse().join('-');
-        this.datagravacaode = valorFormatadode.replace(/-/g, '');
-      }
-
-      if (element.datagravacaoate) {
-        this.filtro.datagravacaoate = element.datagravacaoate;
-        const valorFormatadoate = element.datagravacaoate.split('-').reverse().join('-');
-        this.datagravacaoate = valorFormatadoate.replace(/-/g, '');
-      }
-
-    }
-    if (element.field === 'datausucriacao') {
-      if (element.datausucriacaode) {
-        this.filtro.datausucriacaode = element.datausucriacaode;
-        const valorFormatadode = element.datausucriacaode.split('-').reverse().join('-');
-        this.datausucriacaode = valorFormatadode.replace(/-/g, '');
-      }
-      if (element.datausucriacaoate) {
-        this.filtro.datausucriacaoate = element.datausucriacaoate;
-        const valorFormatadoate = element.datausucriacaoate.split('-').reverse().join('-');
-        this.datausucriacaoate = valorFormatadoate.replace(/-/g, '');
-      }
-    }
-  });
-}
-
-applySearch(value: any) {
-  this.blockBtnFilter = true;
-  if (
-    value.qty === null ||
-    value.qty === undefined
-  ) {
-    this.btnBlock();
-  } else {
-    this.filtroUsuario.filtro(value, this.filtro).then((obj) => {
-      this.filtro = obj;
-      this.saveLocalStorage(null);
-      this.carregar();
-      this.FirstPage();
-      this.btnBlock();
-    }).catch((erro) => {
-      this.btnBlock();
-      this.errorHandler.handle(erro);
-    });
-  }
-}
-
-FirstPage() {
-  this.paginator.changePage(0);
-}
-
-btnBlock() {
-  setTimeout(() => {
-    this.blockBtnFilter = false;
-  }, 680);
-}
-
-filtroDefault() {
-  this.filtro.pagina = 0;
-  this.filtro.itensPorPagina = 10;
-  this.filtro.status = 'true';
-}
-
-salvarDataLocalStorage(tipo: string, valor: string, nome: string) {
-  const itemEncontrado = this.selectedColumns.find(item => item.field === nome);
-  if (itemEncontrado) {
-    itemEncontrado[tipo] = valor;
-  }
-}
-
-searchData(tipo: string) {
-  this.filtroDefault();
-  if (tipo === 'datagravacaode') {
-    if (this.datagravacaode && this.datagravacaode.length === 10) {
-      const dia = this.datagravacaode.substring(0, 2);
-      const mes = this.datagravacaode.substring(3, 5);
-      const ano = this.datagravacaode.substring(6, 10);
-      this.filtro.datagravacaode = ano + '-' + mes + '-' + dia;
-      this.salvarDataLocalStorage(tipo, this.filtro.datagravacaode, 'datacriacao');
+    if (!localStorage.getItem('usuariosColumns')) {
+      this.setColumnsDefaultValue();
     } else {
-      this.filtro.datagravacaode = '';
-    }
-  }
-  if (tipo === 'datagravacaoate') {
-    if (this.datagravacaoate && this.datagravacaoate.length === 10) {
-      const dia = this.datagravacaoate.substring(0, 2);
-      const mes = this.datagravacaoate.substring(3, 5);
-      const ano = this.datagravacaoate.substring(6, 10);
-      this.filtro.datagravacaoate = ano + '-' + mes + '-' + dia;
-      this.salvarDataLocalStorage(tipo, this.filtro.datagravacaoate, 'datacriacao');
-    } else {
-      this.filtro.datagravacaoate = '';
+      // get selected columns from local storage
+      this.selectedColumns = JSON.parse(localStorage.getItem('usuariosColumns'));
     }
   }
 
-  if (tipo === 'datausucriacaode') {
-    if (this.datausucriacaode && this.datausucriacaode.length === 10) {
-      const dia = this.datausucriacaode.substring(0, 2);
-      const mes = this.datausucriacaode.substring(3, 5);
-      const ano = this.datausucriacaode.substring(6, 10);
-      this.filtro.datausucriacaode = ano + '-' + mes + '-' + dia;
-      this.salvarDataLocalStorage(tipo, this.filtro.datausucriacaode, 'dataalteracao');
-    } else {
-      this.filtro.datausucriacaode = '';
-    }
+  ngAfterViewInit() {
+    this.table.filterGlobal('', 'contains');
+    this.buscarFiltroLocalStorage();
   }
-  if (tipo === 'datausucriacaoate') {
-    if (this.datausucriacaoate && this.datausucriacaoate.length === 10) {
-      const dia = this.datausucriacaoate.substring(0, 2);
-      const mes = this.datausucriacaoate.substring(3, 5);
-      const ano = this.datausucriacaoate.substring(6, 10);
-      this.filtro.datausucriacaoate = ano + '-' + mes + '-' + dia;
-      this.salvarDataLocalStorage(tipo, this.filtro.datausucriacaoate, 'dataalteracao');
-    } else {
-      this.filtro.datausucriacaoate = '';
-    }
-  }
-  if (this.timeout) { clearTimeout(this.timeout); }
-  this.timeout = setTimeout(() => {
-    this.carregar();
-    this.FirstPage();
+
+  setColumnsDefaultValue() {
+    this.selectedColumns = this.cols;
     this.saveLocalStorage(null);
-  }, 800);
-}
-
-limparData(tipo: string) {
-  if (tipo === 'dataGravacao') {
-    this.filtro.datagravacaode = '';
-    this.filtro.datagravacaoate = '';
-    this.datagravacaode = '';
-    this.datagravacaoate = '';
-    this.removerDataLocalStorage('datagravacao', 'datagravacaode', 'datagravacaoate');
   }
 
-  if (tipo === 'dataUsucriacao') {
-    this.filtro.datausucriacaode = '';
-    this.filtro.datausucriacaoate = '';
-    this.datausucriacaode = '';
-    this.datausucriacaoate = '';
-    this.removerDataLocalStorage('datausucriacao', 'datausucriacaode', 'datausucriacaoate');
+  @Input('usuariosColumns')
+  set selectedColumns(selectedColumns: any) {
+    this._selectedColumns = selectedColumns;
   }
 
-  this.saveLocalStorage(null);
-  this.carregar();
-}
-
-removerDataLocalStorage(nome: string, tipode: string, tipoate: string) {
-  const itemEncontrado = this.selectedColumns.find(item => item.field === nome);
-
-  if (itemEncontrado) {
-    itemEncontrado[tipode] = '';
-    itemEncontrado[tipoate] = '';
+  get selectedColumns(): any {
+    return this._selectedColumns;
   }
-}
 
-verifyFocus() {
-  this.buttonFilter.nativeElement.focus();
-}
+  saveLocalStorage(event: any) {
+    this.localstorageTableService.saveLocalStorage(event, this.selectedColumns, this.state, this.nameColumns)
+  }
 
-AlternarLista() {
-  if (this.filtro.status === 'true') {
-    this.filtro.status = 'false';
-  } else {
+  eventReorder() {
+    setTimeout(() => {
+      this.localstorageTableService.eventReorder(this.state, this.selectedColumns, this.nameColumns)
+    }, 300);
+  }
+
+  refresh() {
+    this.carregar();
+  }
+
+  carregar() {
+    this.spinner.show();
+    this.usuarioService
+      .listarComFiltro(this.filtro)
+      .then((obj) => {
+        this.usuarios = obj.data;
+        if (this.usuarios.length > 0) {
+          this.noRecords = true;
+        }
+        else {
+          this.noRecords = false;
+        }
+        this.totalRegistros = obj.totalCount;
+        this.totalPages = obj.totalPages;
+        this.spinner.hide();
+      })
+      .catch((erro) => {
+        this.spinner.hide();
+        this.errorHandler.handle(erro);
+      });
+  }
+
+  changePage(event: LazyLoadEvent) {
+    this.filtro.pagina = event.first / event.rows;
+    this.filtro.itensPorPagina = event?.rows;
+    if (this.firstLoading === true) {
+      this.firstLoading = false;
+    } else {
+      this.carregar();
+    }
+  }
+
+  search(value: any) {
+    if (this.timeout) { clearTimeout(this.timeout); }
+    this.timeout = setTimeout(() => {
+      this.applySearch(value);
+    }, 800);
+  }
+
+  buscarFiltroLocalStorage() {
+    this.selectedColumns.forEach((element: any) => {
+      if (element.qty) {
+        this.filtro[element.field] = element.qty;
+      }
+      if (element.field === 'datacriacao') {
+        if (element.datacriacaode) {
+          this.filtro.datacriacaode = element.datacriacaode;
+          const valorFormatadode = element.datacriacaode.split('-').reverse().join('-');
+          this.datacriacaode = valorFormatadode.replace(/-/g, '');
+        }
+
+        if (element.datacriacaoate) {
+          this.filtro.datacriacaoate = element.datacriacaoate;
+          const valorFormatadoate = element.datacriacaoate.split('-').reverse().join('-');
+          this.datacriacaoate = valorFormatadoate.replace(/-/g, '');
+        }
+
+      }
+      if (element.field === 'dataalteracao') {
+        if (element.dataalteracaode) {
+          this.filtro.dataalteracaode = element.dataalteracaode;
+          const valorFormatadode = element.dataalteracaode.split('-').reverse().join('-');
+          this.dataalteracaode = valorFormatadode.replace(/-/g, '');
+        }
+        if (element.dataalteracaoate) {
+          this.filtro.dataalteracaoate = element.dataalteracaoate;
+          const valorFormatadoate = element.dataalteracaoate.split('-').reverse().join('-');
+          this.dataalteracaoate = valorFormatadoate.replace(/-/g, '');
+        }
+      }
+    });
+  }
+
+  applySearch(value: any) {
+    this.blockBtnFilter = true;
+    if (
+      value.qty === null ||
+      value.qty === undefined
+    ) {
+      this.btnBlock();
+    } else {
+      this.filtroUsuario.filtro(value, this.filtro).then((obj) => {
+        this.filtro = obj;
+        this.saveLocalStorage(null);
+        this.carregar();
+        this.FirstPage();
+        this.btnBlock();
+      }).catch((erro) => {
+        this.btnBlock();
+        this.errorHandler.handle(erro);
+      });
+    }
+  }
+
+  FirstPage() {
+    this.paginator.changePage(0);
+  }
+
+  btnBlock() {
+    setTimeout(() => {
+      this.blockBtnFilter = false;
+    }, 680);
+  }
+
+  filtroDefault() {
+    this.filtro.pagina = 0;
+    this.filtro.itensPorPagina = 10;
     this.filtro.status = 'true';
   }
-  this.carregar();
-}
+
+  salvarDataLocalStorage(tipo: string, valor: string, nome: string) {
+    const itemEncontrado = this.selectedColumns.find(item => item.field === nome);
+    if (itemEncontrado) {
+      itemEncontrado[tipo] = valor;
+    }
+  }
+
+  searchData(tipo: string) {
+    this.filtroDefault();
+    if (tipo === 'datacriacaode') {
+      if (this.datacriacaode && this.datacriacaode.length === 10) {
+        const dia = this.datacriacaode.substring(0, 2);
+        const mes = this.datacriacaode.substring(3, 5);
+        const ano = this.datacriacaode.substring(6, 10);
+        this.filtro.datacriacaode = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(tipo, this.filtro.datacriacaode, 'datacriacao');
+      } else {
+        this.filtro.datacriacaode = '';
+      }
+    }
+    if (tipo === 'datacriacaoate') {
+      if (this.datacriacaoate && this.datacriacaoate.length === 10) {
+        const dia = this.datacriacaoate.substring(0, 2);
+        const mes = this.datacriacaoate.substring(3, 5);
+        const ano = this.datacriacaoate.substring(6, 10);
+        this.filtro.datacriacaoate = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(tipo, this.filtro.datacriacaoate, 'datacriacao');
+      } else {
+        this.filtro.datacriacaoate = '';
+      }
+    }
+
+    if (tipo === 'dataalteracaode') {
+      if (this.dataalteracaode && this.dataalteracaode.length === 10) {
+        const dia = this.dataalteracaode.substring(0, 2);
+        const mes = this.dataalteracaode.substring(3, 5);
+        const ano = this.dataalteracaode.substring(6, 10);
+        this.filtro.dataalteracaode = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(tipo, this.filtro.dataalteracaode, 'dataalteracao');
+      } else {
+        this.filtro.dataalteracaode = '';
+      }
+    }
+    if (tipo === 'dataalteracaoate') {
+      if (this.dataalteracaoate && this.dataalteracaoate.length === 10) {
+        const dia = this.dataalteracaoate.substring(0, 2);
+        const mes = this.dataalteracaoate.substring(3, 5);
+        const ano = this.dataalteracaoate.substring(6, 10);
+        this.filtro.dataalteracaoate = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(tipo, this.filtro.dataalteracaoate, 'dataalteracao');
+      } else {
+        this.filtro.dataalteracaoate = '';
+      }
+    }
+    if (this.timeout) { clearTimeout(this.timeout); }
+    this.timeout = setTimeout(() => {
+      this.carregar();
+      this.FirstPage();
+      this.saveLocalStorage(null);
+    }, 800);
+  }
+
+  limparData(tipo: string) {
+    if (tipo === 'dataCriacao') {
+      this.filtro.datacriacaode = '';
+      this.filtro.datacriacaoate = '';
+      this.datacriacaode = '';
+      this.datacriacaoate = '';
+      this.removerDataLocalStorage('datacriacao', 'datacriacaode', 'datacriacaoate');
+    }
+
+    if (tipo === 'dataAlteracao') {
+      this.filtro.dataalteracaode = '';
+      this.filtro.dataalteracaoate = '';
+      this.dataalteracaode = '';
+      this.dataalteracaoate = '';
+      this.removerDataLocalStorage('dataalteracao', 'dataalteracaode', 'dataalteracaoate');
+    }
+
+    this.saveLocalStorage(null);
+    this.carregar();
+  }
+
+  removerDataLocalStorage(nome: string, tipode: string, tipoate: string) {
+    const itemEncontrado = this.selectedColumns.find(item => item.field === nome);
+
+    if (itemEncontrado) {
+      itemEncontrado[tipode] = '';
+      itemEncontrado[tipoate] = '';
+    }
+  }
+
+  verifyFocus() {
+    this.buttonFilter.nativeElement.focus();
+  }
+
+  AlternarLista() {
+    if (this.filtro.status === 'true') {
+      this.filtro.status = 'false';
+    } else {
+      this.filtro.status = 'true';
+    }
+    this.carregar();
+  }
 }
