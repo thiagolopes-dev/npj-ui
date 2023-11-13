@@ -81,6 +81,23 @@ export class FiltroAgendamentos {
   status: string;
 }
 
+export class FiltroProcessos {
+  pagina: number;
+  itensPorPagina: number;
+  numeroProcesso: string;
+  cliente: string;
+  varas: string;
+  motivos: string;
+  status: string;
+  processos: string;
+  datacriacaode: string;
+  datacriacaoate: string;
+  dataalteracaode: string;
+  dataalteracaoate: string;
+  usuariocriacao: string;
+  usuarioalteracao: string;
+}
+
 
   export class FiltrosUsuario {
     dataalteracaode?(tipo: string, dataalteracaode: any, arg2: string) {

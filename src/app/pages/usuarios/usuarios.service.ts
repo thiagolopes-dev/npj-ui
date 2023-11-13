@@ -44,8 +44,8 @@ export class UsuariosService {
     obj.page = filtro.pagina;
     obj.perPage = filtro.itensPorPagina;
 
-    if (filtro.codigo) {
-      obj.codigo = filtro.codigo;
+    if (filtro.id) {
+      obj.id = filtro.id;
     }
 
     if (filtro.nome) {

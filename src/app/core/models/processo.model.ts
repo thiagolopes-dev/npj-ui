@@ -9,11 +9,9 @@ export class Processos {
   numeroProcesso?: number;
   cliente = new Clientes();
   varas =  new Varas();
-  statusdescricao = new Status();
+  status = new Status();
   motivos = new Motivos();
-  usuarios = new Usuarios();
   processos?: ProcessoInfo;
-  status: boolean;
 
   constructor() {
     this.processos = new ProcessoInfo();

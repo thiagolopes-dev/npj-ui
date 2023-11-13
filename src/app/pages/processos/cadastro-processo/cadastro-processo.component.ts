@@ -38,10 +38,15 @@ export class CadastroProcessoComponent {
   motivos = [];
   varas = [];
   usuarios = [];
-  statusdescricao = [];
+  status = [];
   descricoes: any[] = [];
   displayTextarea = false;
   visible: boolean = false;
+
+
+  tabProcessoInformacoesAtiva: boolean = false;
+  showDialog: boolean = false;
+  novaDescricao: string = '';
 
   constructor(
     private processoService: ProcessosService,
@@ -62,23 +67,46 @@ export class CadastroProcessoComponent {
 
   ngOnInit() {
     this.newprocesso.processos.datacriacao = new Date();
-    this.newprocesso.status = true;
     this.idprocesso = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de processos');
     this.carregarClientes();
     this.carregarMotivos();
     this.carregarStatus();
-
+    this.carregarVaras();
     if (this.idprocesso) {
       this.spinner.show();
       this.carregarProcessos(this.idprocesso);
     } else {
-      this.newprocesso.status = true;
     }
   }
 
-  showDialog() {
-    this.visible = true;
+  onTabChange(event: any) {
+    if (event.index === 1) {
+      this.tabProcessoInformacoesAtiva = true;
+    } else {
+      this.tabProcessoInformacoesAtiva = false;
+    }
+    console.log('tabProcessoInformacoesAtiva:', this.tabProcessoInformacoesAtiva);
+  }
+
+
+  abrirDialog() {
+    this.showDialog = true;
+  }
+
+  salvarDescricao() {
+    // Adicione a nova descrição à lista
+    this.descricoes.push({
+      usuarioCriacao: this.newprocesso.processos.usuariocriacao,
+      descricao: this.novaDescricao,
+      dataCriacao: this.newprocesso.processos.datacriacao,
+    });
+  
+    // Limpe o campo de descrição
+    this.novaDescricao = '';
+  
+    // Feche o diálogo
+    this.showDialog = false;
   }
 
   toggleTextarea() {
@@ -104,11 +132,7 @@ export class CadastroProcessoComponent {
   adicionarProcesso(form: NgForm) {
     console.log('entrei no adicionar');
     this.salvando = true;
-    this.mostrarToast = true;
-    this.descricoes.push({
-      usuario: this.newprocesso.usuarios.name, // Substitua pela lógica real para obter o usuário
-      descricao: this.newprocesso.processos.informacoes,
-    });
+    this.mostrarToast = true; // Substitua pela lógica real para obter o usuário
     this.processoService
       .adicionarProcessos(this.newprocesso)
       .then((obj) => {
@@ -258,7 +282,7 @@ export class CadastroProcessoComponent {
     return this.statusService
       .ListarDrop()
       .then((response) => {
-        this.statusdescricao = response.map((status) => ({
+        this.status = response.map((status) => ({
           descricao: status.descricao,
           codigo: status.codigo,
         }));
@@ -270,20 +294,9 @@ export class CadastroProcessoComponent {
   }
 
   atribuirStatus() {
-    this.newprocesso.status = this.statusdescricao.find(
-      (obj) => obj.descricao === 'ABERTO',
+    this.newprocesso.status = this.status.find(
+      (obj) => obj.descricao === 'ABERTO'
     );
   }
 
-// TODO Salvar Usuario
-  salvarDescricao() {
-    // Adicione a descrição ao array
-    this.descricoes.push({
-      usuario: this.newprocesso.usuarios.name || "userpadrão",
-      descricao: this.newprocesso.processos.informacoes,
-    });
-    this.visible = false;
-    this.newprocesso.processos.informacoes = '';
-    this.descricoes = [...this.descricoes];
-  }
 }

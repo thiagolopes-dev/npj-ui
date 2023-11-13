@@ -1,6 +1,6 @@
-<!-- <main>
+<main>
   <p-card styleClass="card-adjust">
-    <h4>Status</h4>
+    <h4>Usuarios</h4>
     <div class="flex justify-content-between mb-2">
       <div class="flex justify-content-start mb-2">
         <div>
@@ -36,7 +36,7 @@
           <th class="tdAcoes">&nbsp;</th>
           <th *ngFor="let cols of columns; let i = index" [ngStyle]="{'min-width': cols.width}">
             <form #formFiltro="ngForm" autocomplete="off">
-              <div *ngIf="cols.type !== 'date' && cols.type !== 'usuarios'" class="flex p-2"
+              <div *ngIf="cols.type !== 'date' && cols.type !== 'status'" class="flex p-2"
                 [ngStyle]="{'min-width': cols.width}">
                 <input pInputText class="white-space-nowrap overflow-hidden text-overflow-ellipsis mr-2 w-full"
                   placeholder="Pesquisar" type="text" name="pesquisa{{i}}" [(ngModel)]="cols.qty" validateQuantity
@@ -53,8 +53,8 @@
                       </div>
                       <div class="col-5">
                         <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaode"
-                          (keyup)="searchData('datacriacaode')" (blur)="searchData('datacriacaode')" type="tel"
-                          class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="datacriacaode"
+                          (keyup)="searchData('datagravacaode')" (blur)="searchData('datagravacaode')" type="tel"
+                          class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="datagravacaode"
                           #dtcriacaode="ngModel" minlength="10" />
                         <app-message [control]="dtcriacaode" error="minlength" text="Digite uma data completa">
                         </app-message>
@@ -64,8 +64,8 @@
                       </div> 
                       <div class="col-5">
                         <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaoate"
-                          (keyup)="searchData('datacriacaoate')" (blur)="searchData('datacriacaoate')" type="tel"
-                          class="w-full" [(ngModel)]="datacriacaoate" [dropSpecialCharacters]="false"
+                          (keyup)="searchData('datagravacaoate')" (blur)="searchData('datagravacaoate')" type="tel"
+                          class="w-full" [(ngModel)]="datagravacaoate" [dropSpecialCharacters]="false"
                           #dtcriacaoate="ngModel" minlength="10" />
                         <app-message [control]="dtcriacaoate" error="minlength" text="Digite uma data completa">
                         </app-message>
@@ -79,7 +79,7 @@
                   </ng-template>
                 </p-overlayPanel>
                 <button pButton pRipple type="button" label="Pesquisar"
-                  [ngClass]="(datacriacaode || datacriacaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
+                  [ngClass]="(datagravacaode || datagravacaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
                   class="p-button-raised  w-full" (click)="dataCriacao.toggle($event)"></button>
               </div>
               <div *ngIf="cols.type === 'date' && cols.field === 'dataalteracao'" class="flex p-2"
@@ -92,8 +92,8 @@
                       </div>
                       <div class="col-5">
                         <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtalteracaode"
-                          (keyup)="searchData('dataalteracaode')" (blur)="searchData('dataalteracaode')" type="tel"
-                          class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="dataalteracaode"
+                          (keyup)="searchData('datausucriacaode')" (blur)="searchData('datausucriacaode')" type="tel"
+                          class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="datausucriacaode"
                           #dtalteracaode="ngModel" minlength="10" />
                         <app-message [control]="dtalteracaode" error="minlength" text="Digite uma data completa">
                         </app-message>
@@ -103,8 +103,8 @@
                       </div>
                       <div class="col-5">
                         <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtalteracaoate"
-                          (keyup)="searchData('dataalteracaoate')" (blur)="searchData('dataalteracaoate')" type="tel"
-                          class="w-full" [(ngModel)]="dataalteracaoate" [dropSpecialCharacters]="false"
+                          (keyup)="searchData('datausucriacaoate')" (blur)="searchData('datausucriacaoate')" type="tel"
+                          class="w-full" [(ngModel)]="datausucriacaoate" [dropSpecialCharacters]="false"
                           #dtalteracaoate="ngModel" minlength="10" />
                         <app-message [control]="dtalteracaoate" error="minlength" text="Digite uma data completa">
                         </app-message>
@@ -118,7 +118,7 @@
                   
                 </p-overlayPanel>
                 <button pButton pRipple type="button" label="Pesquisar"
-                  [ngClass]="(dataalteracaode || dataalteracaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
+                  [ngClass]="(datausucriacaode || datausucriacaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
                   class="p-button-raised  w-full" (click)="dataAlteracao.toggle($event)"></button>
               </div>
             </form>
@@ -126,12 +126,15 @@
         </tr>
       </ng-template>
   
-      <ng-template pTemplate="body" let-usuario let-columns="columns" let-rowData>
-        <tr class="ui-selectable-row" [pSelectableRow]="usuario">
+      <ng-template pTemplate="body" let-usuarios let-columns="columns" let-rowData>
+        <tr class="ui-selectable-row" [pSelectableRow]="usuarios">
           <td class="tdEditar">
             <button pButton pRipple type="button" class="p-button-text p-button-warning"
-              pTooltip="Editar" icon="pi pi-pencil" tooltipPosition="top" [routerLink]="['/usuarios', usuario._id]"
+              pTooltip="Editar" icon="pi pi-pencil" tooltipPosition="top" [routerLink]="['/usuarios', usuarios._id]"
               ></button>
+            <button pButton pRipple type="button" class="p-button-text p-button-warning  ml-1"
+            pTooltip="Alterar Senha" tooltipPosition="top" icon="pi pi-lock"
+            [routerLink]="['/usuarios', usuarios._id, 'senha']"></button>
           </td>
           <td class="responsivetable" *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}"
             pReorderableColumn
@@ -175,4 +178,4 @@
       </ng-template>
     </p-table>
   </p-card>
-</main> -->
+</main>

@@ -11,10 +11,13 @@ const routes: Routes = [
   {
     path: '', component: UsuariosListaComponent,
     canActivate: [AuthGuard],
+    data: {roles: ['usuarios']}
+
   },
   {
     path: 'novo', component: UsuarioCadastroComponent,
     canActivate: [AuthGuard],
+    data: {roles: ['usuarios']}
   },
   {
     path: 'alterarsenhausuario', component: AlterarSenhaComponent
@@ -22,10 +25,12 @@ const routes: Routes = [
   {
     path: ':id', component: UsuarioCadastroComponent,
     canActivate: [AuthGuard],
+    data: {roles: ['usuarios']}
   },
   {
     path: ':id/senha', component: AlterarSenhaComponent,
     canActivate: [AuthGuard],
+    data: {roles: ['usuarios']}
   },
 ];
 

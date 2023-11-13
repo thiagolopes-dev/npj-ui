@@ -5,9 +5,10 @@ import { NgxMaskDirective, NgxMaskPipe } from 'ngx-mask';
 import { PrimeNGModule } from 'src/app/primeng.module';
 import { SharedModule } from '../shared/shared.module';
 import { AlterarSenhaComponent } from './alterar-senha/alterar-senha.component';
+import { UsuariosRountingModule } from './usuarios.routing';
 import { UsuarioCadastroComponent } from './usuario-cadastro/usuario-cadastro.component';
 import { UsuariosListaComponent } from './usuarios-lista/usuarios-lista.component';
-import { UsuariosRountingModule } from './usuarios.routing';
+
 
 
 @NgModule({

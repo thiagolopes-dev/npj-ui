@@ -5,7 +5,7 @@ import { FiltrosUsuario } from '../../models/filtros.model';
   providedIn: 'root',
 })
 
-export class FiltroUsuarioService {
+export class FiltrosUsuarioService {
 
 
   constructor() { }
@@ -47,6 +47,8 @@ export class FiltroUsuarioService {
     if (value.field === 'usucriacao') {
       filtro.usucriacao = value.qty;
     }
+
+    
 
     return filtro;
   }

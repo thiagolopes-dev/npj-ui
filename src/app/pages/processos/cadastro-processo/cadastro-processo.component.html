@@ -114,8 +114,8 @@
         <div class="col-12 md:col-6 lg:col-4"  >
           <h6><span class="obrigatorio" >*</span>Status</h6>
           <p-dropdown
-          styleClass="w-full" [options]="statusdescricao"
-            [(ngModel)]="newprocesso.statusdescricao"
+          styleClass="w-full" [options]="status"
+            [(ngModel)]="newprocesso.status"
             #status="ngModel"
             name="status"
             placeholder="Selecione o Status"
@@ -198,85 +198,66 @@
 
       <p-tabPanel header="Processo Informações">
         <div class="grid">
-          <div class="col-12 md:col-6 lg:col-4">
+          <div class="w-full">
 
           <!-- TODO Forma de input uppercase sem diretiva -->
 
-          <p-button  class="obrigatorio" (click)="showDialog()" icon="pi pi-external-link" label="Informe a Descrição"></p-button>
-          <p-dialog header="Informação" [(visible)]="visible" [style]="{ width: '50vw' }">
-            <div class="flex py-2 justify-content-center">
-          <input
-          class="w-full"
-          oninput="this.value = this.value.toUpperCase()"
-          pInputTextarea
-          rows="2"
-          [autoResize]="true"
-          name="informacoes"
-          type="text"
-          [pKeyFilter]="regex.stringNumber"
-          [(ngModel)]="newprocesso.processos.informacoes"
-          #informacoes="ngModel"
-          required
-          minlength="3"
-          />
-        </div>
-        <p-button (click)="salvarDescricao()" icon="pi pi-check" label="Salvar"></p-button>
+          <p-button class="obrigatorio" (click)="abrirDialog()" icon="pi pi-external-link" label="Informe a Descrição"></p-button>
+          <p-dialog header="Informe a Descrição" class="w-full" [(visible)]="showDialog">
+            <form (ngSubmit)="salvarDescricao()">
+              <div class="flex py-2 justify-content-center w-full">
+                <input
+                  class="w-full"
+                  oninput="this.value = this.value.toUpperCase()"
+                  pInputTextarea
+                  rows="2"
+                  [autoResize]="true"
+                  name="informacoes"
+                  type="text"
+                  [pKeyFilter]="regex.stringNumber"
+                  [(ngModel)]="novaDescricao"
+                  #informacoes="ngModel"
+                  required
+                  minlength="3"
+                />
+              </div>
+              <div class="flex justify-content-center">
+                <button
+                  pButton
+                  type="submit"
+                  label="Salvar"
+                  icon="fas fa-save"
+                  class="p-button-raised p-button-warning w-full"
+                ></button>
+              </div>
+            </form>
+          </p-dialog>
+          
+          <!-- Ajuste a tabela para iterar sobre descricoes -->
+          <div class="page-container ">
+          <p-table [value]="descricoes">
+            <ng-template pTemplate="header">
+              <tr>
+                <th class="tabela300px" >Descrição</th>
+                <th class="tabela200px" >Usuário</th>
+                <th class="tabela200px" >Data</th>
+              </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-descricao>
+              <tr>
+                <td class="tabela300px" > {{ descricao.descricao }}</td>
+                <td class="tabela200px">{{ descricao.usuarioCriacao }}</td>
+                <td class="tabela200px">{{ descricao.dataCriacao.toLocaleDateString('pt-BR') }}</td>
+              </tr>
+            </ng-template>
+          </p-table>
+          </div>
 
-        </p-dialog>
-
-          <app-message
-            [control]="informacoes"
-            error="required"
-            text="Informe o Processo"
-          ></app-message>
-          <app-message
-            [control]="informacoes"
-            error="minlength"
-            text="Mínimo de {{
-              informacoes.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
-      
-        </div>  
-      </div>
-
-      <div>
-        <p-table [value]="descricoes">
-          <!-- Defina as colunas da tabela aqui -->
-          <ng-template pTemplate="header">
-            <tr>
-              <th>Usuário</th>
-              <th>Descrição</th>
-            </tr>
-          </ng-template>
-          <ng-template pTemplate="body" let-descricao>
-            <tr>
-              <td>{{ descricao.usuario }}</td>
-              <td>{{ descricao.descricao }}</td>
-            </tr>
-          </ng-template>
-        </p-table>
+        </div> 
       </div>
     </p-tabPanel>
+
     </p-tabView>
-
-      <div class="flex justify-content-center">
-        <div class="flex align-items-center justify-content-center">
-          <h6>Status</h6>
-        </div>
-      </div>
-      <div class="flex justify-content-center">
-        <div class="flex align-items-center justify-content-center">
-          <p-inputSwitch
-            [(ngModel)]="newprocesso.status"
-            name="status"
-            [ngModelOptions]="{ standalone: true }"
-            binary="true"
-          >
-          </p-inputSwitch>
-        </div>
-      </div>
-
       <br />
       <div class="flex flex-wrap justify-content-center">
         <div class="col-12 md:col-6 lg:col-4">
