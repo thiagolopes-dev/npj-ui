@@ -32,7 +32,7 @@ export class ErrorHandlerService {
           msg = 'Você não tem permissão para executar esta ação';
         } else {
           msg = errorResponse.error.mensagem;
-          console.log(msg);
+          // console.log(msg);
         }
       }
 

@@ -44,7 +44,6 @@ export class CadastroVaraComponent {
     this.title.setTitle('Cadastro de Vara');
 
     if (this.idvara) {
-      console.log(this.idvara);
       this.spinner.show();
       this.carregarVara(this.idvara);
     } else {
@@ -108,7 +107,6 @@ export class CadastroVaraComponent {
       .buscarPorID(_id)
       .then((obj) => {
         this.newvara = obj;
-        console.log(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })

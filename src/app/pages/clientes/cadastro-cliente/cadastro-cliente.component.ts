@@ -65,7 +65,6 @@ export class CadastroClienteComponent {
   }
 
   get editando() {
-    console.log()
     return Boolean(this.newcliente._id);
   }
 
@@ -203,11 +202,6 @@ export class CadastroClienteComponent {
   clearInputs() {
     this.newcliente = {}; // Limpa as informações do cliente      
     this.newcliente.cep = '';
-  }
-
-  handlerChange(event: any) {
-    console.log(this.newcliente.whatsapp);
-    console.log(this.newcliente.cep);
   }
 
   carregarEstados() {

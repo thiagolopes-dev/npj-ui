@@ -129,7 +129,7 @@
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
             oninput="this.value = this.value.toUpperCase()" pInputText name="whatsapp" type="text"
-            (change)="handlerChange($event)" [mask]="'(00) 0 0000-0000'" [pKeyFilter]="regex.stringEspecial"
+           [mask]="'(00) 0 0000-0000'" [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.whatsapp" #whatsapp="ngModel" minlength="9" maxlength="16"
             [dropSpecialCharacters]="true" />
         </div>

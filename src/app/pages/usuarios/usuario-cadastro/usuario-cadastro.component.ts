@@ -178,7 +178,6 @@ export class UsuarioCadastroComponent implements OnInit, AfterViewInit, OnDestro
     for (const controlName in form.controls) {
       if (form.controls.hasOwnProperty(controlName)) {
         const control = form.controls[controlName];
-        console.log(controlName);
         if (control.value !== null && control.value !== undefined && control.value.toString().trim() !== ''
           && controlName !== 'status') {
           return true;

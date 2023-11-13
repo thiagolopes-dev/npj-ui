@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, ViewChild } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -12,14 +12,13 @@ import { Regex } from 'src/app/core/validators/regex.model';
 
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { Processos } from 'src/app/core/models/processo.model';
-import { ProcessosService } from '../processos.service';
 import { ClientesService } from '../../clientes/clientes.service';
 import { MotivosService } from '../../motivos/motivos.service';
-import { StatusService } from '../../status/status.service';
-import { VarasService } from '../../varas/varas.service';
 import { AuthService } from '../../seguranca/auth.service';
-import { Usuarios } from 'src/app/core/models/usuarios.model';
+import { StatusService } from '../../status/status.service';
 import { UsuariosService } from '../../usuarios/usuarios.service';
+import { VarasService } from '../../varas/varas.service';
+import { ProcessosService } from '../processos.service';
 
 @Component({
   selector: 'app-cadastro-processo',
@@ -86,7 +85,6 @@ export class CadastroProcessoComponent {
     } else {
       this.tabProcessoInformacoesAtiva = false;
     }
-    console.log('tabProcessoInformacoesAtiva:', this.tabProcessoInformacoesAtiva);
   }
 
 
@@ -130,7 +128,6 @@ export class CadastroProcessoComponent {
   }
 
   adicionarProcesso(form: NgForm) {
-    console.log('entrei no adicionar');
     this.salvando = true;
     this.mostrarToast = true; // Substitua pela lógica real para obter o usuário
     this.processoService
@@ -151,7 +148,6 @@ export class CadastroProcessoComponent {
       });
   }
   atualizarProcesso(form: NgForm) {
-    console.log('entrei no atualizar');
     this.salvando = true;
     this.processoService
       .atualizarProcessos(this.newprocesso)
@@ -176,7 +172,6 @@ export class CadastroProcessoComponent {
       .buscarPorID(_id)
       .then((obj) => {
         this.newprocesso = obj;
-        console.log(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })

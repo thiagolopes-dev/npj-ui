@@ -26,14 +26,14 @@
   
       <ng-template pTemplate="header" let-columns>
         <tr>
-          <th class="tdAcoes">&nbsp;</th>
+          <th class="btnAcoes">&nbsp;</th>
           <th *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}" pReorderableColumn>
             {{cols.header}}
           </th>
         </tr>
   
         <tr>
-          <th class="tdAcoes">&nbsp;</th>
+          <th class="btnAcoes">&nbsp;</th>
           <th *ngFor="let cols of columns; let i = index" [ngStyle]="{'min-width': cols.width}">
             <form #formFiltro="ngForm" autocomplete="off">
               <div *ngIf="cols.type !== 'date' && cols.type !== 'status'" class="flex p-2"

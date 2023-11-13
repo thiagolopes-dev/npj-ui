@@ -68,7 +68,6 @@ export class CadastroMotivoComponent {
   }
   
   adicionarMotivo(form: NgForm) {
-    console.log('entrei no adicionar');
     this.salvando = true;
     this.mostrarToast= true;
     this.motivoService
@@ -87,8 +86,8 @@ export class CadastroMotivoComponent {
         this.errorHandler.handle(erro);
       });
   }
+
   atualizarMotivo(form: NgForm) {
-    console.log('entrei no atualizar');
     this.salvando = true;
     this.motivoService
       .atualizarMotivos(this.newmotivo)
@@ -113,7 +112,6 @@ export class CadastroMotivoComponent {
       .buscarPorID(_id)
       .then((obj) => {
         this.newmotivo = obj;
-        console.log(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })

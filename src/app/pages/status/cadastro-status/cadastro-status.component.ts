@@ -5,8 +5,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ConfirmEventType, ConfirmationService, MessageService } from 'primeng/api';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { Regex } from 'src/app/core/validators/regex.model';
 import { Status } from 'src/app/core/models/status.model';
+import { Regex } from 'src/app/core/validators/regex.model';
 import { StatusService } from '../status.service';
 
 @Component({
@@ -67,7 +67,6 @@ export class CadastroStatusComponent {
   }
   
   adicionarStatus(form: NgForm) {
-    console.log('entrei no adicionar');
     this.salvando = true;
     this.statusService
       .adicionarStatus(this.newstatus)
@@ -85,8 +84,8 @@ export class CadastroStatusComponent {
         this.errorHandler.handle(erro);
       });
   }
+
   atualizarStatus(form: NgForm) {
-    console.log('entrei no atualizar');
     this.salvando = true;
     this.statusService
       .atualizarStatus(this.newstatus)
@@ -106,12 +105,12 @@ export class CadastroStatusComponent {
         this.errorHandler.handle(erro);
       });
   }
+
   carregarStatus(_id: string) {
     this.statusService
       .buscarPorID(_id)
       .then((obj) => {
         this.newstatus = obj;
-        console.log(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })

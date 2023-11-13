@@ -41,7 +41,6 @@ export class AlterarSenhaComponent implements OnInit {
     this.usuarioService
       .buscarPorIdSenha(id)
       .then((pac: any) => {
-        console.log(pac);
         // this.usuario = pac;
         this.usuario.name = pac.name;
         this.usuario._id = pac._id;
