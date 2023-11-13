@@ -15,7 +15,7 @@
           <!--TODO Forma de input uppercase sem diretiva -->
           <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="motivo" type="text"
             [pKeyFilter]="regex.stringNumber" [(ngModel)]="newmotivo.descricao" #motivo="ngModel"
-            required minlength="3" />
+            required minlength="4" />
           <app-message [control]="motivo" error="required" text="Informe a descrição"></app-message>
           <app-message [control]="motivo" error="minlength" text="Mínimo de {{
               motivo.errors?.minlength?.requiredLength
