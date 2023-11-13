@@ -8,6 +8,7 @@ import { Table } from 'primeng/table';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { FiltrosUsuario } from 'src/app/core/models/filtros.model';
 import { Usuarios } from 'src/app/core/models/usuarios.model';
+import { FiltroUsuarioService } from 'src/app/core/services/filtros-services/filtro-usuario.service';
 import { AuthService } from '../../seguranca/auth.service';
 import { UsuariosService } from '../usuarios.service';
 import { FiltrosUsuarioService } from 'src/app/core/services/filtros-services/filtro-usuario.service';
