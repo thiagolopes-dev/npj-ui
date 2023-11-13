@@ -1,0 +1,1006 @@
+{
+    "data": [
+        {
+            "id": "3683",
+            "cidade": "ACARI",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3684",
+            "cidade": "ACU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3685",
+            "cidade": "AFONSO BEZERRA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3686",
+            "cidade": "AGUA NOVA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3687",
+            "cidade": "ALEXANDRIA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3688",
+            "cidade": "ALMINO AFONSO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3689",
+            "cidade": "ALTO DO RODRIGUES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3690",
+            "cidade": "ANGICOS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3691",
+            "cidade": "ANTONIO MARTINS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3692",
+            "cidade": "APODI",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3693",
+            "cidade": "AREIA BRANCA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3694",
+            "cidade": "ARES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3695",
+            "cidade": "AUGUSTO SEVERO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3696",
+            "cidade": "BAIA FORMOSA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3697",
+            "cidade": "BARAUNA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3698",
+            "cidade": "BARCELONA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3699",
+            "cidade": "BENTO FERNANDES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3700",
+            "cidade": "BODO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3701",
+            "cidade": "BOM JESUS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3702",
+            "cidade": "BREJINHO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3703",
+            "cidade": "CAICARA DO NORTE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3704",
+            "cidade": "CAICARA DO RIO DO VENTO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3705",
+            "cidade": "CAICO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3706",
+            "cidade": "CAMPO REDONDO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3707",
+            "cidade": "CANGUARETAMA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3708",
+            "cidade": "CARAUBAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3709",
+            "cidade": "CARNAUBA DOS DANTAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3710",
+            "cidade": "CARNAUBAIS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3711",
+            "cidade": "CEARA-MIRIM",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3712",
+            "cidade": "CERRO CORA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3713",
+            "cidade": "CORONEL EZEQUIEL",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3714",
+            "cidade": "CORONEL JOAO PESSOA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3715",
+            "cidade": "CRUZETA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3716",
+            "cidade": "CURRAIS NOVOS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3717",
+            "cidade": "DOUTOR SEVERIANO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3718",
+            "cidade": "ENCANTO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3719",
+            "cidade": "EQUADOR",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3720",
+            "cidade": "ESPIRITO SANTO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3721",
+            "cidade": "EXTREMOZ",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3722",
+            "cidade": "FELIPE GUERRA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3723",
+            "cidade": "FERNANDO PEDROZA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3724",
+            "cidade": "FLORANIA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3725",
+            "cidade": "FRANCISCO DANTAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3726",
+            "cidade": "FRUTUOSO GOMES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3727",
+            "cidade": "GALINHOS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3728",
+            "cidade": "GOIANINHA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3729",
+            "cidade": "GOVERNADOR DIX-SEPT ROSADO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3730",
+            "cidade": "GROSSOS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3731",
+            "cidade": "GUAMARE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3732",
+            "cidade": "IELMO MARINHO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3733",
+            "cidade": "IPANGUACU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3734",
+            "cidade": "IPUEIRA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3735",
+            "cidade": "ITAJA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3736",
+            "cidade": "ITAU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3737",
+            "cidade": "JACANA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3738",
+            "cidade": "JANDAIRA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3739",
+            "cidade": "JANDUIS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3740",
+            "cidade": "JANUARIO CICCO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3741",
+            "cidade": "JAPI",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3742",
+            "cidade": "JARDIM DE ANGICOS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3743",
+            "cidade": "JARDIM DE PIRANHAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3744",
+            "cidade": "JARDIM DO SERIDO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3745",
+            "cidade": "JOAO CAMARA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3746",
+            "cidade": "JOAO DIAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3747",
+            "cidade": "JOSE DA PENHA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3748",
+            "cidade": "JUCURUTU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3749",
+            "cidade": "JUNDIA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3750",
+            "cidade": "LAGOA D`ANTA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3751",
+            "cidade": "LAGOA DE PEDRAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3752",
+            "cidade": "LAGOA DE VELHOS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3753",
+            "cidade": "LAGOA NOVA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3754",
+            "cidade": "LAGOA SALGADA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3755",
+            "cidade": "LAJES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3756",
+            "cidade": "LAJES PINTADAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3757",
+            "cidade": "LUCRECIA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3758",
+            "cidade": "LUIS GOMES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3759",
+            "cidade": "MACAIBA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3760",
+            "cidade": "MACAU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3761",
+            "cidade": "MAJOR SALES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3762",
+            "cidade": "MARCELINO VIEIRA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3763",
+            "cidade": "MARTINS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3764",
+            "cidade": "MAXARANGUAPE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3765",
+            "cidade": "MESSIAS TARGINO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3766",
+            "cidade": "MONTANHAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3767",
+            "cidade": "MONTE ALEGRE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3768",
+            "cidade": "MONTE DAS GAMELEIRAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3769",
+            "cidade": "MOSSORO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3770",
+            "cidade": "NATAL",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3771",
+            "cidade": "NISIA FLORESTA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3772",
+            "cidade": "NOVA CRUZ",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3773",
+            "cidade": "OLHO-D`AGUA DO BORGES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3774",
+            "cidade": "OURO BRANCO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3775",
+            "cidade": "PARANA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3776",
+            "cidade": "PARAU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3777",
+            "cidade": "PARAZINHO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3778",
+            "cidade": "PARELHAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3779",
+            "cidade": "PARNAMIRIM",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3780",
+            "cidade": "PASSA E FICA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3781",
+            "cidade": "PASSAGEM",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3782",
+            "cidade": "PATU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3783",
+            "cidade": "PAU DOS FERROS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3784",
+            "cidade": "PEDRA GRANDE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3785",
+            "cidade": "PEDRA PRETA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3786",
+            "cidade": "PEDRO AVELINO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3787",
+            "cidade": "PEDRO VELHO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3788",
+            "cidade": "PENDENCIAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3789",
+            "cidade": "PILOES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3790",
+            "cidade": "POCO BRANCO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3791",
+            "cidade": "PORTALEGRE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3792",
+            "cidade": "PORTO DO MANGUE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3793",
+            "cidade": "PRESIDENTE JUSCELINO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3794",
+            "cidade": "PUREZA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3795",
+            "cidade": "RAFAEL FERNANDES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3796",
+            "cidade": "RAFAEL GODEIRO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3797",
+            "cidade": "RIACHO DA CRUZ",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3798",
+            "cidade": "RIACHO DE SANTANA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3799",
+            "cidade": "RIACHUELO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3800",
+            "cidade": "RIO DO FOGO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3801",
+            "cidade": "RODOLFO FERNANDES",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3802",
+            "cidade": "RUY BARBOSA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3803",
+            "cidade": "SANTA CRUZ",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3804",
+            "cidade": "SANTA MARIA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3805",
+            "cidade": "SANTANA DO MATOS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3806",
+            "cidade": "SANTANA DO SERIDO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3807",
+            "cidade": "SANTO ANTONIO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3808",
+            "cidade": "SAO BENTO DO NORTE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3809",
+            "cidade": "SAO BENTO DO TRAIRI",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3810",
+            "cidade": "SAO FERNANDO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3811",
+            "cidade": "SAO FRANCISCO DO OESTE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3812",
+            "cidade": "SAO GONCALO DO AMARANTE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3813",
+            "cidade": "SAO JOAO DO SABUGI",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3814",
+            "cidade": "SAO JOSE DE MIPIBU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3815",
+            "cidade": "SAO JOSE DO CAMPESTRE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3816",
+            "cidade": "SAO JOSE DO SERIDO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3817",
+            "cidade": "SAO MIGUEL",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3818",
+            "cidade": "SAO MIGUEL DO GOSTOSO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3819",
+            "cidade": "SAO PAULO DO POTENGI",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3820",
+            "cidade": "SAO PEDRO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3821",
+            "cidade": "SAO RAFAEL",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3822",
+            "cidade": "SAO TOME",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3823",
+            "cidade": "SAO VICENTE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3824",
+            "cidade": "SENADOR ELOI DE SOUZA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3825",
+            "cidade": "SENADOR GEORGINO AVELINO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3826",
+            "cidade": "SERRA DE SAO BENTO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3827",
+            "cidade": "SERRA DO MEL",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3828",
+            "cidade": "SERRA NEGRA DO NORTE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3829",
+            "cidade": "SERRINHA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3830",
+            "cidade": "SERRINHA DOS PINTOS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3831",
+            "cidade": "SEVERIANO MELO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3832",
+            "cidade": "SITIO NOVO",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3833",
+            "cidade": "TABOLEIRO GRANDE",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3834",
+            "cidade": "TAIPU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3835",
+            "cidade": "TANGARA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3836",
+            "cidade": "TENENTE ANANIAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3837",
+            "cidade": "TENENTE LAURENTINO CRUZ",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3838",
+            "cidade": "TIBAU",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3839",
+            "cidade": "TIBAU DO SUL",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3840",
+            "cidade": "TIMBAUBA DOS BATISTAS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3841",
+            "cidade": "TOUROS",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3842",
+            "cidade": "TRIUNFO POTIGUAR",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3843",
+            "cidade": "UMARIZAL",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3844",
+            "cidade": "UPANEMA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3845",
+            "cidade": "VARZEA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3846",
+            "cidade": "VENHA-VER",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3847",
+            "cidade": "VERA CRUZ",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3848",
+            "cidade": "VICOSA",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          },
+          {
+            "id": "3849",
+            "cidade": "VILA FLOR",
+            "sigla": "RN",
+            "estado": "RIO GRANDE DO NORTE"
+          }
+    ]
+}

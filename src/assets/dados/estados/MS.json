@@ -1,0 +1,472 @@
+{
+    "data": [
+        {
+            "id": "1487",
+            "cidade": "AGUA CLARA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1488",
+            "cidade": "ALCINOPOLIS",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1489",
+            "cidade": "AMAMBAI",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1490",
+            "cidade": "ANASTACIO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1491",
+            "cidade": "ANAURILANDIA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1492",
+            "cidade": "ANGELICA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1493",
+            "cidade": "ANTONIO JOAO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1494",
+            "cidade": "APARECIDA DO TABOADO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1495",
+            "cidade": "AQUIDAUANA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1496",
+            "cidade": "ARAL MOREIRA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1497",
+            "cidade": "BANDEIRANTES",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1498",
+            "cidade": "BATAGUASSU",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1499",
+            "cidade": "BATAIPORA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1500",
+            "cidade": "BELA VISTA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1501",
+            "cidade": "BODOQUENA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1502",
+            "cidade": "BONITO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1503",
+            "cidade": "BRASILANDIA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1504",
+            "cidade": "CAARAPO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1505",
+            "cidade": "CAMAPUA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1506",
+            "cidade": "CAMPO GRANDE",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1507",
+            "cidade": "CARACOL",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1508",
+            "cidade": "CASSILANDIA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1509",
+            "cidade": "CHAPADAO DO SUL",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1510",
+            "cidade": "CORGUINHO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1511",
+            "cidade": "CORONEL SAPUCAIA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1512",
+            "cidade": "CORUMBA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1513",
+            "cidade": "COSTA RICA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1514",
+            "cidade": "COXIM",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1515",
+            "cidade": "DEODAPOLIS",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1516",
+            "cidade": "DOIS IRMAOS DO BURITI",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1517",
+            "cidade": "DOURADINA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1518",
+            "cidade": "DOURADOS",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1519",
+            "cidade": "ELDORADO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1520",
+            "cidade": "FATIMA DO SUL",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1521",
+            "cidade": "FIGUEIRAO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1522",
+            "cidade": "GLORIA DE DOURADOS",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1523",
+            "cidade": "GUIA LOPES DA LAGUNA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1524",
+            "cidade": "IGUATEMI",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1525",
+            "cidade": "INOCENCIA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1526",
+            "cidade": "ITAPORA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1527",
+            "cidade": "ITAQUIRAI",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1528",
+            "cidade": "IVINHEMA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1529",
+            "cidade": "JAPORA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1530",
+            "cidade": "JARAGUARI",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1531",
+            "cidade": "JARDIM",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1532",
+            "cidade": "JATEI",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1533",
+            "cidade": "JUTI",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1534",
+            "cidade": "LADARIO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1535",
+            "cidade": "LAGUNA CARAPA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1536",
+            "cidade": "MARACAJU",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1537",
+            "cidade": "MIRANDA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1538",
+            "cidade": "MUNDO NOVO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1539",
+            "cidade": "NAVIRAI",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1540",
+            "cidade": "NIOAQUE",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1541",
+            "cidade": "NOVA ALVORADA DO SUL",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1542",
+            "cidade": "NOVA ANDRADINA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1543",
+            "cidade": "NOVO HORIZONTE DO SUL",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1544",
+            "cidade": "PARANAIBA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1545",
+            "cidade": "PARANHOS",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1546",
+            "cidade": "PEDRO GOMES",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1547",
+            "cidade": "PONTA PORA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1548",
+            "cidade": "PORTO MURTINHO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1549",
+            "cidade": "RIBAS DO RIO PARDO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1550",
+            "cidade": "RIO BRILHANTE",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1551",
+            "cidade": "RIO NEGRO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1552",
+            "cidade": "RIO VERDE DE MATO GROSSO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1553",
+            "cidade": "ROCHEDO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1554",
+            "cidade": "SANTA RITA DO PARDO",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1555",
+            "cidade": "SAO GABRIEL DO OESTE",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1556",
+            "cidade": "SELVIRIA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1557",
+            "cidade": "SETE QUEDAS",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1558",
+            "cidade": "SIDROLANDIA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1559",
+            "cidade": "SONORA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1560",
+            "cidade": "TACURU",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1561",
+            "cidade": "TAQUARUSSU",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1562",
+            "cidade": "TERENOS",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1563",
+            "cidade": "TRES LAGOAS",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          },
+          {
+            "id": "1564",
+            "cidade": "VICENTINA",
+            "sigla": "MS",
+            "estado": "MATO GROSSO DO SUL"
+          }
+    ]
+}

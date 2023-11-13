@@ -1,0 +1,556 @@
+{
+    "data": [
+        {
+            "id": "3591",
+            "cidade": "ANGRA DOS REIS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3592",
+            "cidade": "APERIBE",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3593",
+            "cidade": "ARARUAMA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3594",
+            "cidade": "AREAL",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3595",
+            "cidade": "ARMACAO DOS BUZIOS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3596",
+            "cidade": "ARRAIAL DO CABO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3597",
+            "cidade": "BARRA DO PIRAI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3598",
+            "cidade": "BARRA MANSA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3599",
+            "cidade": "BELFORD ROXO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3600",
+            "cidade": "BOM JARDIM",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3601",
+            "cidade": "BOM JESUS DO ITABAPOANA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3602",
+            "cidade": "CABO FRIO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3603",
+            "cidade": "CACHOEIRAS DE MACACU",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3604",
+            "cidade": "CAMBUCI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3605",
+            "cidade": "CAMPOS DOS GOYTACAZES",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3606",
+            "cidade": "CANTAGALO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3607",
+            "cidade": "CARAPEBUS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3608",
+            "cidade": "CARDOSO MOREIRA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3609",
+            "cidade": "CARMO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3610",
+            "cidade": "CASIMIRO DE ABREU",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3611",
+            "cidade": "COMENDADOR LEVY GASPARIAN",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3612",
+            "cidade": "CONCEICAO DE MACABU",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3613",
+            "cidade": "CORDEIRO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3614",
+            "cidade": "DUAS BARRAS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3615",
+            "cidade": "DUQUE DE CAXIAS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3616",
+            "cidade": "ENGENHEIRO PAULO DE FRONTIN",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3617",
+            "cidade": "GUAPIMIRIM",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3618",
+            "cidade": "IGUABA GRANDE",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3619",
+            "cidade": "ITABORAI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3620",
+            "cidade": "ITAGUAI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3621",
+            "cidade": "ITALVA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3622",
+            "cidade": "ITAOCARA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3623",
+            "cidade": "ITAPERUNA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3624",
+            "cidade": "ITATIAIA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3625",
+            "cidade": "JAPERI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3626",
+            "cidade": "LAJE DO MURIAE",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3627",
+            "cidade": "MACAE",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3628",
+            "cidade": "MACUCO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3629",
+            "cidade": "MAGE",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3630",
+            "cidade": "MANGARATIBA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3631",
+            "cidade": "MARICA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3632",
+            "cidade": "MENDES",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3633",
+            "cidade": "MESQUITA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3634",
+            "cidade": "MIGUEL PEREIRA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3635",
+            "cidade": "MIRACEMA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3636",
+            "cidade": "NATIVIDADE",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3637",
+            "cidade": "NILOPOLIS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3638",
+            "cidade": "NITEROI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3639",
+            "cidade": "NOVA FRIBURGO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3640",
+            "cidade": "NOVA IGUACU",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3641",
+            "cidade": "PARACAMBI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3642",
+            "cidade": "PARAIBA DO SUL",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3643",
+            "cidade": "PARATI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3644",
+            "cidade": "PATY DO ALFERES",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3645",
+            "cidade": "PETROPOLIS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3646",
+            "cidade": "PINHEIRAL",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3647",
+            "cidade": "PIRAI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3648",
+            "cidade": "PORCIUNCULA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3649",
+            "cidade": "PORTO REAL",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3650",
+            "cidade": "QUATIS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3651",
+            "cidade": "QUEIMADOS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3652",
+            "cidade": "QUISSAMA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3653",
+            "cidade": "RESENDE",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3654",
+            "cidade": "RIO BONITO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3655",
+            "cidade": "RIO CLARO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3656",
+            "cidade": "RIO DAS FLORES",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3657",
+            "cidade": "RIO DAS OSTRAS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3658",
+            "cidade": "RIO DE JANEIRO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3659",
+            "cidade": "SANTA MARIA MADALENA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3660",
+            "cidade": "SANTO ANTONIO DE PADUA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3661",
+            "cidade": "SAO FIDELIS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3662",
+            "cidade": "SAO FRANCISCO DE ITABAPOANA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3663",
+            "cidade": "SAO GONCALO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3664",
+            "cidade": "SAO JOAO DA BARRA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3665",
+            "cidade": "SAO JOAO DE MERITI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3666",
+            "cidade": "SAO JOSE DE UBA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3667",
+            "cidade": "SAO JOSE DO VALE DO RIO PRETO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3668",
+            "cidade": "SAO PEDRO DA ALDEIA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3669",
+            "cidade": "SAO SEBASTIAO DO ALTO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3670",
+            "cidade": "SAPUCAIA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3671",
+            "cidade": "SAQUAREMA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3672",
+            "cidade": "SEROPEDICA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3673",
+            "cidade": "SILVA JARDIM",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3674",
+            "cidade": "SUMIDOURO",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3675",
+            "cidade": "TANGUA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3676",
+            "cidade": "TERESOPOLIS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3677",
+            "cidade": "TRAJANO DE MORAIS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3678",
+            "cidade": "TRES RIOS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3679",
+            "cidade": "VALENCA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3680",
+            "cidade": "VARRE-SAI",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3681",
+            "cidade": "VASSOURAS",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          },
+          {
+            "id": "3682",
+            "cidade": "VOLTA REDONDA",
+            "sigla": "RJ",
+            "estado": "RIO DE JANEIRO"
+          }
+    ]
+}

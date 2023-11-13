@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "label": "00 - ENTRADA COM RECUPERAÇÃO DE CRÉDITO",
+            "value": "00"
+        },
+        {
+            "label": "01 - ENTRADA TRIBUTÁVEL COM ALÍQUOTA ZERO",
+            "value": "01"
+        },
+        {
+            "label": "02 - ENTRADA ISENTA",
+            "value": "02"
+        },
+        {
+            "label": "03 - ENTRADA NÃO-TRIBUTADA",
+            "value": "03"
+        },
+        {
+            "label": "04 - ENTRADA IMUNE",
+            "value": "04"
+        },
+        {
+            "label": "05 - ENTRADA COM SUSPENSÃO",
+            "value": "05"
+        },
+        {
+            "label": "49 - OUTRAS ENTRADAS",
+            "value": "49"
+        },
+        {
+            "label": "50 - SAÍDA TRIBUTADA",
+            "value": "50"
+        },
+        {
+            "label": "51 - SAÍDA TRIBUTÁVEL COM ALÍQUOTA ZERO",
+            "value": "51"
+        },
+        {
+            "label": "52 - SAÍDA ISENTA",
+            "value": "52"
+        },
+        {
+            "label": "53 - SAÍDA NÃO-TRIBUTADA",
+            "value": "53"
+        },
+        {
+            "label": "54 - SAÍDA IMUNE",
+            "value": "54"
+        },
+        {
+            "label": "55 - SAÍDA COM SUSPENSÃO",
+            "value": "55"
+        },
+        {
+            "label": "99 - OUTRAS SAÍDAS",
+            "value": "99"
+        }
+    ]
+}

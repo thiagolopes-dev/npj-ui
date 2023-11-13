@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "label": "0 - NACIONAL, EXCETO AS INDICADAS NOS CÓDIGOS 3 A 5",
+            "value": "0"
+        },
+        {
+            "label": "1 - ESTRANGEIRA - IMPORTAÇÃO DIRETA, EXCETO A INDICADA NO CÓDIGO 6",
+            "value": "1"
+        },
+        {
+            "label": "2 - ESTRANGEIRA - ADQUIRIDA NO MERCADO INTERNO, EXCETO A INDICADA NO CÓDIGO 7",
+            "value": "2"
+        },
+        {
+            "label": "3 - NACIONAL - MERCADORIA OU BEM COM CONTEÚDO DE IMPORTAÇÃO SUPERIOR A 40% (QUARENTA POR CENTO)",
+            "value": "3"
+        },
+        {
+            "label": "4 - NACIONAL - CUJA PRODUÇÃO TENHA SIDO FEITA EM CONFORMIDADE COM OS PROCESSOS PRODUTIVOS BÁSICOS DE QUE TRATAM O DECRETO-LEI N°288/67, E AS LEIS N°s 8.248/91, 8.387/91, 10.176/01 E 11.484/07",
+            "value": "4"
+        },
+        {
+            "label": "5 - NACIONAL, MERCADORIA OU BEM COM CONTEÚDO DE IMPORTAÇÃO INFERIOR OU IGUAL A 40% (QUARENTA POR CENTO)",
+            "value": "5"
+        },
+        {
+            "label": "6 - ESTRANGEIRA - IMPORTAÇÃO DIRETA, SEM SIMILAR NACIONAL, CONSTANTE EM LISTA DE RESOLUÇÃO CAMEX",
+            "value": "6"
+        },
+        {
+            "label": "7 - ESTRANGEIRA - ADQUIRIDA NO MERCADO INTERNO, SEM SIMILAR NACIONAL, CONSTANTE EM LISTA DE RESOLUÇÃO CAMEX",
+            "value": "7"
+        },
+        {
+            "label": "8 - NACIONAL, MERCADORIA OU BEM COM CONTEÚDO DE IMPORTAÇÃO SUPERIOR A 70% (SETENTA POR CENTO)",
+            "value": "8"
+        }
+    ]
+}

@@ -261,8 +261,7 @@ p-inputnumber,
 }
 
 .p-component {
-  font-size: 0.8125rem;
-  /* font-weight: 600; */
+  font-size: 16px;
   border-radius: 0.5rem;
 }
 

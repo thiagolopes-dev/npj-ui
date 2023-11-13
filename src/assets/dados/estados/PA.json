@@ -1,0 +1,862 @@
+{
+    "data": [
+        {
+            "id": "2418",
+            "cidade": "ABAETETUBA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2419",
+            "cidade": "ABEL FIGUEIREDO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2420",
+            "cidade": "ACARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2421",
+            "cidade": "AFUA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2422",
+            "cidade": "AGUA AZUL DO NORTE",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2423",
+            "cidade": "ALENQUER",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2424",
+            "cidade": "ALMEIRIM",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2425",
+            "cidade": "ALTAMIRA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2426",
+            "cidade": "ANAJAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2427",
+            "cidade": "ANANINDEUA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2428",
+            "cidade": "ANAPU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2429",
+            "cidade": "AUGUSTO CORREA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2430",
+            "cidade": "AURORA DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2431",
+            "cidade": "AVEIRO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2432",
+            "cidade": "BAGRE",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2433",
+            "cidade": "BAIAO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2434",
+            "cidade": "BANNACH",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2435",
+            "cidade": "BARCARENA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2436",
+            "cidade": "BELEM",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2437",
+            "cidade": "BELTERRA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2438",
+            "cidade": "BENEVIDES",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2439",
+            "cidade": "BOM JESUS DO TOCANTINS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2440",
+            "cidade": "BONITO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2441",
+            "cidade": "BRAGANCA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2442",
+            "cidade": "BRASIL NOVO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2443",
+            "cidade": "BREJO GRANDE DO ARAGUAIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2444",
+            "cidade": "BREU BRANCO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2445",
+            "cidade": "BREVES",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2446",
+            "cidade": "BUJARU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2447",
+            "cidade": "CACHOEIRA DO ARARI",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2448",
+            "cidade": "CACHOEIRA DO PIRIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2449",
+            "cidade": "CAMETA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2450",
+            "cidade": "CANAA DOS CARAJAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2451",
+            "cidade": "CAPANEMA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2452",
+            "cidade": "CAPITAO POCO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2453",
+            "cidade": "CASTANHAL",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2454",
+            "cidade": "CHAVES",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2455",
+            "cidade": "COLARES",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2456",
+            "cidade": "CONCEICAO DO ARAGUAIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2457",
+            "cidade": "CONCORDIA DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2458",
+            "cidade": "CUMARU DO NORTE",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2459",
+            "cidade": "CURIONOPOLIS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2460",
+            "cidade": "CURRALINHO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2461",
+            "cidade": "CURUA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2462",
+            "cidade": "CURUCA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2463",
+            "cidade": "DOM ELISEU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2464",
+            "cidade": "ELDORADO DOS CARAJAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2465",
+            "cidade": "FARO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2466",
+            "cidade": "FLORESTA DO ARAGUAIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2467",
+            "cidade": "GARRAFAO DO NORTE",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2468",
+            "cidade": "GOIANESIA DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2469",
+            "cidade": "GURUPA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2470",
+            "cidade": "IGARAPE-ACU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2471",
+            "cidade": "IGARAPE-MIRI",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2472",
+            "cidade": "INHANGAPI",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2473",
+            "cidade": "IPIXUNA DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2474",
+            "cidade": "IRITUIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2475",
+            "cidade": "ITAITUBA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2476",
+            "cidade": "ITUPIRANGA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2477",
+            "cidade": "JACAREACANGA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2478",
+            "cidade": "JACUNDA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2479",
+            "cidade": "JURUTI",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2480",
+            "cidade": "LIMOEIRO DO AJURU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2481",
+            "cidade": "MAE DO RIO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2482",
+            "cidade": "MAGALHAES BARATA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2483",
+            "cidade": "MARABA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2484",
+            "cidade": "MARACANA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2485",
+            "cidade": "MARAPANIM",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2486",
+            "cidade": "MARITUBA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2487",
+            "cidade": "MEDICILANDIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2488",
+            "cidade": "MELGACO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2489",
+            "cidade": "MOCAJUBA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2490",
+            "cidade": "MOJU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2491",
+            "cidade": "MONTE ALEGRE",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2492",
+            "cidade": "MUANA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2493",
+            "cidade": "NOVA ESPERANCA DO PIRIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2494",
+            "cidade": "NOVA IPIXUNA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2495",
+            "cidade": "NOVA TIMBOTEUA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2496",
+            "cidade": "NOVO PROGRESSO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2497",
+            "cidade": "NOVO REPARTIMENTO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2498",
+            "cidade": "ÓBIDOS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2499",
+            "cidade": "OEIRAS DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2500",
+            "cidade": "ORIXIMINA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2501",
+            "cidade": "OUREM",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2502",
+            "cidade": "OURILANDIA DO NORTE",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2503",
+            "cidade": "PACAJA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2504",
+            "cidade": "PALESTINA DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2505",
+            "cidade": "PARAGOMINAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2506",
+            "cidade": "PARAUAPEBAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2507",
+            "cidade": "PAU D`ARCO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2508",
+            "cidade": "PEIXE-BOI",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2509",
+            "cidade": "PICARRA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2510",
+            "cidade": "PLACAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2511",
+            "cidade": "PONTA DE PEDRAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2512",
+            "cidade": "PORTEL",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2513",
+            "cidade": "PORTO DE MOZ",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2514",
+            "cidade": "PRAINHA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2515",
+            "cidade": "PRIMAVERA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2516",
+            "cidade": "QUATIPURU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2517",
+            "cidade": "REDENCAO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2518",
+            "cidade": "RIO MARIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2519",
+            "cidade": "RONDON DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2520",
+            "cidade": "RUROPOLIS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2521",
+            "cidade": "SALINOPOLIS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2522",
+            "cidade": "SALVATERRA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2523",
+            "cidade": "SANTA BARBARA DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2524",
+            "cidade": "SANTA CRUZ DO ARARI",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2525",
+            "cidade": "SANTA ISABEL DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2526",
+            "cidade": "SANTA LUZIA DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2527",
+            "cidade": "SANTA MARIA DAS BARREIRAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2528",
+            "cidade": "SANTA MARIA DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2529",
+            "cidade": "SANTANA DO ARAGUAIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2530",
+            "cidade": "SANTAREM",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2531",
+            "cidade": "SANTAREM NOVO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2532",
+            "cidade": "SANTO ANTONIO DO TAUA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2533",
+            "cidade": "SAO CAETANO DE ODIVELAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2534",
+            "cidade": "SAO DOMINGOS DO ARAGUAIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2535",
+            "cidade": "SAO DOMINGOS DO CAPIM",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2536",
+            "cidade": "SAO FELIX DO XINGU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2537",
+            "cidade": "SAO FRANCISCO DO PARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2538",
+            "cidade": "SAO GERALDO DO ARAGUAIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2539",
+            "cidade": "SAO JOAO DA PONTA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2540",
+            "cidade": "SAO JOAO DE PIRABAS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2541",
+            "cidade": "SAO JOAO DO ARAGUAIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2542",
+            "cidade": "SAO MIGUEL DO GUAMA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2543",
+            "cidade": "SAO SEBASTIAO DA BOA VISTA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2544",
+            "cidade": "SAPUCAIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2545",
+            "cidade": "SENADOR JOSE PORFIRIO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2546",
+            "cidade": "SOURE",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2547",
+            "cidade": "TAILANDIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2548",
+            "cidade": "TERRA ALTA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2549",
+            "cidade": "TERRA SANTA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2550",
+            "cidade": "TOME-ACU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2551",
+            "cidade": "TRACUATEUA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2552",
+            "cidade": "TRAIRAO",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2553",
+            "cidade": "TUCUMA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2554",
+            "cidade": "TUCURUI",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2555",
+            "cidade": "ULIANOPOLIS",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2556",
+            "cidade": "URUARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2557",
+            "cidade": "VIGIA",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2558",
+            "cidade": "VISEU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2559",
+            "cidade": "VITORIA DO XINGU",
+            "sigla": "PA",
+            "estado": "PARA"
+          },
+          {
+            "id": "2560",
+            "cidade": "XINGUARA",
+            "sigla": "PA",
+            "estado": "PARA"
+          }
+    ]
+}

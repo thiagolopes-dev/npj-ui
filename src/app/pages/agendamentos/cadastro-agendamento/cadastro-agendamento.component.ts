@@ -10,9 +10,9 @@ import { Agendamentos } from 'src/app/core/models/agendamento.model';
 import { Regex } from 'src/app/core/validators/regex.model';
 import { ClientesService } from '../../clientes/clientes.service';
 import { MotivosService } from '../../motivos/motivos.service';
+import { AuthService } from '../../seguranca/auth.service';
 import { StatusService } from '../../status/status.service';
 import { AgendamentosService } from '../agendamentos.service';
-import { AuthService } from '../../seguranca/auth.service';
 
 
 @Component({
@@ -221,7 +221,9 @@ export class CadastroAgendamentoComponent {
           descricao: status.descricao,
           codigo: status.codigo,
         }));
-        this.atribuirStatus();
+        if(!this.idagendamento){
+          this.atribuirStatus();
+        }
       })
       .catch((erro) => {
         this.errorHandler.handle(erro);

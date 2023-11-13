@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "label": "00 - TRIBUTADA INTEGRALMENTE",
+            "value": "00"
+        },
+        {
+            "label": "10 - TRIBUTADA E COM COBRANÇA DO ICMS POR SUBSTITUIÇÃO TRIBUTÁRIA",
+            "value": "10"
+        },
+        {
+            "label": "101 - TRIBUTADA PELO SIMPLES NACIONAL COM PERMISSÃO DE CRÉDITO",
+            "value": "101"
+        },
+        {
+            "label": "102 - TRIBUTADA PELO SIMPLES NACIONAL SEM PERMISSÃO DE CRÉDITO",
+            "value": "102"
+        },
+        {
+            "label": "103 - ISENÇÃO DO ICMS NO SIMPLES NACIONAL PARA FAIXA DE RECEITA BRUTA",
+            "value": "103"
+        },
+        {
+            "label": "20 - COM REDUÇÃO DE BASE DE CÁLCULO",
+            "value": "20"
+        },
+        {
+            "label": "201 - TRIBUTADA PELO SIMPLES NACIONAL COM PERMISSÃO DE CRÉDITO E COM COBRANÇA DO ICMS POR SUBSTITUIÇÃO TRIBUTÁRIA",
+            "value": "201"
+        },
+        {
+            "label": "202 - TRIBUTADA PELO SIMPLES NACIONAL SEM PERMISSÃO DE CRÉDITO E COM COBRANÇA DO ICMS POR SUBSTITUIÇÃO TRIBUTÁRIA",
+            "value": "202"
+        },
+        {
+            "label": "203 - ISENÇÃO DO ICMS NO SIMPLES NACIONAL PARA FAIXA DE RECEITA BRUTA E COM COBRANÇA DO ICMS POR SUBSTITUIÇÃO TRIBUTÁRIA",
+            "value": "203"
+        },
+        {
+            "label": "30 - ISENTA OU NÃO TRIBUTADA E COM COBRANÇA DO ICMS POR SUBSTITUIÇÃO TRIBUTÁRIA",
+            "value": "30"
+        },
+        {
+            "label": "300 - IMUNE",
+            "value": "300"
+        },
+        {
+            "label": "40 - ISENTA",
+            "value": "40"
+        },
+        {
+            "label": "400 - NÃO TRIBUTADA PELO SIMPLES NACIONAL",
+            "value": "400"
+        },
+        {
+            "label": "41 - NÃO TRIBUTADA",
+            "value": "41"
+        },
+        {
+            "label": "50 - SUSPENSÃO",
+            "value": "50"
+        },
+        {
+            "label": "500 - ICMS COBRADA ANTERIORMENTE POR SUBSTITUIÇÃO TRIBUTÁRIA (SUBSTITUÍDO) OU POR ANTECIPAÇÃO",
+            "value": "500"
+        },
+        {
+            "label": "51 - DIFERIMENTO",
+            "value": "51"
+        },
+        {
+            "label": "60 - ICMS COBRADO ANTERIORMENTE POR SUBSTITUIÇÃO TRIBUTÁRIA",
+            "value": "60"
+        },
+        {
+            "label": "70 - COM REDUÇÃO DE BASE DE CÁLCULO E COBRANÇA DO ICMS POR SUBSTITUIÇÃO TRIBUTÁRIA",
+            "value": "70"
+        },
+        {
+            "label": "90 - OUTRAS",
+            "value": "90"
+        },
+        {
+            "label": "900 - OUTROS",
+            "value": "900"
+        }
+    ]
+}

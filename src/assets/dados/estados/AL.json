@@ -1,0 +1,616 @@
+{
+    "data": [
+        {
+            "id": "101",
+            "cidade": "AGUA BRANCA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "102",
+            "cidade": "ANADIA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "103",
+            "cidade": "ARAPIRACA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "104",
+            "cidade": "ATALAIA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "105",
+            "cidade": "BARRA DE SANTO ANTONIO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "106",
+            "cidade": "BARRA DE SAO MIGUEL",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "107",
+            "cidade": "BATALHA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "108",
+            "cidade": "BELEM",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "109",
+            "cidade": "BELO MONTE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "110",
+            "cidade": "BOCA DA MATA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "111",
+            "cidade": "BRANQUINHA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "112",
+            "cidade": "CACIMBINHAS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "113",
+            "cidade": "CAJUEIRO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "114",
+            "cidade": "CAMPESTRE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "115",
+            "cidade": "CAMPO ALEGRE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "116",
+            "cidade": "CAMPO GRANDE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "117",
+            "cidade": "CANAPI",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "118",
+            "cidade": "CAPELA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "119",
+            "cidade": "CARNEIROS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "120",
+            "cidade": "CHA PRETA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "121",
+            "cidade": "COITE DO NOIA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "122",
+            "cidade": "COLONIA LEOPOLDINA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "123",
+            "cidade": "COQUEIRO SECO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "124",
+            "cidade": "CORURIPE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "125",
+            "cidade": "CRAIBAS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "126",
+            "cidade": "DELMIRO GOUVEIA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "127",
+            "cidade": "DOIS RIACHOS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "128",
+            "cidade": "ESTRELA DE ALAGOAS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "129",
+            "cidade": "FEIRA GRANDE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "130",
+            "cidade": "FELIZ DESERTO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "131",
+            "cidade": "FLEXEIRAS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "132",
+            "cidade": "GIRAU DO PONCIANO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "133",
+            "cidade": "IBATEGUARA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "134",
+            "cidade": "IGACI",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "135",
+            "cidade": "IGREJA NOVA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "136",
+            "cidade": "INHAPI",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "137",
+            "cidade": "JACARE DOS HOMENS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "138",
+            "cidade": "JACUIPE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "139",
+            "cidade": "JAPARATINGA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "140",
+            "cidade": "JARAMATAIA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "141",
+            "cidade": "JEQUIA DA PRAIA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "142",
+            "cidade": "JOAQUIM GOMES",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "143",
+            "cidade": "JUNDIA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "144",
+            "cidade": "JUNQUEIRO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "145",
+            "cidade": "LAGOA DA CANOA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "146",
+            "cidade": "LIMOEIRO DE ANADIA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "147",
+            "cidade": "MACEIO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "148",
+            "cidade": "MAJOR ISIDORO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "149",
+            "cidade": "MAR VERMELHO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "150",
+            "cidade": "MARAGOGI",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "151",
+            "cidade": "MARAVILHA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "152",
+            "cidade": "MARECHAL DEODORO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "153",
+            "cidade": "MARIBONDO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "154",
+            "cidade": "MATA GRANDE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "155",
+            "cidade": "MATRIZ DE CAMARAGIBE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "156",
+            "cidade": "MESSIAS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "157",
+            "cidade": "MINADOR DO NEGRAO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "158",
+            "cidade": "MONTEIROPOLIS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "159",
+            "cidade": "MURICI",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "160",
+            "cidade": "NOVO LINO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "161",
+            "cidade": "OLHO D`AGUA DAS FLORES",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "162",
+            "cidade": "OLHO D`AGUA DO CASADO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "163",
+            "cidade": "OLHO D`AGUA GRANDE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "164",
+            "cidade": "OLIVENCA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "165",
+            "cidade": "OURO BRANCO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "166",
+            "cidade": "PALESTINA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "167",
+            "cidade": "PALMEIRA DOS INDIOS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "168",
+            "cidade": "PAO DE ACUCAR",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "169",
+            "cidade": "PARICONHA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "170",
+            "cidade": "PARIPUEIRA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "171",
+            "cidade": "PASSO DE CAMARAGIBE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "172",
+            "cidade": "PAULO JACINTO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "173",
+            "cidade": "PENEDO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "174",
+            "cidade": "PIACABUCU",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "175",
+            "cidade": "PILAR",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "176",
+            "cidade": "PINDOBA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "177",
+            "cidade": "PIRANHAS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "178",
+            "cidade": "POCO DAS TRINCHEIRAS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "179",
+            "cidade": "PORTO CALVO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "180",
+            "cidade": "PORTO DE PEDRAS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "181",
+            "cidade": "PORTO REAL DO COLEGIO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "182",
+            "cidade": "QUEBRANGULO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "183",
+            "cidade": "RIO LARGO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "184",
+            "cidade": "ROTEIRO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "185",
+            "cidade": "SANTA LUZIA DO NORTE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "186",
+            "cidade": "SANTANA DO IPANEMA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "187",
+            "cidade": "SANTANA DO MUNDAU",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "188",
+            "cidade": "SAO BRAS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "189",
+            "cidade": "SAO JOSE DA LAJE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "190",
+            "cidade": "SAO JOSE DA TAPERA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "191",
+            "cidade": "SAO LUIS DO QUITUNDE",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "192",
+            "cidade": "SAO MIGUEL DOS CAMPOS",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "193",
+            "cidade": "SAO MIGUEL DOS MILAGRES",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "194",
+            "cidade": "SAO SEBASTIAO",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "195",
+            "cidade": "SATUBA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "196",
+            "cidade": "SENADOR RUI PALMEIRA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "197",
+            "cidade": "TANQUE D`ARCA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "198",
+            "cidade": "TAQUARANA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "199",
+            "cidade": "TEOTONIO VILELA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "200",
+            "cidade": "TRAIPU",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "201",
+            "cidade": "UNIAO DOS PALMARES",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          },
+          {
+            "id": "202",
+            "cidade": "VICOSA",
+            "sigla": "AL",
+            "estado": "ALAGOAS"
+          }
+    ]
+}

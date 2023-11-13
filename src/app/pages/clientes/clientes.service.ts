@@ -152,7 +152,7 @@ export class ClientesService {
     ).then((response) => response as Clientes);
   }
 
-  buscarPorID(id: string) {
+  buscarPorID(id: number) {
     return firstValueFrom(this.http.get(`${this.clienteURL}/${id}`)).then(
       (response) => response as Clientes,
     );

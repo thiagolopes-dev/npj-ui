@@ -1,16 +1,16 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
-import { Agendamentos } from 'src/app/core/models/agendamento.model';
 import { Title } from '@angular/platform-browser';
+import { NgxSpinnerService } from 'ngx-spinner';
+import { LazyLoadEvent, MenuItem } from 'primeng/api';
+import { Paginator } from 'primeng/paginator';
 import { Table } from 'primeng/table';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { AgendamentosService } from '../agendamentos.service';
-import { NgxSpinnerService } from 'ngx-spinner';
-import { Paginator } from 'primeng/paginator';
+import { Agendamentos } from 'src/app/core/models/agendamento.model';
 import { FiltroAgendamentos } from 'src/app/core/models/filtros.model';
 import { FiltroAgendamentosService } from 'src/app/core/services/filtros-services/filtro-agendamentos.service';
-import { AuthService } from '../../seguranca/auth.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
-import { LazyLoadEvent, MenuItem } from 'primeng/api';
+import { AuthService } from '../../seguranca/auth.service';
+import { AgendamentosService } from '../agendamentos.service';
 
 @Component({
   selector: 'app-lista-agendamentos',
@@ -103,16 +103,23 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
 
     this.cols = [
       { field: 'atendimento', header: 'Atendimento', width: '130px', key: 1, type: 'numeric', qty: '' },
-      { field: 'dataatendimento', header: 'Data Atendimento', width: '250px', key: 2, type: '', qty: '' },
-      { field: 'cliente', header: 'Cliente', key: 3, width: '250px', type: 'text', qty: '' },
-      { field: 'motivo', header: 'Motivo', key: 4, width: '250px', type: 'text', qty: '' },
-      { field: 'status', header: 'Status', key: 5, width: '250px', type: 'text', qty: '' },
-   
+      {
+        field: 'dataatendimento', header: 'Data Atendimento', width: '180px', key: 2, type: '', qty: '',
+        data: true,
+        format: `dd/MM/yyyy H:mm`,
+        dataatendimentode: '',
+        datatendimentoate: ''
+      },
+      { field: 'numeroprontuario', header: 'Num. Prontuário', width: '130px', key: 3, type: 'numeric', qty: '' },
+      { field: 'desccliente', header: 'Cliente', key: 4, width: '250px', type: 'text', qty: '' },
+      { field: 'descmotivo', header: 'Motivo', key: 5, width: '250px', type: 'text', qty: '' },
+      { field: 'descstatus', header: 'Status', key: 6, width: '250px', type: 'text', qty: '' },
+
       {
         field: 'usuarioalteracao',
         header: 'Usuário Alteração',
         width: '200px',
-        key: 6,
+        key: 7,
         type: 'text',
         qty: ''
       },
@@ -122,7 +129,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
-        key: 7,
+        key: 8,
         type: 'date',
         dataalteracaode: '',
         dataalteracaoate: ''
@@ -131,7 +138,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         field: 'usuariocriacao',
         header: 'Usuário Criação',
         width: '200px',
-        key: 8,
+        key: 9,
         type: 'text',
         qty: ''
       },
@@ -141,12 +148,12 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
-        key: 9,
+        key: 10,
         type: 'date',
         datacriacaode: '',
         datacriacaoate: ''
       },
-     
+
     ];
 
     if (!localStorage.getItem('agendamentosColumns')) {

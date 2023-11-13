@@ -1,0 +1,1343 @@
+{
+    "data": [
+        {
+            "id": "2561",
+            "cidade": "AGUA BRANCA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2562",
+            "cidade": "AGUIAR",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2563",
+            "cidade": "ALAGOA GRANDE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2564",
+            "cidade": "ALAGOA NOVA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2565",
+            "cidade": "ALAGOINHA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2566",
+            "cidade": "ALCANTIL",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2567",
+            "cidade": "ALGODAO DE JANDAIRA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2568",
+            "cidade": "ALHANDRA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2569",
+            "cidade": "AMPARO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2570",
+            "cidade": "APARECIDA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2571",
+            "cidade": "ARACAGI",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2572",
+            "cidade": "ARARA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2573",
+            "cidade": "ARARUNA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2574",
+            "cidade": "AREIA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2575",
+            "cidade": "AREIA DE BARAUNAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2576",
+            "cidade": "AREIAL",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2577",
+            "cidade": "AROEIRAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2578",
+            "cidade": "ASSUNCAO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2579",
+            "cidade": "BAIA DA TRAICAO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2580",
+            "cidade": "BANANEIRAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2581",
+            "cidade": "BARAUNA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2582",
+            "cidade": "BARRA DE SANTA ROSA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2583",
+            "cidade": "BARRA DE SANTANA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2584",
+            "cidade": "BARRA DE SAO MIGUEL",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2585",
+            "cidade": "BAYEUX",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2586",
+            "cidade": "BELEM",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2587",
+            "cidade": "BELEM DO BREJO DO CRUZ",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2588",
+            "cidade": "BERNARDINO BATISTA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2589",
+            "cidade": "BOA VENTURA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2590",
+            "cidade": "BOA VISTA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2591",
+            "cidade": "BOM JESUS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2592",
+            "cidade": "BOM SUCESSO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2593",
+            "cidade": "BONITO DE SANTA FE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2594",
+            "cidade": "BOQUEIRAO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2595",
+            "cidade": "BORBOREMA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2596",
+            "cidade": "BREJO DO CRUZ",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2597",
+            "cidade": "BREJO DOS SANTOS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2598",
+            "cidade": "CAAPORA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2599",
+            "cidade": "CABACEIRAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2600",
+            "cidade": "CABEDELO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2601",
+            "cidade": "CACHOEIRA DOS INDIOS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2602",
+            "cidade": "CACIMBA DE AREIA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2603",
+            "cidade": "CACIMBA DE DENTRO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2604",
+            "cidade": "CACIMBAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2605",
+            "cidade": "CAICARA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2606",
+            "cidade": "CAJAZEIRAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2607",
+            "cidade": "CAJAZEIRINHAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2608",
+            "cidade": "CALDAS BRANDAO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2609",
+            "cidade": "CAMALAU",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2610",
+            "cidade": "CAMPINA GRANDE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2611",
+            "cidade": "CAMPO DE SANTANA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2612",
+            "cidade": "CAPIM",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2613",
+            "cidade": "CARAUBAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2614",
+            "cidade": "CARRAPATEIRA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2615",
+            "cidade": "CASSERENGUE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2616",
+            "cidade": "CATINGUEIRA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2617",
+            "cidade": "CATOLE DO ROCHA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2618",
+            "cidade": "CATURITE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2619",
+            "cidade": "CONCEICAO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2620",
+            "cidade": "CONDADO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2621",
+            "cidade": "CONDE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2622",
+            "cidade": "CONGO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2623",
+            "cidade": "COREMAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2624",
+            "cidade": "COXIXOLA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2625",
+            "cidade": "CRUZ DO ESPIRITO SANTO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2626",
+            "cidade": "CUBATI",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2627",
+            "cidade": "CUITE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2628",
+            "cidade": "CUITE DE MAMANGUAPE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2629",
+            "cidade": "CUITEGI",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2630",
+            "cidade": "CURRAL DE CIMA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2631",
+            "cidade": "CURRAL VELHO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2632",
+            "cidade": "DAMIAO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2633",
+            "cidade": "DESTERRO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2634",
+            "cidade": "DIAMANTE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2635",
+            "cidade": "DONA INES",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2636",
+            "cidade": "DUAS ESTRADAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2637",
+            "cidade": "EMAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2638",
+            "cidade": "ESPERANCA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2639",
+            "cidade": "FAGUNDES",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2640",
+            "cidade": "FREI MARTINHO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2641",
+            "cidade": "GADO BRAVO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2642",
+            "cidade": "GUARABIRA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2643",
+            "cidade": "GURINHEM",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2644",
+            "cidade": "GURJAO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2645",
+            "cidade": "IBIARA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2646",
+            "cidade": "IGARACY",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2647",
+            "cidade": "IMACULADA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2648",
+            "cidade": "INGA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2649",
+            "cidade": "ITABAIANA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2650",
+            "cidade": "ITAPORANGA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2651",
+            "cidade": "ITAPOROROCA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2652",
+            "cidade": "ITATUBA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2653",
+            "cidade": "JACARAU",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2654",
+            "cidade": "JERICO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2655",
+            "cidade": "JOAO PESSOA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2656",
+            "cidade": "JUAREZ TAVORA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2657",
+            "cidade": "JUAZEIRINHO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2658",
+            "cidade": "JUNCO DO SERIDO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2659",
+            "cidade": "JURIPIRANGA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2660",
+            "cidade": "JURU",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2661",
+            "cidade": "LAGOA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2662",
+            "cidade": "LAGOA DE DENTRO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2663",
+            "cidade": "LAGOA SECA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2664",
+            "cidade": "LASTRO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2665",
+            "cidade": "LIVRAMENTO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2666",
+            "cidade": "LOGRADOURO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2667",
+            "cidade": "LUCENA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2668",
+            "cidade": "MAE D`AGUA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2669",
+            "cidade": "MALTA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2670",
+            "cidade": "MAMANGUAPE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2671",
+            "cidade": "MANAIRA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2672",
+            "cidade": "MARCACAO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2673",
+            "cidade": "MARI",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2674",
+            "cidade": "MARIZOPOLIS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2675",
+            "cidade": "MASSARANDUBA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2676",
+            "cidade": "MATARACA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2677",
+            "cidade": "MATINHAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2678",
+            "cidade": "MATO GROSSO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2679",
+            "cidade": "MATUREIA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2680",
+            "cidade": "MOGEIRO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2681",
+            "cidade": "MONTADAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2682",
+            "cidade": "MONTE HOREBE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2683",
+            "cidade": "MONTEIRO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2684",
+            "cidade": "MULUNGU",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2685",
+            "cidade": "NATUBA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2686",
+            "cidade": "NAZAREZINHO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2687",
+            "cidade": "NOVA FLORESTA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2688",
+            "cidade": "NOVA OLINDA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2689",
+            "cidade": "NOVA PALMEIRA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2690",
+            "cidade": "OLHO D`AGUA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2691",
+            "cidade": "OLIVEDOS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2692",
+            "cidade": "OURO VELHO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2693",
+            "cidade": "PARARI",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2694",
+            "cidade": "PASSAGEM",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2695",
+            "cidade": "PATOS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2696",
+            "cidade": "PAULISTA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2697",
+            "cidade": "PEDRA BRANCA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2698",
+            "cidade": "PEDRA LAVRADA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2699",
+            "cidade": "PEDRAS DE FOGO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2700",
+            "cidade": "PEDRO REGIS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2701",
+            "cidade": "PIANCO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2702",
+            "cidade": "PICUI",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2703",
+            "cidade": "PILAR",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2704",
+            "cidade": "PILOES",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2705",
+            "cidade": "PILOEZINHOS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2706",
+            "cidade": "PIRPIRITUBA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2707",
+            "cidade": "PITIMBU",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2708",
+            "cidade": "POCINHOS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2709",
+            "cidade": "POCO DANTAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2710",
+            "cidade": "POCO DE JOSE DE MOURA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2711",
+            "cidade": "POMBAL",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2712",
+            "cidade": "PRATA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2713",
+            "cidade": "PRINCESA ISABEL",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2714",
+            "cidade": "PUXINANA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2715",
+            "cidade": "QUEIMADAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2716",
+            "cidade": "QUIXABA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2717",
+            "cidade": "REMIGIO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2718",
+            "cidade": "RIACHAO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2719",
+            "cidade": "RIACHAO DO BACAMARTE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2720",
+            "cidade": "RIACHAO DO POCO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2721",
+            "cidade": "RIACHO DE SANTO ANTONIO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2722",
+            "cidade": "RIACHO DOS CAVALOS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2723",
+            "cidade": "RIO TINTO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2724",
+            "cidade": "SALGADINHO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2725",
+            "cidade": "SALGADO DE SAO FELIX",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2726",
+            "cidade": "SANTA CECILIA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2727",
+            "cidade": "SANTA CRUZ",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2728",
+            "cidade": "SANTA HELENA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2729",
+            "cidade": "SANTA INES",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2730",
+            "cidade": "SANTA LUZIA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2731",
+            "cidade": "SANTA RITA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2732",
+            "cidade": "SANTA TERESINHA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2733",
+            "cidade": "SANTANA DE MANGUEIRA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2734",
+            "cidade": "SANTANA DOS GARROTES",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2735",
+            "cidade": "SANTAREM",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2736",
+            "cidade": "SANTO ANDRE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2737",
+            "cidade": "SAO BENTINHO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2738",
+            "cidade": "SAO BENTO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2739",
+            "cidade": "SAO DOMINGOS DE POMBAL",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2740",
+            "cidade": "SAO DOMINGOS DO CARIRI",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2741",
+            "cidade": "SAO FRANCISCO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2742",
+            "cidade": "SAO JOAO DO CARIRI",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2743",
+            "cidade": "SAO JOAO DO RIO DO PEIXE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2744",
+            "cidade": "SAO JOAO DO TIGRE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2745",
+            "cidade": "SAO JOSE DA LAGOA TAPADA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2746",
+            "cidade": "SAO JOSE DE CAIANA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2747",
+            "cidade": "SAO JOSE DE ESPINHARAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2748",
+            "cidade": "SAO JOSE DE PIRANHAS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2749",
+            "cidade": "SAO JOSE DE PRINCESA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2750",
+            "cidade": "SAO JOSE DO BONFIM",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2751",
+            "cidade": "SAO JOSE DO BREJO DO CRUZ",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2752",
+            "cidade": "SAO JOSE DO SABUGI",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2753",
+            "cidade": "SAO JOSE DOS CORDEIROS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2754",
+            "cidade": "SAO JOSE DOS RAMOS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2755",
+            "cidade": "SAO MAMEDE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2756",
+            "cidade": "SAO MIGUEL DE TAIPU",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2757",
+            "cidade": "SAO SEBASTIAO DE LAGOA DE ROCA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2758",
+            "cidade": "SAO SEBASTIAO DO UMBUZEIRO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2759",
+            "cidade": "SAPE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2760",
+            "cidade": "SERIDO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2761",
+            "cidade": "SERRA BRANCA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2762",
+            "cidade": "SERRA DA RAIZ",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2763",
+            "cidade": "SERRA GRANDE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2764",
+            "cidade": "SERRA REDONDA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2765",
+            "cidade": "SERRARIA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2766",
+            "cidade": "SERTAOZINHO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2767",
+            "cidade": "SOBRADO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2768",
+            "cidade": "SOLANEA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2769",
+            "cidade": "SOLEDADE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2770",
+            "cidade": "SOSSEGO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2771",
+            "cidade": "SOUSA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2772",
+            "cidade": "SUME",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2773",
+            "cidade": "TAPEROA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2774",
+            "cidade": "TAVARES",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2775",
+            "cidade": "TEIXEIRA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2776",
+            "cidade": "TENORIO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2777",
+            "cidade": "TRIUNFO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2778",
+            "cidade": "UIRAUNA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2779",
+            "cidade": "UMBUZEIRO",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2780",
+            "cidade": "VARZEA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2781",
+            "cidade": "VIEIROPOLIS",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2782",
+            "cidade": "VISTA SERRANA",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          },
+          {
+            "id": "2783",
+            "cidade": "ZABELE",
+            "sigla": "PB",
+            "estado": "PARAIBA"
+          }
+         
+    ]
+}

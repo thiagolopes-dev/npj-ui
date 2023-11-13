@@ -1,0 +1,2398 @@
+{
+    "data": [
+        {
+            "id": "2784",
+            "cidade": "ABATIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2785",
+            "cidade": "ADRIANOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2786",
+            "cidade": "AGUDOS DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2787",
+            "cidade": "ALMIRANTE TAMANDARE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2788",
+            "cidade": "ALTAMIRA DO PARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2789",
+            "cidade": "ALTO PARAISO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2790",
+            "cidade": "ALTO PARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2791",
+            "cidade": "ALTO PIQUIRI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2792",
+            "cidade": "ALTONIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2793",
+            "cidade": "ALVORADA DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2794",
+            "cidade": "AMAPORA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2795",
+            "cidade": "AMPERE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2796",
+            "cidade": "ANAHY",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2797",
+            "cidade": "ANDIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2798",
+            "cidade": "ÂNGULO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2799",
+            "cidade": "ANTONINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2800",
+            "cidade": "ANTONIO OLINTO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2801",
+            "cidade": "APUCARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2802",
+            "cidade": "ARAPONGAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2803",
+            "cidade": "ARAPOTI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2804",
+            "cidade": "ARAPUA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2805",
+            "cidade": "ARARUNA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2806",
+            "cidade": "ARAUCARIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2807",
+            "cidade": "ARIRANHA DO IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2808",
+            "cidade": "ASSAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2809",
+            "cidade": "ASSIS CHATEAUBRIAND",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2810",
+            "cidade": "ASTORGA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2811",
+            "cidade": "ATALAIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2812",
+            "cidade": "BALSA NOVA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2813",
+            "cidade": "BANDEIRANTES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2814",
+            "cidade": "BARBOSA FERRAZ",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2815",
+            "cidade": "BARRA DO JACARE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2816",
+            "cidade": "BARRACAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2817",
+            "cidade": "BELA VISTA DA CAROBA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2818",
+            "cidade": "BELA VISTA DO PARAISO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2819",
+            "cidade": "BITURUNA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2820",
+            "cidade": "BOA ESPERANCA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2821",
+            "cidade": "BOA ESPERANCA DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2822",
+            "cidade": "BOA VENTURA DE SAO ROQUE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2823",
+            "cidade": "BOA VISTA DA APARECIDA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2824",
+            "cidade": "BOCAIUVA DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2825",
+            "cidade": "BOM JESUS DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2826",
+            "cidade": "BOM SUCESSO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2827",
+            "cidade": "BOM SUCESSO DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2828",
+            "cidade": "BORRAZOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2829",
+            "cidade": "BRAGANEY",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2830",
+            "cidade": "BRASILANDIA DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2831",
+            "cidade": "CAFEARA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2832",
+            "cidade": "CAFELANDIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2833",
+            "cidade": "CAFEZAL DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2834",
+            "cidade": "CALIFORNIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2835",
+            "cidade": "CAMBARA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2836",
+            "cidade": "CAMBE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2837",
+            "cidade": "CAMBIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2838",
+            "cidade": "CAMPINA DA LAGOA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2839",
+            "cidade": "CAMPINA DO SIMAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2840",
+            "cidade": "CAMPINA GRANDE DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2841",
+            "cidade": "CAMPO BONITO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2842",
+            "cidade": "CAMPO DO TENENTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2843",
+            "cidade": "CAMPO LARGO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2844",
+            "cidade": "CAMPO MAGRO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2845",
+            "cidade": "CAMPO MOURAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2846",
+            "cidade": "CANDIDO DE ABREU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2847",
+            "cidade": "CANDOI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2848",
+            "cidade": "CANTAGALO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2849",
+            "cidade": "CAPANEMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2850",
+            "cidade": "CAPITAO LEONIDAS MARQUES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2851",
+            "cidade": "CARAMBEI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2852",
+            "cidade": "CARLOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2853",
+            "cidade": "CASCAVEL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2854",
+            "cidade": "CASTRO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2855",
+            "cidade": "CATANDUVAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2856",
+            "cidade": "CENTENARIO DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2857",
+            "cidade": "CERRO AZUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2858",
+            "cidade": "CEU AZUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2859",
+            "cidade": "CHOPINZINHO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2860",
+            "cidade": "CIANORTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2861",
+            "cidade": "CIDADE GAUCHA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2862",
+            "cidade": "CLEVELANDIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2863",
+            "cidade": "COLOMBO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2864",
+            "cidade": "COLORADO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2865",
+            "cidade": "CONGONHINHAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2866",
+            "cidade": "CONSELHEIRO MAIRINCK",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2867",
+            "cidade": "CONTENDA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2868",
+            "cidade": "CORBELIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2869",
+            "cidade": "CORNELIO PROCOPIO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2870",
+            "cidade": "CORONEL DOMINGOS SOARES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2871",
+            "cidade": "CORONEL VIVIDA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2872",
+            "cidade": "CORUMBATAI DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2873",
+            "cidade": "CRUZ MACHADO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2874",
+            "cidade": "CRUZEIRO DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2875",
+            "cidade": "CRUZEIRO DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2876",
+            "cidade": "CRUZEIRO DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2877",
+            "cidade": "CRUZMALTINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2878",
+            "cidade": "CURITIBA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2879",
+            "cidade": "CURIUVA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2880",
+            "cidade": "DIAMANTE D`OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2881",
+            "cidade": "DIAMANTE DO NORTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2882",
+            "cidade": "DIAMANTE DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2883",
+            "cidade": "DOIS VIZINHOS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2884",
+            "cidade": "DOURADINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2885",
+            "cidade": "DOUTOR CAMARGO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2886",
+            "cidade": "DOUTOR ULYSSES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2887",
+            "cidade": "ENEAS MARQUES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2888",
+            "cidade": "ENGENHEIRO BELTRAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2889",
+            "cidade": "ENTRE RIOS DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2890",
+            "cidade": "ESPERANCA NOVA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2891",
+            "cidade": "ESPIGAO ALTO DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2892",
+            "cidade": "FAROL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2893",
+            "cidade": "FAXINAL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2894",
+            "cidade": "FAZENDA RIO GRANDE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2895",
+            "cidade": "FENIX",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2896",
+            "cidade": "FERNANDES PINHEIRO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2897",
+            "cidade": "FIGUEIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2898",
+            "cidade": "FLOR DA SERRA DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2899",
+            "cidade": "FLORAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2900",
+            "cidade": "FLORESTA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2901",
+            "cidade": "FLORESTOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2902",
+            "cidade": "FLORIDA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2903",
+            "cidade": "FORMOSA DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2904",
+            "cidade": "FOZ DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2905",
+            "cidade": "FOZ DO JORDAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2906",
+            "cidade": "FRANCISCO ALVES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2907",
+            "cidade": "FRANCISCO BELTRAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2908",
+            "cidade": "GENERAL CARNEIRO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2909",
+            "cidade": "GODOY MOREIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2910",
+            "cidade": "GOIOERE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2911",
+            "cidade": "GOIOXIM",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2912",
+            "cidade": "GRANDES RIOS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2913",
+            "cidade": "GUAIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2914",
+            "cidade": "GUAIRACA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2915",
+            "cidade": "GUAMIRANGA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2916",
+            "cidade": "GUAPIRAMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2917",
+            "cidade": "GUAPOREMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2918",
+            "cidade": "GUARACI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2919",
+            "cidade": "GUARANIACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2920",
+            "cidade": "GUARAPUAVA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2921",
+            "cidade": "GUARAQUECABA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2922",
+            "cidade": "GUARATUBA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2923",
+            "cidade": "HONORIO SERPA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2924",
+            "cidade": "IBAITI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2925",
+            "cidade": "IBEMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2926",
+            "cidade": "IBIPORA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2927",
+            "cidade": "ICARAIMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2928",
+            "cidade": "IGUARACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2929",
+            "cidade": "IGUATU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2930",
+            "cidade": "IMBAU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2931",
+            "cidade": "IMBITUVA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2932",
+            "cidade": "INACIO MARTINS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2933",
+            "cidade": "INAJA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2934",
+            "cidade": "INDIANOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2935",
+            "cidade": "IPIRANGA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2936",
+            "cidade": "IPORA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2937",
+            "cidade": "IRACEMA DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2938",
+            "cidade": "IRATI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2939",
+            "cidade": "IRETAMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2940",
+            "cidade": "ITAGUAJE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2941",
+            "cidade": "ITAIPULANDIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2942",
+            "cidade": "ITAMBARACA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2943",
+            "cidade": "ITAMBE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2944",
+            "cidade": "ITAPEJARA D`OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2945",
+            "cidade": "ITAPERUCU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2946",
+            "cidade": "ITAUNA DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2947",
+            "cidade": "IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2948",
+            "cidade": "IVAIPORA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2949",
+            "cidade": "IVATE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2950",
+            "cidade": "IVATUBA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2951",
+            "cidade": "JABOTI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2952",
+            "cidade": "JACAREZINHO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2953",
+            "cidade": "JAGUAPITA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2954",
+            "cidade": "JAGUARIAIVA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2955",
+            "cidade": "JANDAIA DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2956",
+            "cidade": "JANIOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2957",
+            "cidade": "JAPIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2958",
+            "cidade": "JAPURA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2959",
+            "cidade": "JARDIM ALEGRE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2960",
+            "cidade": "JARDIM OLINDA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2961",
+            "cidade": "JATAIZINHO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2962",
+            "cidade": "JESUITAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2963",
+            "cidade": "JOAQUIM TAVORA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2964",
+            "cidade": "JUNDIAI DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2965",
+            "cidade": "JURANDA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2966",
+            "cidade": "JUSSARA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2967",
+            "cidade": "KALORE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2968",
+            "cidade": "LAPA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2969",
+            "cidade": "LARANJAL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2970",
+            "cidade": "LARANJEIRAS DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2971",
+            "cidade": "LEOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2972",
+            "cidade": "LIDIANOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2973",
+            "cidade": "LINDOESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2974",
+            "cidade": "LOANDA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2975",
+            "cidade": "LOBATO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2976",
+            "cidade": "LONDRINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2977",
+            "cidade": "LUIZIANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2978",
+            "cidade": "LUNARDELLI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2979",
+            "cidade": "LUPIONOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2980",
+            "cidade": "MALLET",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2981",
+            "cidade": "MAMBORE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2982",
+            "cidade": "MANDAGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2983",
+            "cidade": "MANDAGUARI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2984",
+            "cidade": "MANDIRITUBA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2985",
+            "cidade": "MANFRINOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2986",
+            "cidade": "MANGUEIRINHA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2987",
+            "cidade": "MANOEL RIBAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2988",
+            "cidade": "MARECHAL CANDIDO RONDON",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2989",
+            "cidade": "MARIA HELENA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2990",
+            "cidade": "MARIALVA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2991",
+            "cidade": "MARILANDIA DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2992",
+            "cidade": "MARILENA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2993",
+            "cidade": "MARILUZ",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2994",
+            "cidade": "MARINGA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2995",
+            "cidade": "MARIOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2996",
+            "cidade": "MARIPA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2997",
+            "cidade": "MARMELEIRO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2998",
+            "cidade": "MARQUINHO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "2999",
+            "cidade": "MARUMBI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3000",
+            "cidade": "MATELANDIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3001",
+            "cidade": "MATINHOS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3002",
+            "cidade": "MATO RICO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3003",
+            "cidade": "MAUA DA SERRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3004",
+            "cidade": "MEDIANEIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3005",
+            "cidade": "MERCEDES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3006",
+            "cidade": "MIRADOR",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3007",
+            "cidade": "MIRASELVA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3008",
+            "cidade": "MISSAL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3009",
+            "cidade": "MOREIRA SALES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3010",
+            "cidade": "MORRETES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3011",
+            "cidade": "MUNHOZ DE MELO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3012",
+            "cidade": "NOSSA SENHORA DAS GRACAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3013",
+            "cidade": "NOVA ALIANCA DO IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3014",
+            "cidade": "NOVA AMERICA DA COLINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3015",
+            "cidade": "NOVA AURORA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3016",
+            "cidade": "NOVA CANTU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3017",
+            "cidade": "NOVA ESPERANCA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3018",
+            "cidade": "NOVA ESPERANCA DO SUDOESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3019",
+            "cidade": "NOVA FATIMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3020",
+            "cidade": "NOVA LARANJEIRAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3021",
+            "cidade": "NOVA LONDRINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3022",
+            "cidade": "NOVA OLIMPIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3023",
+            "cidade": "NOVA PRATA DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3024",
+            "cidade": "NOVA SANTA BARBARA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3025",
+            "cidade": "NOVA SANTA ROSA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3026",
+            "cidade": "NOVA TEBAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3027",
+            "cidade": "NOVO ITACOLOMI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3028",
+            "cidade": "ORTIGUEIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3029",
+            "cidade": "OURIZONA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3030",
+            "cidade": "OURO VERDE DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3031",
+            "cidade": "PAICANDU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3032",
+            "cidade": "PALMAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3033",
+            "cidade": "PALMEIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3034",
+            "cidade": "PALMITAL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3035",
+            "cidade": "PALOTINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3036",
+            "cidade": "PARAISO DO NORTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3037",
+            "cidade": "PARANACITY",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3038",
+            "cidade": "PARANAGUA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3039",
+            "cidade": "PARANAPOEMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3040",
+            "cidade": "PARANAVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3041",
+            "cidade": "PATO BRAGADO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3042",
+            "cidade": "PATO BRANCO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3043",
+            "cidade": "PAULA FREITAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3044",
+            "cidade": "PAULO FRONTIN",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3045",
+            "cidade": "PEABIRU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3046",
+            "cidade": "PEROBAL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3047",
+            "cidade": "PEROLA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3048",
+            "cidade": "PEROLA D`OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3049",
+            "cidade": "PIEN",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3050",
+            "cidade": "PINHAIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3051",
+            "cidade": "PINHAL DE SAO BENTO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3052",
+            "cidade": "PINHALAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3053",
+            "cidade": "PINHAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3054",
+            "cidade": "PIRAI DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3055",
+            "cidade": "PIRAQUARA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3056",
+            "cidade": "PITANGA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3057",
+            "cidade": "PITANGUEIRAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3058",
+            "cidade": "PLANALTINA DO PARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3059",
+            "cidade": "PLANALTO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3060",
+            "cidade": "PONTA GROSSA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3061",
+            "cidade": "PONTAL DO PARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3062",
+            "cidade": "PORECATU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3063",
+            "cidade": "PORTO AMAZONAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3064",
+            "cidade": "PORTO BARREIRO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3065",
+            "cidade": "PORTO RICO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3066",
+            "cidade": "PORTO VITORIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3067",
+            "cidade": "PRADO FERREIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3068",
+            "cidade": "PRANCHITA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3069",
+            "cidade": "PRESIDENTE CASTELO BRANCO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3070",
+            "cidade": "PRIMEIRO DE MAIO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3071",
+            "cidade": "PRUDENTOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3072",
+            "cidade": "QUARTO CENTENARIO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3073",
+            "cidade": "QUATIGUA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3074",
+            "cidade": "QUATRO BARRAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3075",
+            "cidade": "QUATRO PONTES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3076",
+            "cidade": "QUEDAS DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3077",
+            "cidade": "QUERENCIA DO NORTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3078",
+            "cidade": "QUINTA DO SOL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3079",
+            "cidade": "QUITANDINHA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3080",
+            "cidade": "RAMILANDIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3081",
+            "cidade": "RANCHO ALEGRE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3082",
+            "cidade": "RANCHO ALEGRE D`OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3083",
+            "cidade": "REALEZA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3084",
+            "cidade": "REBOUCAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3085",
+            "cidade": "RENASCENCA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3086",
+            "cidade": "RESERVA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3087",
+            "cidade": "RESERVA DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3088",
+            "cidade": "RIBEIRAO CLARO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3089",
+            "cidade": "RIBEIRAO DO PINHAL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3090",
+            "cidade": "RIO AZUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3091",
+            "cidade": "RIO BOM",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3092",
+            "cidade": "RIO BONITO DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3093",
+            "cidade": "RIO BRANCO DO IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3094",
+            "cidade": "RIO BRANCO DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3095",
+            "cidade": "RIO NEGRO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3096",
+            "cidade": "ROLANDIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3097",
+            "cidade": "RONCADOR",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3098",
+            "cidade": "RONDON",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3099",
+            "cidade": "ROSARIO DO IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3100",
+            "cidade": "SABAUDIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3101",
+            "cidade": "SALGADO FILHO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3102",
+            "cidade": "SALTO DO ITARARE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3103",
+            "cidade": "SALTO DO LONTRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3104",
+            "cidade": "SANTA AMELIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3105",
+            "cidade": "SANTA CECILIA DO PAVAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3106",
+            "cidade": "SANTA CRUZ DE MONTE CASTELO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3107",
+            "cidade": "SANTA FE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3108",
+            "cidade": "SANTA HELENA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3109",
+            "cidade": "SANTA INES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3110",
+            "cidade": "SANTA ISABEL DO IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3111",
+            "cidade": "SANTA IZABEL DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3112",
+            "cidade": "SANTA LUCIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3113",
+            "cidade": "SANTA MARIA DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3114",
+            "cidade": "SANTA MARIANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3115",
+            "cidade": "SANTA MONICA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3116",
+            "cidade": "SANTA TEREZA DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3117",
+            "cidade": "SANTA TEREZINHA DE ITAIPU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3118",
+            "cidade": "SANTANA DO ITARARE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3119",
+            "cidade": "SANTO ANTONIO DA PLATINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3120",
+            "cidade": "SANTO ANTONIO DO CAIUA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3121",
+            "cidade": "SANTO ANTONIO DO PARAISO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3122",
+            "cidade": "SANTO ANTONIO DO SUDOESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3123",
+            "cidade": "SANTO INACIO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3124",
+            "cidade": "SAO CARLOS DO IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3125",
+            "cidade": "SAO JERONIMO DA SERRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3126",
+            "cidade": "SAO JOAO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3127",
+            "cidade": "SAO JOAO DO CAIUA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3128",
+            "cidade": "SAO JOAO DO IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3129",
+            "cidade": "SAO JOAO DO TRIUNFO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3130",
+            "cidade": "SAO JORGE D`OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3131",
+            "cidade": "SAO JORGE DO IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3132",
+            "cidade": "SAO JORGE DO PATROCINIO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3133",
+            "cidade": "SAO JOSE DA BOA VISTA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3134",
+            "cidade": "SAO JOSE DAS PALMEIRAS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3135",
+            "cidade": "SAO JOSE DOS PINHAIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3136",
+            "cidade": "SAO MANOEL DO PARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3137",
+            "cidade": "SAO MATEUS DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3138",
+            "cidade": "SAO MIGUEL DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3139",
+            "cidade": "SAO PEDRO DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3140",
+            "cidade": "SAO PEDRO DO IVAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3141",
+            "cidade": "SAO PEDRO DO PARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3142",
+            "cidade": "SAO SEBASTIAO DA AMOREIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3143",
+            "cidade": "SAO TOME",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3144",
+            "cidade": "SAPOPEMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3145",
+            "cidade": "SARANDI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3146",
+            "cidade": "SAUDADE DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3147",
+            "cidade": "SENGES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3148",
+            "cidade": "SERRANOPOLIS DO IGUACU",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3149",
+            "cidade": "SERTANEJA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3150",
+            "cidade": "SERTANOPOLIS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3151",
+            "cidade": "SIQUEIRA CAMPOS",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3152",
+            "cidade": "SULINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3153",
+            "cidade": "TAMARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3154",
+            "cidade": "TAMBOARA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3155",
+            "cidade": "TAPEJARA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3156",
+            "cidade": "TAPIRA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3157",
+            "cidade": "TEIXEIRA SOARES",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3158",
+            "cidade": "TELEMACO BORBA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3159",
+            "cidade": "TERRA BOA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3160",
+            "cidade": "TERRA RICA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3161",
+            "cidade": "TERRA ROXA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3162",
+            "cidade": "TIBAGI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3163",
+            "cidade": "TIJUCAS DO SUL",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3164",
+            "cidade": "TOLEDO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3165",
+            "cidade": "TOMAZINA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3166",
+            "cidade": "TRES BARRAS DO PARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3167",
+            "cidade": "TUNAS DO PARANA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3168",
+            "cidade": "TUNEIRAS DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3169",
+            "cidade": "TUPASSI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3170",
+            "cidade": "TURVO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3171",
+            "cidade": "UBIRATA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3172",
+            "cidade": "UMUARAMA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3173",
+            "cidade": "UNIAO DA VITORIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3174",
+            "cidade": "UNIFLOR",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3175",
+            "cidade": "URAI",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3176",
+            "cidade": "VENTANIA",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3177",
+            "cidade": "VERA CRUZ DO OESTE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3178",
+            "cidade": "VERE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3179",
+            "cidade": "VIRMOND",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3180",
+            "cidade": "VITORINO",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3181",
+            "cidade": "WENCESLAU BRAZ",
+            "sigla": "PR",
+            "estado": "PARANA"
+          },
+          {
+            "id": "3182",
+            "cidade": "XAMBRE",
+            "sigla": "PR",
+            "estado": "PARANA"
+          }
+    ]
+}

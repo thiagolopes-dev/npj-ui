@@ -1,0 +1,175 @@
+{
+    "data":
+    [
+    {
+      "label": "3.000 - ENTRADAS OU AQUISIÇÕES DE SERVIÇOS DO EXTERIOR",
+      "CODCFOP": 3000
+    },
+    {
+      "label":
+        "3.100 - COMPRAS PARA INDUSTRIALIZAÇÃO, PRODUÇÃO RURAL, COMERCIALIZAÇÃO OU PRESTAÇÃO DE SERVIÇOS",
+      "CODCFOP": 3100
+    },
+    {
+      "label": "3.101 - COMPRA PARA INDUSTRIALIZAÇÃO OU PRODUÇÃO RURAL",
+      "CODCFOP": 3101
+    },
+    { "label": "3.102 - COMPRA PARA COMERCIALIZAÇÃO", "CODCFOP": 3102 },
+    {
+      "label":
+        "3.126 - COMPRA PARA UTILIZAÇÃO NA PRESTAÇÃO DE SERVIÇO SUJEITA AO ICMS",
+      "CODCFOP": 3126
+    },
+    {
+      "label": "3.127 - COMPRA PARA INDUSTRIALIZAÇÃO SOB O REGIME DE DRAWBACK",
+      "CODCFOP": 3127
+    },
+    {
+      "label":
+        "3.128 - COMPRA PARA UTILIZAÇÃO NA PRESTAÇÃO DE SERVIÇO SUJEITA AO ISSQN",
+      "CODCFOP": 3128
+    },
+    {
+      "label":
+        "3.200 - DEVOLUÇÕES DE VENDAS DE PRODUÇÃO PRÓPRIA, DE TERCEIROS OU ANULAÇÕES DE VALORES",
+      "CODCFOP": 3200
+    },
+    {
+      "label": "3.201 - DEVOLUÇÃO DE VENDA DE PRODUÇÃO DO ESTABELECIMENTO",
+      "CODCFOP": 3201
+    },
+    {
+      "label":
+        "3.202 - DEVOLUÇÃO DE VENDA DE MERCADORIA ADQUIRIDA OU RECEBIDA DE TERCEIROS",
+      "CODCFOP": 3202
+    },
+    {
+      "label":
+        "3.205 - ANULAÇÃO DE VALOR RELATIVO À PRESTAÇÃO DE SERVIÇO DE COMUNICAÇÃO",
+      "CODCFOP": 3205
+    },
+    {
+      "label":
+        "3.206 - ANULAÇÃO DE VALOR RELATIVO À PRESTAÇÃO DE SERVIÇO DE TRANSPORTE",
+      "CODCFOP": 3206
+    },
+    {
+      "label": "3.207 - ANULAÇÃO DE VALOR RELATIVO À VENDA DE ENERGIA ELÉTRICA",
+      "CODCFOP": 3207
+    },
+    {
+      "label":
+        "3.211 - DEVOLUÇÃO DE VENDA DE PRODUÇÃO DO ESTABELECIMENTO SOB O REGIME DE DRAWBACK",
+      "CODCFOP": 3211
+    },
+    {
+      "label": "3.250 - COMPRAS DE ENERGIA ELÉTRICA",
+      "CODCFOP": 3250
+    },
+    {
+      "label":
+        "3.251 - COMPRA DE ENERGIA ELÉTRICA PARA DISTRIBUIÇÃO OU COMERCIALIZAÇÃO",
+      "CODCFOP": 3251
+    },
+    {
+      "label":
+        "3.301 - AQUISIÇÃO DE SERVIÇO DE COMUNICAÇÃO PARA EXECUÇÃO DE SERVIÇO DA MESMA NATUREZA",
+      "CODCFOP": 3301
+    },
+    {
+      "label": "3.350 - AQUISIÇÕES DE SERVIÇOS DE TRANSPORTE",
+      "CODCFOP": 3350
+    },
+    {
+      "label":
+        "3.351 - AQUISIÇÃO DE SERVIÇO DE TRANSPORTE PARA EXECUÇÃO DE SERVIÇO DA MESMA NATUREZA",
+      "CODCFOP": 3351
+    },
+    {
+      "label":
+        "3.352 - AQUISIÇÃO DE SERVIÇO DE TRANSPORTE POR ESTABELECIMENTO INDUSTRIAL",
+      "CODCFOP": 3352
+    },
+    {
+      "label":
+        "3.353 - AQUISIÇÃO DE SERVIÇO DE TRANSPORTE POR ESTABELECIMENTO COMERCIAL",
+      "CODCFOP": 3353
+    },
+    {
+      "label":
+        "3.354 - AQUISIÇÃO DE SERVIÇO DE TRANSPORTE POR ESTABELECIMENTO DE PRESTADOR DE SERVIÇO DE COMUNICAÇÃO",
+      "CODCFOP": 3354
+    },
+    {
+      "label":
+        "3.355 - AQUISIÇÃO DE SERVIÇO DE TRANSPORTE POR ESTABELECIMENTO DE GERADORA OU DE DISTRIBUIDORA DE ENERGIA ELÉTRICA",
+      "CODCFOP": 3355
+    },
+    {
+      "label":
+        "3.356 - AQUISIÇÃO DE SERVIÇO DE TRANSPORTE POR ESTABELECIMENTO DE PRODUTOR RURAL",
+      "CODCFOP": 3356
+    },
+    {
+      "label":
+        "3.500 - ENTRADAS DE MERCADORIAS REMETIDAS COM FIM ESPECÍFICO DE EXPORTAÇÃO E EVENTUAIS DEVOLUÇÕES",
+      "CODCFOP": 3500
+    },
+    {
+      "label":
+        "3.503 - DEVOLUÇÃO DE MERCADORIA EXPORTADA QUE TENHA SIDO RECEBIDA COM FIM ESPECÍFICO DE EXPORTAÇÃO",
+      "CODCFOP": 3503
+    },
+    {
+      "label":
+        "3.550 - OPERAÇÕES COM BENS DE ATIVO IMOBILIZADO E MATERIAIS PARA USO OU CONSUMO",
+      "CODCFOP": 3550
+    },
+    {
+      "label": "3.551 - COMPRA DE BEM PARA O ATIVO IMOBILIZADO",
+      "CODCFOP": 3551
+    },
+    {
+      "label": "3.553 - DEVOLUÇÃO DE VENDA DE BEM DO ATIVO IMOBILIZADO",
+      "CODCFOP": 3553
+    },
+    {
+      "label": "3.556 - COMPRA DE MATERIAL PARA USO OU CONSUMO",
+      "CODCFOP": 3556
+    },
+    {
+      "label":
+        "3.650 - ENTRADAS DE COMBUSTÍVEIS, DERIVADOS OU NÃO DE PETRÓLEO, E LUBRIFICANTES",
+      "CODCFOP": 3650
+    },
+    {
+      "label":
+        "3.651 - COMPRA DE COMBUSTÍVEL OU LUBRIFICANTE PARA INDUSTRIALIZAÇÃO SUBSEQÜENTE",
+      "CODCFOP": 3651
+    },
+    {
+      "label":
+        "3.652 - COMPRA DE COMBUSTÍVEL OU LUBRIFICANTE PARA COMERCIALIZAÇÃO",
+      "CODCFOP": 3652
+    },
+    {
+      "label":
+        "3.653 - COMPRA DE COMBUSTÍVEL OU LUBRIFICANTE POR CONSUMIDOR OU USUÁRIO FINAL",
+      "CODCFOP": 3653
+    },
+    {
+      "label": "3.900 - OUTRAS ENTRADAS DE MERCADORIAS OU AQUISIÇÕES DE SERVIÇOS",
+      "CODCFOP": 3900
+    },
+    {
+      "label":
+        "3.930 - LANÇAMENTO EFETUADO A TÍTULO DE ENTRADA DE BEM SOB AMPARO DE REGIME ESPECIAL ADUANEIRO DE ADMISSÃO TEMPORÁRIA",
+      "CODCFOP": 3930
+    },
+    {
+      "label":
+        "3.949 - OUTRA ENTRADA DE MERCADORIA OU PRESTAÇÃO DE SERVIÇO NÃO ESPECIFICADO",
+      "CODCFOP": 3949
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "id": "4398",
+            "cidade": "ALTO ALEGRE",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4399",
+            "cidade": "AMAJARI",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4400",
+            "cidade": "BOA VISTA",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4401",
+            "cidade": "BONFIM",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4402",
+            "cidade": "CANTA",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4403",
+            "cidade": "CARACARAI",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4404",
+            "cidade": "CAROEBE",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4405",
+            "cidade": "IRACEMA",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4406",
+            "cidade": "MUCAJAI",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4407",
+            "cidade": "NORMANDIA",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4408",
+            "cidade": "PACARAIMA",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4409",
+            "cidade": "RORAINOPOLIS",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4410",
+            "cidade": "SAO JOAO DA BALIZA",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4411",
+            "cidade": "SAO LUIZ",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          },
+          {
+            "id": "4412",
+            "cidade": "UIRAMUTA",
+            "sigla": "RR",
+            "estado": "RORAIMA"
+          }
+    ]
+}

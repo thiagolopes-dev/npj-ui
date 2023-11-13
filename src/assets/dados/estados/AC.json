@@ -1,0 +1,136 @@
+{
+    "data": [
+        {
+            "id": "79",
+            "cidade": "ACRELANDIA",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "80",
+            "cidade": "ASSIS BRASIL",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "81",
+            "cidade": "BRASILEIA",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "82",
+            "cidade": "BUJARI",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "83",
+            "cidade": "CAPIXABA",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "84",
+            "cidade": "CRUZEIRO DO SUL",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "85",
+            "cidade": "EPITACIOLANDIA",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "86",
+            "cidade": "FEIJO",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "87",
+            "cidade": "JORDAO",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "88",
+            "cidade": "MANCIO LIMA",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "89",
+            "cidade": "MANOEL URBANO",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "90",
+            "cidade": "MARECHAL THAUMATURGO",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "91",
+            "cidade": "PLACIDO DE CASTRO",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "92",
+            "cidade": "PORTO ACRE",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "93",
+            "cidade": "PORTO WALTER",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "94",
+            "cidade": "RIO BRANCO",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "95",
+            "cidade": "RODRIGUES ALVES",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "96",
+            "cidade": "SANTA ROSA DO PURUS",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "97",
+            "cidade": "SENA MADUREIRA",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "98",
+            "cidade": "SENADOR GUIOMARD",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "99",
+            "cidade": "TARAUACA",
+            "sigla": "AC",
+            "estado": "ACRE"
+          },
+          {
+            "id": "100",
+            "cidade": "XAPURI",
+            "sigla": "AC",
+            "estado": "ACRE"
+          }
+    ]
+}

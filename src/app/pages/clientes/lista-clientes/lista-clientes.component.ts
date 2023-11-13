@@ -7,17 +7,17 @@ import {
   ViewChild,
 } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { Table } from 'primeng/table';
 import { NgxSpinnerService } from 'ngx-spinner';
-import { ClientesService } from '../clientes.service';
-import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { Clientes } from 'src/app/core/models/cliente.model';
 import { LazyLoadEvent, MenuItem } from 'primeng/api';
 import { Paginator } from 'primeng/paginator';
+import { Table } from 'primeng/table';
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { Clientes } from 'src/app/core/models/cliente.model';
 import { FiltroClientes } from 'src/app/core/models/filtros.model';
 import { FiltroClientesService } from 'src/app/core/services/filtros-services/filtro-clientes.service';
-import { AuthService } from '../../seguranca/auth.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
+import { AuthService } from '../../seguranca/auth.service';
+import { ClientesService } from '../clientes.service';
 
 @Component({
   selector: 'app-lista-clientes',
@@ -62,7 +62,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
     public auth: AuthService,
     private spinner: NgxSpinnerService,
     private localstorageTableService: LocalstorageTableService,
-  ) {}
+  ) { }
 
   onClear() {
     this.selectedColumns.forEach((col) => {
@@ -133,7 +133,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'cpf',
         header: 'Cpf',
-        key: 2,
+        key: 3,
         width: '250px',
         type: 'number',
         qty: '',
@@ -141,7 +141,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'rg',
         header: 'Rg',
-        key: 2,
+        key: 4,
         width: '250px',
         type: 'number',
         qty: '',
@@ -149,7 +149,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'cep',
         header: 'Cep',
-        key: 2,
+        key: 5,
         width: '250px',
         type: 'number',
         qty: '',
@@ -157,7 +157,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'logradouro',
         header: 'Logradouro',
-        key: 2,
+        key: 6,
         width: '250px',
         type: 'text',
         qty: '',
@@ -165,7 +165,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'bairro',
         header: 'Bairro',
-        key: 2,
+        key: 7,
         width: '250px',
         type: 'text',
         qty: '',
@@ -173,23 +173,15 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'numero',
         header: 'Numero',
-        key: 2,
+        key: 8,
         width: '250px',
         type: 'number',
         qty: '',
       },
       {
-        field: 'complemento',
-        header: 'Complemento',
-        key: 2,
-        width: '250px',
-        type: 'text',
-        qty: '',
-      },
-      {
         field: 'cidade',
         header: 'Cidade',
-        key: 2,
+        key: 9,
         width: '250px',
         type: 'text',
         qty: '',
@@ -197,7 +189,15 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'uf',
         header: 'Uf',
-        key: 2,
+        key: 10,
+        width: '250px',
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'complemento',
+        header: 'Complemento',
+        key: 11,
         width: '250px',
         type: 'text',
         qty: '',
@@ -205,7 +205,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'whatsapp',
         header: 'Whatsapp',
-        key: 2,
+        key: 12,
         width: '250px',
         type: 'number',
         qty: '',
@@ -215,7 +215,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         field: 'usuarioalteracao',
         header: 'Usuário Alteração',
         width: '200px',
-        key: 3,
+        key: 13,
         type: 'text',
         qty: '',
       },
@@ -225,7 +225,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
-        key: 4,
+        key: 14,
         type: 'date',
         dataalteracaode: '',
         dataalteracaoate: '',
@@ -234,7 +234,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         field: 'usuariocriacao',
         header: 'Usuário Criação',
         width: '200px',
-        key: 5,
+        key: 15,
         type: 'text',
         qty: '',
       },
@@ -244,7 +244,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
-        key: 6,
+        key: 16,
         type: 'date',
         datacriacaode: '',
         datacriacaoate: '',
@@ -256,7 +256,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         width: '120px',
         type: 'status',
         status: true,
-        key: 7,
+        key: 17,
         qty: '',
       },
     ];

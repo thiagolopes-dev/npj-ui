@@ -1,0 +1,5123 @@
+{
+    "data": [
+        
+        {
+            "id": "1565",
+            "cidade": "ABADIA DOS DOURADOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1566",
+            "cidade": "ABAETE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1567",
+            "cidade": "ABRE CAMPO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1568",
+            "cidade": "ACAIACA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1569",
+            "cidade": "ACUCENA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1570",
+            "cidade": "AGUA BOA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1571",
+            "cidade": "AGUA COMPRIDA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1572",
+            "cidade": "AGUANIL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1573",
+            "cidade": "AGUAS FORMOSAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1574",
+            "cidade": "AGUAS VERMELHAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1575",
+            "cidade": "AIMORES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1576",
+            "cidade": "AIURUOCA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1577",
+            "cidade": "ALAGOA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1578",
+            "cidade": "ALBERTINA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1579",
+            "cidade": "ALEM PARAIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1580",
+            "cidade": "ALFENAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1581",
+            "cidade": "ALFREDO VASCONCELOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1582",
+            "cidade": "ALMENARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1583",
+            "cidade": "ALPERCATA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1584",
+            "cidade": "ALPINOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1585",
+            "cidade": "ALTEROSA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1586",
+            "cidade": "ALTO CAPARAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1587",
+            "cidade": "ALTO JEQUITIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1588",
+            "cidade": "ALTO RIO DOCE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1589",
+            "cidade": "ALVARENGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1590",
+            "cidade": "ALVINOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1591",
+            "cidade": "ALVORADA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1592",
+            "cidade": "AMPARO DO SERRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1593",
+            "cidade": "ANDRADAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1594",
+            "cidade": "ANDRELANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1595",
+            "cidade": "ANGELANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1596",
+            "cidade": "ANTONIO CARLOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1597",
+            "cidade": "ANTONIO DIAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1598",
+            "cidade": "ANTONIO PRADO DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1599",
+            "cidade": "ARACAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1600",
+            "cidade": "ARACITABA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1601",
+            "cidade": "ARACUAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1602",
+            "cidade": "ARAGUARI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1603",
+            "cidade": "ARANTINA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1604",
+            "cidade": "ARAPONGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1605",
+            "cidade": "ARAPORA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1606",
+            "cidade": "ARAPUA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1607",
+            "cidade": "ARAUJOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1608",
+            "cidade": "ARAXA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1609",
+            "cidade": "ARCEBURGO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1610",
+            "cidade": "ARCOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1611",
+            "cidade": "AREADO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1612",
+            "cidade": "ARGIRITA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1613",
+            "cidade": "ARICANDUVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1614",
+            "cidade": "ARINOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1615",
+            "cidade": "ASTOLFO DUTRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1616",
+            "cidade": "ATALEIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1617",
+            "cidade": "AUGUSTO DE LIMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1618",
+            "cidade": "BAEPENDI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1619",
+            "cidade": "BALDIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1620",
+            "cidade": "BAMBUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1621",
+            "cidade": "BANDEIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1622",
+            "cidade": "BANDEIRA DO SUL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1623",
+            "cidade": "BARAO DE COCAIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1624",
+            "cidade": "BARAO DE MONTE ALTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1625",
+            "cidade": "BARBACENA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1626",
+            "cidade": "BARRA LONGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1627",
+            "cidade": "BARROSO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1628",
+            "cidade": "BELA VISTA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1629",
+            "cidade": "BELMIRO BRAGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1630",
+            "cidade": "BELO HORIZONTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1631",
+            "cidade": "BELO ORIENTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1632",
+            "cidade": "BELO VALE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1633",
+            "cidade": "BERILO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1634",
+            "cidade": "BERIZAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1635",
+            "cidade": "BERTOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1636",
+            "cidade": "BETIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1637",
+            "cidade": "BIAS FORTES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1638",
+            "cidade": "BICAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1639",
+            "cidade": "BIQUINHAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1640",
+            "cidade": "BOA ESPERANCA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1641",
+            "cidade": "BOCAINA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1642",
+            "cidade": "BOCAIUVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1643",
+            "cidade": "BOM DESPACHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1644",
+            "cidade": "BOM JARDIM DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1645",
+            "cidade": "BOM JESUS DA PENHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1646",
+            "cidade": "BOM JESUS DO AMPARO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1647",
+            "cidade": "BOM JESUS DO GALHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1648",
+            "cidade": "BOM REPOUSO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1649",
+            "cidade": "BOM SUCESSO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1650",
+            "cidade": "BONFIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1651",
+            "cidade": "BONFINOPOLIS DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1652",
+            "cidade": "BONITO DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1653",
+            "cidade": "BORDA DA MATA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1654",
+            "cidade": "BOTELHOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1655",
+            "cidade": "BOTUMIRIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1656",
+            "cidade": "BRAS PIRES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1657",
+            "cidade": "BRASILANDIA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1658",
+            "cidade": "BRASILIA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1659",
+            "cidade": "BRASOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1660",
+            "cidade": "BRAUNAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1661",
+            "cidade": "BRUMADINHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1662",
+            "cidade": "BUENO BRANDAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1663",
+            "cidade": "BUENOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1664",
+            "cidade": "BUGRE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1665",
+            "cidade": "BURITIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1666",
+            "cidade": "BURITIZEIRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1667",
+            "cidade": "CABECEIRA GRANDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1668",
+            "cidade": "CABO VERDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1669",
+            "cidade": "CACHOEIRA DA PRATA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1670",
+            "cidade": "CACHOEIRA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1671",
+            "cidade": "CACHOEIRA DE PAJEU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1672",
+            "cidade": "CACHOEIRA DOURADA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1673",
+            "cidade": "CAETANOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1674",
+            "cidade": "CAETE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1675",
+            "cidade": "CAIANA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1676",
+            "cidade": "CAJURI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1677",
+            "cidade": "CALDAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1678",
+            "cidade": "CAMACHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1679",
+            "cidade": "CAMANDUCAIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1680",
+            "cidade": "CAMBUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1681",
+            "cidade": "CAMBUQUIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1682",
+            "cidade": "CAMPANARIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1683",
+            "cidade": "CAMPANHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1684",
+            "cidade": "CAMPESTRE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1685",
+            "cidade": "CAMPINA VERDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1686",
+            "cidade": "CAMPO AZUL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1687",
+            "cidade": "CAMPO BELO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1688",
+            "cidade": "CAMPO DO MEIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1689",
+            "cidade": "CAMPO FLORIDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1690",
+            "cidade": "CAMPOS ALTOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1691",
+            "cidade": "CAMPOS GERAIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1692",
+            "cidade": "CANA VERDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1693",
+            "cidade": "CANAA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1694",
+            "cidade": "CANAPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1695",
+            "cidade": "CANDEIAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1696",
+            "cidade": "CANTAGALO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1697",
+            "cidade": "CAPARAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1698",
+            "cidade": "CAPELA NOVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1699",
+            "cidade": "CAPELINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1700",
+            "cidade": "CAPETINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1701",
+            "cidade": "CAPIM BRANCO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1702",
+            "cidade": "CAPINOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1703",
+            "cidade": "CAPITAO ANDRADE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1704",
+            "cidade": "CAPITAO ENEAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1705",
+            "cidade": "CAPITOLIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1706",
+            "cidade": "CAPUTIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1707",
+            "cidade": "CARAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1708",
+            "cidade": "CARANAIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1709",
+            "cidade": "CARANDAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1710",
+            "cidade": "CARANGOLA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1711",
+            "cidade": "CARATINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1712",
+            "cidade": "CARBONITA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1713",
+            "cidade": "CAREACU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1714",
+            "cidade": "CARLOS CHAGAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1715",
+            "cidade": "CARMESIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1716",
+            "cidade": "CARMO DA CACHOEIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1717",
+            "cidade": "CARMO DA MATA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1718",
+            "cidade": "CARMO DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1719",
+            "cidade": "CARMO DO CAJURU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1720",
+            "cidade": "CARMO DO PARANAIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1721",
+            "cidade": "CARMO DO RIO CLARO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1722",
+            "cidade": "CARMOPOLIS DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1723",
+            "cidade": "CARNEIRINHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1724",
+            "cidade": "CARRANCAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1725",
+            "cidade": "CARVALHOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1726",
+            "cidade": "CARVALHOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1727",
+            "cidade": "CASA GRANDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1728",
+            "cidade": "CASCALHO RICO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1729",
+            "cidade": "CASSIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1730",
+            "cidade": "CATAGUASES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1731",
+            "cidade": "CATAS ALTAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1732",
+            "cidade": "CATAS ALTAS DA NORUEGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1733",
+            "cidade": "CATUJI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1734",
+            "cidade": "CATUTI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1735",
+            "cidade": "CAXAMBU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1736",
+            "cidade": "CEDRO DO ABAETE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1737",
+            "cidade": "CENTRAL DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1738",
+            "cidade": "CENTRALINA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1739",
+            "cidade": "CHACARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1740",
+            "cidade": "CHALE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1741",
+            "cidade": "CHAPADA DO NORTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1742",
+            "cidade": "CHAPADA GAUCHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1743",
+            "cidade": "CHIADOR",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1744",
+            "cidade": "CIPOTANEA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1745",
+            "cidade": "CLARAVAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1746",
+            "cidade": "CLARO DOS POCOES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1747",
+            "cidade": "CLAUDIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1748",
+            "cidade": "COIMBRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1749",
+            "cidade": "COLUNA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1750",
+            "cidade": "COMENDADOR GOMES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1751",
+            "cidade": "COMERCINHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1752",
+            "cidade": "CONCEICAO DA APARECIDA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1753",
+            "cidade": "CONCEICAO DA BARRA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1754",
+            "cidade": "CONCEICAO DAS ALAGOAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1755",
+            "cidade": "CONCEICAO DAS PEDRAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1756",
+            "cidade": "CONCEICAO DE IPANEMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1757",
+            "cidade": "CONCEICAO DO MATO DENTRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1758",
+            "cidade": "CONCEICAO DO PARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1759",
+            "cidade": "CONCEICAO DO RIO VERDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1760",
+            "cidade": "CONCEICAO DOS OUROS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1761",
+            "cidade": "CONEGO MARINHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1762",
+            "cidade": "CONFINS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1763",
+            "cidade": "CONGONHAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1764",
+            "cidade": "CONGONHAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1765",
+            "cidade": "CONGONHAS DO NORTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1766",
+            "cidade": "CONQUISTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1767",
+            "cidade": "CONSELHEIRO LAFAIETE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1768",
+            "cidade": "CONSELHEIRO PENA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1769",
+            "cidade": "CONSOLACAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1770",
+            "cidade": "CONTAGEM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1771",
+            "cidade": "COQUEIRAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1772",
+            "cidade": "CORACAO DE JESUS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1773",
+            "cidade": "CORDISBURGO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1774",
+            "cidade": "CORDISLANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1775",
+            "cidade": "CORINTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1776",
+            "cidade": "COROACI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1777",
+            "cidade": "COROMANDEL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1778",
+            "cidade": "CORONEL FABRICIANO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1779",
+            "cidade": "CORONEL MURTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1780",
+            "cidade": "CORONEL PACHECO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1781",
+            "cidade": "CORONEL XAVIER CHAVES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1782",
+            "cidade": "CORREGO DANTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1783",
+            "cidade": "CORREGO DO BOM JESUS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1784",
+            "cidade": "CORREGO FUNDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1785",
+            "cidade": "CORREGO NOVO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1786",
+            "cidade": "COUTO DE MAGALHAES DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1787",
+            "cidade": "CRISOLITA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1788",
+            "cidade": "CRISTAIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1789",
+            "cidade": "CRISTALIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1790",
+            "cidade": "CRISTIANO OTONI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1791",
+            "cidade": "CRISTINA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1792",
+            "cidade": "CRUCILANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1793",
+            "cidade": "CRUZEIRO DA FORTALEZA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1794",
+            "cidade": "CRUZILIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1795",
+            "cidade": "CUPARAQUE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1796",
+            "cidade": "CURRAL DE DENTRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1797",
+            "cidade": "CURVELO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1798",
+            "cidade": "DATAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1799",
+            "cidade": "DELFIM MOREIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1800",
+            "cidade": "DELFINOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1801",
+            "cidade": "DELTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1802",
+            "cidade": "DESCOBERTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1803",
+            "cidade": "DESTERRO DE ENTRE RIOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1804",
+            "cidade": "DESTERRO DO MELO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1805",
+            "cidade": "DIAMANTINA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1806",
+            "cidade": "DIOGO DE VASCONCELOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1807",
+            "cidade": "DIONISIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1808",
+            "cidade": "DIVINESIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1809",
+            "cidade": "DIVINO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1810",
+            "cidade": "DIVINO DAS LARANJEIRAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1811",
+            "cidade": "DIVINOLANDIA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1812",
+            "cidade": "DIVINOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1813",
+            "cidade": "DIVISA ALEGRE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1814",
+            "cidade": "DIVISA NOVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1815",
+            "cidade": "DIVISOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1816",
+            "cidade": "DOM BOSCO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1817",
+            "cidade": "DOM CAVATI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1818",
+            "cidade": "DOM JOAQUIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1819",
+            "cidade": "DOM SILVERIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1820",
+            "cidade": "DOM VICOSO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1821",
+            "cidade": "DONA EUSEBIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1822",
+            "cidade": "DORES DE CAMPOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1823",
+            "cidade": "DORES DE GUANHAES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1824",
+            "cidade": "DORES DO INDAIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1825",
+            "cidade": "DORES DO TURVO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1826",
+            "cidade": "DORESOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1827",
+            "cidade": "DOURADOQUARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1828",
+            "cidade": "DURANDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1829",
+            "cidade": "ELOI MENDES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1830",
+            "cidade": "ENGENHEIRO CALDAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1831",
+            "cidade": "ENGENHEIRO NAVARRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1832",
+            "cidade": "ENTRE FOLHAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1833",
+            "cidade": "ENTRE RIOS DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1834",
+            "cidade": "ERVALIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1835",
+            "cidade": "ESMERALDAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1836",
+            "cidade": "ESPERA FELIZ",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1837",
+            "cidade": "ESPINOSA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1838",
+            "cidade": "ESPIRITO SANTO DO DOURADO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1839",
+            "cidade": "ESTIVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1840",
+            "cidade": "ESTRELA DALVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1841",
+            "cidade": "ESTRELA DO INDAIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1842",
+            "cidade": "ESTRELA DO SUL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1843",
+            "cidade": "EUGENOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1844",
+            "cidade": "EWBANK DA CAMARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1845",
+            "cidade": "EXTREMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1846",
+            "cidade": "FAMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1847",
+            "cidade": "FARIA LEMOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1848",
+            "cidade": "FELICIO DOS SANTOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1849",
+            "cidade": "FELISBURGO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1850",
+            "cidade": "FELIXLANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1851",
+            "cidade": "FERNANDES TOURINHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1852",
+            "cidade": "FERROS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1853",
+            "cidade": "FERVEDOURO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1854",
+            "cidade": "FLORESTAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1855",
+            "cidade": "FORMIGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1856",
+            "cidade": "FORMOSO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1857",
+            "cidade": "FORTALEZA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1858",
+            "cidade": "FORTUNA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1859",
+            "cidade": "FRANCISCO BADARO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1860",
+            "cidade": "FRANCISCO DUMONT",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1861",
+            "cidade": "FRANCISCO SA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1862",
+            "cidade": "FRANCISCOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1863",
+            "cidade": "FREI GASPAR",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1864",
+            "cidade": "FREI INOCENCIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1865",
+            "cidade": "FREI LAGONEGRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1866",
+            "cidade": "FRONTEIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1867",
+            "cidade": "FRONTEIRA DOS VALES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1868",
+            "cidade": "FRUTA DE LEITE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1869",
+            "cidade": "FRUTAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1870",
+            "cidade": "FUNILANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1871",
+            "cidade": "GALILEIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1872",
+            "cidade": "GAMELEIRAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1873",
+            "cidade": "GLAUCILANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1874",
+            "cidade": "GOIABEIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1875",
+            "cidade": "GOIANA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1876",
+            "cidade": "GONCALVES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1877",
+            "cidade": "GONZAGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1878",
+            "cidade": "GOUVEIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1879",
+            "cidade": "GOVERNADOR VALADARES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1880",
+            "cidade": "GRAO MOGOL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1881",
+            "cidade": "GRUPIARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1882",
+            "cidade": "GUANHAES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1883",
+            "cidade": "GUAPE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1884",
+            "cidade": "GUARACIABA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1885",
+            "cidade": "GUARACIAMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1886",
+            "cidade": "GUARANESIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1887",
+            "cidade": "GUARANI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1888",
+            "cidade": "GUARARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1889",
+            "cidade": "GUARDA-MOR",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1890",
+            "cidade": "GUAXUPE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1891",
+            "cidade": "GUIDOVAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1892",
+            "cidade": "GUIMARANIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1893",
+            "cidade": "GUIRICEMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1894",
+            "cidade": "GURINHATA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1895",
+            "cidade": "HELIODORA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1896",
+            "cidade": "IAPU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1897",
+            "cidade": "IBERTIOGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1898",
+            "cidade": "IBIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1899",
+            "cidade": "IBIAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1900",
+            "cidade": "IBIRACATU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1901",
+            "cidade": "IBIRACI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1902",
+            "cidade": "IBIRITE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1903",
+            "cidade": "IBITIURA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1904",
+            "cidade": "IBITURUNA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1905",
+            "cidade": "ICARAI DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1906",
+            "cidade": "IGARAPE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1907",
+            "cidade": "IGARATINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1908",
+            "cidade": "IGUATAMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1909",
+            "cidade": "IJACI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1910",
+            "cidade": "ILICINEA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1911",
+            "cidade": "IMBE DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1912",
+            "cidade": "INCONFIDENTES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1913",
+            "cidade": "INDAIABIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1914",
+            "cidade": "INDIANOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1915",
+            "cidade": "INGAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1916",
+            "cidade": "INHAPIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1917",
+            "cidade": "INHAUMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1918",
+            "cidade": "INIMUTABA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1919",
+            "cidade": "IPABA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1920",
+            "cidade": "IPANEMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1921",
+            "cidade": "IPATINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1922",
+            "cidade": "IPIACU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1923",
+            "cidade": "IPUIUNA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1924",
+            "cidade": "IRAI DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1925",
+            "cidade": "ITABIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1926",
+            "cidade": "ITABIRINHA DE MANTENA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1927",
+            "cidade": "ITABIRITO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1928",
+            "cidade": "ITACAMBIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1929",
+            "cidade": "ITACARAMBI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1930",
+            "cidade": "ITAGUARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1931",
+            "cidade": "ITAIPE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1932",
+            "cidade": "ITAJUBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1933",
+            "cidade": "ITAMARANDIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1934",
+            "cidade": "ITAMARATI DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1935",
+            "cidade": "ITAMBACURI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1936",
+            "cidade": "ITAMBE DO MATO DENTRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1937",
+            "cidade": "ITAMOGI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1938",
+            "cidade": "ITAMONTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1939",
+            "cidade": "ITANHANDU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1940",
+            "cidade": "ITANHOMI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1941",
+            "cidade": "ITAOBIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1942",
+            "cidade": "ITAPAGIPE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1943",
+            "cidade": "ITAPECERICA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1944",
+            "cidade": "ITAPEVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1945",
+            "cidade": "ITATIAIUCU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1946",
+            "cidade": "ITAU DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1947",
+            "cidade": "ITAUNA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1948",
+            "cidade": "ITAVERAVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1949",
+            "cidade": "ITINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1950",
+            "cidade": "ITUETA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1951",
+            "cidade": "ITUIUTABA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1952",
+            "cidade": "ITUMIRIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1953",
+            "cidade": "ITURAMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1954",
+            "cidade": "ITUTINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1955",
+            "cidade": "JABOTICATUBAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1956",
+            "cidade": "JACINTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1957",
+            "cidade": "JACUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1958",
+            "cidade": "JACUTINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1959",
+            "cidade": "JAGUARACU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1960",
+            "cidade": "JAIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1961",
+            "cidade": "JAMPRUCA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1962",
+            "cidade": "JANAUBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1963",
+            "cidade": "JANUARIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1964",
+            "cidade": "JAPARAIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1965",
+            "cidade": "JAPONVAR",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1966",
+            "cidade": "JECEABA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1967",
+            "cidade": "JENIPAPO DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1968",
+            "cidade": "JEQUERI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1969",
+            "cidade": "JEQUITAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1970",
+            "cidade": "JEQUITIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1971",
+            "cidade": "JEQUITINHONHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1972",
+            "cidade": "JESUANIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1973",
+            "cidade": "JOAIMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1974",
+            "cidade": "JOANESIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1975",
+            "cidade": "JOAO MONLEVADE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1976",
+            "cidade": "JOAO PINHEIRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1977",
+            "cidade": "JOAQUIM FELICIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1978",
+            "cidade": "JORDANIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1979",
+            "cidade": "JOSE GONCALVES DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1980",
+            "cidade": "JOSE RAYDAN",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1981",
+            "cidade": "JOSENOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1982",
+            "cidade": "JUATUBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1983",
+            "cidade": "JUIZ DE FORA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1984",
+            "cidade": "JURAMENTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1985",
+            "cidade": "JURUAIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1986",
+            "cidade": "JUVENILIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1987",
+            "cidade": "LADAINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1988",
+            "cidade": "LAGAMAR",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1989",
+            "cidade": "LAGOA DA PRATA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1990",
+            "cidade": "LAGOA DOS PATOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1991",
+            "cidade": "LAGOA DOURADA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1992",
+            "cidade": "LAGOA FORMOSA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1993",
+            "cidade": "LAGOA GRANDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1994",
+            "cidade": "LAGOA SANTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1995",
+            "cidade": "LAJINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1996",
+            "cidade": "LAMBARI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1997",
+            "cidade": "LAMIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1998",
+            "cidade": "LARANJAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "1999",
+            "cidade": "LASSANCE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2000",
+            "cidade": "LAVRAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2001",
+            "cidade": "LEANDRO FERREIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2002",
+            "cidade": "LEME DO PRADO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2003",
+            "cidade": "LEOPOLDINA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2004",
+            "cidade": "LIBERDADE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2005",
+            "cidade": "LIMA DUARTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2006",
+            "cidade": "LIMEIRA DO OESTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2007",
+            "cidade": "LONTRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2008",
+            "cidade": "LUISBURGO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2009",
+            "cidade": "LUISLANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2010",
+            "cidade": "LUMINARIAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2011",
+            "cidade": "LUZ",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2012",
+            "cidade": "MACHACALIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2013",
+            "cidade": "MACHADO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2014",
+            "cidade": "MADRE DE DEUS DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2015",
+            "cidade": "MALACACHETA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2016",
+            "cidade": "MAMONAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2017",
+            "cidade": "MANGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2018",
+            "cidade": "MANHUACU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2019",
+            "cidade": "MANHUMIRIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2020",
+            "cidade": "MANTENA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2021",
+            "cidade": "MAR DE ESPANHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2022",
+            "cidade": "MARAVILHAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2023",
+            "cidade": "MARIA DA FE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2024",
+            "cidade": "MARIANA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2025",
+            "cidade": "MARILAC",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2026",
+            "cidade": "MARIO CAMPOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2027",
+            "cidade": "MARIPA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2028",
+            "cidade": "MARLIERIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2029",
+            "cidade": "MARMELOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2030",
+            "cidade": "MARTINHO CAMPOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2031",
+            "cidade": "MARTINS SOARES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2032",
+            "cidade": "MATA VERDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2033",
+            "cidade": "MATERLANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2034",
+            "cidade": "MATEUS LEME",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2035",
+            "cidade": "MATHIAS LOBATO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2036",
+            "cidade": "MATIAS BARBOSA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2037",
+            "cidade": "MATIAS CARDOSO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2038",
+            "cidade": "MATIPO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2039",
+            "cidade": "MATO VERDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2040",
+            "cidade": "MATOZINHOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2041",
+            "cidade": "MATUTINA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2042",
+            "cidade": "MEDEIROS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2043",
+            "cidade": "MEDINA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2044",
+            "cidade": "MENDES PIMENTEL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2045",
+            "cidade": "MERCES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2046",
+            "cidade": "MESQUITA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2047",
+            "cidade": "MINAS NOVAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2048",
+            "cidade": "MINDURI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2049",
+            "cidade": "MIRABELA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2050",
+            "cidade": "MIRADOURO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2051",
+            "cidade": "MIRAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2052",
+            "cidade": "MIRAVANIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2053",
+            "cidade": "MOEDA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2054",
+            "cidade": "MOEMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2055",
+            "cidade": "MONJOLOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2056",
+            "cidade": "MONSENHOR PAULO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2057",
+            "cidade": "MONTALVANIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2058",
+            "cidade": "MONTE ALEGRE DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2059",
+            "cidade": "MONTE AZUL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2060",
+            "cidade": "MONTE BELO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2061",
+            "cidade": "MONTE CARMELO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2062",
+            "cidade": "MONTE FORMOSO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2063",
+            "cidade": "MONTE SANTO DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2064",
+            "cidade": "MONTE SIAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2065",
+            "cidade": "MONTES CLAROS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2066",
+            "cidade": "MONTEZUMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2067",
+            "cidade": "MORADA NOVA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2068",
+            "cidade": "MORRO DA GARCA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2069",
+            "cidade": "MORRO DO PILAR",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2070",
+            "cidade": "MUNHOZ",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2071",
+            "cidade": "MURIAE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2072",
+            "cidade": "MUTUM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2073",
+            "cidade": "MUZAMBINHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2074",
+            "cidade": "NACIP RAYDAN",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2075",
+            "cidade": "NANUQUE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2076",
+            "cidade": "NAQUE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2077",
+            "cidade": "NATALANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2078",
+            "cidade": "NATERCIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2079",
+            "cidade": "NAZARENO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2080",
+            "cidade": "NEPOMUCENO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2081",
+            "cidade": "NINHEIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2082",
+            "cidade": "NOVA BELEM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2083",
+            "cidade": "NOVA ERA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2084",
+            "cidade": "NOVA LIMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2085",
+            "cidade": "NOVA MODICA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2086",
+            "cidade": "NOVA PONTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2087",
+            "cidade": "NOVA PORTEIRINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2088",
+            "cidade": "NOVA RESENDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2089",
+            "cidade": "NOVA SERRANA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2090",
+            "cidade": "NOVA UNIAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2091",
+            "cidade": "NOVO CRUZEIRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2092",
+            "cidade": "NOVO ORIENTE DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2093",
+            "cidade": "NOVORIZONTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2094",
+            "cidade": "OLARIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2095",
+            "cidade": "OLHOS-D`AGUA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2096",
+            "cidade": "OLIMPIO NORONHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2097",
+            "cidade": "OLIVEIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2098",
+            "cidade": "OLIVEIRA FORTES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2099",
+            "cidade": "ONCA DE PITANGUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2100",
+            "cidade": "ORATORIOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2101",
+            "cidade": "ORIZANIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2102",
+            "cidade": "OURO BRANCO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2103",
+            "cidade": "OURO FINO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2104",
+            "cidade": "OURO PRETO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2105",
+            "cidade": "OURO VERDE DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2106",
+            "cidade": "PADRE CARVALHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2107",
+            "cidade": "PADRE PARAISO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2108",
+            "cidade": "PAI PEDRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2109",
+            "cidade": "PAINEIRAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2110",
+            "cidade": "PAINS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2111",
+            "cidade": "PAIVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2112",
+            "cidade": "PALMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2113",
+            "cidade": "PALMOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2114",
+            "cidade": "PAPAGAIOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2115",
+            "cidade": "PARA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2116",
+            "cidade": "PARACATU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2117",
+            "cidade": "PARAGUACU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2118",
+            "cidade": "PARAISOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2119",
+            "cidade": "PARAOPEBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2120",
+            "cidade": "PASSA QUATRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2121",
+            "cidade": "PASSA TEMPO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2122",
+            "cidade": "PASSABEM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2123",
+            "cidade": "PASSA-VINTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2124",
+            "cidade": "PASSOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2125",
+            "cidade": "PATIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2126",
+            "cidade": "PATOS DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2127",
+            "cidade": "PATROCINIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2128",
+            "cidade": "PATROCINIO DO MURIAE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2129",
+            "cidade": "PAULA CANDIDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2130",
+            "cidade": "PAULISTAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2131",
+            "cidade": "PAVAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2132",
+            "cidade": "PECANHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2133",
+            "cidade": "PEDRA AZUL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2134",
+            "cidade": "PEDRA BONITA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2135",
+            "cidade": "PEDRA DO ANTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2136",
+            "cidade": "PEDRA DO INDAIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2137",
+            "cidade": "PEDRA DOURADA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2138",
+            "cidade": "PEDRALVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2139",
+            "cidade": "PEDRAS DE MARIA DA CRUZ",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2140",
+            "cidade": "PEDRINOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2141",
+            "cidade": "PEDRO LEOPOLDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2142",
+            "cidade": "PEDRO TEIXEIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2143",
+            "cidade": "PEQUERI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2144",
+            "cidade": "PEQUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2145",
+            "cidade": "PERDIGAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2146",
+            "cidade": "PERDIZES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2147",
+            "cidade": "PERDOES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2148",
+            "cidade": "PERIQUITO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2149",
+            "cidade": "PESCADOR",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2150",
+            "cidade": "PIAU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2151",
+            "cidade": "PIEDADE DE CARATINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2152",
+            "cidade": "PIEDADE DE PONTE NOVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2153",
+            "cidade": "PIEDADE DO RIO GRANDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2154",
+            "cidade": "PIEDADE DOS GERAIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2155",
+            "cidade": "PIMENTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2156",
+            "cidade": "PINGO-D`AGUA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2157",
+            "cidade": "PINTOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2158",
+            "cidade": "PIRACEMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2159",
+            "cidade": "PIRAJUBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2160",
+            "cidade": "PIRANGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2161",
+            "cidade": "PIRANGUCU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2162",
+            "cidade": "PIRANGUINHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2163",
+            "cidade": "PIRAPETINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2164",
+            "cidade": "PIRAPORA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2165",
+            "cidade": "PIRAUBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2166",
+            "cidade": "PITANGUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2167",
+            "cidade": "PIUMHI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2168",
+            "cidade": "PLANURA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2169",
+            "cidade": "POCO FUNDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2170",
+            "cidade": "POCOS DE CALDAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2171",
+            "cidade": "POCRANE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2172",
+            "cidade": "POMPEU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2173",
+            "cidade": "PONTE NOVA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2174",
+            "cidade": "PONTO CHIQUE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2175",
+            "cidade": "PONTO DOS VOLANTES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2176",
+            "cidade": "PORTEIRINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2177",
+            "cidade": "PORTO FIRME",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2178",
+            "cidade": "POTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2179",
+            "cidade": "POUSO ALEGRE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2180",
+            "cidade": "POUSO ALTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2181",
+            "cidade": "PRADOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2182",
+            "cidade": "PRATA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2183",
+            "cidade": "PRATAPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2184",
+            "cidade": "PRATINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2185",
+            "cidade": "PRESIDENTE BERNARDES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2186",
+            "cidade": "PRESIDENTE JUSCELINO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2187",
+            "cidade": "PRESIDENTE KUBITSCHEK",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2188",
+            "cidade": "PRESIDENTE OLEGARIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2189",
+            "cidade": "PRUDENTE DE MORAIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2190",
+            "cidade": "QUARTEL GERAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2191",
+            "cidade": "QUELUZITO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2192",
+            "cidade": "RAPOSOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2193",
+            "cidade": "RAUL SOARES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2194",
+            "cidade": "RECREIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2195",
+            "cidade": "REDUTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2196",
+            "cidade": "RESENDE COSTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2197",
+            "cidade": "RESPLENDOR",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2198",
+            "cidade": "RESSAQUINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2199",
+            "cidade": "RIACHINHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2200",
+            "cidade": "RIACHO DOS MACHADOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2201",
+            "cidade": "RIBEIRAO DAS NEVES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2202",
+            "cidade": "RIBEIRAO VERMELHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2203",
+            "cidade": "RIO ACIMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2204",
+            "cidade": "RIO CASCA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2205",
+            "cidade": "RIO DO PRADO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2206",
+            "cidade": "RIO DOCE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2207",
+            "cidade": "RIO ESPERA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2208",
+            "cidade": "RIO MANSO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2209",
+            "cidade": "RIO NOVO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2210",
+            "cidade": "RIO PARANAIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2211",
+            "cidade": "RIO PARDO DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2212",
+            "cidade": "RIO PIRACICABA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2213",
+            "cidade": "RIO POMBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2214",
+            "cidade": "RIO PRETO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2215",
+            "cidade": "RIO VERMELHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2216",
+            "cidade": "RITAPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2217",
+            "cidade": "ROCHEDO DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2218",
+            "cidade": "RODEIRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2219",
+            "cidade": "ROMARIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2220",
+            "cidade": "ROSARIO DA LIMEIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2221",
+            "cidade": "RUBELITA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2222",
+            "cidade": "RUBIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2223",
+            "cidade": "SABARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2224",
+            "cidade": "SABINOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2225",
+            "cidade": "SACRAMENTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2226",
+            "cidade": "SALINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2227",
+            "cidade": "SALTO DA DIVISA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2228",
+            "cidade": "SANTA BARBARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2229",
+            "cidade": "SANTA BARBARA DO LESTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2230",
+            "cidade": "SANTA BARBARA DO MONTE VERDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2231",
+            "cidade": "SANTA BARBARA DO TUGURIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2232",
+            "cidade": "SANTA CRUZ DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2233",
+            "cidade": "SANTA CRUZ DE SALINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2234",
+            "cidade": "SANTA CRUZ DO ESCALVADO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2235",
+            "cidade": "SANTA EFIGENIA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2236",
+            "cidade": "SANTA FE DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2237",
+            "cidade": "SANTA HELENA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2238",
+            "cidade": "SANTA JULIANA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2239",
+            "cidade": "SANTA LUZIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2240",
+            "cidade": "SANTA MARGARIDA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2241",
+            "cidade": "SANTA MARIA DE ITABIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2242",
+            "cidade": "SANTA MARIA DO SALTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2243",
+            "cidade": "SANTA MARIA DO SUACUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2244",
+            "cidade": "SANTA RITA DE CALDAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2245",
+            "cidade": "SANTA RITA DE IBITIPOCA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2246",
+            "cidade": "SANTA RITA DE JACUTINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2247",
+            "cidade": "SANTA RITA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2248",
+            "cidade": "SANTA RITA DO ITUETO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2249",
+            "cidade": "SANTA RITA DO SAPUCAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2250",
+            "cidade": "SANTA ROSA DA SERRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2251",
+            "cidade": "SANTA VITORIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2252",
+            "cidade": "SANTANA DA VARGEM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2253",
+            "cidade": "SANTANA DE CATAGUASES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2254",
+            "cidade": "SANTANA DE PIRAPAMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2255",
+            "cidade": "SANTANA DO DESERTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2256",
+            "cidade": "SANTANA DO GARAMBEU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2257",
+            "cidade": "SANTANA DO JACARE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2258",
+            "cidade": "SANTANA DO MANHUACU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2259",
+            "cidade": "SANTANA DO PARAISO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2260",
+            "cidade": "SANTANA DO RIACHO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2261",
+            "cidade": "SANTANA DOS MONTES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2262",
+            "cidade": "SANTO ANTONIO DO AMPARO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2263",
+            "cidade": "SANTO ANTONIO DO AVENTUREIRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2264",
+            "cidade": "SANTO ANTONIO DO GRAMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2265",
+            "cidade": "SANTO ANTONIO DO ITAMBE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2266",
+            "cidade": "SANTO ANTONIO DO JACINTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2267",
+            "cidade": "SANTO ANTONIO DO MONTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2268",
+            "cidade": "SANTO ANTONIO DO RETIRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2269",
+            "cidade": "SANTO ANTONIO DO RIO ABAIXO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2270",
+            "cidade": "SANTO HIPOLITO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2271",
+            "cidade": "SANTOS DUMONT",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2272",
+            "cidade": "SAO BENTO ABADE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2273",
+            "cidade": "SAO BRAS DO SUACUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2274",
+            "cidade": "SAO DOMINGOS DAS DORES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2275",
+            "cidade": "SAO DOMINGOS DO PRATA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2276",
+            "cidade": "SAO FELIX DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2277",
+            "cidade": "SAO FRANCISCO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2278",
+            "cidade": "SAO FRANCISCO DE PAULA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2279",
+            "cidade": "SAO FRANCISCO DE SALES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2280",
+            "cidade": "SAO FRANCISCO DO GLORIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2281",
+            "cidade": "SAO GERALDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2282",
+            "cidade": "SAO GERALDO DA PIEDADE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2283",
+            "cidade": "SAO GERALDO DO BAIXIO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2284",
+            "cidade": "SAO GONCALO DO ABAETE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2285",
+            "cidade": "SAO GONCALO DO PARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2286",
+            "cidade": "SAO GONCALO DO RIO ABAIXO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2287",
+            "cidade": "SAO GONCALO DO RIO PRETO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2288",
+            "cidade": "SAO GONCALO DO SAPUCAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2289",
+            "cidade": "SAO GOTARDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2290",
+            "cidade": "SAO JOAO BATISTA DO GLORIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2291",
+            "cidade": "SAO JOAO DA LAGOA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2292",
+            "cidade": "SAO JOAO DA MATA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2293",
+            "cidade": "SAO JOAO DA PONTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2294",
+            "cidade": "SAO JOAO DAS MISSOES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2295",
+            "cidade": "SAO JOAO DEL REI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2296",
+            "cidade": "SAO JOAO DO MANHUACU",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2297",
+            "cidade": "SAO JOAO DO MANTENINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2298",
+            "cidade": "SAO JOAO DO ORIENTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2299",
+            "cidade": "SAO JOAO DO PACUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2300",
+            "cidade": "SAO JOAO DO PARAISO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2301",
+            "cidade": "SAO JOAO EVANGELISTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2302",
+            "cidade": "SAO JOAO NEPOMUCENO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2303",
+            "cidade": "SAO JOAQUIM DE BICAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2304",
+            "cidade": "SAO JOSE DA BARRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2305",
+            "cidade": "SAO JOSE DA LAPA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2306",
+            "cidade": "SAO JOSE DA SAFIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2307",
+            "cidade": "SAO JOSE DA VARGINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2308",
+            "cidade": "SAO JOSE DO ALEGRE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2309",
+            "cidade": "SAO JOSE DO DIVINO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2310",
+            "cidade": "SAO JOSE DO GOIABAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2311",
+            "cidade": "SAO JOSE DO JACURI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2312",
+            "cidade": "SAO JOSE DO MANTIMENTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2313",
+            "cidade": "SAO LOURENCO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2314",
+            "cidade": "SAO MIGUEL DO ANTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2315",
+            "cidade": "SAO PEDRO DA UNIAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2316",
+            "cidade": "SAO PEDRO DO SUACUI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2317",
+            "cidade": "SAO PEDRO DOS FERROS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2318",
+            "cidade": "SAO ROMAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2319",
+            "cidade": "SAO ROQUE DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2320",
+            "cidade": "SAO SEBASTIAO DA BELA VISTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2321",
+            "cidade": "SAO SEBASTIAO DA VARGEM ALEGRE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2322",
+            "cidade": "SAO SEBASTIAO DO ANTA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2323",
+            "cidade": "SAO SEBASTIAO DO MARANHAO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2324",
+            "cidade": "SAO SEBASTIAO DO OESTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2325",
+            "cidade": "SAO SEBASTIAO DO PARAISO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2326",
+            "cidade": "SAO SEBASTIAO DO RIO PRETO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2327",
+            "cidade": "SAO SEBASTIAO DO RIO VERDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2328",
+            "cidade": "SAO THOME DAS LETRAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2329",
+            "cidade": "SAO TIAGO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2330",
+            "cidade": "SAO TOMAS DE AQUINO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2331",
+            "cidade": "SAO VICENTE DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2332",
+            "cidade": "SAPUCAI-MIRIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2333",
+            "cidade": "SARDOA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2334",
+            "cidade": "SARZEDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2335",
+            "cidade": "SEM-PEIXE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2336",
+            "cidade": "SENADOR AMARAL",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2337",
+            "cidade": "SENADOR CORTES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2338",
+            "cidade": "SENADOR FIRMINO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2339",
+            "cidade": "SENADOR JOSE BENTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2340",
+            "cidade": "SENADOR MODESTINO GONCALVES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2341",
+            "cidade": "SENHORA DE OLIVEIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2342",
+            "cidade": "SENHORA DO PORTO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2343",
+            "cidade": "SENHORA DOS REMEDIOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2344",
+            "cidade": "SERICITA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2345",
+            "cidade": "SERITINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2346",
+            "cidade": "SERRA AZUL DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2347",
+            "cidade": "SERRA DA SAUDADE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2348",
+            "cidade": "SERRA DO SALITRE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2349",
+            "cidade": "SERRA DOS AIMORES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2350",
+            "cidade": "SERRANIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2351",
+            "cidade": "SERRANOPOLIS DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2352",
+            "cidade": "SERRANOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2353",
+            "cidade": "SERRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2354",
+            "cidade": "SETE LAGOAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2355",
+            "cidade": "SETUBINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2356",
+            "cidade": "SILVEIRANIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2357",
+            "cidade": "SILVIANOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2358",
+            "cidade": "SIMAO PEREIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2359",
+            "cidade": "SIMONESIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2360",
+            "cidade": "SOBRALIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2361",
+            "cidade": "SOLEDADE DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2362",
+            "cidade": "TABULEIRO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2363",
+            "cidade": "TAIOBEIRAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2364",
+            "cidade": "TAPARUBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2365",
+            "cidade": "TAPIRA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2366",
+            "cidade": "TAPIRAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2367",
+            "cidade": "TAQUARACU DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2368",
+            "cidade": "TARUMIRIM",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2369",
+            "cidade": "TEIXEIRAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2370",
+            "cidade": "TEOFILO OTONI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2371",
+            "cidade": "TIMOTEO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2372",
+            "cidade": "TIRADENTES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2373",
+            "cidade": "TIROS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2374",
+            "cidade": "TOCANTINS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2375",
+            "cidade": "TOCOS DO MOJI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2376",
+            "cidade": "TOLEDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2377",
+            "cidade": "TOMBOS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2378",
+            "cidade": "TRES CORACOES",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2379",
+            "cidade": "TRES MARIAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2380",
+            "cidade": "TRES PONTAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2381",
+            "cidade": "TUMIRITINGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2382",
+            "cidade": "TUPACIGUARA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2383",
+            "cidade": "TURMALINA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2384",
+            "cidade": "TURVOLANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2385",
+            "cidade": "UBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2386",
+            "cidade": "UBAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2387",
+            "cidade": "UBAPORANGA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2388",
+            "cidade": "UBERABA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2389",
+            "cidade": "UBERLANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2390",
+            "cidade": "UMBURATIBA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2391",
+            "cidade": "UNAI",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2392",
+            "cidade": "UNIAO DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2393",
+            "cidade": "URUANA DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2394",
+            "cidade": "URUCANIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2395",
+            "cidade": "URUCUIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2396",
+            "cidade": "VARGEM ALEGRE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2397",
+            "cidade": "VARGEM BONITA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2398",
+            "cidade": "VARGEM GRANDE DO RIO PARDO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2399",
+            "cidade": "VARGINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2400",
+            "cidade": "VARJAO DE MINAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2401",
+            "cidade": "VARZEA DA PALMA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2402",
+            "cidade": "VARZELANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2403",
+            "cidade": "VAZANTE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2404",
+            "cidade": "VERDELANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2405",
+            "cidade": "VEREDINHA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2406",
+            "cidade": "VERISSIMO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2407",
+            "cidade": "VERMELHO NOVO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2408",
+            "cidade": "VESPASIANO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2409",
+            "cidade": "VICOSA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2410",
+            "cidade": "VIEIRAS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2411",
+            "cidade": "VIRGEM DA LAPA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2412",
+            "cidade": "VIRGINIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2413",
+            "cidade": "VIRGINOPOLIS",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2414",
+            "cidade": "VIRGOLANDIA",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2415",
+            "cidade": "VISCONDE DO RIO BRANCO",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2416",
+            "cidade": "VOLTA GRANDE",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          },
+          {
+            "id": "2417",
+            "cidade": "WENCESLAU BRAZ",
+            "sigla": "MG",
+            "estado": "MINAS GERAIS"
+          }
+    ]
+}

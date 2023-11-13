@@ -1,0 +1,377 @@
+{
+    "data" : [
+        
+    {
+        "id": "219",
+        "cidade": "ALVARAES",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "220",
+        "cidade": "AMATURA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "221",
+        "cidade": "ANAMA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "222",
+        "cidade": "ANORI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "223",
+        "cidade": "APUI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "224",
+        "cidade": "ATALAIA DO NORTE",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "225",
+        "cidade": "AUTAZES",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "226",
+        "cidade": "BARCELOS",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "227",
+        "cidade": "BARREIRINHA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "228",
+        "cidade": "BENJAMIN CONSTANT",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "229",
+        "cidade": "BERURI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "230",
+        "cidade": "BOA VISTA DO RAMOS",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "231",
+        "cidade": "BOCA DO ACRE",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "232",
+        "cidade": "BORBA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "233",
+        "cidade": "CAAPIRANGA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "234",
+        "cidade": "CANUTAMA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "235",
+        "cidade": "CARAUARI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "236",
+        "cidade": "CAREIRO",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "237",
+        "cidade": "CAREIRO DA VARZEA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "238",
+        "cidade": "COARI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "239",
+        "cidade": "CODAJAS",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "240",
+        "cidade": "EIRUNEPE",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "241",
+        "cidade": "ENVIRA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "242",
+        "cidade": "FONTE BOA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "243",
+        "cidade": "GUAJARA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "244",
+        "cidade": "HUMAITA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "245",
+        "cidade": "IPIXUNA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "246",
+        "cidade": "IRANDUBA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "247",
+        "cidade": "ITACOATIARA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "248",
+        "cidade": "ITAMARATI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "249",
+        "cidade": "ITAPIRANGA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "250",
+        "cidade": "JAPURA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "251",
+        "cidade": "JURUA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "252",
+        "cidade": "JUTAI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "253",
+        "cidade": "LABREA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "254",
+        "cidade": "MANACAPURU",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "255",
+        "cidade": "MANAQUIRI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "256",
+        "cidade": "MANAUS",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "257",
+        "cidade": "MANICORE",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "258",
+        "cidade": "MARAA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "259",
+        "cidade": "MAUES",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "260",
+        "cidade": "NHAMUNDA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "261",
+        "cidade": "NOVA OLINDA DO NORTE",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "262",
+        "cidade": "NOVO AIRAO",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "263",
+        "cidade": "NOVO ARIPUANA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "264",
+        "cidade": "PARINTINS",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "265",
+        "cidade": "PAUINI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "266",
+        "cidade": "PRESIDENTE FIGUEIREDO",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "267",
+        "cidade": "RIO PRETO DA EVA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "268",
+        "cidade": "SANTA ISABEL DO RIO NEGRO",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "269",
+        "cidade": "SANTO ANTONIO DO ICA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "270",
+        "cidade": "SAO GABRIEL DA CACHOEIRA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "271",
+        "cidade": "SAO PAULO DE OLIVENCA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "272",
+        "cidade": "SAO SEBASTIAO DO UATUMA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "273",
+        "cidade": "SILVES",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "274",
+        "cidade": "TABATINGA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "275",
+        "cidade": "TAPAUA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "276",
+        "cidade": "TEFE",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "277",
+        "cidade": "TONANTINS",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "278",
+        "cidade": "UARINI",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "279",
+        "cidade": "URUCARA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      },
+      {
+        "id": "280",
+        "cidade": "URUCURITUBA",
+        "sigla": "AM",
+        "estado": "AMAZONAS"
+      }
+    ]
+}

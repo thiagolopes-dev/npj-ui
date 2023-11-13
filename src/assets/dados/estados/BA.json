@@ -1,0 +1,2506 @@
+{
+    "data" : [
+        {
+            "id": "281",
+            "cidade": "ABAIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "282",
+            "cidade": "ABARE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "283",
+            "cidade": "ACAJUTIBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "284",
+            "cidade": "ADUSTINA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "285",
+            "cidade": "AGUA FRIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "286",
+            "cidade": "AIQUARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "287",
+            "cidade": "ALAGOINHAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "288",
+            "cidade": "ALCOBACA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "289",
+            "cidade": "ALMADINA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "290",
+            "cidade": "AMARGOSA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "291",
+            "cidade": "AMELIA RODRIGUES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "292",
+            "cidade": "AMERICA DOURADA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "293",
+            "cidade": "ANAGE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "294",
+            "cidade": "ANDARAI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "295",
+            "cidade": "ANDORINHA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "296",
+            "cidade": "ANGICAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "297",
+            "cidade": "ANGUERA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "298",
+            "cidade": "ANTAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "299",
+            "cidade": "ANTONIO CARDOSO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "300",
+            "cidade": "ANTONIO GONCALVES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "301",
+            "cidade": "APORA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "302",
+            "cidade": "APUAREMA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "303",
+            "cidade": "ARACAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "304",
+            "cidade": "ARACATU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "305",
+            "cidade": "ARACI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "306",
+            "cidade": "ARAMARI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "307",
+            "cidade": "ARATACA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "308",
+            "cidade": "ARATUIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "309",
+            "cidade": "AURELINO LEAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "310",
+            "cidade": "BAIANOPOLIS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "311",
+            "cidade": "BAIXA GRANDE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "312",
+            "cidade": "BANZAE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "313",
+            "cidade": "BARRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "314",
+            "cidade": "BARRA DA ESTIVA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "315",
+            "cidade": "BARRA DO CHOCA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "316",
+            "cidade": "BARRA DO MENDES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "317",
+            "cidade": "BARRA DO ROCHA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "318",
+            "cidade": "BARREIRAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "319",
+            "cidade": "BARRO ALTO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "320",
+            "cidade": "BARRO PRETO (ANTIGO GOV. LOMANTO JR.)",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "321",
+            "cidade": "BARROCAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "322",
+            "cidade": "BELMONTE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "323",
+            "cidade": "BELO CAMPO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "324",
+            "cidade": "BIRITINGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "325",
+            "cidade": "BOA NOVA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "326",
+            "cidade": "BOA VISTA DO TUPIM",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "327",
+            "cidade": "BOM JESUS DA LAPA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "328",
+            "cidade": "BOM JESUS DA SERRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "329",
+            "cidade": "BONINAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "330",
+            "cidade": "BONITO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "331",
+            "cidade": "BOQUIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "332",
+            "cidade": "BOTUPORA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "333",
+            "cidade": "BREJOES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "334",
+            "cidade": "BREJOLANDIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "335",
+            "cidade": "BROTAS DE MACAUBAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "336",
+            "cidade": "BRUMADO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "337",
+            "cidade": "BUERAREMA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "338",
+            "cidade": "BURITIRAMA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "339",
+            "cidade": "CAATIBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "340",
+            "cidade": "CABACEIRAS DO PARAGUACU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "341",
+            "cidade": "CACHOEIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "342",
+            "cidade": "CACULE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "343",
+            "cidade": "CAEM",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "344",
+            "cidade": "CAETANOS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "345",
+            "cidade": "CAETITE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "346",
+            "cidade": "CAFARNAUM",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "347",
+            "cidade": "CAIRU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "348",
+            "cidade": "CALDEIRAO GRANDE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "349",
+            "cidade": "CAMACAN",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "350",
+            "cidade": "CAMACARI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "351",
+            "cidade": "CAMAMU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "352",
+            "cidade": "CAMPO ALEGRE DE LOURDES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "353",
+            "cidade": "CAMPO FORMOSO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "354",
+            "cidade": "CANAPOLIS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "355",
+            "cidade": "CANARANA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "356",
+            "cidade": "CANAVIEIRAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "357",
+            "cidade": "CANDEAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "358",
+            "cidade": "CANDEIAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "359",
+            "cidade": "CANDIBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "360",
+            "cidade": "CANDIDO SALES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "361",
+            "cidade": "CANSANCAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "362",
+            "cidade": "CANUDOS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "363",
+            "cidade": "CAPELA DO ALTO ALEGRE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "364",
+            "cidade": "CAPIM GROSSO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "365",
+            "cidade": "CARAIBAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "366",
+            "cidade": "CARAVELAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "367",
+            "cidade": "CARDEAL DA SILVA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "368",
+            "cidade": "CARINHANHA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "369",
+            "cidade": "CASA NOVA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "370",
+            "cidade": "CASTRO ALVES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "371",
+            "cidade": "CATOLANDIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "372",
+            "cidade": "CATU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "373",
+            "cidade": "CATURAMA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "374",
+            "cidade": "CENTRAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "375",
+            "cidade": "CHORROCHO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "376",
+            "cidade": "CICERO DANTAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "377",
+            "cidade": "CIPO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "378",
+            "cidade": "COARACI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "379",
+            "cidade": "COCOS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "380",
+            "cidade": "CONCEICAO DA FEIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "381",
+            "cidade": "CONCEICAO DO ALMEIDA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "382",
+            "cidade": "CONCEICAO DO COITE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "383",
+            "cidade": "CONCEICAO DO JACUIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "384",
+            "cidade": "CONDE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "385",
+            "cidade": "CONDEUBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "386",
+            "cidade": "CONTENDAS DO SINCORA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "387",
+            "cidade": "CORACAO DE MARIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "388",
+            "cidade": "CORDEIROS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "389",
+            "cidade": "CORIBE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "390",
+            "cidade": "CORONEL JOAO SA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "391",
+            "cidade": "CORRENTINA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "392",
+            "cidade": "COTEGIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "393",
+            "cidade": "CRAVOLANDIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "394",
+            "cidade": "CRISOPOLIS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "395",
+            "cidade": "CRISTOPOLIS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "396",
+            "cidade": "CRUZ DAS ALMAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "397",
+            "cidade": "CURACA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "398",
+            "cidade": "DARIO MEIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "399",
+            "cidade": "DIAS D`AVILA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "400",
+            "cidade": "DOM BASILIO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "401",
+            "cidade": "DOM MACEDO COSTA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "402",
+            "cidade": "ELISIO MEDRADO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "403",
+            "cidade": "ENCRUZILHADA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "404",
+            "cidade": "ENTRE RIOS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "405",
+            "cidade": "ÉRICO CARDOSO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "406",
+            "cidade": "ESPLANADA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "407",
+            "cidade": "EUCLIDES DA CUNHA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "408",
+            "cidade": "EUNAPOLIS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "409",
+            "cidade": "FATIMA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "410",
+            "cidade": "FEIRA DA MATA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "411",
+            "cidade": "FEIRA DE SANTANA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "412",
+            "cidade": "FILADELFIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "413",
+            "cidade": "FIRMINO ALVES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "414",
+            "cidade": "FLORESTA AZUL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "415",
+            "cidade": "FORMOSA DO RIO PRETO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "416",
+            "cidade": "GANDU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "417",
+            "cidade": "GAVIAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "418",
+            "cidade": "GENTIO DO OURO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "419",
+            "cidade": "GLORIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "420",
+            "cidade": "GONGOGI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "421",
+            "cidade": "GOVERNADOR MANGABEIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "422",
+            "cidade": "GUAJERU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "423",
+            "cidade": "GUANAMBI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "424",
+            "cidade": "GUARATINGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "425",
+            "cidade": "HELIOPOLIS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "426",
+            "cidade": "IACU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "427",
+            "cidade": "IBIASSUCE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "428",
+            "cidade": "IBICARAI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "429",
+            "cidade": "IBICOARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "430",
+            "cidade": "IBICUI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "431",
+            "cidade": "IBIPEBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "432",
+            "cidade": "IBIPITANGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "433",
+            "cidade": "IBIQUERA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "434",
+            "cidade": "IBIRAPITANGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "435",
+            "cidade": "IBIRAPUA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "436",
+            "cidade": "IBIRATAIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "437",
+            "cidade": "IBITIARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "438",
+            "cidade": "IBITITA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "439",
+            "cidade": "IBOTIRAMA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "440",
+            "cidade": "ICHU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "441",
+            "cidade": "IGAPORA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "442",
+            "cidade": "IGRAPIUNA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "443",
+            "cidade": "IGUAI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "444",
+            "cidade": "ILHEUS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "445",
+            "cidade": "INHAMBUPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "446",
+            "cidade": "IPECAETA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "447",
+            "cidade": "IPIAU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "448",
+            "cidade": "IPIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "449",
+            "cidade": "IPUPIARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "450",
+            "cidade": "IRAJUBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "451",
+            "cidade": "IRAMAIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "452",
+            "cidade": "IRAQUARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "453",
+            "cidade": "IRARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "454",
+            "cidade": "IRECE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "455",
+            "cidade": "ITABELA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "456",
+            "cidade": "ITABERABA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "457",
+            "cidade": "ITABUNA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "458",
+            "cidade": "ITACARE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "459",
+            "cidade": "ITAETE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "460",
+            "cidade": "ITAGI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "461",
+            "cidade": "ITAGIBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "462",
+            "cidade": "ITAGIMIRIM",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "463",
+            "cidade": "ITAGUACU DA BAHIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "464",
+            "cidade": "ITAJU DO COLONIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "465",
+            "cidade": "ITAJUIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "466",
+            "cidade": "ITAMARAJU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "467",
+            "cidade": "ITAMARI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "468",
+            "cidade": "ITAMBE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "469",
+            "cidade": "ITANAGRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "470",
+            "cidade": "ITANHEM",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "471",
+            "cidade": "ITAPARICA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "472",
+            "cidade": "ITAPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "473",
+            "cidade": "ITAPEBI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "474",
+            "cidade": "ITAPETINGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "475",
+            "cidade": "ITAPICURU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "476",
+            "cidade": "ITAPITANGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "477",
+            "cidade": "ITAQUARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "478",
+            "cidade": "ITARANTIM",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "479",
+            "cidade": "ITATIM",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "480",
+            "cidade": "ITIRUCU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "481",
+            "cidade": "ITIUBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "482",
+            "cidade": "ITORORO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "483",
+            "cidade": "ITUACU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "484",
+            "cidade": "ITUBERA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "485",
+            "cidade": "IUIU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "486",
+            "cidade": "JABORANDI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "487",
+            "cidade": "JACARACI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "488",
+            "cidade": "JACOBINA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "489",
+            "cidade": "JAGUAQUARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "490",
+            "cidade": "JAGUARARI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "491",
+            "cidade": "JAGUARIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "492",
+            "cidade": "JANDAIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "493",
+            "cidade": "JEQUIE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "494",
+            "cidade": "JEREMOABO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "495",
+            "cidade": "JIQUIRICA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "496",
+            "cidade": "JITAUNA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "497",
+            "cidade": "JOAO DOURADO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "498",
+            "cidade": "JUAZEIRO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "499",
+            "cidade": "JUCURUCU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "500",
+            "cidade": "JUSSARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "501",
+            "cidade": "JUSSARI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "502",
+            "cidade": "JUSSIAPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "503",
+            "cidade": "LAFAIETE COUTINHO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "504",
+            "cidade": "LAGOA REAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "505",
+            "cidade": "LAJE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "506",
+            "cidade": "LAJEDAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "507",
+            "cidade": "LAJEDINHO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "508",
+            "cidade": "LAJEDO DO TABOCAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "509",
+            "cidade": "LAMARAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "510",
+            "cidade": "LAPAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "511",
+            "cidade": "LAURO DE FREITAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "512",
+            "cidade": "LENCOIS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "513",
+            "cidade": "LICINIO DE ALMEIDA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "514",
+            "cidade": "LIVRAMENTO DE NOSSA SENHORA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "515",
+            "cidade": "LUIS EDUARDO MAGALHAES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "516",
+            "cidade": "MACAJUBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "517",
+            "cidade": "MACARANI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "518",
+            "cidade": "MACAUBAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "519",
+            "cidade": "MACURURE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "520",
+            "cidade": "MADRE DE DEUS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "521",
+            "cidade": "MAETINGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "522",
+            "cidade": "MAIQUINIQUE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "523",
+            "cidade": "MAIRI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "524",
+            "cidade": "MALHADA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "525",
+            "cidade": "MALHADA DE PEDRAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "526",
+            "cidade": "MANOEL VITORINO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "527",
+            "cidade": "MANSIDAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "528",
+            "cidade": "MARACAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "529",
+            "cidade": "MARAGOGIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "530",
+            "cidade": "MARAU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "531",
+            "cidade": "MARCIONILIO SOUZA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "532",
+            "cidade": "MASCOTE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "533",
+            "cidade": "MATA DE SAO JOAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "534",
+            "cidade": "MATINA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "535",
+            "cidade": "MEDEIROS NETO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "536",
+            "cidade": "MIGUEL CALMON",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "537",
+            "cidade": "MILAGRES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "538",
+            "cidade": "MIRANGABA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "539",
+            "cidade": "MIRANTE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "540",
+            "cidade": "MONTE SANTO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "541",
+            "cidade": "MORPARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "542",
+            "cidade": "MORRO DO CHAPEU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "543",
+            "cidade": "MORTUGABA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "544",
+            "cidade": "MUCUGE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "545",
+            "cidade": "MUCURI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "546",
+            "cidade": "MULUNGU DO MORRO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "547",
+            "cidade": "MUNDO NOVO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "548",
+            "cidade": "MUNIZ FERREIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "549",
+            "cidade": "MUQUEM DE SAO FRANCISCO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "550",
+            "cidade": "MURITIBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "551",
+            "cidade": "MUTUIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "552",
+            "cidade": "NAZARE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "553",
+            "cidade": "NILO PECANHA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "554",
+            "cidade": "NORDESTINA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "555",
+            "cidade": "NOVA CANAA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "556",
+            "cidade": "NOVA FATIMA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "557",
+            "cidade": "NOVA IBIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "558",
+            "cidade": "NOVA ITARANA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "559",
+            "cidade": "NOVA REDENCAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "560",
+            "cidade": "NOVA SOURE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "561",
+            "cidade": "NOVA VICOSA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "562",
+            "cidade": "NOVO HORIZONTE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "563",
+            "cidade": "NOVO TRIUNFO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "564",
+            "cidade": "OLINDINA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "565",
+            "cidade": "OLIVEIRA DOS BREJINHOS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "566",
+            "cidade": "OURICANGAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "567",
+            "cidade": "OUROLANDIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "568",
+            "cidade": "PALMAS DE MONTE ALTO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "569",
+            "cidade": "PALMEIRAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "570",
+            "cidade": "PARAMIRIM",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "571",
+            "cidade": "PARATINGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "572",
+            "cidade": "PARIPIRANGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "573",
+            "cidade": "PAU BRASIL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "574",
+            "cidade": "PAULO AFONSO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "575",
+            "cidade": "PE DE SERRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "576",
+            "cidade": "PEDRAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "577",
+            "cidade": "PEDRO ALEXANDRE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "578",
+            "cidade": "PIATA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "579",
+            "cidade": "PILAO ARCADO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "580",
+            "cidade": "PINDAI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "581",
+            "cidade": "PINDOBACU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "582",
+            "cidade": "PINTADAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "583",
+            "cidade": "PIRAI DO NORTE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "584",
+            "cidade": "PIRIPA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "585",
+            "cidade": "PIRITIBA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "586",
+            "cidade": "PLANALTINO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "587",
+            "cidade": "PLANALTO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "588",
+            "cidade": "POCOES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "589",
+            "cidade": "POJUCA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "590",
+            "cidade": "PONTO NOVO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "591",
+            "cidade": "PORTO SEGURO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "592",
+            "cidade": "POTIRAGUA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "593",
+            "cidade": "PRADO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "594",
+            "cidade": "PRESIDENTE DUTRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "595",
+            "cidade": "PRESIDENTE JANIO QUADROS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "596",
+            "cidade": "PRESIDENTE TANCREDO NEVES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "597",
+            "cidade": "QUEIMADAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "598",
+            "cidade": "QUIJINGUE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "599",
+            "cidade": "QUIXABEIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "600",
+            "cidade": "RAFAEL JAMBEIRO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "601",
+            "cidade": "REMANSO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "602",
+            "cidade": "RETIROLANDIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "603",
+            "cidade": "RIACHAO DAS NEVES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "604",
+            "cidade": "RIACHAO DO JACUIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "605",
+            "cidade": "RIACHO DE SANTANA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "606",
+            "cidade": "RIBEIRA DO AMPARO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "607",
+            "cidade": "RIBEIRA DO POMBAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "608",
+            "cidade": "RIBEIRAO DO LARGO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "609",
+            "cidade": "RIO DE CONTAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "610",
+            "cidade": "RIO DO ANTONIO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "611",
+            "cidade": "RIO DO PIRES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "612",
+            "cidade": "RIO REAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "613",
+            "cidade": "RODELAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "614",
+            "cidade": "RUY BARBOSA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "615",
+            "cidade": "SALINAS DA MARGARIDA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "616",
+            "cidade": "SALVADOR",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "617",
+            "cidade": "SANTA BARBARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "618",
+            "cidade": "SANTA BRIGIDA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "619",
+            "cidade": "SANTA CRUZ CABRALIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "620",
+            "cidade": "SANTA CRUZ DA VITORIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "621",
+            "cidade": "SANTA INES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "622",
+            "cidade": "SANTA LUZIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "623",
+            "cidade": "SANTA MARIA DA VITORIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "624",
+            "cidade": "SANTA RITA DE CASSIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "625",
+            "cidade": "SANTA TERESINHA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "626",
+            "cidade": "SANTALUZ",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "627",
+            "cidade": "SANTANA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "628",
+            "cidade": "SANTANOPOLIS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "629",
+            "cidade": "SANTO AMARO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "630",
+            "cidade": "SANTO ANTONIO DE JESUS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "631",
+            "cidade": "SANTO ESTEVAO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "632",
+            "cidade": "SAO DESIDERIO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "633",
+            "cidade": "SAO DOMINGOS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "634",
+            "cidade": "SAO FELIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "635",
+            "cidade": "SAO FELIX",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "636",
+            "cidade": "SAO FELIX DO CORIBE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "637",
+            "cidade": "SAO FRANCISCO DO CONDE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "638",
+            "cidade": "SAO GABRIEL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "639",
+            "cidade": "SAO GONCALO DOS CAMPOS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "640",
+            "cidade": "SAO JOSE DA VITORIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "641",
+            "cidade": "SAO JOSE DO JACUIPE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "642",
+            "cidade": "SAO MIGUEL DAS MATAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "643",
+            "cidade": "SAO SEBASTIAO DO PASSE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "644",
+            "cidade": "SAPEACU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "645",
+            "cidade": "SATIRO DIAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "646",
+            "cidade": "SAUBARA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "647",
+            "cidade": "SAUDE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "648",
+            "cidade": "SEABRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "649",
+            "cidade": "SEBASTIAO LARANJEIRAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "650",
+            "cidade": "SENHOR DO BONFIM",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "651",
+            "cidade": "SENTO SE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "652",
+            "cidade": "SERRA DO RAMALHO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "653",
+            "cidade": "SERRA DOURADA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "654",
+            "cidade": "SERRA PRETA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "655",
+            "cidade": "SERRINHA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "656",
+            "cidade": "SERROLANDIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "657",
+            "cidade": "SIMOES FILHO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "658",
+            "cidade": "SITIO DO MATO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "659",
+            "cidade": "SITIO DO QUINTO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "660",
+            "cidade": "SOBRADINHO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "661",
+            "cidade": "SOUTO SOARES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "662",
+            "cidade": "TABOCAS DO BREJO VELHO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "663",
+            "cidade": "TANHACU",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "664",
+            "cidade": "TANQUE NOVO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "665",
+            "cidade": "TANQUINHO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "666",
+            "cidade": "TAPEROA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "667",
+            "cidade": "TAPIRAMUTA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "668",
+            "cidade": "TEIXEIRA DE FREITAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "669",
+            "cidade": "TEODORO SAMPAIO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "670",
+            "cidade": "TEOFILANDIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "671",
+            "cidade": "TEOLANDIA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "672",
+            "cidade": "TERRA NOVA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "673",
+            "cidade": "TREMEDAL",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "674",
+            "cidade": "TUCANO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "675",
+            "cidade": "UAUA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "676",
+            "cidade": "UBAIRA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "677",
+            "cidade": "UBAITABA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "678",
+            "cidade": "UBATA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "679",
+            "cidade": "UIBAI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "680",
+            "cidade": "UMBURANAS",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "681",
+            "cidade": "UNA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "682",
+            "cidade": "URANDI",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "683",
+            "cidade": "URUCUCA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "684",
+            "cidade": "UTINGA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "685",
+            "cidade": "VALENCA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "686",
+            "cidade": "VALENTE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "687",
+            "cidade": "VARZEA DA ROCA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "688",
+            "cidade": "VARZEA DO POCO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "689",
+            "cidade": "VARZEA NOVA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "690",
+            "cidade": "VARZEDO",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "691",
+            "cidade": "VERA CRUZ",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "692",
+            "cidade": "VEREDA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "693",
+            "cidade": "VITORIA DA CONQUISTA",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "694",
+            "cidade": "WAGNER",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "695",
+            "cidade": "WANDERLEY",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "696",
+            "cidade": "WENCESLAU GUIMARAES",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          },
+          {
+            "id": "697",
+            "cidade": "XIQUE-XIQUE",
+            "sigla": "BA",
+            "estado": "BAHIA"
+          }
+    ]
+}

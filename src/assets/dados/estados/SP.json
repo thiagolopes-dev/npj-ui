@@ -1,0 +1,3874 @@
+{
+    "data" : [
+        {
+            "id": "4706",
+            "cidade": "ADAMANTINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4707",
+            "cidade": "ADOLFO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4708",
+            "cidade": "AGUAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4709",
+            "cidade": "AGUAS DA PRATA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4710",
+            "cidade": "AGUAS DE LINDOIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4711",
+            "cidade": "AGUAS DE SANTA BARBARA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4712",
+            "cidade": "AGUAS DE SAO PEDRO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4713",
+            "cidade": "AGUDOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4714",
+            "cidade": "ALAMBARI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4715",
+            "cidade": "ALFREDO MARCONDES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4716",
+            "cidade": "ALTAIR",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4717",
+            "cidade": "ALTINOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4718",
+            "cidade": "ALTO ALEGRE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4719",
+            "cidade": "ALUMINIO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4720",
+            "cidade": "ALVARES FLORENCE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4721",
+            "cidade": "ALVARES MACHADO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4722",
+            "cidade": "ALVARO DE CARVALHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4723",
+            "cidade": "ALVINLANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4724",
+            "cidade": "AMERICANA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4725",
+            "cidade": "AMERICO BRASILIENSE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4726",
+            "cidade": "AMERICO DE CAMPOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4727",
+            "cidade": "AMPARO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4728",
+            "cidade": "ANALANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4729",
+            "cidade": "ANDRADINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4730",
+            "cidade": "ANGATUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4731",
+            "cidade": "ANHEMBI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4732",
+            "cidade": "ANHUMAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4733",
+            "cidade": "APARECIDA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4734",
+            "cidade": "APARECIDA D`OESTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4735",
+            "cidade": "APIAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4736",
+            "cidade": "ARACARIGUAMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4737",
+            "cidade": "ARACATUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4738",
+            "cidade": "ARACOIABA DA SERRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4739",
+            "cidade": "ARAMINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4740",
+            "cidade": "ARANDU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4741",
+            "cidade": "ARAPEI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4742",
+            "cidade": "ARARAQUARA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4743",
+            "cidade": "ARARAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4744",
+            "cidade": "ARCO-IRIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4745",
+            "cidade": "AREALVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4746",
+            "cidade": "AREIAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4747",
+            "cidade": "AREIOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4748",
+            "cidade": "ARIRANHA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4749",
+            "cidade": "ARTUR NOGUEIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4750",
+            "cidade": "ARUJA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4751",
+            "cidade": "ASPASIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4752",
+            "cidade": "ASSIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4753",
+            "cidade": "ATIBAIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4754",
+            "cidade": "AURIFLAMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4755",
+            "cidade": "AVAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4756",
+            "cidade": "AVANHANDAVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4757",
+            "cidade": "AVARE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4758",
+            "cidade": "BADY BASSITT",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4759",
+            "cidade": "BALBINOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4760",
+            "cidade": "BALSAMO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4761",
+            "cidade": "BANANAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4762",
+            "cidade": "BARAO DE ANTONINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4763",
+            "cidade": "BARBOSA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4764",
+            "cidade": "BARIRI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4765",
+            "cidade": "BARRA BONITA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4766",
+            "cidade": "BARRA DO CHAPEU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4767",
+            "cidade": "BARRA DO TURVO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4768",
+            "cidade": "BARRETOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4769",
+            "cidade": "BARRINHA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4770",
+            "cidade": "BARUERI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4771",
+            "cidade": "BASTOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4772",
+            "cidade": "BATATAIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4773",
+            "cidade": "BAURU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4774",
+            "cidade": "BEBEDOURO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4775",
+            "cidade": "BENTO DE ABREU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4776",
+            "cidade": "BERNARDINO DE CAMPOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4777",
+            "cidade": "BERTIOGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4778",
+            "cidade": "BILAC",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4779",
+            "cidade": "BIRIGUI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4780",
+            "cidade": "BIRITIBA-MIRIM",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4781",
+            "cidade": "BOA ESPERANCA DO SUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4782",
+            "cidade": "BOCAINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4783",
+            "cidade": "BOFETE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4784",
+            "cidade": "BOITUVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4785",
+            "cidade": "BOM JESUS DOS PERDOES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4786",
+            "cidade": "BOM SUCESSO DE ITARARE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4787",
+            "cidade": "BORA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4788",
+            "cidade": "BORACEIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4789",
+            "cidade": "BORBOREMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4790",
+            "cidade": "BOREBI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4791",
+            "cidade": "BOTUCATU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4792",
+            "cidade": "BRAGANCA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4793",
+            "cidade": "BRAUNA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4794",
+            "cidade": "BREJO ALEGRE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4795",
+            "cidade": "BRODOWSKI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4796",
+            "cidade": "BROTAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4797",
+            "cidade": "BURI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4798",
+            "cidade": "BURITAMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4799",
+            "cidade": "BURITIZAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4800",
+            "cidade": "CABRALIA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4801",
+            "cidade": "CABREUVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4802",
+            "cidade": "CACAPAVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4803",
+            "cidade": "CACHOEIRA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4804",
+            "cidade": "CACONDE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4805",
+            "cidade": "CAFELANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4806",
+            "cidade": "CAIABU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4807",
+            "cidade": "CAIEIRAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4808",
+            "cidade": "CAIUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4809",
+            "cidade": "CAJAMAR",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4810",
+            "cidade": "CAJATI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4811",
+            "cidade": "CAJOBI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4812",
+            "cidade": "CAJURU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4813",
+            "cidade": "CAMPINA DO MONTE ALEGRE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4814",
+            "cidade": "CAMPINAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4815",
+            "cidade": "CAMPO LIMPO PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4816",
+            "cidade": "CAMPOS DO JORDAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4817",
+            "cidade": "CAMPOS NOVOS PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4818",
+            "cidade": "CANANEIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4819",
+            "cidade": "CANAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4820",
+            "cidade": "CANDIDO MOTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4821",
+            "cidade": "CANDIDO RODRIGUES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4822",
+            "cidade": "CANITAR",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4823",
+            "cidade": "CAPAO BONITO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4824",
+            "cidade": "CAPELA DO ALTO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4825",
+            "cidade": "CAPIVARI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4826",
+            "cidade": "CARAGUATATUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4827",
+            "cidade": "CARAPICUIBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4828",
+            "cidade": "CARDOSO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4829",
+            "cidade": "CASA BRANCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4830",
+            "cidade": "CASSIA DOS COQUEIROS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4831",
+            "cidade": "CASTILHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4832",
+            "cidade": "CATANDUVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4833",
+            "cidade": "CATIGUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4834",
+            "cidade": "CEDRAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4835",
+            "cidade": "CERQUEIRA CESAR",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4836",
+            "cidade": "CERQUILHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4837",
+            "cidade": "CESARIO LANGE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4838",
+            "cidade": "CHARQUEADA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4839",
+            "cidade": "CHAVANTES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4840",
+            "cidade": "CLEMENTINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4841",
+            "cidade": "COLINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4842",
+            "cidade": "COLOMBIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4843",
+            "cidade": "CONCHAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4844",
+            "cidade": "CONCHAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4845",
+            "cidade": "CORDEIROPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4846",
+            "cidade": "COROADOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4847",
+            "cidade": "CORONEL MACEDO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4848",
+            "cidade": "CORUMBATAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4849",
+            "cidade": "COSMOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4850",
+            "cidade": "COSMORAMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4851",
+            "cidade": "COTIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4852",
+            "cidade": "CRAVINHOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4853",
+            "cidade": "CRISTAIS PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4854",
+            "cidade": "CRUZALIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4855",
+            "cidade": "CRUZEIRO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4856",
+            "cidade": "CUBATAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4857",
+            "cidade": "CUNHA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4858",
+            "cidade": "DESCALVADO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4859",
+            "cidade": "DIADEMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4860",
+            "cidade": "DIRCE REIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4861",
+            "cidade": "DIVINOLANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4862",
+            "cidade": "DOBRADA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4863",
+            "cidade": "DOIS CORREGOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4864",
+            "cidade": "DOLCINOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4865",
+            "cidade": "DOURADO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4866",
+            "cidade": "DRACENA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4867",
+            "cidade": "DUARTINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4868",
+            "cidade": "DUMONT",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4869",
+            "cidade": "ECHAPORA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4870",
+            "cidade": "ELDORADO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4871",
+            "cidade": "ELIAS FAUSTO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4872",
+            "cidade": "ELISIARIO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4873",
+            "cidade": "EMBAUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4874",
+            "cidade": "EMBU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4875",
+            "cidade": "EMBU-GUACU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4876",
+            "cidade": "EMILIANOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4877",
+            "cidade": "ENGENHEIRO COELHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4878",
+            "cidade": "ESPIRITO SANTO DO PINHAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4879",
+            "cidade": "ESPIRITO SANTO DO TURVO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4880",
+            "cidade": "ESTIVA GERBI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4881",
+            "cidade": "ESTRELA D`OESTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4882",
+            "cidade": "ESTRELA DO NORTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4883",
+            "cidade": "EUCLIDES DA CUNHA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4884",
+            "cidade": "FARTURA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4885",
+            "cidade": "FERNANDO PRESTES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4886",
+            "cidade": "FERNANDOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4887",
+            "cidade": "FERNAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4888",
+            "cidade": "FERRAZ DE VASCONCELOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4889",
+            "cidade": "FLORA RICA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4890",
+            "cidade": "FLOREAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4891",
+            "cidade": "FLORIDA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4892",
+            "cidade": "FLORINIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4893",
+            "cidade": "FRANCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4894",
+            "cidade": "FRANCISCO MORATO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4895",
+            "cidade": "FRANCO DA ROCHA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4896",
+            "cidade": "GABRIEL MONTEIRO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4897",
+            "cidade": "GALIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4898",
+            "cidade": "GARCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4899",
+            "cidade": "GASTAO VIDIGAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4900",
+            "cidade": "GAVIAO PEIXOTO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4901",
+            "cidade": "GENERAL SALGADO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4902",
+            "cidade": "GETULINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4903",
+            "cidade": "GLICERIO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4904",
+            "cidade": "GUAICARA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4905",
+            "cidade": "GUAIMBE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4906",
+            "cidade": "GUAIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4907",
+            "cidade": "GUAPIACU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4908",
+            "cidade": "GUAPIARA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4909",
+            "cidade": "GUARA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4910",
+            "cidade": "GUARACAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4911",
+            "cidade": "GUARACI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4912",
+            "cidade": "GUARANI D`OESTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4913",
+            "cidade": "GUARANTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4914",
+            "cidade": "GUARARAPES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4915",
+            "cidade": "GUARAREMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4916",
+            "cidade": "GUARATINGUETA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4917",
+            "cidade": "GUAREI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4918",
+            "cidade": "GUARIBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4919",
+            "cidade": "GUARUJA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4920",
+            "cidade": "GUARULHOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4921",
+            "cidade": "GUATAPARA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4922",
+            "cidade": "GUZOLANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4923",
+            "cidade": "HERCULANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4924",
+            "cidade": "HOLAMBRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4925",
+            "cidade": "HORTOLANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4926",
+            "cidade": "IACANGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4927",
+            "cidade": "IACRI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4928",
+            "cidade": "IARAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4929",
+            "cidade": "IBATE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4930",
+            "cidade": "IBIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4931",
+            "cidade": "IBIRAREMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4932",
+            "cidade": "IBITINGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4933",
+            "cidade": "IBIUNA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4934",
+            "cidade": "ICEM",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4935",
+            "cidade": "IEPE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4936",
+            "cidade": "IGARACU DO TIETE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4937",
+            "cidade": "IGARAPAVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4938",
+            "cidade": "IGARATA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4939",
+            "cidade": "IGUAPE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4940",
+            "cidade": "ILHA COMPRIDA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4941",
+            "cidade": "ILHA SOLTEIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4942",
+            "cidade": "ILHABELA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4943",
+            "cidade": "INDAIATUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4944",
+            "cidade": "INDIANA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4945",
+            "cidade": "INDIAPORA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4946",
+            "cidade": "INUBIA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4947",
+            "cidade": "IPAUSSU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4948",
+            "cidade": "IPERO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4949",
+            "cidade": "IPEUNA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4950",
+            "cidade": "IPIGUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4951",
+            "cidade": "IPORANGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4952",
+            "cidade": "IPUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4953",
+            "cidade": "IRACEMAPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4954",
+            "cidade": "IRAPUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4955",
+            "cidade": "IRAPURU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4956",
+            "cidade": "ITABERA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4957",
+            "cidade": "ITAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4958",
+            "cidade": "ITAJOBI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4959",
+            "cidade": "ITAJU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4960",
+            "cidade": "ITANHAEM",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4961",
+            "cidade": "ITAOCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4962",
+            "cidade": "ITAPECERICA DA SERRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4963",
+            "cidade": "ITAPETININGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4964",
+            "cidade": "ITAPEVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4965",
+            "cidade": "ITAPEVI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4966",
+            "cidade": "ITAPIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4967",
+            "cidade": "ITAPIRAPUA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4968",
+            "cidade": "ITAPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4969",
+            "cidade": "ITAPORANGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4970",
+            "cidade": "ITAPUI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4971",
+            "cidade": "ITAPURA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4972",
+            "cidade": "ITAQUAQUECETUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4973",
+            "cidade": "ITARARE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4974",
+            "cidade": "ITARIRI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4975",
+            "cidade": "ITATIBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4976",
+            "cidade": "ITATINGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4977",
+            "cidade": "ITIRAPINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4978",
+            "cidade": "ITIRAPUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4979",
+            "cidade": "ITOBI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4980",
+            "cidade": "ITU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4981",
+            "cidade": "ITUPEVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4982",
+            "cidade": "ITUVERAVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4983",
+            "cidade": "JABORANDI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4984",
+            "cidade": "JABOTICABAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4985",
+            "cidade": "JACAREI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4986",
+            "cidade": "JACI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4987",
+            "cidade": "JACUPIRANGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4988",
+            "cidade": "JAGUARIUNA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4989",
+            "cidade": "JALES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4990",
+            "cidade": "JAMBEIRO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4991",
+            "cidade": "JANDIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4992",
+            "cidade": "JARDINOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4993",
+            "cidade": "JARINU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4994",
+            "cidade": "JAU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4995",
+            "cidade": "JERIQUARA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4996",
+            "cidade": "JOANOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4997",
+            "cidade": "JOAO RAMALHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4998",
+            "cidade": "JOSE BONIFACIO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "4999",
+            "cidade": "JULIO MESQUITA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5000",
+            "cidade": "JUMIRIM",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5001",
+            "cidade": "JUNDIAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5002",
+            "cidade": "JUNQUEIROPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5003",
+            "cidade": "JUQUIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5004",
+            "cidade": "JUQUITIBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5005",
+            "cidade": "LAGOINHA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5006",
+            "cidade": "LARANJAL PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5007",
+            "cidade": "LAVINIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5008",
+            "cidade": "LAVRINHAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5009",
+            "cidade": "LEME",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5010",
+            "cidade": "LENCOIS PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5011",
+            "cidade": "LIMEIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5012",
+            "cidade": "LINDOIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5013",
+            "cidade": "LINS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5014",
+            "cidade": "LORENA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5015",
+            "cidade": "LOURDES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5016",
+            "cidade": "LOUVEIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5017",
+            "cidade": "LUCELIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5018",
+            "cidade": "LUCIANOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5019",
+            "cidade": "LUIS ANTONIO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5020",
+            "cidade": "LUIZIANIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5021",
+            "cidade": "LUPERCIO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5022",
+            "cidade": "LUTECIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5023",
+            "cidade": "MACATUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5024",
+            "cidade": "MACAUBAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5025",
+            "cidade": "MACEDONIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5026",
+            "cidade": "MAGDA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5027",
+            "cidade": "MAIRINQUE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5028",
+            "cidade": "MAIRIPORA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5029",
+            "cidade": "MANDURI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5030",
+            "cidade": "MARABA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5031",
+            "cidade": "MARACAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5032",
+            "cidade": "MARAPOAMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5033",
+            "cidade": "MARIAPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5034",
+            "cidade": "MARILIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5035",
+            "cidade": "MARINOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5036",
+            "cidade": "MARTINOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5037",
+            "cidade": "MATAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5038",
+            "cidade": "MAUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5039",
+            "cidade": "MENDONCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5040",
+            "cidade": "MERIDIANO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5041",
+            "cidade": "MESOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5042",
+            "cidade": "MIGUELOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5043",
+            "cidade": "MINEIROS DO TIETE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5044",
+            "cidade": "MIRA ESTRELA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5045",
+            "cidade": "MIRACATU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5046",
+            "cidade": "MIRANDOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5047",
+            "cidade": "MIRANTE DO PARANAPANEMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5048",
+            "cidade": "MIRASSOL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5049",
+            "cidade": "MIRASSOLANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5050",
+            "cidade": "MOCOCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5051",
+            "cidade": "MOGI DAS CRUZES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5052",
+            "cidade": "MOGI GUACU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5053",
+            "cidade": "MOJI MIRIM",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5054",
+            "cidade": "MOMBUCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5055",
+            "cidade": "MONCOES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5056",
+            "cidade": "MONGAGUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5057",
+            "cidade": "MONTE ALEGRE DO SUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5058",
+            "cidade": "MONTE ALTO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5059",
+            "cidade": "MONTE APRAZIVEL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5060",
+            "cidade": "MONTE AZUL PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5061",
+            "cidade": "MONTE CASTELO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5062",
+            "cidade": "MONTE MOR",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5063",
+            "cidade": "MONTEIRO LOBATO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5064",
+            "cidade": "MORRO AGUDO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5065",
+            "cidade": "MORUNGABA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5066",
+            "cidade": "MOTUCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5067",
+            "cidade": "MURUTINGA DO SUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5068",
+            "cidade": "NANTES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5069",
+            "cidade": "NARANDIBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5070",
+            "cidade": "NATIVIDADE DA SERRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5071",
+            "cidade": "NAZARE PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5072",
+            "cidade": "NEVES PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5073",
+            "cidade": "NHANDEARA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5074",
+            "cidade": "NIPOA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5075",
+            "cidade": "NOVA ALIANCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5076",
+            "cidade": "NOVA CAMPINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5077",
+            "cidade": "NOVA CANAA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5078",
+            "cidade": "NOVA CASTILHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5079",
+            "cidade": "NOVA EUROPA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5080",
+            "cidade": "NOVA GRANADA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5081",
+            "cidade": "NOVA GUATAPORANGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5082",
+            "cidade": "NOVA INDEPENDENCIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5083",
+            "cidade": "NOVA LUZITANIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5084",
+            "cidade": "NOVA ODESSA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5085",
+            "cidade": "NOVAIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5086",
+            "cidade": "NOVO HORIZONTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5087",
+            "cidade": "NUPORANGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5088",
+            "cidade": "OCAUCU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5089",
+            "cidade": "ÓLEO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5090",
+            "cidade": "OLIMPIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5091",
+            "cidade": "ONDA VERDE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5092",
+            "cidade": "ORIENTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5093",
+            "cidade": "ORINDIUVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5094",
+            "cidade": "ORLANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5095",
+            "cidade": "OSASCO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5096",
+            "cidade": "OSCAR BRESSANE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5097",
+            "cidade": "OSVALDO CRUZ",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5098",
+            "cidade": "OURINHOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5099",
+            "cidade": "OURO VERDE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5100",
+            "cidade": "OUROESTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5101",
+            "cidade": "PACAEMBU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5102",
+            "cidade": "PALESTINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5103",
+            "cidade": "PALMARES PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5104",
+            "cidade": "PALMEIRA D`OESTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5105",
+            "cidade": "PALMITAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5106",
+            "cidade": "PANORAMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5107",
+            "cidade": "PARAGUACU PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5108",
+            "cidade": "PARAIBUNA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5109",
+            "cidade": "PARAISO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5110",
+            "cidade": "PARANAPANEMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5111",
+            "cidade": "PARANAPUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5112",
+            "cidade": "PARAPUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5113",
+            "cidade": "PARDINHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5114",
+            "cidade": "PARIQUERA-ACU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5115",
+            "cidade": "PARISI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5116",
+            "cidade": "PATROCINIO PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5117",
+            "cidade": "PAULICEIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5118",
+            "cidade": "PAULINIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5119",
+            "cidade": "PAULISTANIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5120",
+            "cidade": "PAULO DE FARIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5121",
+            "cidade": "PEDERNEIRAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5122",
+            "cidade": "PEDRA BELA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5123",
+            "cidade": "PEDRANOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5124",
+            "cidade": "PEDREGULHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5125",
+            "cidade": "PEDREIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5126",
+            "cidade": "PEDRINHAS PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5127",
+            "cidade": "PEDRO DE TOLEDO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5128",
+            "cidade": "PENAPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5129",
+            "cidade": "PEREIRA BARRETO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5130",
+            "cidade": "PEREIRAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5131",
+            "cidade": "PERUIBE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5132",
+            "cidade": "PIACATU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5133",
+            "cidade": "PIEDADE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5134",
+            "cidade": "PILAR DO SUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5135",
+            "cidade": "PINDAMONHANGABA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5136",
+            "cidade": "PINDORAMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5137",
+            "cidade": "PINHALZINHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5138",
+            "cidade": "PIQUEROBI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5139",
+            "cidade": "PIQUETE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5140",
+            "cidade": "PIRACAIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5141",
+            "cidade": "PIRACICABA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5142",
+            "cidade": "PIRAJU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5143",
+            "cidade": "PIRAJUI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5144",
+            "cidade": "PIRANGI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5145",
+            "cidade": "PIRAPORA DO BOM JESUS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5146",
+            "cidade": "PIRAPOZINHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5147",
+            "cidade": "PIRASSUNUNGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5148",
+            "cidade": "PIRATININGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5149",
+            "cidade": "PITANGUEIRAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5150",
+            "cidade": "PLANALTO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5151",
+            "cidade": "PLATINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5152",
+            "cidade": "POA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5153",
+            "cidade": "POLONI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5154",
+            "cidade": "POMPEIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5155",
+            "cidade": "PONGAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5156",
+            "cidade": "PONTAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5157",
+            "cidade": "PONTALINDA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5158",
+            "cidade": "PONTES GESTAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5159",
+            "cidade": "POPULINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5160",
+            "cidade": "PORANGABA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5161",
+            "cidade": "PORTO FELIZ",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5162",
+            "cidade": "PORTO FERREIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5163",
+            "cidade": "POTIM",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5164",
+            "cidade": "POTIRENDABA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5165",
+            "cidade": "PRACINHA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5166",
+            "cidade": "PRADOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5167",
+            "cidade": "PRAIA GRANDE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5168",
+            "cidade": "PRATANIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5169",
+            "cidade": "PRESIDENTE ALVES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5170",
+            "cidade": "PRESIDENTE BERNARDES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5171",
+            "cidade": "PRESIDENTE EPITACIO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5172",
+            "cidade": "PRESIDENTE PRUDENTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5173",
+            "cidade": "PRESIDENTE VENCESLAU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5174",
+            "cidade": "PROMISSAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5175",
+            "cidade": "QUADRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5176",
+            "cidade": "QUATA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5177",
+            "cidade": "QUEIROZ",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5178",
+            "cidade": "QUELUZ",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5179",
+            "cidade": "QUINTANA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5180",
+            "cidade": "RAFARD",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5181",
+            "cidade": "RANCHARIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5182",
+            "cidade": "REDENCAO DA SERRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5183",
+            "cidade": "REGENTE FEIJO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5184",
+            "cidade": "REGINOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5185",
+            "cidade": "REGISTRO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5186",
+            "cidade": "RESTINGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5187",
+            "cidade": "RIBEIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5188",
+            "cidade": "RIBEIRAO BONITO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5189",
+            "cidade": "RIBEIRAO BRANCO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5190",
+            "cidade": "RIBEIRAO CORRENTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5191",
+            "cidade": "RIBEIRAO DO SUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5192",
+            "cidade": "RIBEIRAO DOS INDIOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5193",
+            "cidade": "RIBEIRAO GRANDE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5194",
+            "cidade": "RIBEIRAO PIRES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5195",
+            "cidade": "RIBEIRAO PRETO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5196",
+            "cidade": "RIFAINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5197",
+            "cidade": "RINCAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5198",
+            "cidade": "RINOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5199",
+            "cidade": "RIO CLARO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5200",
+            "cidade": "RIO DAS PEDRAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5201",
+            "cidade": "RIO GRANDE DA SERRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5202",
+            "cidade": "RIOLANDIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5203",
+            "cidade": "RIVERSUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5204",
+            "cidade": "ROSANA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5205",
+            "cidade": "ROSEIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5206",
+            "cidade": "RUBIACEA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5207",
+            "cidade": "RUBINEIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5208",
+            "cidade": "SABINO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5209",
+            "cidade": "SAGRES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5210",
+            "cidade": "SALES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5211",
+            "cidade": "SALES OLIVEIRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5212",
+            "cidade": "SALESOPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5213",
+            "cidade": "SALMOURAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5214",
+            "cidade": "SALTINHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5215",
+            "cidade": "SALTO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5216",
+            "cidade": "SALTO DE PIRAPORA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5217",
+            "cidade": "SALTO GRANDE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5218",
+            "cidade": "SANDOVALINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5219",
+            "cidade": "SANTA ADELIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5220",
+            "cidade": "SANTA ALBERTINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5221",
+            "cidade": "SANTA BARBARA D`OESTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5222",
+            "cidade": "SANTA BRANCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5223",
+            "cidade": "SANTA CLARA D`OESTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5224",
+            "cidade": "SANTA CRUZ DA CONCEICAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5225",
+            "cidade": "SANTA CRUZ DA ESPERANCA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5226",
+            "cidade": "SANTA CRUZ DAS PALMEIRAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5227",
+            "cidade": "SANTA CRUZ DO RIO PARDO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5228",
+            "cidade": "SANTA ERNESTINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5229",
+            "cidade": "SANTA FE DO SUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5230",
+            "cidade": "SANTA GERTRUDES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5231",
+            "cidade": "SANTA ISABEL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5232",
+            "cidade": "SANTA LUCIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5233",
+            "cidade": "SANTA MARIA DA SERRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5234",
+            "cidade": "SANTA MERCEDES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5235",
+            "cidade": "SANTA RITA D`OESTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5236",
+            "cidade": "SANTA RITA DO PASSA QUATRO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5237",
+            "cidade": "SANTA ROSA DE VITERBO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5238",
+            "cidade": "SANTA SALETE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5239",
+            "cidade": "SANTANA DA PONTE PENSA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5240",
+            "cidade": "SANTANA DE PARNAIBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5241",
+            "cidade": "SANTO ANASTACIO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5242",
+            "cidade": "SANTO ANDRE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5243",
+            "cidade": "SANTO ANTONIO DA ALEGRIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5244",
+            "cidade": "SANTO ANTONIO DE POSSE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5245",
+            "cidade": "SANTO ANTONIO DO ARACANGUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5246",
+            "cidade": "SANTO ANTONIO DO JARDIM",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5247",
+            "cidade": "SANTO ANTONIO DO PINHAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5248",
+            "cidade": "SANTO EXPEDITO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5249",
+            "cidade": "SANTOPOLIS DO AGUAPEI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5250",
+            "cidade": "SANTOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5251",
+            "cidade": "SAO BENTO DO SAPUCAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5252",
+            "cidade": "SAO BERNARDO DO CAMPO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5253",
+            "cidade": "SAO CAETANO DO SUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5254",
+            "cidade": "SAO CARLOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5255",
+            "cidade": "SAO FRANCISCO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5256",
+            "cidade": "SAO JOAO DA BOA VISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5257",
+            "cidade": "SAO JOAO DAS DUAS PONTES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5258",
+            "cidade": "SAO JOAO DE IRACEMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5259",
+            "cidade": "SAO JOAO DO PAU D`ALHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5260",
+            "cidade": "SAO JOAQUIM DA BARRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5261",
+            "cidade": "SAO JOSE DA BELA VISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5262",
+            "cidade": "SAO JOSE DO BARREIRO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5263",
+            "cidade": "SAO JOSE DO RIO PARDO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5264",
+            "cidade": "SAO JOSE DO RIO PRETO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5265",
+            "cidade": "SAO JOSE DOS CAMPOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5266",
+            "cidade": "SAO LOURENCO DA SERRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5267",
+            "cidade": "SAO LUIS DO PARAITINGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5268",
+            "cidade": "SAO MANUEL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5269",
+            "cidade": "SAO MIGUEL ARCANJO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5270",
+            "cidade": "SAO PAULO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5271",
+            "cidade": "SAO PEDRO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5272",
+            "cidade": "SAO PEDRO DO TURVO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5273",
+            "cidade": "SAO ROQUE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5274",
+            "cidade": "SAO SEBASTIAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5275",
+            "cidade": "SAO SEBASTIAO DA GRAMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5276",
+            "cidade": "SAO SIMAO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5277",
+            "cidade": "SAO VICENTE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5278",
+            "cidade": "SARAPUI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5279",
+            "cidade": "SARUTAIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5280",
+            "cidade": "SEBASTIANOPOLIS DO SUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5281",
+            "cidade": "SERRA AZUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5282",
+            "cidade": "SERRA NEGRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5283",
+            "cidade": "SERRANA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5284",
+            "cidade": "SERTAOZINHO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5285",
+            "cidade": "SETE BARRAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5286",
+            "cidade": "SEVERINIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5287",
+            "cidade": "SILVEIRAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5288",
+            "cidade": "SOCORRO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5289",
+            "cidade": "SOROCABA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5290",
+            "cidade": "SUD MENNUCCI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5291",
+            "cidade": "SUMARE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5292",
+            "cidade": "SUZANAPOLIS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5293",
+            "cidade": "SUZANO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5294",
+            "cidade": "TABAPUA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5295",
+            "cidade": "TABATINGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5296",
+            "cidade": "TABOAO DA SERRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5297",
+            "cidade": "TACIBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5298",
+            "cidade": "TAGUAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5299",
+            "cidade": "TAIACU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5300",
+            "cidade": "TAIUVA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5301",
+            "cidade": "TAMBAU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5302",
+            "cidade": "TANABI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5303",
+            "cidade": "TAPIRAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5304",
+            "cidade": "TAPIRATIBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5305",
+            "cidade": "TAQUARAL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5306",
+            "cidade": "TAQUARITINGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5307",
+            "cidade": "TAQUARITUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5308",
+            "cidade": "TAQUARIVAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5309",
+            "cidade": "TARABAI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5310",
+            "cidade": "TARUMA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5311",
+            "cidade": "TATUI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5312",
+            "cidade": "TAUBATE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5313",
+            "cidade": "TEJUPA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5314",
+            "cidade": "TEODORO SAMPAIO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5315",
+            "cidade": "TERRA ROXA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5316",
+            "cidade": "TIETE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5317",
+            "cidade": "TIMBURI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5318",
+            "cidade": "TORRE DE PEDRA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5319",
+            "cidade": "TORRINHA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5320",
+            "cidade": "TRABIJU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5321",
+            "cidade": "TREMEMBE",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5322",
+            "cidade": "TRES FRONTEIRAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5323",
+            "cidade": "TUIUTI",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5324",
+            "cidade": "TUPA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5325",
+            "cidade": "TUPI PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5326",
+            "cidade": "TURIUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5327",
+            "cidade": "TURMALINA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5328",
+            "cidade": "UBARANA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5329",
+            "cidade": "UBATUBA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5330",
+            "cidade": "UBIRAJARA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5331",
+            "cidade": "UCHOA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5332",
+            "cidade": "UNIAO PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5333",
+            "cidade": "URANIA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5334",
+            "cidade": "URU",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5335",
+            "cidade": "URUPES",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5336",
+            "cidade": "VALENTIM GENTIL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5337",
+            "cidade": "VALINHOS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5338",
+            "cidade": "VALPARAISO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5339",
+            "cidade": "VARGEM",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5340",
+            "cidade": "VARGEM GRANDE DO SUL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5341",
+            "cidade": "VARGEM GRANDE PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5342",
+            "cidade": "VARZEA PAULISTA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5343",
+            "cidade": "VERA CRUZ",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5344",
+            "cidade": "VINHEDO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5345",
+            "cidade": "VIRADOURO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5346",
+            "cidade": "VISTA ALEGRE DO ALTO",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5347",
+            "cidade": "VITORIA BRASIL",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5348",
+            "cidade": "VOTORANTIM",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5349",
+            "cidade": "VOTUPORANGA",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          },
+          {
+            "id": "5350",
+            "cidade": "ZACARIAS",
+            "sigla": "SP",
+            "estado": "SAO PAULO"
+          }
+    ]
+}

@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -8,12 +8,15 @@ import {
   ConfirmationService,
   MessageService,
 } from 'primeng/api';
+import { Clientes } from 'src/app/core/models/cliente.model';
 import { Regex } from 'src/app/core/validators/regex.model';
 import { ClientesService } from '../clientes.service';
-import { Clientes } from 'src/app/core/models/cliente.model';
 
-import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { HttpClient } from '@angular/common/http';
+import * as cpfCnpj from 'cpf-cnpj-validator';
+import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
+import { GovService } from 'src/app/core/services/gov.service';
+import { ValidationService } from 'src/app/core/services/validations.service';
 
 @Component({
   selector: 'app-cadastro-cliente',
@@ -23,11 +26,15 @@ import { HttpClient } from '@angular/common/http';
 export class CadastroClienteComponent {
   regex = new Regex();
   newcliente = new Clientes();
-  idcliente: string;
   salvando: boolean;
-
+  estados = [];
+  cidades = [];
+  cidadesFiltradas = [];
   http: any;
   regexNumeros: RegExp = /^\d+$/;
+  idcliente: number;
+  cpfValid = false;
+  stringCpf = '';
 
   constructor(
     private clienteService: ClientesService,
@@ -39,10 +46,13 @@ export class CadastroClienteComponent {
     private spinner: NgxSpinnerService,
     private errorHandler: ErrorHandlerService,
     private httpCliente: HttpClient,
+    private govService: GovService,
+    private validationService: ValidationService
   ) // public auth: AuthService,
   {}
 
   ngOnInit() {
+    this.carregarEstados();
     this.idcliente = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de Cliente');
 
@@ -105,13 +115,17 @@ export class CadastroClienteComponent {
         this.errorHandler.handle(erro);
       });
   }
-  carregarCliente(id: string) {
+  carregarCliente(id: number) {
     this.clienteService
       .buscarPorID(id)
       .then((obj) => {
         this.newcliente = obj;
         this.atualizarTituloEdicao();
         this.spinner.hide();
+        const uf = this.newcliente.uf;
+        setTimeout(() => {
+          this.buscarCidades(uf);
+        }, 300);
       })
       .catch((erro) => {
         this.spinner.hide();
@@ -166,25 +180,25 @@ export class CadastroClienteComponent {
       });
   }
 
-  getCep() {
-  const cep = this.newcliente.cep;
-  this.clienteService.consultaCEP(cep).subscribe(
-    (endereco: any) => {
-      if (endereco.erro) {
-        alert('CEP não encontrado. Por favor, verifique o CEP.');
-      } else {
-        // Preencha as informações do cliente com os dados da API
-        this.newcliente.logradouro = endereco.street.toUpperCase();
-            this.newcliente.uf = endereco.state.toUpperCase();
-            this.newcliente.bairro = endereco.neighborhood.toUpperCase();
-            this.newcliente.cidade = endereco.city.toUpperCase();
-      }
-          },
-          (error: any) => {
-            console.error(error);
-          }
-        );
-  }
+  // getCep() {
+  // const cep = this.newcliente.cep;
+  // this.clienteService.consultaCEP(cep).subscribe(
+  //   (endereco: any) => {
+  //     if (endereco.erro) {
+  //       alert('CEP não encontrado. Por favor, verifique o CEP.');
+  //     } else {
+  //       // Preencha as informações do cliente com os dados da API
+  //       this.newcliente.logradouro = endereco.street.toUpperCase();
+  //           this.newcliente.uf = endereco.state.toUpperCase();
+  //           this.newcliente.bairro = endereco.neighborhood.toUpperCase();
+  //           this.newcliente.cidade = endereco.city.toUpperCase();
+  //     }
+  //         },
+  //         (error: any) => {
+  //           console.error(error);
+  //         }
+  //       );
+  // }
 
   clearInputs() {
     this.newcliente = {}; // Limpa as informações do cliente      
@@ -194,5 +208,94 @@ export class CadastroClienteComponent {
   handlerChange(event: any) {
     console.log(this.newcliente.whatsapp);
     console.log(this.newcliente.cep);
+  }
+
+  carregarEstados() {
+    this.govService.getUf().then((obj) => {
+      this.estados = obj;
+      if (this.idcliente) {
+        this.carregarCliente(this.idcliente);
+      } else {
+        this.newcliente.status = true;
+        this.spinner.hide();
+      }
+    });
+  }
+
+  buscarCidades(value: string) {
+    this.spinner.show();
+    this.govService
+      .getCidades(value)
+      .then((obj) => {
+        this.cidadesFiltradas = obj;
+        this.spinner.hide();
+      })
+      .catch((erro) => {
+        this.spinner.hide();
+        this.errorHandler.handle(erro);
+      });
+  }
+
+  consultaCEP(cep, form) {
+    this.spinner.show();
+    cep = cep.replace(/\D/g, '');
+    if (cep != null && cep !== '') {
+      this.govService.consultaCEP(cep).subscribe({
+        next: (dados) => {
+          this.populaCepForm(dados, form);
+        },
+        error: (e) => {
+          this.resetaCepForm(form);
+          this.spinner.hide();
+          this.messageService.add({
+            severity: 'info',
+            summary: 'Atenção',
+            detail: `Erro ao buscar cep!`,
+          });
+        },
+      });
+    } else {
+      this.spinner.hide();
+    }
+  }
+
+  populaCepForm(dados, formulario) {
+    formulario.form.patchValue({
+      logradouro: dados.street?.toUpperCase(),
+      bairro: dados.neighborhood?.toUpperCase(),
+      cidade: dados.city?.toUpperCase(),
+      uf: dados.state?.toUpperCase(),
+    });
+    const uf = dados.state;
+    this.buscarCidades(uf);
+    const cidade = this.validationService
+      .removeAcento(dados.city)
+      .toUpperCase();
+    setTimeout(() => {
+      this.newcliente.cidade = cidade;
+      this.spinner.hide();
+    }, 380);
+  }
+
+  resetaCepForm(formulario) {
+    formulario.form.patchValue({
+      logradouro: null,
+      bairro: null,
+      numero: null,
+      complemento: null,
+      uf: null,
+      cidade: null,
+    });
+  }
+
+  validateCPFCNPJ() {
+    if (this.newcliente.cpf.length === 11) {
+      if (cpfCnpj.cpf.isValid(this.newcliente.cpf)) {
+        this.cpfValid = false;
+      } else {
+        this.cpfValid = true;
+        this.stringCpf = 'CPF é Inválido';
+      }
+    }
   }
 }
