@@ -1,7 +1,7 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import * as moment from 'moment-timezone';
-import { firstValueFrom } from 'rxjs';
+import { Observable, firstValueFrom } from 'rxjs';
 import { FiltrosUsuario } from 'src/app/core/models/filtros.model';
 import { Usuarios } from 'src/app/core/models/usuarios.model';
 import { environment } from 'src/environments/environment';

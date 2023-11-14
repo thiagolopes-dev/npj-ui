@@ -86,32 +86,29 @@
           <div class="grid">
             <div class="w-full">
 
-             
-
               <button pButton class="obrigatorio p-button-raised p-button-warning" (click)="abrirDialog()" icon="pi pi-external-link"
                 label="Informe a Descrição"></button>
-            
-
+          
               <!-- Ajuste a tabela para iterar sobre descricoes -->
-              <div class="page-container mt-3">
-                <p-table [value]="descricoes">
-                  <ng-template pTemplate="header">
-                    <tr>
-                      <th class="tabela300px">Descrição</th>
-                      <th class="tabela200px">Usuário</th>
-                      <th class="tabela200px">Data</th>
-                    </tr>
-                  </ng-template>
-                  <ng-template pTemplate="body" let-descricao>
-                    <tr>
-                      <td class="tabela300px"> {{ descricao.descricao }}</td>
-                      <td class="tabela200px">{{ descricao.usuario }}</td>
-                      <td class="tabela200px">{{ descricao.dataCriacao.toLocaleDateString('pt-BR') }}</td>
-                    </tr>
-                  </ng-template>
-                </p-table>
-              </div>
+              <p-table [value]="descricoes" [tableStyle]="{ 'min-width': '50rem' }">
+              <ng-template pTemplate="header">
+                  <tr>
+                      <th>Descrição</th>
+                      <th>Usuário</th>
+                      <th>Data</th>
+                  </tr>
+              </ng-template>
+              <ng-template pTemplate="body" let-descricoes>
+                  <tr>
+                      <td>{{ descricoes.descricao }}</td>
+                      <td>{{ descricoes.usuario}}</td>
+                      <td>{{ descricoes.dataCriacao | date: 'dd/MM/yyyy HH:mm' }}</td>
+                  </tr>
+              </ng-template>
+          </p-table>
+ 
 
+              
             </div>
           </div>
         </p-tabPanel>

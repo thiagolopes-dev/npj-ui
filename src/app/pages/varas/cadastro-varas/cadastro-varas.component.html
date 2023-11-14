@@ -13,7 +13,7 @@
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Descrição</h6>
           <!--TODO Forma de input uppercase sem diretiva -->
-          <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="vara" type="text"
+          <input class="w-full" upperCase pInputText name="vara" type="text"
             [pKeyFilter]="regex.stringNumber" [(ngModel)]="newvara.descricao" #vara="ngModel"
             required minlength="4" />
           <app-message [control]="vara" error="required" text="Informe a descrição"></app-message>
