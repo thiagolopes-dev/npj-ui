@@ -3,273 +3,143 @@
     <h4>{{ editando ? "Edição de" : "Cadastro de" }} Processo</h4>
     <div class="flex justify-content-start mb-2">
       <div>
-        <button
-          pButton
-          pRipple
-          type="button"
-          class="p-button-raised p-button-warning"
-          icon="pi pi-caret-left"
-          pTooltip="Voltar"
-          tooltipPosition="top"
-          routerLink="/processos"
-        ></button>
+        <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-caret-left"
+          pTooltip="Voltar" tooltipPosition="top" routerLink="/processos"></button>
       </div>
     </div>
     <br />
-    <form
-      #formProcesso="ngForm"
-      autocomplete="off"
-      (ngSubmit)="salvar(formProcesso)"
-    >
-    <p-tabView>
-      <p-tabPanel header="Processo">
-      <div class="grid">
-        <div class="col-12 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Numero do Processo</h6>
-          <!-- TODO Forma de input uppercase sem diretiva -->
-          <input
-            class="w-full"
-            oninput="this.value = this.value.toUpperCase()"
-            pInputText
-            name="processo"
-            type="text"
-            [pKeyFilter]="regex.stringNumber"
-            [(ngModel)]="newprocesso.numeroProcesso"
-            #processo="ngModel"
-            required
-            minlength="3"
-            disabled
-          />
-          <app-message
-            [control]="processo"
-            error="required"
-            text="Informe o Numero do Processo"
-          ></app-message>
-          <app-message
-            [control]="processo"
-            error="minlength"
-            text="Mínimo de {{
+    <form #formProcesso="ngForm" autocomplete="off" (ngSubmit)="salvar(formProcesso)">
+      <p-tabView>
+        <p-tabPanel header="Processo">
+          <div class="grid">
+            <div class="col-12 md:col-6 lg:col-4">
+              <h6><span class="obrigatorio">*</span>Numero do Processo</h6>
+              <!-- TODO Forma de input uppercase sem diretiva -->
+              <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="processo"
+                type="text" [pKeyFilter]="regex.stringNumber" [(ngModel)]="newprocesso.numeroProcesso"
+                #processo="ngModel" required minlength="3" disabled />
+              <app-message [control]="processo" error="required" text="Informe o Numero do Processo"></app-message>
+              <app-message [control]="processo" error="minlength" text="Mínimo de {{
               processo.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
-        </div>
+            }} caracteres"></app-message>
+            </div>
 
-        <div class="col-12 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Cliente</h6>
-          <p-dropdown
-          styleClass="w-full" 
-          [options]="clientes"
-            [(ngModel)]="newprocesso.cliente"
-            #cliente="ngModel"
-            name="cliente"
-            placeholder="Selecione o Cliente"
-            [showClear]="true"
-            optionLabel="nome"
-            required
-          ></p-dropdown>
+            <div class="col-12 md:col-6 lg:col-4">
+              <h6><span class="obrigatorio">*</span>Cliente</h6>
+              <p-dropdown styleClass="w-full" [options]="clientes" [(ngModel)]="newprocesso.cliente" #cliente="ngModel"
+                name="cliente" placeholder="Selecione o Cliente" [showClear]="true" optionLabel="nome"
+                required></p-dropdown>
 
-          <app-message
-            [control]="cliente"
-            error="required"
-            text="Informe o Cliente"
-          ></app-message>
-          <app-message
-            [control]="cliente"
-            error="minlength"
-            text="Mínimo de {{
+              <app-message [control]="cliente" error="required" text="Informe o Cliente"></app-message>
+              <app-message [control]="cliente" error="minlength" text="Mínimo de {{
               cliente.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
-        </div>
+            }} caracteres"></app-message>
+            </div>
 
-        <div class="col-12 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Vara</h6>
-          <!-- TODO Resolver o porque varas não aparece -->
-          <p-dropdown
-          styleClass="w-full" 
-          [options]="varas"
-            [(ngModel)]="newprocesso.varas"
-            #vara="ngModel"
-            name="vara"
-            placeholder="Selecione a Vara"
-            [showClear]="true"
-            optionLabel="descricao"
-            required
-          ></p-dropdown>
+            <div class="col-12 md:col-6 lg:col-4">
+              <h6><span class="obrigatorio">*</span>Vara</h6>
+              <!-- TODO Resolver o porque varas não aparece -->
+              <p-dropdown styleClass="w-full" [options]="varas" [(ngModel)]="newprocesso.varas" #vara="ngModel"
+                name="vara" placeholder="Selecione a Vara" [showClear]="true" optionLabel="descricao"
+                required></p-dropdown>
 
-          <app-message
-            [control]="vara"
-            error="required"
-            text="Informe a Vara"
-          ></app-message>
-          <app-message
-            [control]="vara"
-            error="minlength"
-            text="Mínimo de {{
+              <app-message [control]="vara" error="required" text="Informe a Vara"></app-message>
+              <app-message [control]="vara" error="minlength" text="Mínimo de {{
               vara.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
-        </div>
-        
-        <div class="col-12 md:col-6 lg:col-4"  >
-          <h6><span class="obrigatorio" >*</span>Status</h6>
-          <p-dropdown
-          styleClass="w-full" [options]="statusoptions"
-            [(ngModel)]="newprocesso.status"
-            #status="ngModel"
-            name="status"
-            placeholder="Selecione o Status"
-            [showClear]="true"
-            optionLabel="descricao"
-            required
-          ></p-dropdown>
+            }} caracteres"></app-message>
+            </div>
 
-          <app-message
-            [control]="status"
-            error="required"
-            text="Informe o Status"
-          ></app-message>
-          <app-message
-            [control]="status"
-            error="minlength"
-            text="Mínimo de {{
+            <div class="col-12 md:col-6 lg:col-4">
+              <h6><span class="obrigatorio">*</span>Status</h6>
+              <p-dropdown styleClass="w-full" [options]="statusoptions" [(ngModel)]="newprocesso.status"
+                #status="ngModel" name="status" placeholder="Selecione o Status" [showClear]="true"
+                optionLabel="descricao" required></p-dropdown>
+
+              <app-message [control]="status" error="required" text="Informe o Status"></app-message>
+              <app-message [control]="status" error="minlength" text="Mínimo de {{
               status.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
-        </div>
+            }} caracteres"></app-message>
+            </div>
 
-        <div class="col-12 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Motivo</h6>
-          <p-dropdown
-          styleClass="w-full" [options]="motivos"
-            [(ngModel)]="newprocesso.motivos"
-            #motivo="ngModel"
-            name="motivo"
-            placeholder="Selecione o Motivo"
-            [showClear]="true"
-            optionLabel="descricao"
-            required
-          ></p-dropdown>
+            <div class="col-12 md:col-6 lg:col-4">
+              <h6><span class="obrigatorio">*</span>Motivo</h6>
+              <p-dropdown styleClass="w-full" [options]="motivos" [(ngModel)]="newprocesso.motivos" #motivo="ngModel"
+                name="motivo" placeholder="Selecione o Motivo" [showClear]="true" optionLabel="descricao"
+                required></p-dropdown>
 
-          <app-message
-            [control]="motivo"
-            error="required"
-            text="Informe o Motivo"
-          ></app-message>
-          <app-message
-            [control]="motivo"
-            error="minlength"
-            text="Mínimo de {{
+              <app-message [control]="motivo" error="required" text="Informe o Motivo"></app-message>
+              <app-message [control]="motivo" error="minlength" text="Mínimo de {{
               motivo.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
-        </div> 
+            }} caracteres"></app-message>
+            </div>
 
-        <div class="col-12 md:col-6 lg:col-4">
-          <h6><span class="obrigatorio">*</span>Data</h6>
+            <div class="col-12 md:col-6 lg:col-4">
+              <h6><span class="obrigatorio">*</span>Data</h6>
 
-          <p-calendar
-            styleClass="w-full "
-            #datacricao="ngModel"
-            dateFormat="dd/mm/yy"
-            [readonlyInput]="true"
-            [(ngModel)]="newprocesso.itensprocesso.datacriacao"
-            name="datacricao"
-            type="text"
-            required
-          ></p-calendar>
+              <p-calendar styleClass="w-full " #datacricao="ngModel" dateFormat="dd/mm/yy" [readonlyInput]="true"
+                [(ngModel)]="newprocesso.itensprocesso.datacriacao" name="datacricao" type="text" required></p-calendar>
 
-          <app-message
-          [control]="datacricao"
-          error="required"
-          text="Informe a Data"
-        ></app-message>
-        <app-message
-          [control]="datacricao"
-          error="minlength"
-          text="Mínimo de {{
+              <app-message [control]="datacricao" error="required" text="Informe a Data"></app-message>
+              <app-message [control]="datacricao" error="minlength" text="Mínimo de {{
             datacricao.errors?.minlength?.requiredLength
-          }} caracteres"
-        ></app-message>
-        </div>
+          }} caracteres"></app-message>
+            </div>
 
-      </div>
-      </p-tabPanel>
-
-      <p-tabPanel header="Processo Informações">
-        <div class="grid">
-          <div class="w-full">
-
-          <!-- TODO Forma de input uppercase sem diretiva -->
-
-          <p-button class="obrigatorio" (click)="abrirDialog()" icon="pi pi-external-link" label="Informe a Descrição"></p-button>
-          <p-dialog header="Informe a Descrição" class="w-full" [(visible)]="showDialog">
-            <form (ngSubmit)="salvarDescricao()">
-              <div class="flex py-2 justify-content-center w-full">
-                <input
-                  class="w-full"
-                  oninput="this.value = this.value.toUpperCase()"
-                  pInputTextarea
-                  rows="2"
-                  [autoResize]="true"
-                  name="informacoes"
-                  type="text"
-                  [pKeyFilter]="regex.stringNumber"
-                  [(ngModel)]="novaDescricao"
-                  #informacoes="ngModel"
-                  required
-                  minlength="3"
-                />
-              </div>
-              <div class="flex justify-content-center">
-                <button
-                  pButton
-                  type="submit"
-                  label="Salvar"
-                  icon="fas fa-save"
-                  class="p-button-raised p-button-warning w-full"
-                ></button>
-              </div>
-            </form>
-          </p-dialog>
-          
-          <!-- Ajuste a tabela para iterar sobre descricoes -->
-          <div class="page-container ">
-          <p-table [value]="descricoes">
-            <ng-template pTemplate="header">
-              <tr>
-                <th class="tabela300px" >Descrição</th>
-                <th class="tabela200px" >Usuário</th>
-                <th class="tabela200px" >Data</th>
-              </tr>
-            </ng-template>
-            <ng-template pTemplate="body" let-descricao>
-              <tr>
-                <td class="tabela300px" > {{ descricao.descricao }}</td>
-                <td class="tabela200px">{{ descricao.usuario }}</td>
-                <td class="tabela200px">{{ descricao.dataCriacao.toLocaleDateString('pt-BR') }}</td>
-              </tr>
-            </ng-template>
-          </p-table>
           </div>
+        </p-tabPanel>
 
-        </div> 
-      </div>
-    </p-tabPanel>
+        <p-tabPanel header="Processo Informações">
+          <div class="grid">
+            <div class="w-full">
 
-    </p-tabView>
+              <!-- TODO Forma de input uppercase sem diretiva -->
+
+              <p-button class="obrigatorio" (click)="abrirDialog()" icon="pi pi-external-link"
+                label="Informe a Descrição"></p-button>
+              <p-dialog header="Informe a Descrição" class="w-full" [(visible)]="showDialog">
+                <form (ngSubmit)="salvarDescricao()">
+                  <div class="flex py-2 justify-content-center w-full">
+                    <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputTextarea rows="2"
+                      [autoResize]="true" name="informacoes" type="text" [pKeyFilter]="regex.stringNumber"
+                      [(ngModel)]="novaDescricao" #informacoes="ngModel" required minlength="3" />
+                  </div>
+                  <div class="flex justify-content-center">
+                    <button pButton type="submit" label="Salvar" icon="fas fa-save"
+                      class="p-button-raised p-button-warning w-full"></button>
+                  </div>
+                </form>
+              </p-dialog>
+
+              <!-- Ajuste a tabela para iterar sobre descricoes -->
+              <div class="page-container ">
+                <p-table [value]="descricoes">
+                  <ng-template pTemplate="header">
+                    <tr>
+                      <th class="tabela300px">Descrição</th>
+                      <th class="tabela200px">Usuário</th>
+                      <th class="tabela200px">Data</th>
+                    </tr>
+                  </ng-template>
+                  <ng-template pTemplate="body" let-descricao>
+                    <tr>
+                      <td class="tabela300px"> {{ descricao.descricao }}</td>
+                      <td class="tabela200px">{{ descricao.usuario }}</td>
+                      <td class="tabela200px">{{ descricao.dataCriacao.toLocaleDateString('pt-BR') }}</td>
+                    </tr>
+                  </ng-template>
+                </p-table>
+              </div>
+
+            </div>
+          </div>
+        </p-tabPanel>
+
+      </p-tabView>
       <br />
       <div class="flex flex-wrap justify-content-center">
         <div class="col-12 md:col-6 lg:col-4">
-          <button
-            pButton
-            pRipple
-            type="submit"
-            label="Salvar"
-            icon="fas fa-save"
-            [disabled]="formProcesso.invalid || salvando"
-            class="p-button-raised p-button-warning w-full"
-          ></button>
+          <button pButton pRipple type="submit" label="Salvar" icon="fas fa-save"
+            [disabled]="formProcesso.invalid || salvando" class="p-button-raised p-button-warning w-full"></button>
 
         </div>
         <!-- <div class="col-12 md:col-6 lg:col-4">
@@ -278,15 +148,11 @@
             (click)="confirmarExclusao()" label="Excluir"></button>
         </div> -->
       </div>
-      
+
       <div *ngIf="salvando" class="grid justify-content-center mt-4">
         <div class="grid col-12 justify-content-center">
-          <p-progressSpinner
-            [style]="{ width: '50px', height: '50px' }"
-            styleClass="custom-spinner"
-            strokeWidth="8"
-            animationDuration=".5s"
-          >
+          <p-progressSpinner [style]="{ width: '50px', height: '50px' }" styleClass="custom-spinner" strokeWidth="8"
+            animationDuration=".5s">
           </p-progressSpinner>
         </div>
         <div class="grid col-12 justify-content-center">
