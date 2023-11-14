@@ -12,6 +12,7 @@ import { Regex } from 'src/app/core/validators/regex.model';
 
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { Processos } from 'src/app/core/models/processo.model';
+import { Usuarios } from 'src/app/core/models/usuarios.model';
 import { ClientesService } from '../../clientes/clientes.service';
 import { MotivosService } from '../../motivos/motivos.service';
 import { AuthService } from '../../seguranca/auth.service';
@@ -19,7 +20,6 @@ import { StatusService } from '../../status/status.service';
 import { UsuariosService } from '../../usuarios/usuarios.service';
 import { VarasService } from '../../varas/varas.service';
 import { ProcessosService } from '../processos.service';
-import { Usuarios } from 'src/app/core/models/usuarios.model';
 
 @Component({
   selector: 'app-cadastro-processo',
@@ -80,17 +80,19 @@ export class CadastroProcessoComponent {
     }
   }
 
-  onTabChange(event: any) {
-    if (event.index === 1) {
-      this.tabProcessoInformacoesAtiva = true;
-    } else {
-      this.tabProcessoInformacoesAtiva = false;
-    }
-    console.log('tabProcessoInformacoesAtiva:', this.tabProcessoInformacoesAtiva);
-  }
+  // onTabChange(event: any) {
+  //   if (event.index === 1) {
+  //     this.tabProcessoInformacoesAtiva = true;
+  //   } else {
+  //     this.tabProcessoInformacoesAtiva = false;
+  //   }
+  //   console.log('tabProcessoInformacoesAtiva:', this.tabProcessoInformacoesAtiva);
+  // }
   abrirDialog() {
-    this.showDialog = true;
+    // this.showDialog = true;
+    console.log('chegou no dialog');
   }
+
   salvarDescricao() {
     // Adicione a nova descrição à lista
     this.descricoes.push({
@@ -106,9 +108,9 @@ export class CadastroProcessoComponent {
     this.showDialog = false;
   }
 
-  toggleTextarea() {
-    this.displayTextarea = !this.displayTextarea;
-  }
+  // toggleTextarea() {
+  //   this.displayTextarea = !this.displayTextarea;
+  // }
 
   get editando() {
     return Boolean(this.newprocesso._id);

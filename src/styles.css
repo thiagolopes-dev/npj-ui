@@ -564,7 +564,7 @@ p-inputnumber,
 
 .mydialog {
   z-index: 999;
-  width: 70%;
+  width: 90%;
 }
 
 .mydialogLocal {
@@ -585,20 +585,6 @@ p-inputnumber,
 @media screen and (min-width: 40rem) {
   .hideDesktop {
     display: none;
-  }
-}
-
-@media screen and (min-width: 30rem) and (max-width: 85.375rem) {
-  .mydialog {
-    z-index: 999;
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 31.25rem) and (max-width: 50rem) {
-  .mydialog {
-    z-index: 999;
-    width: 60%;
   }
 }
 
@@ -636,11 +622,6 @@ p-inputnumber,
 
   .ordemEntrega {
     width: 100%;
-  }
-
-  .mydialog {
-    z-index: 999;
-    width: 95%;
   }
 
   .bar {

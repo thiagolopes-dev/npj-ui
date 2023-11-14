@@ -13,11 +13,10 @@
         <p-tabPanel header="Processo">
           <div class="grid">
             <div class="col-12 md:col-6 lg:col-4">
-              <h6><span class="obrigatorio">*</span>Numero do Processo</h6>
-              <!-- TODO Forma de input uppercase sem diretiva -->
-              <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputText name="processo"
+              <h6><span class="obrigatorio">*</span>Número do Processo</h6>
+              <input class="w-full"  pInputText name="processo"
                 type="text" [pKeyFilter]="regex.stringNumber" [(ngModel)]="newprocesso.numeroProcesso"
-                #processo="ngModel" required minlength="3" disabled />
+                #processo="ngModel" required minlength="3" disabled upperCase>
               <app-message [control]="processo" error="required" text="Informe o Numero do Processo"></app-message>
               <app-message [control]="processo" error="minlength" text="Mínimo de {{
               processo.errors?.minlength?.requiredLength
@@ -42,7 +41,6 @@
               <p-dropdown styleClass="w-full" [options]="varas" [(ngModel)]="newprocesso.varas" #vara="ngModel"
                 name="vara" placeholder="Selecione a Vara" [showClear]="true" optionLabel="descricao"
                 required></p-dropdown>
-
               <app-message [control]="vara" error="required" text="Informe a Vara"></app-message>
               <app-message [control]="vara" error="minlength" text="Mínimo de {{
               vara.errors?.minlength?.requiredLength
@@ -54,7 +52,6 @@
               <p-dropdown styleClass="w-full" [options]="statusoptions" [(ngModel)]="newprocesso.status"
                 #status="ngModel" name="status" placeholder="Selecione o Status" [showClear]="true"
                 optionLabel="descricao" required></p-dropdown>
-
               <app-message [control]="status" error="required" text="Informe o Status"></app-message>
               <app-message [control]="status" error="minlength" text="Mínimo de {{
               status.errors?.minlength?.requiredLength
@@ -66,7 +63,6 @@
               <p-dropdown styleClass="w-full" [options]="motivos" [(ngModel)]="newprocesso.motivos" #motivo="ngModel"
                 name="motivo" placeholder="Selecione o Motivo" [showClear]="true" optionLabel="descricao"
                 required></p-dropdown>
-
               <app-message [control]="motivo" error="required" text="Informe o Motivo"></app-message>
               <app-message [control]="motivo" error="minlength" text="Mínimo de {{
               motivo.errors?.minlength?.requiredLength
@@ -75,10 +71,8 @@
 
             <div class="col-12 md:col-6 lg:col-4">
               <h6><span class="obrigatorio">*</span>Data</h6>
-
               <p-calendar styleClass="w-full " #datacricao="ngModel" dateFormat="dd/mm/yy" [readonlyInput]="true"
                 [(ngModel)]="newprocesso.itensprocesso.datacriacao" name="datacricao" type="text" required></p-calendar>
-
               <app-message [control]="datacricao" error="required" text="Informe a Data"></app-message>
               <app-message [control]="datacricao" error="minlength" text="Mínimo de {{
             datacricao.errors?.minlength?.requiredLength
@@ -92,26 +86,14 @@
           <div class="grid">
             <div class="w-full">
 
-              <!-- TODO Forma de input uppercase sem diretiva -->
+             
 
-              <p-button class="obrigatorio" (click)="abrirDialog()" icon="pi pi-external-link"
-                label="Informe a Descrição"></p-button>
-              <p-dialog header="Informe a Descrição" class="w-full" [(visible)]="showDialog">
-                <form (ngSubmit)="salvarDescricao()">
-                  <div class="flex py-2 justify-content-center w-full">
-                    <input class="w-full" oninput="this.value = this.value.toUpperCase()" pInputTextarea rows="2"
-                      [autoResize]="true" name="informacoes" type="text" [pKeyFilter]="regex.stringNumber"
-                      [(ngModel)]="novaDescricao" #informacoes="ngModel" required minlength="3" />
-                  </div>
-                  <div class="flex justify-content-center">
-                    <button pButton type="submit" label="Salvar" icon="fas fa-save"
-                      class="p-button-raised p-button-warning w-full"></button>
-                  </div>
-                </form>
-              </p-dialog>
+              <button pButton class="obrigatorio p-button-raised p-button-warning" (click)="abrirDialog()" icon="pi pi-external-link"
+                label="Informe a Descrição"></button>
+            
 
               <!-- Ajuste a tabela para iterar sobre descricoes -->
-              <div class="page-container ">
+              <div class="page-container mt-3">
                 <p-table [value]="descricoes">
                   <ng-template pTemplate="header">
                     <tr>
@@ -161,4 +143,21 @@
       </div>
     </form>
   </p-card>
+
+
+  <p-dialog header="Informe a Descrição" styleClass="mydialog" modal="true" [(visible)]="showDialog">
+    <form  #formInfo="ngForm" autocomplete="off">
+      <div class="flex col-12 justify-content-center w-full">
+        <!-- <input class="w-full" pInputTextarea rows="20"
+          [autoResize]="true" name="informacoes" type="text" [pKeyFilter]="regex.stringNumber"
+          [(ngModel)]="novaDescricao" #informacoes="ngModel" required minlength="3" /> -->
+
+          <textarea rows="20" cols="30" name="informacoes" type="text" [pKeyFilter]="regex.stringNumber" pInputTextarea [(ngModel)]="novaDescricao" [autoResize]="false" #informacoes="ngModel"></textarea>
+      </div>
+      <div class="flex justify-content-center">
+        <button pButton type="submit" label="Salvar" icon="fas fa-save" (click)="salvarDescricao()"
+          class="p-button-raised p-button-warning w-full"></button>
+      </div>
+    </form>
+  </p-dialog>
 </main>
