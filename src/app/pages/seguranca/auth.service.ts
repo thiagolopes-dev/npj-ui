@@ -126,7 +126,13 @@ export class AuthService {
       });
   }
 
-
-
+  getUsername(): string | null {
+    const token = localStorage.getItem('token');
+    if (token) {
+      const { username } = this.jwtHelper.decodeToken(token);
+      return username;
+    }
+    return null;
+  }
 
 }

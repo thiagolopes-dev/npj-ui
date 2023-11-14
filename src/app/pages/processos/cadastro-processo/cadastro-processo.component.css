@@ -1,11 +1,6 @@
-.tabela300px {
-    width: 300px;
-    align-items: center;
+  .centralizar-texto {
+    text-align: center; /* Centraliza horizontalmente */
+    vertical-align: middle; /* Centraliza verticalmente */
+    margin-left: 30px;
   }
-
-.tabela200px {
-    width: 200px;
-    align-items: center;
-  }
-  
  

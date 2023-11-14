@@ -14,7 +14,7 @@
           <h6><span class="obrigatorio">*</span>Nome</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="nome" type="text"
+            upperCase pInputText name="nome" type="text"
             [pKeyFilter]="regex.string" [(ngModel)]="newcliente.nome" #nome="ngModel" minlength="3" maxlength="30"
             required />
           <app-message [control]="nome" error="required" text="Informe o seu nome"></app-message>
@@ -41,7 +41,7 @@
           <h6>RG</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="rg" type="text" [mask]="'00.000.000-0'"
+            upperCase pInputText name="rg" type="text" [mask]="'00.000.000-0'"
             [pKeyFilter]="regex.blockSpecial" [(ngModel)]="newcliente.rg" #rg="ngModel" minlength="7" maxlength="12"
             [dropSpecialCharacters]="true" />
         </div>
@@ -60,7 +60,7 @@
           <h6><span class="obrigatorio">*</span>Logradouro</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="logradouro" type="text"
+            upperCase pInputText name="logradouro" type="text"
             [pKeyFilter]="regex.stringEspecial" [(ngModel)]="newcliente.logradouro" #logradouro="ngModel" minlength="3"
             maxlength="30" required />
 
@@ -74,7 +74,7 @@
           <h6><span class="obrigatorio">*</span>Bairro</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="bairro" type="text"
+            upperCase pInputText name="bairro" type="text"
             [(ngModel)]="newcliente.bairro" #bairro="ngModel" minlength="3" maxlength="30" required />
           <app-message [control]="bairro" error="required" text="Informe o seu bairro"></app-message>
           <app-message [control]="bairro" error="minlength" text="Mínimo de {{
@@ -86,7 +86,7 @@
           <h6><span class="obrigatorio">*</span>Número</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="numero" type="text"
+            upperCase pInputText name="numero" type="text"
             [pKeyFilter]="regex.number" [(ngModel)]="newcliente.numero" #numero="ngModel" minlength="1" maxlength="8"
             required />
           <app-message [control]="numero" error="required" text="Informe o seu numero"></app-message>
@@ -99,7 +99,7 @@
           <h6><span></span>Complemento</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="complemento" type="text"
+            upperCase pInputText name="complemento" type="text"
             [pKeyFilter]="regex.stringEspecial" [(ngModel)]="newcliente.complemento" #complemento="ngModel"
             minlength="0" maxlength="255" />
         </div>
@@ -128,7 +128,7 @@
           <h6>Whatsapp</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-            oninput="this.value = this.value.toUpperCase()" pInputText name="whatsapp" type="text"
+            upperCase pInputText name="whatsapp" type="text"
            [mask]="'(00) 0 0000-0000'" [pKeyFilter]="regex.stringEspecial"
             [(ngModel)]="newcliente.whatsapp" #whatsapp="ngModel" minlength="9" maxlength="16"
             [dropSpecialCharacters]="true" />

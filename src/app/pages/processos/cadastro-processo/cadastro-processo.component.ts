@@ -20,6 +20,7 @@ import { StatusService } from '../../status/status.service';
 import { UsuariosService } from '../../usuarios/usuarios.service';
 import { VarasService } from '../../varas/varas.service';
 import { ProcessosService } from '../processos.service';
+import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
 
 @Component({
   selector: 'app-cadastro-processo',
@@ -37,7 +38,7 @@ export class CadastroProcessoComponent {
   clientes = [];
   motivos = [];
   varas = [];
-  usuarios = new Usuarios();
+  username: string | null;
   statusoptions = [];
   descricoes: any[] = [];
   displayTextarea = false;
@@ -54,7 +55,6 @@ export class CadastroProcessoComponent {
     private motivosService: MotivosService,
     private statusService: StatusService,
     private varasService: VarasService,
-    private usuarioService: UsuariosService,
     private messageService: MessageService,
     private route: ActivatedRoute,
     private router: Router,
@@ -89,21 +89,23 @@ export class CadastroProcessoComponent {
   //   console.log('tabProcessoInformacoesAtiva:', this.tabProcessoInformacoesAtiva);
   // }
   abrirDialog() {
-    // this.showDialog = true;
+   this.showDialog = true;
     console.log('chegou no dialog');
   }
 
   salvarDescricao() {
-    // Adicione a nova descrição à lista
-    this.descricoes.push({
-      usuario: this.newprocesso.itensprocesso.usuariocriacao,
-      descricao: this.novaDescricao,
-      dataCriacao: this.newprocesso.itensprocesso.datacriacao,
-    });
-  
-    // Limpe o campo de descrição
-    this.novaDescricao = '';
-  
+
+
+
+    // Verifica se o usuário está definido antes de adicionar a descrição
+      this.descricoes.push({
+        usuario: this.username = this.auth.getUsername(),
+        descricao: this.novaDescricao,
+        dataCriacao: new Date(),
+      });
+
+      this.novaDescricao = '';
+
     // Feche o diálogo
     this.showDialog = false;
   }
