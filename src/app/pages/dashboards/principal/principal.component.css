@@ -1,7 +1,11 @@
 .metabase {
   width: 100%;
   min-height: 87vh;
-  margin-right: 20px;
-  margin-left: 20px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
   border: 0px;
+}
+
+.textAcesso {
+  color: #f59e0b;
 }

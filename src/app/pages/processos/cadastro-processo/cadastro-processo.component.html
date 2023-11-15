@@ -48,17 +48,6 @@
             </div>
 
             <div class="col-12 md:col-6 lg:col-4">
-              <h6><span class="obrigatorio">*</span>Status</h6>
-              <p-dropdown styleClass="w-full" [options]="statusoptions" [(ngModel)]="newprocesso.status"
-                #status="ngModel" name="status" placeholder="Selecione o Status" [showClear]="true"
-                optionLabel="descricao" required></p-dropdown>
-              <app-message [control]="status" error="required" text="Informe o Status"></app-message>
-              <app-message [control]="status" error="minlength" text="Mínimo de {{
-              status.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
-            </div>
-
-            <div class="col-12 md:col-6 lg:col-4">
               <h6><span class="obrigatorio">*</span>Motivo</h6>
               <p-dropdown styleClass="w-full" [options]="motivos" [(ngModel)]="newprocesso.motivos" #motivo="ngModel"
                 name="motivo" placeholder="Selecione o Motivo" [showClear]="true" optionLabel="descricao"
@@ -78,6 +67,19 @@
             datacricao.errors?.minlength?.requiredLength
           }} caracteres"></app-message>
             </div>
+
+            <div class="col-12 md:col-6 lg:col-4">
+              <h6><span class="obrigatorio">*</span>Status</h6>
+              <p-dropdown styleClass="w-full" [options]="statusoptions" [(ngModel)]="newprocesso.status"
+                #status="ngModel" name="status" placeholder="Selecione o Status" [showClear]="true"
+                optionLabel="descricao" required></p-dropdown>
+              <app-message [control]="status" error="required" text="Informe o Status"></app-message>
+              <app-message [control]="status" error="minlength" text="Mínimo de {{
+              status.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+            </div>
+
+        
 
           </div>
         </p-tabPanel>

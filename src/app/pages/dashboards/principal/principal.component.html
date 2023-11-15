@@ -1,5 +1,20 @@
 <main>
   <p-card styleClass="card-adjust">
+    <div class="flex flex-wrap mt-2">
+      <div class="flex align-items-center justify-content-center">
+        <span class="textAcesso">Acesso Rápido</span>
+      </div>
+      <div class="col-12 md:col-6 lg:col-2">
+        <p-button label="Clientes" styleClass="p-button-outlined p-button-warning w-full" routerLink="/clientes"></p-button>
+      </div>
+      <div class="col-12 md:col-6 lg:col-2">
+        <p-button label="Agendamentos" styleClass="p-button-outlined p-button-warning w-full" routerLink="/agendamentos"></p-button>
+      </div>
+      <div class="col-12 md:col-6 lg:col-2">
+        <p-button label="Processos" styleClass="p-button-outlined p-button-warning w-full" routerLink="/processos"></p-button>
+      </div>
+    </div>
+    <p-divider class="w-full"></p-divider>
     <iframe class="metabase"
     [src]="iframeLSrc"></iframe>
   </p-card>
