@@ -11,16 +11,13 @@ import {
 import { Regex } from 'src/app/core/validators/regex.model';
 
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { Processos } from 'src/app/core/models/processo.model';
-import { Usuarios } from 'src/app/core/models/usuarios.model';
+import { ItensProcesso, Processos } from 'src/app/core/models/processo.model';
 import { ClientesService } from '../../clientes/clientes.service';
 import { MotivosService } from '../../motivos/motivos.service';
 import { AuthService } from '../../seguranca/auth.service';
 import { StatusService } from '../../status/status.service';
-import { UsuariosService } from '../../usuarios/usuarios.service';
 import { VarasService } from '../../varas/varas.service';
 import { ProcessosService } from '../processos.service';
-import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
 
 @Component({
   selector: 'app-cadastro-processo',
@@ -43,11 +40,10 @@ export class CadastroProcessoComponent {
   descricoes: any[] = [];
   displayTextarea = false;
   visible: boolean = false;
-
-
-  tabProcessoInformacoesAtiva: boolean = false;
-  showDialog: boolean = false;
-  novaDescricao: string = '';
+  itensprocesso: ItensProcesso;
+  infoIndex: number;
+  showDialogProcesso: boolean = false;
+  colsInfo = [];
 
   constructor(
     private processoService: ProcessosService,
@@ -63,10 +59,12 @@ export class CadastroProcessoComponent {
     private spinner: NgxSpinnerService,
     private errorHandler: ErrorHandlerService,
     public auth: AuthService,
-  ) {}
+  ) {
+    this.newprocesso.itensprocesso = [];
+  }
 
   ngOnInit() {
-    this.newprocesso.itensprocesso.datacriacao = new Date();
+    this.newprocesso.datacriacao = new Date();
     this.idprocesso = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de processos');
     this.carregarClientes();
@@ -78,41 +76,16 @@ export class CadastroProcessoComponent {
       this.carregarProcessos(this.idprocesso);
     } else {
     }
+
+
+    this.colsInfo = [
+      // { field: 'codigo', header: 'Código', width: '100px' },
+      { field: 'informacoes', header: 'Informações', width: '250px' },
+      { field: 'datacriacao', header: 'Data Criação', width: '130px' },
+      { field: 'usuariocriacao', header: 'Usuário Criação', width: '150px' , data: true, format: `dd/MM/yyyy H:mm`, },
+      
+    ];
   }
-
-  // onTabChange(event: any) {
-  //   if (event.index === 1) {
-  //     this.tabProcessoInformacoesAtiva = true;
-  //   } else {
-  //     this.tabProcessoInformacoesAtiva = false;
-  //   }
-  //   console.log('tabProcessoInformacoesAtiva:', this.tabProcessoInformacoesAtiva);
-  // }
-  abrirDialog() {
-   this.showDialog = true;
-    console.log('chegou no dialog');
-  }
-
-  salvarDescricao() {
-
-
-
-    // Verifica se o usuário está definido antes de adicionar a descrição
-      this.descricoes.push({
-        usuario: this.username = this.auth.getUsername(),
-        descricao: this.novaDescricao,
-        dataCriacao: new Date(),
-      });
-
-      this.novaDescricao = '';
-
-    // Feche o diálogo
-    this.showDialog = false;
-  }
-
-  // toggleTextarea() {
-  //   this.displayTextarea = !this.displayTextarea;
-  // }
 
   get editando() {
     return Boolean(this.newprocesso._id);
@@ -132,7 +105,7 @@ export class CadastroProcessoComponent {
 
   adicionarProcesso(form: NgForm) {
     this.salvando = true;
-    this.mostrarToast = true; // Substitua pela lógica real para obter o usuário
+    this.mostrarToast = true;
     this.processoService
       .adicionarProcessos(this.newprocesso)
       .then((obj) => {
@@ -150,6 +123,7 @@ export class CadastroProcessoComponent {
         this.errorHandler.handle(erro);
       });
   }
+
   atualizarProcesso(form: NgForm) {
     this.salvando = true;
     this.processoService
@@ -261,7 +235,6 @@ export class CadastroProcessoComponent {
       });
   }
 
-  // TODO Resolver o porque varas não aparece
   carregarVaras() {
     return this.varasService
       .ListarDrop()
@@ -299,4 +272,51 @@ export class CadastroProcessoComponent {
     );
   }
 
+  prepararNovaInfo() {
+    this.showDialogProcesso = true;
+    this.itensprocesso = new ItensProcesso();
+  }
+
+  preparaEdicaoInfo(info: ItensProcesso, index: number) {
+    this.itensprocesso = { ...info };
+    this.showDialogProcesso = true;
+    this.infoIndex = index;
+  }
+
+  confirmarItensProcesso(frm: NgForm) {
+    this.itensprocesso.usuariocriacao = this.auth.jwtPayload.username;
+    this.itensprocesso.datacriacao = new Date();
+    this.newprocesso.itensprocesso.push({ ...this.itensprocesso });
+    // this.newprocesso.itensprocesso[this.infoIndex] = { ... this.itensprocesso };
+    console.log(this.itensprocesso);
+    this.showDialogProcesso = false;
+    frm.reset();
+  }
+
+  removerInfo(index: number) {
+    this.confirmation.confirm({
+      message: `Tem certeza que deseja excluir ?`,
+      accept: () => {
+        this.newprocesso.itensprocesso.splice(index, 1);
+      },
+      reject: (type) => {
+        switch (type) {
+          case ConfirmEventType.REJECT:
+            this.messageService.add({
+              severity: 'warn',
+              summary: 'Ação cancelada',
+              detail: 'Você cancelou',
+            });
+            break;
+          case ConfirmEventType.CANCEL:
+            this.messageService.add({
+              severity: 'error',
+              summary: 'Ação rejeitada',
+              detail: 'Você rejeitou',
+            });
+            break;
+        }
+      },
+    });
+  }
 }

@@ -11,16 +11,15 @@ export class Processos {
   varas =  new Varas();
   status = new Status();
   motivos = new Motivos();
-  itensprocesso?: ItensProcesso;
+  datacriacao?: Date;
+  usuariocriacao= new Usuarios();
+  itensprocesso = new Array<ItensProcesso>();
 
-  constructor() {
-    this.itensprocesso = new ItensProcesso();
-  }
 }
 
 export class ItensProcesso {
-  codigo?: string;
+  codigo?: number;
   informacoes?: string;
-  usuariocriacao= new Usuarios();
+  usuariocriacao?: string;
   datacriacao?: Date;
 }

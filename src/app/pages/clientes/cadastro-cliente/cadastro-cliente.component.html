@@ -10,7 +10,7 @@
     <br />
     <form #formCliente="ngForm" autocomplete="off" (ngSubmit)="salvar(formCliente)">
       <div class="grid">
-        <div class="field col-12 md:col-3">
+        <div class="field col-12 md:col-6 lg:col-3">
           <h6><span class="obrigatorio">*</span>Nome</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
@@ -23,7 +23,7 @@
             }} caracteres"></app-message>
         </div>
 
-        <div class="field col-12 md:col-3">
+        <div class="field col-12 md:col-6 lg:col-3">
           <h6><span class="obrigatorio">*</span>CPF</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
@@ -37,7 +37,7 @@
             }} caracteres"></app-message>
         </div>
 
-        <div class="field col-12 md:col-3">
+        <div class="field col-12 md:col-6 lg:col-3">
           <h6>RG</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
@@ -46,7 +46,7 @@
             [dropSpecialCharacters]="true" />
         </div>
 
-        <div class="field col-12 md:col-3">
+        <div class="field col-12 md:col-6 lg:col-3">
           <h6><span class="obrigatorio">*</span>CEP</h6>
           <p-inputMask mask="99999-999" id="cep" name="cep" (onBlur)="consultaCEP($event.target.value, formCliente)"
               [(ngModel)]="newcliente.cep" #cep="ngModel" unmask="true" required></p-inputMask>
@@ -56,7 +56,7 @@
             }} caracteres"></app-message>
         </div>
 
-        <div class="field col-12 md:col-3">
+        <div class="field col-12 md:col-6 lg:col-3">
           <h6><span class="obrigatorio">*</span>Logradouro</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
@@ -70,7 +70,7 @@
             }} caracteres"></app-message>
         </div>
 
-        <div class="field col-12 md:col-3">
+        <div class="field col-12 md:col-6 lg:col-3">
           <h6><span class="obrigatorio">*</span>Bairro</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
@@ -82,7 +82,7 @@
             }} caracteres"></app-message>
         </div>
 
-        <div class="field col-12 md:col-3">
+        <div class="field col-12 md:col-6 lg:col-3">
           <h6><span class="obrigatorio">*</span>Número</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
@@ -95,7 +95,7 @@
             }} caracteres"></app-message>
         </div>
 
-        <div class="field col-12 md:col-3">
+        <div class="field col-12 md:col-6 lg:col-3">
           <h6><span></span>Complemento</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
@@ -124,7 +124,7 @@
           <app-message [control]="cidade" error="required" text="Informe a cidade"></app-message>
         </div>
 
-        <div class="field col-12 md:col-3">
+        <div class="field col-12 md:col-6 lg:col-3">
           <h6>Whatsapp</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"

@@ -10,9 +10,13 @@
     <br />
     <form #formProcesso="ngForm" autocomplete="off" (ngSubmit)="salvar(formProcesso)">
       <p-tabView>
-        <p-tabPanel header="Processo">
+        <p-tabPanel>
+          <ng-template pTemplate="header">
+            <i class="pi pi-file-edit" style="margin-right: 0.3125rem;"></i>
+            <span>Processo</span>
+          </ng-template>
           <div class="grid">
-            <div class="col-12 md:col-6 lg:col-4">
+            <div class="col-12 md:col-6 lg:col-3">
               <h6><span class="obrigatorio">*</span>Número do Processo</h6>
               <input class="w-full"  pInputText name="processo"
                 type="text" [pKeyFilter]="regex.stringNumber" [(ngModel)]="newprocesso.numeroProcesso"
@@ -23,7 +27,7 @@
             }} caracteres"></app-message>
             </div>
 
-            <div class="col-12 md:col-6 lg:col-4">
+            <div class="col-12 md:col-6 lg:col-3">
               <h6><span class="obrigatorio">*</span>Cliente</h6>
               <p-dropdown styleClass="w-full" [options]="clientes" [(ngModel)]="newprocesso.cliente" #cliente="ngModel"
                 name="cliente" placeholder="Selecione o Cliente" [showClear]="true" optionLabel="nome"
@@ -35,9 +39,8 @@
             }} caracteres"></app-message>
             </div>
 
-            <div class="col-12 md:col-6 lg:col-4">
+            <div class="col-12 md:col-6 lg:col-3">
               <h6><span class="obrigatorio">*</span>Vara</h6>
-              <!-- TODO Resolver o porque varas não aparece -->
               <p-dropdown styleClass="w-full" [options]="varas" [(ngModel)]="newprocesso.varas" #vara="ngModel"
                 name="vara" placeholder="Selecione a Vara" [showClear]="true" optionLabel="descricao"
                 required></p-dropdown>
@@ -47,7 +50,7 @@
             }} caracteres"></app-message>
             </div>
 
-            <div class="col-12 md:col-6 lg:col-4">
+            <div class="col-12 md:col-6 lg:col-3">
               <h6><span class="obrigatorio">*</span>Motivo</h6>
               <p-dropdown styleClass="w-full" [options]="motivos" [(ngModel)]="newprocesso.motivos" #motivo="ngModel"
                 name="motivo" placeholder="Selecione o Motivo" [showClear]="true" optionLabel="descricao"
@@ -58,17 +61,17 @@
             }} caracteres"></app-message>
             </div>
 
-            <div class="col-12 md:col-6 lg:col-4">
+            <!-- <div class="col-12 md:col-6 lg:col-4">
               <h6><span class="obrigatorio">*</span>Data</h6>
               <p-calendar styleClass="w-full " #datacricao="ngModel" dateFormat="dd/mm/yy" [readonlyInput]="true"
-                [(ngModel)]="newprocesso.itensprocesso.datacriacao" name="datacricao" type="text" required></p-calendar>
+                [(ngModel)]="itensprocesso.datacriacao" name="datacricao" type="text" required></p-calendar>
               <app-message [control]="datacricao" error="required" text="Informe a Data"></app-message>
               <app-message [control]="datacricao" error="minlength" text="Mínimo de {{
             datacricao.errors?.minlength?.requiredLength
           }} caracteres"></app-message>
-            </div>
+            </div> -->
 
-            <div class="col-12 md:col-6 lg:col-4">
+            <div class="col-12 md:col-6 lg:col-3">
               <h6><span class="obrigatorio">*</span>Status</h6>
               <p-dropdown styleClass="w-full" [options]="statusoptions" [(ngModel)]="newprocesso.status"
                 #status="ngModel" name="status" placeholder="Selecione o Status" [showClear]="true"
@@ -84,35 +87,61 @@
           </div>
         </p-tabPanel>
 
-        <p-tabPanel header="Processo Informações">
-          <div class="grid">
-            <div class="w-full">
-
-              <button pButton class="obrigatorio p-button-raised p-button-warning" (click)="abrirDialog()" icon="pi pi-external-link"
-                label="Informe a Descrição"></button>
-          
-              <!-- Ajuste a tabela para iterar sobre descricoes -->
-              <p-table [value]="descricoes" [tableStyle]="{ 'min-width': '50rem' }">
-              <ng-template pTemplate="header">
-                  <tr>
-                      <th>Descrição</th>
-                      <th>Usuário</th>
-                      <th>Data</th>
-                  </tr>
-              </ng-template>
-              <ng-template pTemplate="body" let-descricoes>
-                  <tr>
-                      <td>{{ descricoes.descricao }}</td>
-                      <td>{{ descricoes.usuario}}</td>
-                      <td>{{ descricoes.dataCriacao | date: 'dd/MM/yyyy HH:mm' }}</td>
-                  </tr>
-              </ng-template>
-          </p-table>
- 
-
-              
+        <p-tabPanel>
+          <ng-template pTemplate="header">
+            <i class="pi pi-list" style="margin-right: 0.3125rem;"></i>
+            <span>Processo Informações</span>
+          </ng-template>
+          <div class="grid p-fluid p-justify-start">
+            <div class="col-12 md:col-6 lg:col-3">
+              <button pButton class="p-button-raised p-button-warning w-full md:w-12 lg:w-10" type="button" pTooltip="Nova Informação"
+                tooltipPosition="top" label="Nova Informação" icon="pi pi-plus" (click)="prepararNovaInfo()"></button>
             </div>
           </div>
+          
+        
+              <p-table #tabelaExtras styleClass="p-datatable-striped p-datatable-gridlines" [value]="newprocesso.itensprocesso"
+              [columns]="colsInfo" [globalFilterFields]="colsInfo"
+               [showCurrentPageReport]="true"
+              [scrollable]="true" [rows]="10" selectionMode="single">
+
+              <ng-template pTemplate="header" let-columns>
+                <tr>
+                  <th class="tdAcoes">&nbsp;</th>
+                  <th class="responsivetable" *ngFor="let colsInfo of columns"
+                    [ngStyle]="{'min-width': colsInfo.width}">
+                    {{colsInfo.header}}
+                  </th>
+                </tr>
+              </ng-template>
+              <ng-template pTemplate="body" pTemplate="body" let-info let-rowIndex="rowIndex" let-rowData
+                let-columns="columns">
+                <tr>
+                  <td class="tdAcoes">
+                    <button pButton pRipple type="button" class="p-button-raised p-button-warning" pTooltip="Editar"
+                      tooltipPosition="top" icon="pi pi-pencil" (click)="preparaEdicaoInfo(info, rowIndex)"></button>
+    
+                    <button pButton pRipple type="button" class="p-button-raised  p-button-danger ml-1" pTooltip="Excluir"
+                      tooltipPosition="top" icon="pi pi-trash" (click)="removerInfo(rowIndex)"></button>
+                  </td>
+    
+                  <td class="responsivetable" *ngFor="let colsExtras of columns" [ngStyle]="{'min-width': colsExtras.width}"
+                    pTooltip="{{rowData[colsExtras.field]}}" tooltipPosition="top">
+                    <span class="p-column-title">{{colsExtras.header}}:</span>
+                    {{rowData[colsExtras.field]}}
+                  </td>
+                </tr>
+    
+              </ng-template>
+              <ng-template pTemplate="emptymessage" let-columns>
+                <tr>
+                  <td colspan="5">
+                    <p class="emptyMessage">Nenhum registro encontrado...</p>
+                  </td>
+                </tr>
+              </ng-template>
+            </p-table>
+          
         </p-tabPanel>
 
       </p-tabView>
@@ -143,20 +172,27 @@
     </form>
   </p-card>
 
-
-  <p-dialog header="Informe a Descrição" styleClass="mydialog" modal="true" [(visible)]="showDialog">
-    <form  #formInfo="ngForm" autocomplete="off">
-      <div class="flex col-12 justify-content-center w-full">
-        <!-- <input class="w-full" pInputTextarea rows="20"
-          [autoResize]="true" name="informacoes" type="text" [pKeyFilter]="regex.stringNumber"
-          [(ngModel)]="novaDescricao" #informacoes="ngModel" required minlength="3" /> -->
-
-          <textarea rows="20" cols="30" name="informacoes" type="text" [pKeyFilter]="regex.stringNumber" pInputTextarea [(ngModel)]="novaDescricao" [autoResize]="false" #informacoes="ngModel"></textarea>
+  <p-dialog header="Informações Processo" styleClass="mydialog" modal="true" [(visible)]="showDialogProcesso" *ngIf="itensprocesso"
+  dismissableMask="true">
+  <br>
+  <form #formInfo="ngForm" autocomplete="off" (ngSubmit)="confirmarItensProcesso(formInfo)">
+    <div class="grid flex justify-content-center">
+      <div class="col-12 md:col-6 lg:col-4">
+        <h6><span class="obrigatorio">*</span>Descrição</h6>
+        <input pInputText name="informacoes" id="informacoes" type="text" #informacoes="ngModel" [(ngModel)]="itensprocesso.informacoes" required>
+        <app-message [control]="informacoes" error="required" text="Detalhe as informações"></app-message>
       </div>
-      <div class="flex justify-content-center">
-        <button pButton type="submit" label="Salvar" icon="fas fa-save" (click)="salvarDescricao()"
-          class="p-button-raised p-button-warning w-full"></button>
+    </div>
+    <p-footer>
+      <div class="grid p-fluid justify-content-center mt-8">
+        <div class="col-12 md:col-6 lg:col-3">
+          <button pButton pRipple type="submit" label="Confirmar" icon="fas fa-save" [disabled]="formInfo.invalid"
+            class="p-button-raised p-button-warning w-full"></button>
+        </div>
       </div>
-    </form>
-  </p-dialog>
+    </p-footer>
+  </form>
+</p-dialog>
+
+
 </main>

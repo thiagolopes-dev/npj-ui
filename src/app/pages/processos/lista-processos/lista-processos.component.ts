@@ -5,13 +5,12 @@ import { LazyLoadEvent, MenuItem } from 'primeng/api';
 import { Paginator } from 'primeng/paginator';
 import { Table } from 'primeng/table';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { FiltroMotivosService } from 'src/app/core/services/filtros-services/filtro-motivos.service';
+import { FiltroProcessos } from 'src/app/core/models/filtros.model';
+import { Processos } from 'src/app/core/models/processo.model';
+import { FiltroProcessosService } from 'src/app/core/services/filtros-services/filtro-processos.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
 import { AuthService } from '../../seguranca/auth.service';
-import { Processos } from 'src/app/core/models/processo.model';
-import { FiltroProcessos } from 'src/app/core/models/filtros.model';
 import { ProcessosService } from '../processos.service';
-import { FiltroProcessosService } from 'src/app/core/services/filtros-services/filtro-processos.service';
 
 @Component({
   selector: 'app-lista-processos',
@@ -103,7 +102,7 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
     ];
 
     this.cols = [
-      { field: 'numeroProcesso', header: 'Numero do Processo', width: '130px', key: 1, type: 'numeric', qty: '' },
+      { field: 'numeroProcesso', header: 'Numero do Processo', width: '180px', key: 1, type: 'numeric', qty: '' },
       { field: 'desccliente', header: 'Cliente', key: 4, width: '250px', type: 'text', qty: '' },
       { field: 'descmotivo', header: 'Motivo', key: 5, width: '250px', type: 'text', qty: '' },
       { field: 'descstatus', header: 'Status', key: 6, width: '250px', type: 'text', qty: '' },
