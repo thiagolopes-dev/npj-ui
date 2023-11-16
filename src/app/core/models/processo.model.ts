@@ -1,18 +1,17 @@
 import { Clientes } from './cliente.model';
 import { Motivos } from './motivos.model';
 import { Status } from './status.model';
-import { Usuarios } from './usuarios.model';
 import { Varas } from './varas.model';
 
 export class Processos {
   _id?: string;
-  numeroProcesso?: number;
+  numeroprocesso?: number;
   cliente = new Clientes();
-  varas =  new Varas();
+  vara =  new Varas();
   status = new Status();
-  motivos = new Motivos();
+  motivo = new Motivos();
   datacriacao?: Date;
-  usuariocriacao= new Usuarios();
+ // usuariocriacao= new Usuarios();
   itensprocesso = new Array<ItensProcesso>();
 
 }

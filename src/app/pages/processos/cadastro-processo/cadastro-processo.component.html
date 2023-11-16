@@ -19,7 +19,7 @@
             <div class="col-12 md:col-6 lg:col-3">
               <h6><span class="obrigatorio">*</span>Número do Processo</h6>
               <input class="w-full"  pInputText name="processo"
-                type="text" [pKeyFilter]="regex.stringNumber" [(ngModel)]="newprocesso.numeroProcesso"
+                type="text" [pKeyFilter]="regex.stringNumber" [(ngModel)]="newprocesso.numeroprocesso"
                 #processo="ngModel" required minlength="3" disabled upperCase>
               <app-message [control]="processo" error="required" text="Informe o Numero do Processo"></app-message>
               <app-message [control]="processo" error="minlength" text="Mínimo de {{
@@ -41,7 +41,7 @@
 
             <div class="col-12 md:col-6 lg:col-3">
               <h6><span class="obrigatorio">*</span>Vara</h6>
-              <p-dropdown styleClass="w-full" [options]="varas" [(ngModel)]="newprocesso.varas" #vara="ngModel"
+              <p-dropdown styleClass="w-full" [options]="varas" [(ngModel)]="newprocesso.vara" #vara="ngModel"
                 name="vara" placeholder="Selecione a Vara" [showClear]="true" optionLabel="descricao"
                 required></p-dropdown>
               <app-message [control]="vara" error="required" text="Informe a Vara"></app-message>
@@ -52,7 +52,7 @@
 
             <div class="col-12 md:col-6 lg:col-3">
               <h6><span class="obrigatorio">*</span>Motivo</h6>
-              <p-dropdown styleClass="w-full" [options]="motivos" [(ngModel)]="newprocesso.motivos" #motivo="ngModel"
+              <p-dropdown styleClass="w-full" [options]="motivos" [(ngModel)]="newprocesso.motivo" #motivo="ngModel"
                 name="motivo" placeholder="Selecione o Motivo" [showClear]="true" optionLabel="descricao"
                 required></p-dropdown>
               <app-message [control]="motivo" error="required" text="Informe o Motivo"></app-message>
@@ -125,10 +125,11 @@
                       tooltipPosition="top" icon="pi pi-trash" (click)="removerInfo(rowIndex)"></button>
                   </td>
     
-                  <td class="responsivetable" *ngFor="let colsExtras of columns" [ngStyle]="{'min-width': colsExtras.width}"
-                    pTooltip="{{rowData[colsExtras.field]}}" tooltipPosition="top">
-                    <span class="p-column-title">{{colsExtras.header}}:</span>
-                    {{rowData[colsExtras.field]}}
+                  <td class="responsivetable" *ngFor="let colsitem of columns" [ngStyle]="{'min-width': colsitem.width}"
+                    pTooltip="{{rowData[colsitem.field]}}" tooltipPosition="top">
+                    <span class="p-column-title">{{colsitem.header}}:</span>
+                    {{ colsitem.data ? (rowData[colsitem.field]| date :
+                      colsitem.format) : colsitem.status ? (rowData[colsitem.field] ? 'Ativo' : 'Inativo') : rowData[colsitem.field]}}
                   </td>
                 </tr>
     
@@ -149,7 +150,7 @@
       <div class="flex flex-wrap justify-content-center">
         <div class="col-12 md:col-6 lg:col-4">
           <button pButton pRipple type="submit" label="Salvar" icon="fas fa-save"
-            [disabled]="formProcesso.invalid || salvando" class="p-button-raised p-button-warning w-full"></button>
+            [disabled]="formProcesso.invalid || salvando || newprocesso.itensprocesso.length === 0" class="p-button-raised p-button-warning w-full"></button>
 
         </div>
         <!-- <div class="col-12 md:col-6 lg:col-4">

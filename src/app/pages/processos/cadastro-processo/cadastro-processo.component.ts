@@ -77,12 +77,11 @@ export class CadastroProcessoComponent {
     } else {
     }
 
-
     this.colsInfo = [
       // { field: 'codigo', header: 'Código', width: '100px' },
       { field: 'informacoes', header: 'Informações', width: '250px' },
-      { field: 'datacriacao', header: 'Data Criação', width: '130px' },
-      { field: 'usuariocriacao', header: 'Usuário Criação', width: '150px' , data: true, format: `dd/MM/yyyy H:mm`, },
+      { field: 'datacriacao', header: 'Data Criação', width: '130px', data: true, format: `dd/MM/yyyy H:mm`, },
+      { field: 'usuariocriacao', header: 'Usuário Criação', width: '150px' },
       
     ];
   }
@@ -111,12 +110,12 @@ export class CadastroProcessoComponent {
       .then((obj) => {
         this.messageService.add({
           severity: 'success',
-          summary: 'processo',
-          detail: `${obj.numeroProcesso}, adicionado com sucesso!`,
+          summary: 'Processo',
+          detail: `${obj.numeroprocesso}, adicionado com sucesso!`,
           life: 10000,
         });
         this.salvando = false;
-        this.router.navigate(['/processo']);
+        this.router.navigate(['/processos']);
       })
       .catch((erro) => {
         this.salvando = false;
@@ -133,11 +132,11 @@ export class CadastroProcessoComponent {
         this.messageService.add({
           severity: 'info',
           summary: 'processo',
-          detail: `${obj.numeroProcesso}, alterado com sucesso!`,
+          detail: `${obj.numeroprocesso}, alterado com sucesso!`,
         });
         this.atualizarTituloEdicao();
         this.salvando = false;
-        this.router.navigate(['/processo']);
+        this.router.navigate(['/processos']);
       })
       .catch((erro) => {
         this.salvando = false;
@@ -160,13 +159,13 @@ export class CadastroProcessoComponent {
 
   atualizarTituloEdicao() {
     this.title.setTitle(
-      `Edição de processo: ${this.newprocesso.numeroProcesso}`,
+      `Edição de processo: ${this.newprocesso.numeroprocesso}`,
     );
   }
 
   confirmarExclusao() {
     this.confirmation.confirm({
-      message: `Tem certeza que deseja excluir: <b>${this.newprocesso.numeroProcesso}</b> ?`,
+      message: `Tem certeza que deseja excluir: <b>${this.newprocesso.numeroprocesso}</b> ?`,
       accept: () => {
         this.excluir(this.newprocesso._id);
       },
@@ -198,7 +197,7 @@ export class CadastroProcessoComponent {
         this.messageService.add({
           severity: 'warn',
           summary: 'processo',
-          detail: `${this.newprocesso.numeroProcesso}, excluído com sucesso!`,
+          detail: `${this.newprocesso.numeroprocesso}, excluído com sucesso!`,
         });
         this.router.navigate(['/processo']);
       })

@@ -102,32 +102,11 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
     ];
 
     this.cols = [
-      { field: 'numeroProcesso', header: 'Numero do Processo', width: '180px', key: 1, type: 'numeric', qty: '' },
+      { field: 'numeroprocesso', header: 'Numero do Processo', width: '180px', key: 1, type: 'numeric', qty: '' },
       { field: 'desccliente', header: 'Cliente', key: 4, width: '250px', type: 'text', qty: '' },
       { field: 'descmotivo', header: 'Motivo', key: 5, width: '250px', type: 'text', qty: '' },
       { field: 'descstatus', header: 'Status', key: 6, width: '250px', type: 'text', qty: '' },
-      { field: 'descvaras', header: 'Varas', key: 6, width: '250px', type: 'text', qty: '' },
-      { field: 'processoProcesso', header: 'Processos', key: 5, width: '250px', type: 'text', qty: '' },
-   
-      {
-        field: 'usuarioalteracao',
-        header: 'Usuário Alteração',
-        width: '200px',
-        key: 6,
-        type: 'text',
-        qty: ''
-      },
-      {
-        field: 'dataalteracao',
-        header: 'Data Alteração',
-        width: '200px',
-        data: true,
-        format: `dd/MM/yyyy H:mm`,
-        key: 7,
-        type: 'date',
-        dataalteracaode: '',
-        dataalteracaoate: ''
-      },
+      { field: 'descvara', header: 'Varas', key: 6, width: '250px', type: 'text', qty: '' },   
       {
         field: 'usuariocriacao',
         header: 'Usuário Criação',
@@ -297,7 +276,6 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
   filtroDefault() {
     this.filtro.pagina = 0;
     this.filtro.itensPorPagina = 10;
-    this.filtro.status = 'true';
   }
 
   salvarDataLocalStorage(tipo: string, valor: string, nome: string) {

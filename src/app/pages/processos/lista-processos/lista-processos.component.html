@@ -22,7 +22,7 @@
       [rowsPerPageOptions]="rowsPerPageTable" [rowHover]="true" [showCurrentPageReport]="true"
       (onLazyLoad)="changePage($event)" (onColReorder)="eventReorder()" selectionMode="single"
       [(selection)]="selectionCols" [reorderableColumns]="true" [rows]="filtro.itensPorPagina" [lazy]="true"
-      [totalRecords]="totalRegistros" responsiveLayout="scroll" stateKey="state-processos" stateStorage="local" dataKey="codigo">
+      [totalRecords]="totalRegistros" responsiveLayout="scroll" stateKey="state-processos" stateStorage="local" dataKey="numeroprocesso">
   
       <ng-template pTemplate="header" let-columns>
         <tr>
