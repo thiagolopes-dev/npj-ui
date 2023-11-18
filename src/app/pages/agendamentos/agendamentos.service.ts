@@ -37,8 +37,12 @@ export class AgendamentosService {
       obj.atendimento = filtro.atendimento;
     }
 
-    if (filtro.dataatendimento) {
-      obj.dataatendimento = filtro.dataatendimento;
+    if (filtro.dataatendimentode) {
+      obj.dataatendimentode = filtro.dataatendimentode;
+    }
+
+    if (filtro.dataatendimentoate) {
+      obj.dataatendimentoate = filtro.dataatendimentoate;
     }
 
     if (filtro.cliente) {

@@ -68,7 +68,8 @@ export class FiltroAgendamentos {
   pagina: number;
   itensPorPagina: number;
   atendimento: string;
-  dataatendimento: string;
+  dataatendimentode: string;
+  dataatendimentoate: string;
   cliente: string;
   motivo: string;
   statusopção: string;

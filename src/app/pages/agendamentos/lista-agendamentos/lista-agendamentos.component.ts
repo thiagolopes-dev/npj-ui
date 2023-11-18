@@ -1,4 +1,11 @@
-import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  Input,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { LazyLoadEvent, MenuItem } from 'primeng/api';
@@ -15,8 +22,9 @@ import { AgendamentosService } from '../agendamentos.service';
 @Component({
   selector: 'app-lista-agendamentos',
   templateUrl: './lista-agendamentos.component.html',
-  styleUrls: ['./lista-agendamentos.component.css']
+  styleUrls: ['./lista-agendamentos.component.css'],
 })
+
 export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   @ViewChild('tabela') table: Table;
   @ViewChild('paginator') paginator: Paginator;
@@ -42,6 +50,8 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   datacriacaoate: string;
   dataalteracaode: string;
   dataalteracaoate: string;
+  dataatendimentode: string;
+  dataatendimentoate: string;
   firstLoading = true;
   noRecords = true;
   state = 'state-agendamentos';
@@ -54,30 +64,44 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
     private filtroAgendamento: FiltroAgendamentosService,
     public auth: AuthService,
     private spinner: NgxSpinnerService,
-    private localstorageTableService: LocalstorageTableService
-  ) { }
+    private localstorageTableService: LocalstorageTableService,
+  ) {}
 
   onClear() {
-    this.selectedColumns.forEach(col => {
-      if (col.qty === null || col.qty === undefined) { } else {
+    this.selectedColumns.forEach((col) => {
+      if (col.qty === null || col.qty === undefined) {
+      } else {
         col.qty = null;
       }
     });
-    this.selectedColumns.forEach(col => {
-      if (col.datacriacaode === null || col.datacriacaode === undefined) { } else {
+    this.selectedColumns.forEach((col) => {
+      if (
+        col.dataatendimentode === null ||
+        col.dataatendimentode === undefined
+      ) {
+      } else {
+        col.dataatendimentode = null;
+      }
+      if (col.datacriacaode === null || col.datacriacaode === undefined) {
+      } else {
         col.datacriacaode = null;
       }
-      if (col.datacriacaoate === null || col.datacriacaoate === undefined) { } else {
+      if (col.datacriacaoate === null || col.datacriacaoate === undefined) {
+      } else {
         col.datacriacaoate = null;
       }
 
-      if (col.dataalteracaode === null || col.dataalteracaode === undefined) { } else {
+      if (col.dataalteracaode === null || col.dataalteracaode === undefined) {
+      } else {
         col.dataalteracaode = null;
       }
-      if (col.dataalteracaoate === null || col.dataalteracaoate === undefined) { } else {
+      if (col.dataalteracaoate === null || col.dataalteracaoate === undefined) {
+      } else {
         col.dataalteracaoate = null;
       }
     });
+    this.dataatendimentode = null;
+    this.dataatendimentoate = null;
     this.datacriacaode = null;
     this.datacriacaoate = null;
     this.dataalteracaode = null;
@@ -102,18 +126,58 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
     ];
 
     this.cols = [
-      { field: 'atendimento', header: 'Atendimento', width: '130px', key: 1, type: 'numeric', qty: '' },
       {
-        field: 'dataatendimento', header: 'Data Atendimento', width: '180px', key: 2, type: '', qty: '',
+        field: 'atendimento',
+        header: 'Atendimento',
+        width: '130px',
+        key: 1,
+        type: 'numeric',
+        qty: '',
+      },
+      {
+        field: 'dataatendimento',
+        header: 'Data Atendimento',
+        width: '180px',
+        key: 2,
+        type: 'data',
+        qty: '',
         data: true,
         format: `dd/MM/yyyy H:mm`,
         dataatendimentode: '',
-        datatendimentoate: ''
+        datatendimentoate: '',
       },
-      { field: 'numeroprontuario', header: 'Num. Prontuário', width: '130px', key: 3, type: 'numeric', qty: '' },
-      { field: 'desccliente', header: 'Cliente', key: 4, width: '250px', type: 'text', qty: '' },
-      { field: 'descmotivo', header: 'Motivo', key: 5, width: '250px', type: 'text', qty: '' },
-      { field: 'descstatus', header: 'Status', key: 6, width: '250px', type: 'text', qty: '' },
+      {
+        field: 'numeroprontuario',
+        header: 'Num. Prontuário',
+        width: '130px',
+        key: 3,
+        type: 'numeric',
+        qty: '',
+      },
+      {
+        field: 'desccliente',
+        header: 'Cliente',
+        key: 4,
+        width: '250px',
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'descmotivo',
+        header: 'Motivo',
+        key: 5,
+        width: '250px',
+        type: 'text',
+        qty: '',
+      },
+      {
+        field: 'descstatus',
+        header: 'Status',
+        key: 6,
+        width: '250px',
+        type: 'text',
+        qty: '',
+      },
 
       {
         field: 'usuarioalteracao',
@@ -121,7 +185,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         width: '200px',
         key: 7,
         type: 'text',
-        qty: ''
+        qty: '',
       },
       {
         field: 'dataalteracao',
@@ -132,7 +196,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         key: 8,
         type: 'date',
         dataalteracaode: '',
-        dataalteracaoate: ''
+        dataalteracaoate: '',
       },
       {
         field: 'usuariocriacao',
@@ -140,7 +204,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         width: '200px',
         key: 9,
         type: 'text',
-        qty: ''
+        qty: '',
       },
       {
         field: 'datacriacao',
@@ -151,16 +215,17 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         key: 10,
         type: 'date',
         datacriacaode: '',
-        datacriacaoate: ''
+        datacriacaoate: '',
       },
-
     ];
 
     if (!localStorage.getItem('agendamentosColumns')) {
       this.setColumnsDefaultValue();
     } else {
       // get selected columns from local storage
-      this.selectedColumns = JSON.parse(localStorage.getItem('agendamentosColumns'));
+      this.selectedColumns = JSON.parse(
+        localStorage.getItem('agendamentosColumns'),
+      );
     }
   }
 
@@ -184,12 +249,21 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   }
 
   saveLocalStorage(event: any) {
-    this.localstorageTableService.saveLocalStorage(event, this.selectedColumns, this.state, this.nameColumns)
+    this.localstorageTableService.saveLocalStorage(
+      event,
+      this.selectedColumns,
+      this.state,
+      this.nameColumns,
+    );
   }
 
   eventReorder() {
     setTimeout(() => {
-      this.localstorageTableService.eventReorder(this.state, this.selectedColumns, this.nameColumns)
+      this.localstorageTableService.eventReorder(
+        this.state,
+        this.selectedColumns,
+        this.nameColumns,
+      );
     }, 300);
   }
 
@@ -205,8 +279,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         this.agendamentos = obj.data;
         if (this.agendamentos.length > 0) {
           this.noRecords = true;
-        }
-        else {
+        } else {
           this.noRecords = false;
         }
         this.totalRegistros = obj.totalCount;
@@ -230,7 +303,9 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   }
 
   search(value: any) {
-    if (this.timeout) { clearTimeout(this.timeout); }
+    if (this.timeout) {
+      clearTimeout(this.timeout);
+    }
     this.timeout = setTimeout(() => {
       this.applySearch(value);
     }, 800);
@@ -241,29 +316,50 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
       if (element.qty) {
         this.filtro[element.field] = element.qty;
       }
+      if (element.field === 'dataatendimento') {
+        if (element.dataatendimentode) {
+          this.filtro.dataatendimentode = element.dataatendimentode;
+          const valorFormatadode = element.dataatendimentode
+            .split('-')
+            .reverse()
+            .join('-');
+          this.dataatendimentode = valorFormatadode.replace(/-/g, '');
+        }
+      }
       if (element.field === 'datacriacao') {
         if (element.datacriacaode) {
           this.filtro.datacriacaode = element.datacriacaode;
-          const valorFormatadode = element.datacriacaode.split('-').reverse().join('-');
+          const valorFormatadode = element.datacriacaode
+            .split('-')
+            .reverse()
+            .join('-');
           this.datacriacaode = valorFormatadode.replace(/-/g, '');
         }
 
         if (element.datacriacaoate) {
           this.filtro.datacriacaoate = element.datacriacaoate;
-          const valorFormatadoate = element.datacriacaoate.split('-').reverse().join('-');
+          const valorFormatadoate = element.datacriacaoate
+            .split('-')
+            .reverse()
+            .join('-');
           this.datacriacaoate = valorFormatadoate.replace(/-/g, '');
         }
-
       }
       if (element.field === 'dataalteracao') {
         if (element.dataalteracaode) {
           this.filtro.dataalteracaode = element.dataalteracaode;
-          const valorFormatadode = element.dataalteracaode.split('-').reverse().join('-');
+          const valorFormatadode = element.dataalteracaode
+            .split('-')
+            .reverse()
+            .join('-');
           this.dataalteracaode = valorFormatadode.replace(/-/g, '');
         }
         if (element.dataalteracaoate) {
           this.filtro.dataalteracaoate = element.dataalteracaoate;
-          const valorFormatadoate = element.dataalteracaoate.split('-').reverse().join('-');
+          const valorFormatadoate = element.dataalteracaoate
+            .split('-')
+            .reverse()
+            .join('-');
           this.dataalteracaoate = valorFormatadoate.replace(/-/g, '');
         }
       }
@@ -272,22 +368,22 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
 
   applySearch(value: any) {
     this.blockBtnFilter = true;
-    if (
-      value.qty === null ||
-      value.qty === undefined
-    ) {
+    if (value.qty === null || value.qty === undefined) {
       this.btnBlock();
     } else {
-      this.filtroAgendamento.filtro(value, this.filtro).then((obj) => {
-        this.filtro = obj;
-        this.saveLocalStorage(null);
-        this.carregar();
-        this.FirstPage();
-        this.btnBlock();
-      }).catch((erro) => {
-        this.btnBlock();
-        this.errorHandler.handle(erro);
-      });
+      this.filtroAgendamento
+        .filtro(value, this.filtro)
+        .then((obj) => {
+          this.filtro = obj;
+          this.saveLocalStorage(null);
+          this.carregar();
+          this.FirstPage();
+          this.btnBlock();
+        })
+        .catch((erro) => {
+          this.btnBlock();
+          this.errorHandler.handle(erro);
+        });
     }
   }
 
@@ -308,7 +404,9 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   }
 
   salvarDataLocalStorage(tipo: string, valor: string, nome: string) {
-    const itemEncontrado = this.selectedColumns.find(item => item.field === nome);
+    const itemEncontrado = this.selectedColumns.find(
+      (item) => item.field === nome,
+    );
     if (itemEncontrado) {
       itemEncontrado[tipo] = valor;
     }
@@ -316,13 +414,47 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
 
   searchData(tipo: string) {
     this.filtroDefault();
+    if (tipo === 'dataatendimentode') {
+      if (this.dataatendimentode && this.dataatendimentode.length === 10) {
+        const dia = this.dataatendimentode.substring(0, 2);
+        const mes = this.dataatendimentode.substring(3, 5);
+        const ano = this.dataatendimentode.substring(6, 10);
+        this.filtro.dataatendimentode = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.dataatendimentode,
+          'dataatendimento',
+        );
+      } else {
+        this.filtro.dataatendimentode = '';
+      }
+    }
+    if (tipo === 'dataatendimentoate') {
+      if (this.dataatendimentoate && this.dataatendimentoate.length === 10) {
+        const dia = this.dataatendimentoate.substring(0, 2);
+        const mes = this.dataatendimentoate.substring(3, 5);
+        const ano = this.dataatendimentoate.substring(6, 10);
+        this.filtro.dataatendimentoate = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.dataatendimentoate,
+          'dataatendimento',
+        );
+      } else {
+        this.filtro.dataatendimentoate = '';
+      }
+    }
     if (tipo === 'datacriacaode') {
       if (this.datacriacaode && this.datacriacaode.length === 10) {
         const dia = this.datacriacaode.substring(0, 2);
         const mes = this.datacriacaode.substring(3, 5);
         const ano = this.datacriacaode.substring(6, 10);
         this.filtro.datacriacaode = ano + '-' + mes + '-' + dia;
-        this.salvarDataLocalStorage(tipo, this.filtro.datacriacaode, 'datacriacao');
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.datacriacaode,
+          'datacriacao',
+        );
       } else {
         this.filtro.datacriacaode = '';
       }
@@ -333,7 +465,11 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         const mes = this.datacriacaoate.substring(3, 5);
         const ano = this.datacriacaoate.substring(6, 10);
         this.filtro.datacriacaoate = ano + '-' + mes + '-' + dia;
-        this.salvarDataLocalStorage(tipo, this.filtro.datacriacaoate, 'datacriacao');
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.datacriacaoate,
+          'datacriacao',
+        );
       } else {
         this.filtro.datacriacaoate = '';
       }
@@ -345,7 +481,11 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         const mes = this.dataalteracaode.substring(3, 5);
         const ano = this.dataalteracaode.substring(6, 10);
         this.filtro.dataalteracaode = ano + '-' + mes + '-' + dia;
-        this.salvarDataLocalStorage(tipo, this.filtro.dataalteracaode, 'dataalteracao');
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.dataalteracaode,
+          'dataalteracao',
+        );
       } else {
         this.filtro.dataalteracaode = '';
       }
@@ -356,12 +496,18 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         const mes = this.dataalteracaoate.substring(3, 5);
         const ano = this.dataalteracaoate.substring(6, 10);
         this.filtro.dataalteracaoate = ano + '-' + mes + '-' + dia;
-        this.salvarDataLocalStorage(tipo, this.filtro.dataalteracaoate, 'dataalteracao');
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.dataalteracaoate,
+          'dataalteracao',
+        );
       } else {
         this.filtro.dataalteracaoate = '';
       }
     }
-    if (this.timeout) { clearTimeout(this.timeout); }
+    if (this.timeout) {
+      clearTimeout(this.timeout);
+    }
     this.timeout = setTimeout(() => {
       this.carregar();
       this.FirstPage();
@@ -370,12 +516,27 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   }
 
   limparData(tipo: string) {
+    if (tipo === 'dataAtendimento') {
+      this.filtro.dataatendimentode = '';
+      this.filtro.dataatendimentoate = '';
+      this.dataatendimentode = '';
+      this.dataatendimentoate = '';
+      this.removerDataLocalStorage(
+        'dataatendimento',
+        'dataatendimentode',
+        'dataatendimentoate',
+      );
+    }
     if (tipo === 'dataCriacao') {
       this.filtro.datacriacaode = '';
       this.filtro.datacriacaoate = '';
       this.datacriacaode = '';
       this.datacriacaoate = '';
-      this.removerDataLocalStorage('datacriacao', 'datacriacaode', 'datacriacaoate');
+      this.removerDataLocalStorage(
+        'datacriacao',
+        'datacriacaode',
+        'datacriacaoate',
+      );
     }
 
     if (tipo === 'dataAlteracao') {
@@ -383,7 +544,11 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
       this.filtro.dataalteracaoate = '';
       this.dataalteracaode = '';
       this.dataalteracaoate = '';
-      this.removerDataLocalStorage('dataalteracao', 'dataalteracaode', 'dataalteracaoate');
+      this.removerDataLocalStorage(
+        'dataalteracao',
+        'dataalteracaode',
+        'dataalteracaoate',
+      );
     }
 
     this.saveLocalStorage(null);
@@ -391,7 +556,9 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   }
 
   removerDataLocalStorage(nome: string, tipode: string, tipoate: string) {
-    const itemEncontrado = this.selectedColumns.find(item => item.field === nome);
+    const itemEncontrado = this.selectedColumns.find(
+      (item) => item.field === nome,
+    );
 
     if (itemEncontrado) {
       itemEncontrado[tipode] = '';

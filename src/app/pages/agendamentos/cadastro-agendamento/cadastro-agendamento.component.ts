@@ -78,6 +78,7 @@ export class CadastroAgendamentoComponent {
     }
   }
 
+  //pode estar deixando a data errdada 
   removeHrsDataAtendimento(){
       let horaformatada =  moment(this.newagendamento.dataatendimento).format("YYYY-MM-DD");
       this.newagendamento.dataatendimento = new Date(horaformatada);

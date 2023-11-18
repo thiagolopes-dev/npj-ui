@@ -23,10 +23,6 @@ export class FiltroAgendamentosService {
             filtro.atendimento = value.qty;
           }
 
-        if (value.field === 'dataatendimento') {
-            filtro.dataatendimento = value.qty;
-        }
-
         if (value.field === 'cliente') {
             filtro.cliente = value.qty;
         }
