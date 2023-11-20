@@ -113,13 +113,6 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
     ];
 
     this.cols = [
-      {
-        field: 'id',
-        header: 'Código',
-        width: '135px',
-        type: 'numeric',
-        key: 1,
-      },
       { field: 'name', header: 'Nome', width: '200px', type: 'text', key: 2 },
       {
         field: 'username',
