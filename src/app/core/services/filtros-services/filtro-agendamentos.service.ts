@@ -23,6 +23,10 @@ export class FiltroAgendamentosService {
             filtro.atendimento = value.qty;
           }
 
+          if (value.field === 'numeroprontuario') {
+            filtro.numeroprontuario = value.qty;
+          }
+
         if (value.field === 'desccliente') {
             filtro.desccliente = value.qty;
         }

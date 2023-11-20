@@ -37,6 +37,10 @@ export class AgendamentosService {
       obj.atendimento = filtro.atendimento;
     }
 
+    if (filtro.numeroprontuario) {
+      obj.numeroprontuario = filtro.numeroprontuario;
+    }
+
     if (filtro.dataatendimentode) {
       obj.dataatendimentode = filtro.dataatendimentode;
     }

@@ -68,6 +68,7 @@ export class FiltroAgendamentos {
   pagina: number;
   itensPorPagina: number;
   atendimento: string;
+  numeroprontuario: string;
   dataatendimentode: string;
   dataatendimentoate: string;
   desccliente: string;
@@ -85,7 +86,6 @@ export class FiltroProcessos {
   pagina: number;
   itensPorPagina: number;
   numeroprocesso: string;
-  numeroprontuario: string;
   desccliente: string;
   descvara: string;
   descmotivo: string;

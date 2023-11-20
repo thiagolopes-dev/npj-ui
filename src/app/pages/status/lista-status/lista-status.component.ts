@@ -7,7 +7,7 @@ import { StatusService } from '../status.service';
 import { Status } from 'src/app/core/models/status.model';
 import { Paginator } from 'primeng/paginator';
 import { LazyLoadEvent, MenuItem } from 'primeng/api';
-import { FiltroMotivos, FiltroStatus } from 'src/app/core/models/filtros.model';
+import { FiltroStatus } from 'src/app/core/models/filtros.model';
 import { FiltroStatusService } from 'src/app/core/services/filtros-services/filtro-status.service';
 import { AuthService } from '../../seguranca/auth.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';

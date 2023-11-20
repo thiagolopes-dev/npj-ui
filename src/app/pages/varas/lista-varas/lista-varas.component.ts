@@ -8,7 +8,7 @@ import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
 import { AuthService } from '../../seguranca/auth.service';
 import { Varas } from 'src/app/core/models/varas.model';
-import { FiltroMotivos, FiltroVaras } from 'src/app/core/models/filtros.model';
+import { FiltroVaras } from 'src/app/core/models/filtros.model';
 import { VarasService } from '../varas.service';
 import { FiltroVarasService } from 'src/app/core/services/filtros-services/filtro-varas.service';
 
@@ -83,7 +83,7 @@ export class ListaVarasComponent implements OnInit, AfterViewInit {
     this.datacriacaoate = null;
     this.dataalteracaode = null;
     this.dataalteracaoate = null;
-    this.filtro = new FiltroMotivos();
+    this.filtro = new FiltroVaras();
     this.filtroDefault();
     this.saveLocalStorage(null);
     this.carregar();

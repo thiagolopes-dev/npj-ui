@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { FiltroMotivos, FiltroVaras } from '../../models/filtros.model';
+import { FiltroVaras } from '../../models/filtros.model';
 
 @Injectable({
     providedIn: 'root',
@@ -10,9 +10,9 @@ export class FiltroVarasService {
 
     constructor() { }
 
-    async filtro(value: any, oldFiltro: FiltroMotivos): Promise<FiltroMotivos> {
+    async filtro(value: any, oldFiltro: FiltroVaras): Promise<FiltroVaras> {
 
-        let filtro = new FiltroMotivos();
+        let filtro = new FiltroVaras();
 
         filtro = { ...oldFiltro };
 
