@@ -56,14 +56,13 @@ export class UsuariosService {
       obj.email = filtro.email;
     }
 
-    if (filtro.usuariocriacao) {
-      obj.usuariocriacao = filtro.usuariocriacao;
+    if (filtro.usucriacao) {
+      obj.usucriacao = filtro.usucriacao;
     }
 
     if (filtro.usuarioalteracao) {
       obj.usuarioalteracao = filtro.usuarioalteracao;
     }
-
 
     if (filtro.datacriacaode) {
       obj.datacriacaode = filtro.datacriacaode;

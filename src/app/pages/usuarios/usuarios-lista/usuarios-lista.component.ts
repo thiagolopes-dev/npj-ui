@@ -113,19 +113,19 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
     ];
 
     this.cols = [
-      { field: 'name', header: 'Nome', width: '200px', type: 'text', key: 2 },
+      { field: 'name', header: 'Nome', width: '200px', type: 'text', key: 1 },
       {
         field: 'username',
         header: 'E-mail',
         width: '200px',
         type: 'text',
-        key: 3,
+        key: 2,
       },
       {
         field: 'usuarioalteracao',
         header: 'Usuário Alteração',
         width: '200px',
-        key: 4,
+        key: 3,
         type: 'text',
         qty: ''
       },
@@ -135,7 +135,7 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
         width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
-        key: 5,
+        key: 4,
         type: 'date',
         dataalteracaode: '',
         dataalteracaoate: ''
@@ -144,7 +144,7 @@ export class UsuariosListaComponent implements OnInit, AfterViewInit {
         field: 'usuariocriacao',
         header: 'Usuário Criação',
         width: '200px',
-        key: 6,
+        key: 5,
         type: 'text',
         qty: ''
       },

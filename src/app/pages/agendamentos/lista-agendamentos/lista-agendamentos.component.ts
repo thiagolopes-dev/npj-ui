@@ -137,14 +137,13 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
       {
         field: 'dataatendimento',
         header: 'Data Atendimento',
-        width: '180px',
-        key: 2,
-        type: 'data',
-        qty: '',
+        width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
+        key: 8,
+        type: 'date',
         dataatendimentode: '',
-        datatendimentoate: '',
+        dataatendimentoate: '',
       },
       {
         field: 'numeroprontuario',

@@ -79,7 +79,7 @@ export class ProcessosService {
     }
 
     if (filtro.dataalteracaoate) {
-      obj.dataalteracaoate = filtro.dataalteracaoate;
+      obj.dataalteracaoate = filtro.datacriacaoate;
     }
 
     return obj;

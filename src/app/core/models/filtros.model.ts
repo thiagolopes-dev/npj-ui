@@ -100,18 +100,18 @@ export class FiltroProcessos {
 }
 
 
-  export class FiltrosUsuario {
-    pagina: number;
-    itensPorPagina: number;
-    id: string;
-    codigo: string;
-    nome: string;
-    email: string;
-    usuariocriacao: string;
-    datacriacaode: string;
-    datacriacaoate: string;
-    usuarioalteracao: string;
-    dataalteracaode: string;
-    dataalteracaoate: string;
-    status: string;
-  }
+export class FiltrosUsuario {
+  pagina: number;
+  itensPorPagina: number;
+  id: string;
+  nome: string;
+  email: string;
+  datacriacaode: string;
+  datacriacaoate: string;
+  dataalteracaode: string;
+  dataalteracaoate: string;
+  usucriacao: string;
+  usuarioalteracao: string;
+  status: string;
+}
+
