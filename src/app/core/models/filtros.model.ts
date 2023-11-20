@@ -70,27 +70,26 @@ export class FiltroAgendamentos {
   atendimento: string;
   dataatendimentode: string;
   dataatendimentoate: string;
-  cliente: string;
-  motivo: string;
-  statusopção: string;
+  desccliente: string;
+  descmotivo: string;
+  descstatus: string;
   datacriacaode: string;
   datacriacaoate: string;
   dataalteracaode: string;
   dataalteracaoate: string;
   usuariocriacao: string;
   usuarioalteracao: string;
-  status: string;
 }
 
 export class FiltroProcessos {
   pagina: number;
   itensPorPagina: number;
-  numeroProcesso: string;
-  cliente: string;
-  varas: string;
-  motivos: string;
-  status: string;
-  processos: string;
+  numeroprocesso: string;
+  numeroprontuario: string;
+  desccliente: string;
+  descvara: string;
+  descmotivo: string;
+  descstatus: string;
   datacriacaode: string;
   datacriacaoate: string;
   dataalteracaode: string;
@@ -104,13 +103,13 @@ export class FiltrosUsuario {
   pagina: number;
   itensPorPagina: number;
   id: string;
-  nome: string;
-  email: string;
+  name: string;
+  username: string;
   datacriacaode: string;
   datacriacaoate: string;
   dataalteracaode: string;
   dataalteracaoate: string;
-  usucriacao: string;
+  usuariocriacao: string;
   usuarioalteracao: string;
   status: string;
 }

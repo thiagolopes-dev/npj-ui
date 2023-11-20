@@ -115,15 +115,6 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     this.title.setTitle('Lista de Agendamentos');
     this.filtroDefault();
-    this.items = [
-      {
-        label: 'Ativo / Inativo',
-        icon: 'pi pi-sort-alt',
-        command: () => {
-          this.AlternarLista();
-        },
-      },
-    ];
 
     this.cols = [
       {
@@ -399,7 +390,6 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   filtroDefault() {
     this.filtro.pagina = 0;
     this.filtro.itensPorPagina = 10;
-    this.filtro.status = 'true';
   }
 
   salvarDataLocalStorage(tipo: string, valor: string, nome: string) {
@@ -569,12 +559,4 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
     this.buttonFilter.nativeElement.focus();
   }
 
-  AlternarLista() {
-    if (this.filtro.status === 'true') {
-      this.filtro.status = 'false';
-    } else {
-      this.filtro.status = 'true';
-    }
-    this.carregar();
-  }
 }

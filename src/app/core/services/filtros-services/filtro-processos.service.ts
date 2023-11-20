@@ -20,29 +20,29 @@ export class FiltroProcessosService {
         filtro.itensPorPagina = 10;
 
         if (value.field === 'numeroProcesso') {
-            filtro.numeroProcesso = value.qty;
+            filtro.numeroprocesso = value.qty;
         }
 
-        if (value.field === 'cliente') {
-            filtro.cliente = value.qty;
+        if (value.field === 'numeroprontuario') {
+            filtro.numeroprontuario = value.qty;
         }
 
-        if (value.field === 'motivos') {
-            filtro.motivos = value.qty;
+
+        if (value.field === 'desccliente') {
+            filtro.desccliente = value.qty;
+        }
+
+        if (value.field === 'descmotivo') {
+            filtro.descmotivo = value.qty;
         }
 
         if (value.field === 'varas') {
-            filtro.varas = value.qty;
+            filtro.descvara = value.qty;
         }
 
         if (value.field === 'status') {
-            filtro.status = value.qty;
+            filtro.descstatus = value.qty;
         }
-
-        if (value.field === 'processos') {
-            filtro.processos = value.qty;
-        }
-
 
         if (value.field === 'usuariocriacao') {
             filtro.usuariocriacao = value.qty;

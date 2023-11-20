@@ -45,16 +45,16 @@ export class AgendamentosService {
       obj.dataatendimentoate = filtro.dataatendimentoate;
     }
 
-    if (filtro.cliente) {
-      obj.cliente = filtro.cliente;
+    if (filtro.desccliente) {
+      obj.desccliente = filtro.desccliente;
     }
 
-    if (filtro.motivo) {
-      obj.motivo = filtro.motivo;
+    if (filtro.descmotivo) {
+      obj.descmotivo = filtro.descmotivo;
     }
 
-    if (filtro.status) {
-      obj.status = filtro.status;
+    if (filtro.descstatus) {
+      obj.descstatus = filtro.descstatus;
     }
 
     if (filtro.usuariocriacao) {

@@ -91,15 +91,6 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     this.title.setTitle('Lista de Processos');
     this.filtroDefault();
-    this.items = [
-      {
-        label: 'Ativo / Inativo',
-        icon: 'pi pi-sort-alt',
-        command: () => {
-          this.AlternarLista();
-        },
-      },
-    ];
 
     this.cols = [
       { field: 'numeroprocesso', header: 'Numero do Processo', width: '180px', key: 1, type: 'numeric', qty: '' },
@@ -374,12 +365,4 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
     this.buttonFilter.nativeElement.focus();
   }
 
-  AlternarLista() {
-    if (this.filtro.status === 'true') {
-      this.filtro.status = 'false';
-    } else {
-      this.filtro.status = 'true';
-    }
-    this.carregar();
-  }
 }

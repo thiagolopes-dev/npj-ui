@@ -23,16 +23,16 @@ export class FiltrosUsuarioService {
       filtro.id = value.qty;
     }
 
-    if (value.field === 'nome') {
-      filtro.nome = value.qty;
+    if (value.field === 'name') {
+      filtro.name = value.qty;
     }
 
-    if (value.field === 'email') {
-      filtro.email = value.qty;
+    if (value.field === 'username') {
+      filtro.username = value.qty;
     }
 
-    if (value.field === 'usucriacao') {
-      filtro.usucriacao = value.qty;
+    if (value.field === 'usuariocriacao') {
+      filtro.usuariocriacao = value.qty;
   }
 
   if (value.field === 'usuarioalteracao') {

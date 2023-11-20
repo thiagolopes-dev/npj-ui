@@ -33,28 +33,24 @@ export class ProcessosService {
     obj.page = filtro.pagina;
     obj.perPage = filtro.itensPorPagina;
 
-    if (filtro.numeroProcesso) {
-      obj.numeroProcesso = filtro.numeroProcesso;
+    if (filtro.numeroprocesso) {
+      obj.numeroprocesso = filtro.numeroprocesso;
     }
 
-    if (filtro.cliente) {
-      obj.cliente = filtro.cliente;
+    if (filtro.desccliente) {
+      obj.desccliente = filtro.desccliente;
     }
 
-    if (filtro.varas) {
-      obj.varas = filtro.varas;
+    if (filtro.descvara) {
+      obj.descvara = filtro.descvara;
     }
 
-    if (filtro.motivos) {
-      obj.motivos = filtro.motivos;
+    if (filtro.descmotivo) {
+      obj.descmotivo = filtro.descmotivo;
     }
 
-    if (filtro.status) {
-      obj.status = filtro.status;
-    }
-
-    if (filtro.processos) {
-      obj.processos = filtro.processos;
+    if (filtro.descstatus) {
+      obj.status = filtro.descstatus;
     }
 
     if (filtro.usuariocriacao) {
