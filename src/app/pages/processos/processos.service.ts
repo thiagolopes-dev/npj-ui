@@ -50,7 +50,7 @@ export class ProcessosService {
     }
 
     if (filtro.descstatus) {
-      obj.status = filtro.descstatus;
+      obj.descstatus = filtro.descstatus;
     }
 
     if (filtro.usuariocriacao) {

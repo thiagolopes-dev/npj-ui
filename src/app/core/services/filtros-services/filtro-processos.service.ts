@@ -31,11 +31,11 @@ export class FiltroProcessosService {
             filtro.descmotivo = value.qty;
         }
 
-        if (value.field === 'varas') {
+        if (value.field === 'descvara') {
             filtro.descvara = value.qty;
         }
 
-        if (value.field === 'status') {
+        if (value.field === 'descstatus') {
             filtro.descstatus = value.qty;
         }
 
