@@ -19,7 +19,7 @@ export class FiltroProcessosService {
         filtro.pagina = 0;
         filtro.itensPorPagina = 10;
 
-        if (value.field === 'numeroProcesso') {
+        if (value.field === 'numeroprocesso') {
             filtro.numeroprocesso = value.qty;
         }
 
