@@ -57,9 +57,9 @@ export class ProcessosService {
       obj.usuariocriacao = filtro.usuariocriacao;
     }
 
-    if (filtro.usuarioalteracao) {
-      obj.usuarioalteracao = filtro.usuarioalteracao;
-    }
+    // if (filtro.usuarioalteracao) {
+    //   obj.usuarioalteracao = filtro.usuarioalteracao;
+    // }
 
 
     if (filtro.datacriacaode) {
@@ -70,13 +70,13 @@ export class ProcessosService {
       obj.datacriacaoate = filtro.datacriacaoate;
     }
 
-    if (filtro.dataalteracaode) {
-      obj.dataalteracaode = filtro.dataalteracaode;
-    }
+    // if (filtro.dataalteracaode) {
+    //   obj.dataalteracaode = filtro.dataalteracaode;
+    // }
 
-    if (filtro.dataalteracaoate) {
-      obj.dataalteracaoate = filtro.datacriacaoate;
-    }
+    // if (filtro.dataalteracaoate) {
+    //   obj.dataalteracaoate = filtro.datacriacaoate;
+    // }
 
     return obj;
   }
