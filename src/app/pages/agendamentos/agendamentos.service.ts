@@ -101,6 +101,11 @@ export class AgendamentosService {
           .tz('America/Sao_Paulo')
           .toDate();
       }
+      if (element.dataatendimento) {
+        element.dataatendimento = moment(element.dataatendimento, 'YYYY-MM-DD H:mm')
+          .tz('America/Sao_Paulo')
+          .toDate();
+      }
     });
   }
 
