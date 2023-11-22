@@ -22,7 +22,7 @@
       [rowsPerPageOptions]="rowsPerPageTable" [rowHover]="true" [showCurrentPageReport]="true"
       (onLazyLoad)="changePage($event)" (onColReorder)="eventReorder()" selectionMode="single"
       [(selection)]="selectionCols" [reorderableColumns]="true" [rows]="filtro.itensPorPagina" [lazy]="true"
-      [totalRecords]="totalRegistros" responsiveLayout="scroll" stateKey="state-usuarios" stateStorage="local" dataKey="codigo">
+      [totalRecords]="totalRegistros" responsiveLayout="scroll" stateKey="state-usuarios" stateStorage="local" dataKey="username">
   
       <ng-template pTemplate="header" let-columns>
         <tr>
@@ -39,7 +39,7 @@
               <div *ngIf="cols.type !== 'date' && cols.type !== 'status'" class="flex p-2"
                 [ngStyle]="{'min-width': cols.width}">
                 <input pInputText class="white-space-nowrap overflow-hidden text-overflow-ellipsis mr-2 w-full"
-                  placeholder="Pesquisar" type="text" name="pesquisa{{i}}" [(ngModel)]="cols.qty" validateQuantity
+                  placeholder="Pesquisar" type="text" name="pesquisa{{i}}" [(ngModel)]="cols.qty" validateQuantity [pKeyFilter]="regex.stringNumber"
                   #qtyInput (keyup)="search(cols)" (blur)="applySearch(cols)" pTooltip="Pesquisa nessa coluna"
                   tooltipPosition="top">
               </div>

@@ -5,12 +5,13 @@ import { LazyLoadEvent, MenuItem } from 'primeng/api';
 import { Paginator } from 'primeng/paginator';
 import { Table } from 'primeng/table';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
-import { AuthService } from '../../seguranca/auth.service';
-import { Varas } from 'src/app/core/models/varas.model';
 import { FiltroVaras } from 'src/app/core/models/filtros.model';
-import { VarasService } from '../varas.service';
+import { Varas } from 'src/app/core/models/varas.model';
 import { FiltroVarasService } from 'src/app/core/services/filtros-services/filtro-varas.service';
+import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
+import { Regex } from 'src/app/core/validators/regex.model';
+import { AuthService } from '../../seguranca/auth.service';
+import { VarasService } from '../varas.service';
 
 
 @Component({
@@ -22,7 +23,7 @@ export class ListaVarasComponent implements OnInit, AfterViewInit {
   @ViewChild('tabela') table: Table;
   @ViewChild('paginator') paginator: Paginator;
   @ViewChild('buttonFilter') buttonFilter: ElementRef;
-
+  regex = new Regex();
   rowsPerPageTable: number[] = [10, 25, 50, 100, 200];
   messagePageReport = 'Mostrando {first} a {last} de {totalRecords} registros';
   sinal = true;

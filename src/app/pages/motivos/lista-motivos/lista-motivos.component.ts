@@ -9,6 +9,7 @@ import { FiltroMotivos } from 'src/app/core/models/filtros.model';
 import { Motivos } from 'src/app/core/models/motivos.model';
 import { FiltroMotivosService } from 'src/app/core/services/filtros-services/filtro-motivos.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
+import { Regex } from 'src/app/core/validators/regex.model';
 import { AuthService } from '../../seguranca/auth.service';
 import { MotivosService } from '../motivos.service';
 
@@ -22,6 +23,7 @@ export class ListaMotivosComponent implements OnInit, AfterViewInit {
   @ViewChild('paginator') paginator: Paginator;
   @ViewChild('buttonFilter') buttonFilter: ElementRef;
 
+  regex = new Regex();
   rowsPerPageTable: number[] = [10, 25, 50, 100, 200];
   messagePageReport = 'Mostrando {first} a {last} de {totalRecords} registros';
   sinal = true;
