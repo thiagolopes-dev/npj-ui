@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #141e30; */
+  /* background-image: linear-gradient(to right top, #426cf6, #00a5fc, #00c8d7, #a5e0c6, #f2f6e9); */
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  margin-left: 0;
+  margin-top: 0x;
+  left: 0rem;
+  top: 0rem;
+}
+
+:host ::ng-deep .p-card {
+  background: #ecf0f1;
+  border-radius: 0.625rem;
+  margin: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.9375rem -0.3125rem rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 119.9375rem) {
+  .div {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 119.9375rem) {
+  .div {
+    background-size: contain;
+  }
+}
+
+.field-icon {
+  float: right;
+  left: -0.9375rem;
+  margin-top: -1.5625rem;
+  position: relative;
+  z-index: 2;
+}
+
+input:-webkit-autofill {
+  background-color: transparent !important;
+}
+
+:host ::ng-deep .p-button.p-button-raised {
+  box-shadow: none;
+}
+
+
+
+footer{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  color: #6c757d;;
+  margin: auto;
+}
+.alignFrom {
+  margin-left: -12px;
+}
+.alignLogo{
+  margin-bottom: -49px
+}
+.alignLogo {
+  margin-top: 0.25rem;
+  margin-bottom: 1.25rem;
+}

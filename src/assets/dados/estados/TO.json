@@ -1,0 +1,838 @@
+{
+    "data": [
+        {
+            "id": "5426",
+            "cidade": "ABREULANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5427",
+            "cidade": "AGUIARNOPOLIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5428",
+            "cidade": "ALIANCA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5429",
+            "cidade": "ALMAS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5430",
+            "cidade": "ALVORADA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5431",
+            "cidade": "ANANAS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5432",
+            "cidade": "ANGICO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5433",
+            "cidade": "APARECIDA DO RIO NEGRO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5434",
+            "cidade": "ARAGOMINAS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5435",
+            "cidade": "ARAGUACEMA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5436",
+            "cidade": "ARAGUACU",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5437",
+            "cidade": "ARAGUAINA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5438",
+            "cidade": "ARAGUANA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5439",
+            "cidade": "ARAGUATINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5440",
+            "cidade": "ARAPOEMA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5441",
+            "cidade": "ARRAIAS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5442",
+            "cidade": "AUGUSTINOPOLIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5443",
+            "cidade": "AURORA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5444",
+            "cidade": "AXIXA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5445",
+            "cidade": "BABACULANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5446",
+            "cidade": "BANDEIRANTES DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5447",
+            "cidade": "BARRA DO OURO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5448",
+            "cidade": "BARROLANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5449",
+            "cidade": "BERNARDO SAYAO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5450",
+            "cidade": "BOM JESUS DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5451",
+            "cidade": "BRASILANDIA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5452",
+            "cidade": "BREJINHO DE NAZARE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5453",
+            "cidade": "BURITI DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5454",
+            "cidade": "CACHOEIRINHA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5455",
+            "cidade": "CAMPOS LINDOS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5456",
+            "cidade": "CARIRI DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5457",
+            "cidade": "CARMOLANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5458",
+            "cidade": "CARRASCO BONITO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5459",
+            "cidade": "CASEARA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5460",
+            "cidade": "CENTENARIO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5461",
+            "cidade": "CHAPADA DA NATIVIDADE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5462",
+            "cidade": "CHAPADA DE AREIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5463",
+            "cidade": "COLINAS DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5464",
+            "cidade": "COLMEIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5465",
+            "cidade": "COMBINADO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5466",
+            "cidade": "CONCEICAO DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5467",
+            "cidade": "COUTO DE MAGALHAES",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5468",
+            "cidade": "CRISTALANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5469",
+            "cidade": "CRIXAS DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5470",
+            "cidade": "DARCINOPOLIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5471",
+            "cidade": "DIANOPOLIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5472",
+            "cidade": "DIVINOPOLIS DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5473",
+            "cidade": "DOIS IRMAOS DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5474",
+            "cidade": "DUERE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5475",
+            "cidade": "ESPERANTINA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5476",
+            "cidade": "FATIMA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5477",
+            "cidade": "FIGUEIROPOLIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5478",
+            "cidade": "FILADELFIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5479",
+            "cidade": "FORMOSO DO ARAGUAIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5480",
+            "cidade": "FORTALEZA DO TABOCAO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5481",
+            "cidade": "GOIANORTE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5482",
+            "cidade": "GOIATINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5483",
+            "cidade": "GUARAI",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5484",
+            "cidade": "GURUPI",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5485",
+            "cidade": "IPUEIRAS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5486",
+            "cidade": "ITACAJA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5487",
+            "cidade": "ITAGUATINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5488",
+            "cidade": "ITAPIRATINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5489",
+            "cidade": "ITAPORA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5490",
+            "cidade": "JAU DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5491",
+            "cidade": "JUARINA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5492",
+            "cidade": "LAGOA DA CONFUSAO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5493",
+            "cidade": "LAGOA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5494",
+            "cidade": "LAJEADO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5495",
+            "cidade": "LAVANDEIRA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5496",
+            "cidade": "LIZARDA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5497",
+            "cidade": "LUZINOPOLIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5498",
+            "cidade": "MARIANOPOLIS DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5499",
+            "cidade": "MATEIROS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5500",
+            "cidade": "MAURILANDIA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5501",
+            "cidade": "MIRACEMA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5502",
+            "cidade": "MIRANORTE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5503",
+            "cidade": "MONTE DO CARMO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5504",
+            "cidade": "MONTE SANTO DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5505",
+            "cidade": "MURICILANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5506",
+            "cidade": "NATIVIDADE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5507",
+            "cidade": "NAZARE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5508",
+            "cidade": "NOVA OLINDA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5509",
+            "cidade": "NOVA ROSALANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5510",
+            "cidade": "NOVO ACORDO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5511",
+            "cidade": "NOVO ALEGRE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5512",
+            "cidade": "NOVO JARDIM",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5513",
+            "cidade": "OLIVEIRA DE FATIMA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5514",
+            "cidade": "PALMAS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5515",
+            "cidade": "PALMEIRANTE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5516",
+            "cidade": "PALMEIRAS DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5517",
+            "cidade": "PALMEIROPOLIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5518",
+            "cidade": "PARAISO DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5519",
+            "cidade": "PARANA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5520",
+            "cidade": "PAU D`ARCO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5521",
+            "cidade": "PEDRO AFONSO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5522",
+            "cidade": "PEIXE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5523",
+            "cidade": "PEQUIZEIRO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5524",
+            "cidade": "PINDORAMA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5525",
+            "cidade": "PIRAQUE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5526",
+            "cidade": "PIUM",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5527",
+            "cidade": "PONTE ALTA DO BOM JESUS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5528",
+            "cidade": "PONTE ALTA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5529",
+            "cidade": "PORTO ALEGRE DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5530",
+            "cidade": "PORTO NACIONAL",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5531",
+            "cidade": "PRAIA NORTE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5532",
+            "cidade": "PRESIDENTE KENNEDY",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5533",
+            "cidade": "PUGMIL",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5534",
+            "cidade": "RECURSOLANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5535",
+            "cidade": "RIACHINHO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5536",
+            "cidade": "RIO DA CONCEICAO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5537",
+            "cidade": "RIO DOS BOIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5538",
+            "cidade": "RIO SONO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5539",
+            "cidade": "SAMPAIO",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5540",
+            "cidade": "SANDOLANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5541",
+            "cidade": "SANTA FE DO ARAGUAIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5542",
+            "cidade": "SANTA MARIA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5543",
+            "cidade": "SANTA RITA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5544",
+            "cidade": "SANTA ROSA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5545",
+            "cidade": "SANTA TEREZA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5546",
+            "cidade": "SANTA TEREZINHA DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5547",
+            "cidade": "SAO BENTO DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5548",
+            "cidade": "SAO FELIX DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5549",
+            "cidade": "SAO MIGUEL DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5550",
+            "cidade": "SAO SALVADOR DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5551",
+            "cidade": "SAO SEBASTIAO DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5552",
+            "cidade": "SAO VALERIO DA NATIVIDADE",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5553",
+            "cidade": "SILVANOPOLIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5554",
+            "cidade": "SITIO NOVO DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5555",
+            "cidade": "SUCUPIRA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5556",
+            "cidade": "TAGUATINGA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5557",
+            "cidade": "TAIPAS DO TOCANTINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5558",
+            "cidade": "TALISMA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5559",
+            "cidade": "TOCANTINIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5560",
+            "cidade": "TOCANTINOPOLIS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5561",
+            "cidade": "TUPIRAMA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5562",
+            "cidade": "TUPIRATINS",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5563",
+            "cidade": "WANDERLANDIA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          },
+          {
+            "id": "5564",
+            "cidade": "XAMBIOA",
+            "sigla": "TO",
+            "estado": "TOCANTINS"
+          }
+    ]
+}

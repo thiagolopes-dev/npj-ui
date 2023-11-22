@@ -1,0 +1,1114 @@
+{
+    "data": [
+        {
+            "id": "3183",
+            "cidade": "ABREU E LIMA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3184",
+            "cidade": "AFOGADOS DA INGAZEIRA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3185",
+            "cidade": "AFRANIO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3186",
+            "cidade": "AGRESTINA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3187",
+            "cidade": "AGUA PRETA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3188",
+            "cidade": "AGUAS BELAS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3189",
+            "cidade": "ALAGOINHA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3190",
+            "cidade": "ALIANCA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3191",
+            "cidade": "ALTINHO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3192",
+            "cidade": "AMARAJI",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3193",
+            "cidade": "ANGELIM",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3194",
+            "cidade": "ARACOIABA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3195",
+            "cidade": "ARARIPINA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3196",
+            "cidade": "ARCOVERDE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3197",
+            "cidade": "BARRA DE GUABIRABA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3198",
+            "cidade": "BARREIROS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3199",
+            "cidade": "BELEM DE MARIA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3200",
+            "cidade": "BELEM DE SAO FRANCISCO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3201",
+            "cidade": "BELO JARDIM",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3202",
+            "cidade": "BETANIA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3203",
+            "cidade": "BEZERROS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3204",
+            "cidade": "BODOCO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3205",
+            "cidade": "BOM CONSELHO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3206",
+            "cidade": "BOM JARDIM",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3207",
+            "cidade": "BONITO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3208",
+            "cidade": "BREJAO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3209",
+            "cidade": "BREJINHO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3210",
+            "cidade": "BREJO DA MADRE DE DEUS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3211",
+            "cidade": "BUENOS AIRES",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3212",
+            "cidade": "BUIQUE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3213",
+            "cidade": "CABO DE SANTO AGOSTINHO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3214",
+            "cidade": "CABROBO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3215",
+            "cidade": "CACHOEIRINHA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3216",
+            "cidade": "CAETES",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3217",
+            "cidade": "CALCADO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3218",
+            "cidade": "CALUMBI",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3219",
+            "cidade": "CAMARAGIBE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3220",
+            "cidade": "CAMOCIM DE SAO FELIX",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3221",
+            "cidade": "CAMUTANGA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3222",
+            "cidade": "CANHOTINHO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3223",
+            "cidade": "CAPOEIRAS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3224",
+            "cidade": "CARNAIBA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3225",
+            "cidade": "CARNAUBEIRA DA PENHA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3226",
+            "cidade": "CARPINA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3227",
+            "cidade": "CARUARU",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3228",
+            "cidade": "CASINHAS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3229",
+            "cidade": "CATENDE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3230",
+            "cidade": "CEDRO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3231",
+            "cidade": "CHA DE ALEGRIA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3232",
+            "cidade": "CHA GRANDE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3233",
+            "cidade": "CONDADO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3234",
+            "cidade": "CORRENTES",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3235",
+            "cidade": "CORTES",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3236",
+            "cidade": "CUMARU",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3237",
+            "cidade": "CUPIRA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3238",
+            "cidade": "CUSTODIA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3239",
+            "cidade": "DORMENTES",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3240",
+            "cidade": "ESCADA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3241",
+            "cidade": "EXU",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3242",
+            "cidade": "FEIRA NOVA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3243",
+            "cidade": "FERNANDO DE NORONHA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3244",
+            "cidade": "FERREIROS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3245",
+            "cidade": "FLORES",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3246",
+            "cidade": "FLORESTA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3247",
+            "cidade": "FREI MIGUELINHO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3248",
+            "cidade": "GAMELEIRA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3249",
+            "cidade": "GARANHUNS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3250",
+            "cidade": "GLORIA DO GOITA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3251",
+            "cidade": "GOIANA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3252",
+            "cidade": "GRANITO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3253",
+            "cidade": "GRAVATA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3254",
+            "cidade": "IATI",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3255",
+            "cidade": "IBIMIRIM",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3256",
+            "cidade": "IBIRAJUBA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3257",
+            "cidade": "IGARASSU",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3258",
+            "cidade": "IGUARACI",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3259",
+            "cidade": "ILHA DE ITAMARACA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3260",
+            "cidade": "INAJA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3261",
+            "cidade": "INGAZEIRA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3262",
+            "cidade": "IPOJUCA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3263",
+            "cidade": "IPUBI",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3264",
+            "cidade": "ITACURUBA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3265",
+            "cidade": "ITAIBA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3266",
+            "cidade": "ITAMBE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3267",
+            "cidade": "ITAPETIM",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3268",
+            "cidade": "ITAPISSUMA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3269",
+            "cidade": "ITAQUITINGA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3270",
+            "cidade": "JABOATAO DOS GUARARAPES",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3271",
+            "cidade": "JAQUEIRA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3272",
+            "cidade": "JATAUBA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3273",
+            "cidade": "JATOBA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3274",
+            "cidade": "JOAO ALFREDO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3275",
+            "cidade": "JOAQUIM NABUCO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3276",
+            "cidade": "JUCATI",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3277",
+            "cidade": "JUPI",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3278",
+            "cidade": "JUREMA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3279",
+            "cidade": "LAGOA DO CARRO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3280",
+            "cidade": "LAGOA DO ITAENGA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3281",
+            "cidade": "LAGOA DO OURO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3282",
+            "cidade": "LAGOA DOS GATOS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3283",
+            "cidade": "LAGOA GRANDE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3284",
+            "cidade": "LAJEDO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3285",
+            "cidade": "LIMOEIRO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3286",
+            "cidade": "MACAPARANA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3287",
+            "cidade": "MACHADOS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3288",
+            "cidade": "MANARI",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3289",
+            "cidade": "MARAIAL",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3290",
+            "cidade": "MIRANDIBA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3291",
+            "cidade": "MOREILANDIA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3292",
+            "cidade": "MORENO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3293",
+            "cidade": "NAZARE DA MATA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3294",
+            "cidade": "OLINDA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3295",
+            "cidade": "OROBO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3296",
+            "cidade": "OROCO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3297",
+            "cidade": "OURICURI",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3298",
+            "cidade": "PALMARES",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3299",
+            "cidade": "PALMEIRINA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3300",
+            "cidade": "PANELAS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3301",
+            "cidade": "PARANATAMA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3302",
+            "cidade": "PARNAMIRIM",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3303",
+            "cidade": "PASSIRA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3304",
+            "cidade": "PAUDALHO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3305",
+            "cidade": "PAULISTA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3306",
+            "cidade": "PEDRA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3307",
+            "cidade": "PESQUEIRA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3308",
+            "cidade": "PETROLANDIA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3309",
+            "cidade": "PETROLINA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3310",
+            "cidade": "POCAO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3311",
+            "cidade": "POMBOS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3312",
+            "cidade": "PRIMAVERA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3313",
+            "cidade": "QUIPAPA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3314",
+            "cidade": "QUIXABA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3315",
+            "cidade": "RECIFE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3316",
+            "cidade": "RIACHO DAS ALMAS",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3317",
+            "cidade": "RIBEIRAO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3318",
+            "cidade": "RIO FORMOSO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3319",
+            "cidade": "SAIRE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3320",
+            "cidade": "SALGADINHO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3321",
+            "cidade": "SALGUEIRO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3322",
+            "cidade": "SALOA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3323",
+            "cidade": "SANHARO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3324",
+            "cidade": "SANTA CRUZ",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3325",
+            "cidade": "SANTA CRUZ DA BAIXA VERDE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3326",
+            "cidade": "SANTA CRUZ DO CAPIBARIBE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3327",
+            "cidade": "SANTA FILOMENA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3328",
+            "cidade": "SANTA MARIA DA BOA VISTA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3329",
+            "cidade": "SANTA MARIA DO CAMBUCA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3330",
+            "cidade": "SANTA TEREZINHA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3331",
+            "cidade": "SAO BENEDITO DO SUL",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3332",
+            "cidade": "SAO BENTO DO UNA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3333",
+            "cidade": "SAO CAITANO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3334",
+            "cidade": "SAO JOAO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3335",
+            "cidade": "SAO JOAQUIM DO MONTE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3336",
+            "cidade": "SAO JOSE DA COROA GRANDE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3337",
+            "cidade": "SAO JOSE DO BELMONTE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3338",
+            "cidade": "SAO JOSE DO EGITO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3339",
+            "cidade": "SAO LOURENCO DA MATA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3340",
+            "cidade": "SAO VICENTE FERRER",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3341",
+            "cidade": "SERRA TALHADA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3342",
+            "cidade": "SERRITA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3343",
+            "cidade": "SERTANIA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3344",
+            "cidade": "SIRINHAEM",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3345",
+            "cidade": "SOLIDAO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3346",
+            "cidade": "SURUBIM",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3347",
+            "cidade": "TABIRA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3348",
+            "cidade": "TACAIMBO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3349",
+            "cidade": "TACARATU",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3350",
+            "cidade": "TAMANDARE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3351",
+            "cidade": "TAQUARITINGA DO NORTE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3352",
+            "cidade": "TEREZINHA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3353",
+            "cidade": "TERRA NOVA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3354",
+            "cidade": "TIMBAUBA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3355",
+            "cidade": "TORITAMA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3356",
+            "cidade": "TRACUNHAEM",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3357",
+            "cidade": "TRINDADE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3358",
+            "cidade": "TRIUNFO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3359",
+            "cidade": "TUPANATINGA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3360",
+            "cidade": "TUPARETAMA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3361",
+            "cidade": "VENTUROSA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3362",
+            "cidade": "VERDEJANTE",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3363",
+            "cidade": "VERTENTE DO LERIO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3364",
+            "cidade": "VERTENTES",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3365",
+            "cidade": "VICENCIA",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3366",
+            "cidade": "VITORIA DE SANTO ANTAO",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          },
+          {
+            "id": "3367",
+            "cidade": "XEXEU",
+            "sigla": "PE",
+            "estado": "PERNAMBUCO"
+          }
+    ]
+}

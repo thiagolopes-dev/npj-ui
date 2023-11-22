@@ -1,0 +1,472 @@
+{
+    "data" : [
+        {
+            "id": "1",
+            "cidade": "AFONSO CLAUDIO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "2",
+            "cidade": "AGUA DOCE DO NORTE",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "3",
+            "cidade": "AGUIA BRANCA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "4",
+            "cidade": "ALEGRE",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "5",
+            "cidade": "ALFREDO CHAVES",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "6",
+            "cidade": "ALTO RIO NOVO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "7",
+            "cidade": "ANCHIETA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "8",
+            "cidade": "APIACA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "9",
+            "cidade": "ARACRUZ",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "10",
+            "cidade": "ATILIO VIVACQUA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "11",
+            "cidade": "BAIXO GUANDU",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "12",
+            "cidade": "BARRA DE SAO FRANCISCO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "13",
+            "cidade": "BOA ESPERANCA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "14",
+            "cidade": "BOM JESUS DO NORTE",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "15",
+            "cidade": "BREJETUBA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "16",
+            "cidade": "CACHOEIRO DE ITAPEMIRIM",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "17",
+            "cidade": "CARIACICA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "18",
+            "cidade": "CASTELO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "19",
+            "cidade": "COLATINA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "20",
+            "cidade": "CONCEICAO DA BARRA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "21",
+            "cidade": "CONCEICAO DO CASTELO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "22",
+            "cidade": "DIVINO DE SAO LOURENCO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "23",
+            "cidade": "DOMINGOS MARTINS",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "24",
+            "cidade": "DORES DO RIO PRETO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "25",
+            "cidade": "ECOPORANGA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "26",
+            "cidade": "FUNDAO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "27",
+            "cidade": "GOVERNADOR LINDENBERG",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "28",
+            "cidade": "GUACUI",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "29",
+            "cidade": "GUARAPARI",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "30",
+            "cidade": "IBATIBA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "31",
+            "cidade": "IBIRACU",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "32",
+            "cidade": "IBITIRAMA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "33",
+            "cidade": "ICONHA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "34",
+            "cidade": "IRUPI",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "35",
+            "cidade": "ITAGUACU",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "36",
+            "cidade": "ITAPEMIRIM",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "37",
+            "cidade": "ITARANA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "38",
+            "cidade": "IUNA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "39",
+            "cidade": "JAGUARE",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "40",
+            "cidade": "JERONIMO MONTEIRO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "41",
+            "cidade": "JOAO NEIVA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "42",
+            "cidade": "LARANJA DA TERRA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "43",
+            "cidade": "LINHARES",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "44",
+            "cidade": "MANTENOPOLIS",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "45",
+            "cidade": "MARATAIZES",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "46",
+            "cidade": "MARECHAL FLORIANO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "47",
+            "cidade": "MARILANDIA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "48",
+            "cidade": "MIMOSO DO SUL",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "49",
+            "cidade": "MONTANHA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "50",
+            "cidade": "MUCURICI",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "51",
+            "cidade": "MUNIZ FREIRE",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "52",
+            "cidade": "MUQUI",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "53",
+            "cidade": "NOVA VENECIA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "54",
+            "cidade": "PANCAS",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "55",
+            "cidade": "PEDRO CANARIO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "56",
+            "cidade": "PINHEIROS",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "57",
+            "cidade": "PIUMA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "58",
+            "cidade": "PONTO BELO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "59",
+            "cidade": "PRESIDENTE KENNEDY",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "60",
+            "cidade": "RIO BANANAL",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "61",
+            "cidade": "RIO NOVO DO SUL",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "62",
+            "cidade": "SANTA LEOPOLDINA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "63",
+            "cidade": "SANTA MARIA DE JETIBA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "64",
+            "cidade": "SANTA TERESA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "65",
+            "cidade": "SAO DOMINGOS DO NORTE",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "66",
+            "cidade": "SAO GABRIEL DA PALHA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "67",
+            "cidade": "SAO JOSE DO CALCADO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "68",
+            "cidade": "SAO MATEUS",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "69",
+            "cidade": "SAO ROQUE DO CANAA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "70",
+            "cidade": "SERRA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "71",
+            "cidade": "SOORETAMA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "72",
+            "cidade": "VARGEM ALTA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "73",
+            "cidade": "VENDA NOVA DO IMIGRANTE",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "74",
+            "cidade": "VIANA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "75",
+            "cidade": "VILA PAVAO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "76",
+            "cidade": "VILA VALERIO",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "77",
+            "cidade": "VILA VELHA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          },
+          {
+            "id": "78",
+            "cidade": "VITORIA",
+            "sigla": "ES",
+            "estado": "ESPIRITO SANTO"
+          }
+    ]
+}

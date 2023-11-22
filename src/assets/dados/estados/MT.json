@@ -1,0 +1,845 @@
+{
+    "data": [
+        
+    {
+        "id": "1346",
+        "cidade": "ACORIZAL",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1347",
+        "cidade": "AGUA BOA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1348",
+        "cidade": "ALTA FLORESTA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1349",
+        "cidade": "ALTO ARAGUAIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1350",
+        "cidade": "ALTO BOA VISTA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1351",
+        "cidade": "ALTO GARCAS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1352",
+        "cidade": "ALTO PARAGUAI",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1353",
+        "cidade": "ALTO TAQUARI",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1354",
+        "cidade": "APIACAS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1355",
+        "cidade": "ARAGUAIANA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1356",
+        "cidade": "ARAGUAINHA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1357",
+        "cidade": "ARAPUTANGA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1358",
+        "cidade": "ARENAPOLIS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1359",
+        "cidade": "ARIPUANA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1360",
+        "cidade": "BARAO DE MELGACO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1361",
+        "cidade": "BARRA DO BUGRES",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1362",
+        "cidade": "BARRA DO GARCAS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1363",
+        "cidade": "BOM JESUS DO ARAGUAIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1364",
+        "cidade": "BRASNORTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1365",
+        "cidade": "CACERES",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1366",
+        "cidade": "CAMPINAPOLIS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1367",
+        "cidade": "CAMPO NOVO DO PARECIS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1368",
+        "cidade": "CAMPO VERDE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1369",
+        "cidade": "CAMPOS DE JULIO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1370",
+        "cidade": "CANABRAVA DO NORTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1371",
+        "cidade": "CANARANA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1372",
+        "cidade": "CARLINDA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1373",
+        "cidade": "CASTANHEIRA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1374",
+        "cidade": "CHAPADA DOS GUIMARAES",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1375",
+        "cidade": "CLAUDIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1376",
+        "cidade": "COCALINHO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1377",
+        "cidade": "COLIDER",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1378",
+        "cidade": "COLNIZA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1379",
+        "cidade": "COMODORO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1380",
+        "cidade": "CONFRESA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1381",
+        "cidade": "CONQUISTA D`OESTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1382",
+        "cidade": "COTRIGUACU",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1383",
+        "cidade": "CUIABA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1384",
+        "cidade": "CURVELANDIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1386",
+        "cidade": "DENISE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1387",
+        "cidade": "DIAMANTINO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1388",
+        "cidade": "DOM AQUINO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1389",
+        "cidade": "FELIZ NATAL",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1390",
+        "cidade": "FIGUEIROPOLIS D`OESTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1391",
+        "cidade": "GAUCHA DO NORTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1392",
+        "cidade": "GENERAL CARNEIRO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1393",
+        "cidade": "GLORIA D`OESTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1394",
+        "cidade": "GUARANTA DO NORTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1395",
+        "cidade": "GUIRATINGA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1396",
+        "cidade": "INDIAVAI",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1397",
+        "cidade": "IPIRANGA DO NORTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1398",
+        "cidade": "ITANHANGA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1399",
+        "cidade": "ITAUBA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1400",
+        "cidade": "ITIQUIRA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1401",
+        "cidade": "JACIARA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1402",
+        "cidade": "JANGADA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1403",
+        "cidade": "JAURU",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1404",
+        "cidade": "JUARA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1405",
+        "cidade": "JUINA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1406",
+        "cidade": "JURUENA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1407",
+        "cidade": "JUSCIMEIRA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1408",
+        "cidade": "LAMBARI D`OESTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1409",
+        "cidade": "LUCAS DO RIO VERDE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1410",
+        "cidade": "LUCIARA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1411",
+        "cidade": "MARCELANDIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1412",
+        "cidade": "MATUPA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1413",
+        "cidade": "MIRASSOL D`OESTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1414",
+        "cidade": "NOBRES",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1415",
+        "cidade": "NORTELANDIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1416",
+        "cidade": "NOSSA SENHORA DO LIVRAMENTO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1417",
+        "cidade": "NOVA BANDEIRANTES",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1418",
+        "cidade": "NOVA BRASILANDIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1419",
+        "cidade": "NOVA CANAA DO NORTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1420",
+        "cidade": "NOVA GUARITA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1421",
+        "cidade": "NOVA LACERDA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1422",
+        "cidade": "NOVA MARILANDIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1423",
+        "cidade": "NOVA MARINGA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1424",
+        "cidade": "NOVA MONTE VERDE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1425",
+        "cidade": "NOVA MUTUM",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1426",
+        "cidade": "NOVA OLIMPIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1427",
+        "cidade": "NOVA SANTA HELENA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1428",
+        "cidade": "NOVA UBIRATA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1429",
+        "cidade": "NOVA XAVANTINA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1430",
+        "cidade": "NOVO HORIZONTE DO NORTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1431",
+        "cidade": "NOVO MUNDO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1432",
+        "cidade": "NOVO SANTO ANTONIO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1433",
+        "cidade": "NOVO SAO JOAQUIM",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1434",
+        "cidade": "PARANAITA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1435",
+        "cidade": "PARANATINGA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1436",
+        "cidade": "PEDRA PRETA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1437",
+        "cidade": "PEIXOTO DE AZEVEDO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1438",
+        "cidade": "PLANALTO DA SERRA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1439",
+        "cidade": "POCONE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1440",
+        "cidade": "PONTAL DO ARAGUAIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1441",
+        "cidade": "PONTE BRANCA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1442",
+        "cidade": "PONTES E LACERDA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1443",
+        "cidade": "PORTO ALEGRE DO NORTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1444",
+        "cidade": "PORTO DOS GAUCHOS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1445",
+        "cidade": "PORTO ESPERIDIAO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1446",
+        "cidade": "PORTO ESTRELA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1447",
+        "cidade": "POXOREO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1448",
+        "cidade": "PRIMAVERA DO LESTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1449",
+        "cidade": "QUERENCIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1450",
+        "cidade": "RESERVA DO CABACAL",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1451",
+        "cidade": "RIBEIRAO CASCALHEIRA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1452",
+        "cidade": "RIBEIRAOZINHO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1453",
+        "cidade": "RIO BRANCO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1454",
+        "cidade": "RONDOLANDIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1455",
+        "cidade": "RONDONOPOLIS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1456",
+        "cidade": "ROSARIO OESTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1457",
+        "cidade": "SALTO DO CEU",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1458",
+        "cidade": "SANTA CARMEM",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1459",
+        "cidade": "SANTA CRUZ DO XINGU",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1460",
+        "cidade": "SANTA RITA DO TRIVELATO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1461",
+        "cidade": "SANTA TEREZINHA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1462",
+        "cidade": "SANTO AFONSO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1463",
+        "cidade": "SANTO ANTONIO DO LESTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1464",
+        "cidade": "SANTO ANTONIO DO LEVERGER",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1465",
+        "cidade": "SAO FELIX DO ARAGUAIA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1466",
+        "cidade": "SAO JOSE DO POVO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1467",
+        "cidade": "SAO JOSE DO RIO CLARO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1468",
+        "cidade": "SAO JOSE DO XINGU",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1469",
+        "cidade": "SAO JOSE DOS QUATRO MARCOS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1470",
+        "cidade": "SAO PEDRO DA CIPA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1471",
+        "cidade": "SAPEZAL",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1472",
+        "cidade": "SERRA NOVA DOURADA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1473",
+        "cidade": "SINOP",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1474",
+        "cidade": "SORRISO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1475",
+        "cidade": "TABAPORA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1476",
+        "cidade": "TANGARA DA SERRA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1477",
+        "cidade": "TAPURAH",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1478",
+        "cidade": "TERRA NOVA DO NORTE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1479",
+        "cidade": "TESOURO",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1480",
+        "cidade": "TORIXOREU",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1481",
+        "cidade": "UNIAO DO SUL",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1482",
+        "cidade": "VALE DE SAO DOMINGOS",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1483",
+        "cidade": "VARZEA GRANDE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1484",
+        "cidade": "VERA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1485",
+        "cidade": "VILA BELA DA SANTISSIMA TRINDADE",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      },
+      {
+        "id": "1486",
+        "cidade": "VILA RICA",
+        "sigla": "MT",
+        "estado": "MATO GROSSO"
+      }
+    ]
+}

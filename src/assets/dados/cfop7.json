@@ -1,0 +1,156 @@
+{
+    "data":
+    [
+    {
+      "CODCFOP": 7000,
+      "label": "7.000 - SAÍDAS OU PRESTAÇÕES DE SERVIÇOS PARA O EXTERIOR"
+    },
+    {
+      "CODCFOP": 7100,
+      "label": "7.100 - VENDAS DE PRODUÇÃO PRÓPRIA OU DE TERCEIROS"
+    },
+    {
+      "CODCFOP": 7101,
+      "label": "7.101 - VENDA DE PRODUÇÃO DO ESTABELECIMENTO"
+    },
+    {
+      "CODCFOP": 7102,
+      "label": "7.102 - VENDA DE MERCADORIA ADQUIRIDA OU RECEBIDA DE TERCEIROS"
+    },
+    {
+      "CODCFOP": 7105,
+      "label":
+        "7.105 - VENDA DE PRODUÇÃO DO ESTABELECIMENTO, QUE NÃO DEVA POR ELE TRANSITAR"
+    },
+    {
+      "CODCFOP": 7106,
+      "label":
+        "7.106 - VENDA DE MERCADORIA ADQUIRIDA OU RECEBIDA DE TERCEIROS, QUE NÃO DEVA POR ELE TRANSITAR"
+    },
+    {
+      "CODCFOP": 7127,
+      "label":
+        "7.127 - VENDA DE PRODUÇÃO DO ESTABELECIMENTO SOB O REGIME DE DRAWBACK"
+    },
+    {
+      "CODCFOP": 7200,
+      "label":
+        "7.200 - DEVOLUÇÕES DE COMPRAS PARA INDUSTRIALIZAÇÃO, COMERCIALIZAÇÃO OU ANULAÇÕES DE VALORES"
+    },
+    {
+      "CODCFOP": 7201,
+      "label":
+        "7.201 - DEVOLUÇÃO DE COMPRA PARA INDUSTRIALIZAÇÃO OU PRODUÇÃO RURAL"
+    },
+    {
+      "CODCFOP": 7202,
+      "label": "7.202 - DEVOLUÇÃO DE COMPRA PARA COMERCIALIZAÇÃO"
+    },
+    {
+      "CODCFOP": 7205,
+      "label":
+        "7.205 - ANULAÇÃO DE VALOR RELATIVO À AQUISIÇÃO DE SERVIÇO DE COMUNICAÇÃO"
+    },
+    {
+      "CODCFOP": 7206,
+      "label":
+        "7.206 - ANULAÇÃO DE VALOR RELATIVO A AQUISIÇÃO DE SERVIÇO DE TRANSPORTE"
+    },
+    {
+      "CODCFOP": 7207,
+      "label": "7.207 - ANULAÇÃO DE VALOR RELATIVO À COMPRA DE ENERGIA ELÉTRICA"
+    },
+    {
+      "CODCFOP": 7210,
+      "label":
+        "7.210 - DEVOLUÇÃO DE COMPRA PARA UTILIZAÇÃO NA PRESTAÇÃO DE SERVIÇO"
+    },
+    {
+      "CODCFOP": 7211,
+      "label":
+        "7.211 - DEVOLUÇÃO DE COMPRAS PARA INDUSTRIALIZAÇÃO SOB O REGIME DE DRAWBACK"
+    },
+    {
+      "CODCFOP": 7250,
+      "label": "7.250 - VENDAS DE ENERGIA ELÉTRICA"
+    },
+    {
+      "CODCFOP": 7251,
+      "label": "7.251 - VENDA DE ENERGIA ELÉTRICA PARA O EXTERIOR"
+    },
+    {
+      "CODCFOP": 7300,
+      "label": "7.300 - PRESTAÇÕES DE SERVIÇOS DE COMUNICAÇÃO"
+    },
+    {
+      "CODCFOP": 7301,
+      "label":
+        "7.301 - PRESTAÇÃO DE SERVIÇO DE COMUNICAÇÃO PARA EXECUÇÃO DE SERVIÇO DA MESMA NATUREZA"
+    },
+    {
+      "CODCFOP": 7358,
+      "label": "7.358 - PRESTAÇÃO DE SERVIÇO DE TRANSPORTE"
+    },
+    {
+      "CODCFOP": 7500,
+      "label":
+        "7.500 - EXPORTAÇÃO DE MERCADORIAS RECEBIDAS COM FIM ESPECÍFICO DE EXPORTAÇÃO"
+    },
+    {
+      "CODCFOP": 7501,
+      "label":
+        "7.501 - EXPORTAÇÃO DE MERCADORIAS RECEBIDAS COM FIM ESPECÍFICO DE EXPORTAÇÃO"
+    },
+    {
+      "CODCFOP": 7550,
+      "label":
+        "7.550 - OPERAÇÕES COM BENS DE ATIVO IMOBILIZADO E MATERIAIS PARA USO OU CONSUMO"
+    },
+    {
+      "CODCFOP": 7551,
+      "label": "7.551 - VENDA DE BEM DO ATIVO IMOBILIZADO"
+    },
+    {
+      "CODCFOP": 7553,
+      "label": "7.553 - DEVOLUÇÃO DE COMPRA DE BEM PARA O ATIVO IMOBILIZADO"
+    },
+    {
+      "CODCFOP": 7556,
+      "label": "7.556 - DEVOLUÇÃO DE COMPRA DE MATERIAL DE USO OU CONSUMO"
+    },
+    {
+      "CODCFOP": 7650,
+      "label":
+        "7.650 - SAÍDAS DE COMBUSTÍVEIS, DERIVADOS OU NÃO DE PETRÓLEO, E LUBRIFICANTES"
+    },
+    {
+      "CODCFOP": 7651,
+      "label":
+        "7.651 - VENDA DE COMBUSTÍVEL OU LUBRIFICANTE DE PRODUÇÃO DO ESTABELECIMENTO"
+    },
+    {
+      "CODCFOP": 7654,
+      "label":
+        "7.654 - VENDA DE COMBUSTÍVEL OU LUBRIFICANTE ADQUIRIDOS OU RECEBIDOS DE TERCEIROS"
+    },
+    {
+      "CODCFOP": 7667,
+      "label":
+        "7.667 - VENDA DE COMBUSTÍVEL OU LUBRIFICANTE A CONSUMIDOR OU USUÁRIO FINAL"
+    },
+    {
+      "CODCFOP": 7900,
+      "label": "7.900 - OUTRAS SAIDAS DE MERCADORIA OU PRESTAÇÕES DE SERVIÇOS"
+    },
+    {
+      "CODCFOP": 7930,
+      "label":
+        "7.930 - LANÇAMENTO EFETUADO A TÍTULO DE DEVOLUÇÃO DE BEM CUJA ENTRADA TENHA OCORRIDO SOB AMPARO DE REGIME ESPECIAL ADUANEIRO DE ADMISSÃO TEMPORÁRIA"
+    },
+    {
+      "CODCFOP": 7949,
+      "label":
+        "7.949 - OUTRA SAÍDA DE MERCADORIA OU PRESTAÇÃO DE SERVIÇO NÃO ESPECIFICADO"
+    }
+  ]
+}

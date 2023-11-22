@@ -1,0 +1,316 @@
+{
+    "data": [
+        {
+            "id": "4346",
+            "cidade": "ALTA FLORESTA D`OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4347",
+            "cidade": "ALTO ALEGRE DOS PARECIS",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4348",
+            "cidade": "ALTO PARAISO",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4349",
+            "cidade": "ALVORADA D`OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4350",
+            "cidade": "ARIQUEMES",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4351",
+            "cidade": "BURITIS",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4352",
+            "cidade": "CABIXI",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4353",
+            "cidade": "CACAULANDIA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4354",
+            "cidade": "CACOAL",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4355",
+            "cidade": "CAMPO NOVO DE RONDONIA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4356",
+            "cidade": "CANDEIAS DO JAMARI",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4357",
+            "cidade": "CASTANHEIRAS",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4358",
+            "cidade": "CEREJEIRAS",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4359",
+            "cidade": "CHUPINGUAIA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4360",
+            "cidade": "COLORADO DO OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4361",
+            "cidade": "CORUMBIARA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4362",
+            "cidade": "COSTA MARQUES",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4363",
+            "cidade": "CUJUBIM",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4364",
+            "cidade": "ESPIGAO D`OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4365",
+            "cidade": "GOVERNADOR JORGE TEIXEIRA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4366",
+            "cidade": "GUAJARA-MIRIM",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4367",
+            "cidade": "ITAPUA DO OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4368",
+            "cidade": "JARU",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4369",
+            "cidade": "JI-PARANA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4370",
+            "cidade": "MACHADINHO D`OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4371",
+            "cidade": "MINISTRO ANDREAZZA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4372",
+            "cidade": "MIRANTE DA SERRA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4373",
+            "cidade": "MONTE NEGRO",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4374",
+            "cidade": "NOVA BRASILANDIA D`OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4375",
+            "cidade": "NOVA MAMORE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4376",
+            "cidade": "NOVA UNIAO",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4377",
+            "cidade": "NOVO HORIZONTE DO OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4378",
+            "cidade": "OURO PRETO DO OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4379",
+            "cidade": "PARECIS",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4380",
+            "cidade": "PIMENTA BUENO",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4381",
+            "cidade": "PIMENTEIRAS DO OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4382",
+            "cidade": "PORTO VELHO",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4383",
+            "cidade": "PRESIDENTE MEDICI",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4384",
+            "cidade": "PRIMAVERA DE RONDONIA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4385",
+            "cidade": "RIO CRESPO",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4386",
+            "cidade": "ROLIM DE MOURA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4387",
+            "cidade": "SANTA LUZIA D`OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4388",
+            "cidade": "SAO FELIPE D`OESTE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4389",
+            "cidade": "SAO FRANCISCO DO GUAPORE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4390",
+            "cidade": "SAO MIGUEL DO GUAPORE",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4391",
+            "cidade": "SERINGUEIRAS",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4392",
+            "cidade": "TEIXEIROPOLIS",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4393",
+            "cidade": "THEOBROMA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4394",
+            "cidade": "URUPA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4395",
+            "cidade": "VALE DO ANARI",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4396",
+            "cidade": "VALE DO PARAISO",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          },
+          {
+            "id": "4397",
+            "cidade": "VILHENA",
+            "sigla": "RO",
+            "estado": "RONDONIA"
+          }
+    ]
+}

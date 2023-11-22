@@ -1,0 +1,156 @@
+<main>
+  <p-card styleClass="card-adjust">
+    <h4>{{editando ? 'Edição' : 'Cadastro'}} de Usuário</h4>
+    <div class="flex justify-content-between mb-2">
+      <div class="flex justify-content-start mb-2">
+        <div class="ml-2">
+          <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-angle-left"
+            pTooltip="Voltar" tooltipPosition="right" (click)="validaBackRoute(form)">
+          </button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <form #form="ngForm" autocomplete="off" (ngSubmit)="salvar(form)">
+      <p-tabView>
+        <p-tabPanel header="Info Usuário">
+          <div class="grid p-fluid mt-2 p-1">
+            <div class="col-12 md:col-6 lg:col-3">
+              <h6><span class="obrigatorio">*</span>Nome</h6>
+              <input pInputText name="nome" inputmode="text" [pKeyFilter]="regex.string" [(ngModel)]="usuario.name"
+                #nome="ngModel" maxlength="120" upperCase required>
+              <app-message [control]="nome" error="required" text="Informe o nome"></app-message>
+            </div>
+            <div class="col-12 md:col-6 lg:col-3">
+              <h6><span class="obrigatorio">*</span>E-mail</h6>
+              <input pInputText name="email" type="email" pKeyFilter="email" email maxlength="40" [disabled]="editando"
+                [(ngModel)]="usuario.username" #email="ngModel" required email autofocus autocomplete="off" readonly
+                onfocus="this.removeAttribute('readonly');">
+              <app-message [control]="email" error="required" text="Informe um e-mail!"></app-message>
+              <app-message [control]="email" error="email" text="Informe um e-mail válido"></app-message>
+            </div>
+        
+            <div class="col-12 md:col-6 lg:col-3" [hidden]="editando">
+              <h6>Senha</h6>
+              <input pPassword type="password" name="senha" promptLabel="Digite sua senha" weakLabel="Fraco"
+                mediumLabel="Médio " strongLabel="Forte" [(ngModel)]="usuario.password" #senha="ngModel" minlength="6"
+                maxlength="260" [required]="!editando" #pass autofocus autocomplete="off" readonly
+                onfocus="this.removeAttribute('readonly');">
+              <span (click)="pass.type = pass.type =='password'?'text':'password'" class="pi pi-eye-slash field-icon"
+                [ngClass]="(pass.type =='password')?'pi-eye-slash':'pi pi-eye'"></span>
+              <app-message [control]="senha" error="required" text="Informe uma senha"></app-message>
+              <app-message [control]="senha" error="minlength" text="Mínimo de 6 caracteres"></app-message>
+            </div>
+            <div class="col-12 md:col-6 lg:col-3" [hidden]="editando">
+              <h6>*Confirmar Senha</h6>
+              <input pInputText name="csenha" type="password" maxlength="260" ngValidateEqual="senha" #csenha="ngModel"
+                minlength="6" [(ngModel)]="usuario.cpassword" [required]="!editando" #cpass autofocus autocomplete="off"
+                readonly onfocus="this.removeAttribute('readonly');">
+              <span (click)="cpass.type = cpass.type =='password'?'text':'password'" class="pi pi-eye-slash field-icon"
+                [ngClass]="(cpass.type =='password')?'pi-eye-slash':'pi pi-eye'"></span>
+              <app-message [control]="csenha" error="required" text="Repita a senha"></app-message>
+              <app-message [control]="csenha" error="minlength" text="Mínimo de 6 caracteres"></app-message>
+              <div *ngIf="(csenha.dirty || csenha.touched) && csenha.invalid">
+                <p class="text-danger" role="alert" *ngIf="csenha.hasError('notEqual') && senha.valid">
+                  As senhas não correspondem...
+                </p>
+              </div>
+            </div>
+          </div>
+        </p-tabPanel>
+        <p-tabPanel header="Permissão">
+           <div class="grid flex flex-wrap">
+              <div class="col-12 md:col-6 lg:col-3">
+                <div class="flex col-12 justify-content-center">
+                  <span>Motivos</span>
+                </div>
+                <div class="flex col-12 justify-content-center">
+                 <p-inputSwitch name="motivos" [(ngModel)]="usuario.permissao.motivos"></p-inputSwitch>
+                </div>
+              </div>
+              
+              <div class="col-12 md:col-6 lg:col-3">
+                <div class="flex col-12 justify-content-center">
+                  <span>Varas</span>
+                </div>
+                <div class="flex col-12 justify-content-center">
+                 <p-inputSwitch name="varas" [(ngModel)]="usuario.permissao.varas"></p-inputSwitch>
+                </div>
+              </div>
+
+              <div class="col-12 md:col-6 lg:col-3">
+                <div class="flex col-12 justify-content-center">
+                  <span>Status</span>
+                </div>
+                <div class="flex col-12 justify-content-center">
+                 <p-inputSwitch name="status" [(ngModel)]="usuario.permissao.status"></p-inputSwitch>
+                </div>
+              </div>
+
+              <div class="col-12 md:col-6 lg:col-3">
+                <div class="flex col-12 justify-content-center">
+                  <span>Clientes</span>
+                </div>
+                <div class="flex col-12 justify-content-center">
+                 <p-inputSwitch name="clientes" [(ngModel)]="usuario.permissao.clientes"></p-inputSwitch>
+                </div>
+              </div>
+              <div class="col-12 md:col-6 lg:col-3">
+                <div class="flex col-12 justify-content-center">
+                  <span>Agendamentos</span>
+                </div>
+                <div class="flex col-12 justify-content-center">
+                 <p-inputSwitch name="agendamentos" [(ngModel)]="usuario.permissao.agendamentos"></p-inputSwitch>
+                </div>
+              </div>
+              <div class="col-12 md:col-6 lg:col-3">
+                <div class="flex col-12 justify-content-center">
+                  <span>Processos</span>
+                </div>
+                <div class="flex col-12 justify-content-center">
+                 <p-inputSwitch name="processos" [(ngModel)]="usuario.permissao.processos"></p-inputSwitch>
+                </div>
+              </div>
+              <div class="col-12 md:col-6 lg:col-3">
+                <div class="flex col-12 justify-content-center">
+                  <span>Usuários</span>
+                </div>
+                <div class="flex col-12 justify-content-center">
+                 <p-inputSwitch name="usuarios" [(ngModel)]="usuario.permissao.usuarios"></p-inputSwitch>
+                </div>
+              </div>
+           </div>
+        </p-tabPanel>
+    </p-tabView>
+
+     
+      <div class="flex justify-content-center flex-wrap card-container yellow-container">
+        <div class="flex flex-column flex align-items-center justify-content-center">
+          <div>
+            <h6>Status</h6>
+          </div>
+          <div>
+            <p-inputSwitch [(ngModel)]="usuario.status" [ngModelOptions]="{standalone: true}" binary="true">
+            </p-inputSwitch>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-content-center">
+        <div class="col-12 md:col-6 lg:col-2">
+          <button pButton pRipple type="submit" label="Salvar" icon="fas fa-save" [disabled]="form.invalid || salvando"
+            class="p-button-raised p-button-warning w-full"></button>
+        </div>
+      </div>
+      <div *ngIf="salvando" class="grid justify-content-center mt-4">
+        <div class="grid col-12 justify-content-center">
+          <p-progressSpinner [style]="{width: '50px', height: '50px'}" styleClass="custom-spinner" strokeWidth="8"
+            animationDuration=".5s">
+          </p-progressSpinner>
+        </div>
+        <div class="grid col-12 justify-content-center">
+          <h6>Salvando aguarde...</h6>
+        </div>
+      </div>
+    </form>
+  </p-card>
+</main>

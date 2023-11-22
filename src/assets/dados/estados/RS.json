@@ -1,0 +1,2980 @@
+{
+    "data": [
+        {
+            "id": "3850",
+            "cidade": "ACEGUA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3851",
+            "cidade": "AGUA SANTA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3852",
+            "cidade": "AGUDO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3853",
+            "cidade": "AJURICABA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3854",
+            "cidade": "ALECRIM",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3855",
+            "cidade": "ALEGRETE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3856",
+            "cidade": "ALEGRIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3857",
+            "cidade": "ALMIRANTE TAMANDARE DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3858",
+            "cidade": "ALPESTRE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3859",
+            "cidade": "ALTO ALEGRE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3860",
+            "cidade": "ALTO FELIZ",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3861",
+            "cidade": "ALVORADA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3862",
+            "cidade": "AMARAL FERRADOR",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3863",
+            "cidade": "AMETISTA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3864",
+            "cidade": "ANDRE DA ROCHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3865",
+            "cidade": "ANTA GORDA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3866",
+            "cidade": "ANTONIO PRADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3867",
+            "cidade": "ARAMBARE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3868",
+            "cidade": "ARARICA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3869",
+            "cidade": "ARATIBA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3870",
+            "cidade": "ARROIO DO MEIO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3871",
+            "cidade": "ARROIO DO PADRE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3872",
+            "cidade": "ARROIO DO SAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3873",
+            "cidade": "ARROIO DO TIGRE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3874",
+            "cidade": "ARROIO DOS RATOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3875",
+            "cidade": "ARROIO GRANDE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3876",
+            "cidade": "ARVOREZINHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3877",
+            "cidade": "AUGUSTO PESTANA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3878",
+            "cidade": "AUREA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3879",
+            "cidade": "BAGE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3880",
+            "cidade": "BALNEARIO PINHAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3881",
+            "cidade": "BARAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3882",
+            "cidade": "BARAO DE COTEGIPE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3883",
+            "cidade": "BARAO DO TRIUNFO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3884",
+            "cidade": "BARRA DO GUARITA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3885",
+            "cidade": "BARRA DO QUARAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3886",
+            "cidade": "BARRA DO RIBEIRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3887",
+            "cidade": "BARRA DO RIO AZUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3888",
+            "cidade": "BARRA FUNDA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3889",
+            "cidade": "BARRACAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3890",
+            "cidade": "BARROS CASSAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3891",
+            "cidade": "BENJAMIN CONSTANT DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3892",
+            "cidade": "BENTO GONCALVES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3893",
+            "cidade": "BOA VISTA DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3894",
+            "cidade": "BOA VISTA DO BURICA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3895",
+            "cidade": "BOA VISTA DO CADEADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3896",
+            "cidade": "BOA VISTA DO INCRA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3897",
+            "cidade": "BOA VISTA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3898",
+            "cidade": "BOM JESUS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3899",
+            "cidade": "BOM PRINCIPIO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3900",
+            "cidade": "BOM PROGRESSO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3901",
+            "cidade": "BOM RETIRO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3902",
+            "cidade": "BOQUEIRAO DO LEAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3903",
+            "cidade": "BOSSOROCA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3904",
+            "cidade": "BOZANO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3905",
+            "cidade": "BRAGA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3906",
+            "cidade": "BROCHIER",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3907",
+            "cidade": "BUTIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3908",
+            "cidade": "CACAPAVA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3909",
+            "cidade": "CACEQUI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3910",
+            "cidade": "CACHOEIRA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3911",
+            "cidade": "CACHOEIRINHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3912",
+            "cidade": "CACIQUE DOBLE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3913",
+            "cidade": "CAIBATE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3914",
+            "cidade": "CAICARA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3915",
+            "cidade": "CAMAQUA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3916",
+            "cidade": "CAMARGO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3917",
+            "cidade": "CAMBARA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3918",
+            "cidade": "CAMPESTRE DA SERRA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3919",
+            "cidade": "CAMPINA DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3920",
+            "cidade": "CAMPINAS DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3921",
+            "cidade": "CAMPO BOM",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3922",
+            "cidade": "CAMPO NOVO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3923",
+            "cidade": "CAMPOS BORGES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3924",
+            "cidade": "CANDELARIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3925",
+            "cidade": "CANDIDO GODOI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3926",
+            "cidade": "CANDIOTA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3927",
+            "cidade": "CANELA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3928",
+            "cidade": "CANGUCU",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3929",
+            "cidade": "CANOAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3930",
+            "cidade": "CANUDOS DO VALE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3931",
+            "cidade": "CAPAO BONITO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3932",
+            "cidade": "CAPAO DA CANOA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3933",
+            "cidade": "CAPAO DO CIPO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3934",
+            "cidade": "CAPAO DO LEAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3935",
+            "cidade": "CAPELA DE SANTANA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3936",
+            "cidade": "CAPITAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3937",
+            "cidade": "CAPIVARI DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3938",
+            "cidade": "CARAA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3939",
+            "cidade": "CARAZINHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3940",
+            "cidade": "CARLOS BARBOSA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3941",
+            "cidade": "CARLOS GOMES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3942",
+            "cidade": "CASCA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3943",
+            "cidade": "CASEIROS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3944",
+            "cidade": "CATUIPE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3945",
+            "cidade": "CAXIAS DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3946",
+            "cidade": "CENTENARIO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3947",
+            "cidade": "CERRITO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3948",
+            "cidade": "CERRO BRANCO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3949",
+            "cidade": "CERRO GRANDE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3950",
+            "cidade": "CERRO GRANDE DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3951",
+            "cidade": "CERRO LARGO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3952",
+            "cidade": "CHAPADA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3953",
+            "cidade": "CHARQUEADAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3954",
+            "cidade": "CHARRUA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3955",
+            "cidade": "CHIAPETA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3956",
+            "cidade": "CHUI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3957",
+            "cidade": "CHUVISCA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3958",
+            "cidade": "CIDREIRA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3959",
+            "cidade": "CIRIACO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3960",
+            "cidade": "COLINAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3961",
+            "cidade": "COLORADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3962",
+            "cidade": "CONDOR",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3963",
+            "cidade": "CONSTANTINA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3964",
+            "cidade": "COQUEIRO BAIXO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3965",
+            "cidade": "COQUEIROS DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3966",
+            "cidade": "CORONEL BARROS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3967",
+            "cidade": "CORONEL BICACO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3968",
+            "cidade": "CORONEL PILAR",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3969",
+            "cidade": "COTIPORA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3970",
+            "cidade": "COXILHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3971",
+            "cidade": "CRISSIUMAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3972",
+            "cidade": "CRISTAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3973",
+            "cidade": "CRISTAL DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3974",
+            "cidade": "CRUZ ALTA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3975",
+            "cidade": "CRUZALTENSE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3976",
+            "cidade": "CRUZEIRO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3977",
+            "cidade": "DAVID CANABARRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3978",
+            "cidade": "DERRUBADAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3979",
+            "cidade": "DEZESSEIS DE NOVEMBRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3980",
+            "cidade": "DILERMANDO DE AGUIAR",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3981",
+            "cidade": "DOIS IRMAOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3982",
+            "cidade": "DOIS IRMAOS DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3983",
+            "cidade": "DOIS LAJEADOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3984",
+            "cidade": "DOM FELICIANO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3985",
+            "cidade": "DOM PEDRITO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3986",
+            "cidade": "DOM PEDRO DE ALCANTARA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3987",
+            "cidade": "DONA FRANCISCA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3988",
+            "cidade": "DOUTOR MAURICIO CARDOSO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3989",
+            "cidade": "DOUTOR RICARDO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3990",
+            "cidade": "ELDORADO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3991",
+            "cidade": "ENCANTADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3992",
+            "cidade": "ENCRUZILHADA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3993",
+            "cidade": "ENGENHO VELHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3994",
+            "cidade": "ENTRE RIOS DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3995",
+            "cidade": "ENTRE-IJUIS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3996",
+            "cidade": "EREBANGO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3997",
+            "cidade": "ERECHIM",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3998",
+            "cidade": "ERNESTINA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "3999",
+            "cidade": "ERVAL GRANDE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4000",
+            "cidade": "ERVAL SECO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4001",
+            "cidade": "ESMERALDA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4002",
+            "cidade": "ESPERANCA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4003",
+            "cidade": "ESPUMOSO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4004",
+            "cidade": "ESTACAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4005",
+            "cidade": "ESTANCIA VELHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4006",
+            "cidade": "ESTEIO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4007",
+            "cidade": "ESTRELA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4008",
+            "cidade": "ESTRELA VELHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4009",
+            "cidade": "EUGENIO DE CASTRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4010",
+            "cidade": "FAGUNDES VARELA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4011",
+            "cidade": "FARROUPILHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4012",
+            "cidade": "FAXINAL DO SOTURNO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4013",
+            "cidade": "FAXINALZINHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4014",
+            "cidade": "FAZENDA VILANOVA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4015",
+            "cidade": "FELIZ",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4016",
+            "cidade": "FLORES DA CUNHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4017",
+            "cidade": "FLORIANO PEIXOTO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4018",
+            "cidade": "FONTOURA XAVIER",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4019",
+            "cidade": "FORMIGUEIRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4020",
+            "cidade": "FORQUETINHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4021",
+            "cidade": "FORTALEZA DOS VALOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4022",
+            "cidade": "FREDERICO WESTPHALEN",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4023",
+            "cidade": "GARIBALDI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4024",
+            "cidade": "GARRUCHOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4025",
+            "cidade": "GAURAMA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4026",
+            "cidade": "GENERAL CAMARA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4027",
+            "cidade": "GENTIL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4028",
+            "cidade": "GETULIO VARGAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4029",
+            "cidade": "GIRUA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4030",
+            "cidade": "GLORINHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4031",
+            "cidade": "GRAMADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4032",
+            "cidade": "GRAMADO DOS LOUREIROS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4033",
+            "cidade": "GRAMADO XAVIER",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4034",
+            "cidade": "GRAVATAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4035",
+            "cidade": "GUABIJU",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4036",
+            "cidade": "GUAIBA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4037",
+            "cidade": "GUAPORE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4038",
+            "cidade": "GUARANI DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4039",
+            "cidade": "HARMONIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4040",
+            "cidade": "HERVAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4041",
+            "cidade": "HERVEIRAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4042",
+            "cidade": "HORIZONTINA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4043",
+            "cidade": "HULHA NEGRA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4044",
+            "cidade": "HUMAITA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4045",
+            "cidade": "IBARAMA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4046",
+            "cidade": "IBIACA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4047",
+            "cidade": "IBIRAIARAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4048",
+            "cidade": "IBIRAPUITA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4049",
+            "cidade": "IBIRUBA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4050",
+            "cidade": "IGREJINHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4051",
+            "cidade": "IJUI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4052",
+            "cidade": "ILOPOLIS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4053",
+            "cidade": "IMBE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4054",
+            "cidade": "IMIGRANTE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4055",
+            "cidade": "INDEPENDENCIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4056",
+            "cidade": "INHACORA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4057",
+            "cidade": "IPE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4058",
+            "cidade": "IPIRANGA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4059",
+            "cidade": "IRAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4060",
+            "cidade": "ITAARA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4061",
+            "cidade": "ITACURUBI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4062",
+            "cidade": "ITAPUCA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4063",
+            "cidade": "ITAQUI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4064",
+            "cidade": "ITATI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4065",
+            "cidade": "ITATIBA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4066",
+            "cidade": "IVORA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4067",
+            "cidade": "IVOTI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4068",
+            "cidade": "JABOTICABA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4069",
+            "cidade": "JACUIZINHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4070",
+            "cidade": "JACUTINGA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4071",
+            "cidade": "JAGUARAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4072",
+            "cidade": "JAGUARI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4073",
+            "cidade": "JAQUIRANA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4074",
+            "cidade": "JARI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4075",
+            "cidade": "JOIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4076",
+            "cidade": "JULIO DE CASTILHOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4077",
+            "cidade": "LAGOA BONITA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4078",
+            "cidade": "LAGOA DOS TRES CANTOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4079",
+            "cidade": "LAGOA VERMELHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4080",
+            "cidade": "LAGOAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4081",
+            "cidade": "LAJEADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4082",
+            "cidade": "LAJEADO DO BUGRE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4083",
+            "cidade": "LAVRAS DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4084",
+            "cidade": "LIBERATO SALZANO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4085",
+            "cidade": "LINDOLFO COLLOR",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4086",
+            "cidade": "LINHA NOVA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4087",
+            "cidade": "MACAMBARA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4088",
+            "cidade": "MACHADINHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4089",
+            "cidade": "MAMPITUBA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4090",
+            "cidade": "MANOEL VIANA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4091",
+            "cidade": "MAQUINE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4092",
+            "cidade": "MARATA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4093",
+            "cidade": "MARAU",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4094",
+            "cidade": "MARCELINO RAMOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4095",
+            "cidade": "MARIANA PIMENTEL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4096",
+            "cidade": "MARIANO MORO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4097",
+            "cidade": "MARQUES DE SOUZA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4098",
+            "cidade": "MATA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4099",
+            "cidade": "MATO CASTELHANO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4100",
+            "cidade": "MATO LEITAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4101",
+            "cidade": "MATO QUEIMADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4102",
+            "cidade": "MAXIMILIANO DE ALMEIDA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4103",
+            "cidade": "MINAS DO LEAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4104",
+            "cidade": "MIRAGUAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4105",
+            "cidade": "MONTAURI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4106",
+            "cidade": "MONTE ALEGRE DOS CAMPOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4107",
+            "cidade": "MONTE BELO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4108",
+            "cidade": "MONTENEGRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4109",
+            "cidade": "MORMACO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4110",
+            "cidade": "MORRINHOS DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4111",
+            "cidade": "MORRO REDONDO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4112",
+            "cidade": "MORRO REUTER",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4113",
+            "cidade": "MOSTARDAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4114",
+            "cidade": "MUCUM",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4115",
+            "cidade": "MUITOS CAPOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4116",
+            "cidade": "MULITERNO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4117",
+            "cidade": "NAO-ME-TOQUE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4118",
+            "cidade": "NICOLAU VERGUEIRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4119",
+            "cidade": "NONOAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4120",
+            "cidade": "NOVA ALVORADA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4121",
+            "cidade": "NOVA ARACA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4122",
+            "cidade": "NOVA BASSANO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4123",
+            "cidade": "NOVA BOA VISTA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4124",
+            "cidade": "NOVA BRESCIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4125",
+            "cidade": "NOVA CANDELARIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4126",
+            "cidade": "NOVA ESPERANCA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4127",
+            "cidade": "NOVA HARTZ",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4128",
+            "cidade": "NOVA PADUA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4129",
+            "cidade": "NOVA PALMA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4130",
+            "cidade": "NOVA PETROPOLIS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4131",
+            "cidade": "NOVA PRATA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4132",
+            "cidade": "NOVA RAMADA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4133",
+            "cidade": "NOVA ROMA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4134",
+            "cidade": "NOVA SANTA RITA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4135",
+            "cidade": "NOVO BARREIRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4136",
+            "cidade": "NOVO CABRAIS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4137",
+            "cidade": "NOVO HAMBURGO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4138",
+            "cidade": "NOVO MACHADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4139",
+            "cidade": "NOVO TIRADENTES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4140",
+            "cidade": "NOVO XINGU",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4141",
+            "cidade": "OSORIO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4142",
+            "cidade": "PAIM FILHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4143",
+            "cidade": "PALMARES DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4144",
+            "cidade": "PALMEIRA DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4145",
+            "cidade": "PALMITINHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4146",
+            "cidade": "PANAMBI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4147",
+            "cidade": "PANTANO GRANDE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4148",
+            "cidade": "PARAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4149",
+            "cidade": "PARAISO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4150",
+            "cidade": "PARECI NOVO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4151",
+            "cidade": "PAROBE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4152",
+            "cidade": "PASSA SETE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4153",
+            "cidade": "PASSO DO SOBRADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4154",
+            "cidade": "PASSO FUNDO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4155",
+            "cidade": "PAULO BENTO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4156",
+            "cidade": "PAVERAMA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4157",
+            "cidade": "PEDRAS ALTAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4158",
+            "cidade": "PEDRO OSORIO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4159",
+            "cidade": "PEJUCARA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4160",
+            "cidade": "PELOTAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4161",
+            "cidade": "PICADA CAFE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4162",
+            "cidade": "PINHAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4163",
+            "cidade": "PINHAL DA SERRA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4164",
+            "cidade": "PINHAL GRANDE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4165",
+            "cidade": "PINHEIRINHO DO VALE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4166",
+            "cidade": "PINHEIRO MACHADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4167",
+            "cidade": "PIRAPO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4168",
+            "cidade": "PIRATINI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4169",
+            "cidade": "PLANALTO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4170",
+            "cidade": "POCO DAS ANTAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4171",
+            "cidade": "PONTAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4172",
+            "cidade": "PONTE PRETA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4173",
+            "cidade": "PORTAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4174",
+            "cidade": "PORTO ALEGRE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4175",
+            "cidade": "PORTO LUCENA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4176",
+            "cidade": "PORTO MAUA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4177",
+            "cidade": "PORTO VERA CRUZ",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4178",
+            "cidade": "PORTO XAVIER",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4179",
+            "cidade": "POUSO NOVO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4180",
+            "cidade": "PRESIDENTE LUCENA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4181",
+            "cidade": "PROGRESSO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4182",
+            "cidade": "PROTASIO ALVES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4183",
+            "cidade": "PUTINGA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4184",
+            "cidade": "QUARAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4185",
+            "cidade": "QUATRO IRMAOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4186",
+            "cidade": "QUEVEDOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4187",
+            "cidade": "QUINZE DE NOVEMBRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4188",
+            "cidade": "REDENTORA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4189",
+            "cidade": "RELVADO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4190",
+            "cidade": "RESTINGA SECA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4191",
+            "cidade": "RIO DOS INDIOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4192",
+            "cidade": "RIO GRANDE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4193",
+            "cidade": "RIO PARDO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4194",
+            "cidade": "RIOZINHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4195",
+            "cidade": "ROCA SALES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4196",
+            "cidade": "RODEIO BONITO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4197",
+            "cidade": "ROLADOR",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4198",
+            "cidade": "ROLANTE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4199",
+            "cidade": "RONDA ALTA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4200",
+            "cidade": "RONDINHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4201",
+            "cidade": "ROQUE GONZALES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4202",
+            "cidade": "ROSARIO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4203",
+            "cidade": "SAGRADA FAMILIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4204",
+            "cidade": "SALDANHA MARINHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4205",
+            "cidade": "SALTO DO JACUI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4206",
+            "cidade": "SALVADOR DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4207",
+            "cidade": "SALVADOR DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4208",
+            "cidade": "SANANDUVA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4209",
+            "cidade": "SANTA BARBARA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4210",
+            "cidade": "SANTA CECILIA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4211",
+            "cidade": "SANTA CLARA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4212",
+            "cidade": "SANTA CRUZ DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4213",
+            "cidade": "SANTA MARGARIDA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4214",
+            "cidade": "SANTA MARIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4215",
+            "cidade": "SANTA MARIA DO HERVAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4216",
+            "cidade": "SANTA ROSA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4217",
+            "cidade": "SANTA TEREZA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4218",
+            "cidade": "SANTA VITORIA DO PALMAR",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4219",
+            "cidade": "SANTANA DA BOA VISTA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4220",
+            "cidade": "SANTANA DO LIVRAMENTO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4221",
+            "cidade": "SANTIAGO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4222",
+            "cidade": "SANTO ÂNGELO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4223",
+            "cidade": "SANTO ANTONIO DA PATRULHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4224",
+            "cidade": "SANTO ANTONIO DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4225",
+            "cidade": "SANTO ANTONIO DO PALMA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4226",
+            "cidade": "SANTO ANTONIO DO PLANALTO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4227",
+            "cidade": "SANTO AUGUSTO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4228",
+            "cidade": "SANTO CRISTO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4229",
+            "cidade": "SANTO EXPEDITO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4230",
+            "cidade": "SAO BORJA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4231",
+            "cidade": "SAO DOMINGOS DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4232",
+            "cidade": "SAO FRANCISCO DE ASSIS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4233",
+            "cidade": "SAO FRANCISCO DE PAULA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4234",
+            "cidade": "SAO GABRIEL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4235",
+            "cidade": "SAO JERONIMO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4236",
+            "cidade": "SAO JOAO DA URTIGA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4237",
+            "cidade": "SAO JOAO DO POLESINE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4238",
+            "cidade": "SAO JORGE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4239",
+            "cidade": "SAO JOSE DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4240",
+            "cidade": "SAO JOSE DO HERVAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4241",
+            "cidade": "SAO JOSE DO HORTENCIO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4242",
+            "cidade": "SAO JOSE DO INHACORA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4243",
+            "cidade": "SAO JOSE DO NORTE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4244",
+            "cidade": "SAO JOSE DO OURO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4245",
+            "cidade": "SAO JOSE DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4246",
+            "cidade": "SAO JOSE DOS AUSENTES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4247",
+            "cidade": "SAO LEOPOLDO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4248",
+            "cidade": "SAO LOURENCO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4249",
+            "cidade": "SAO LUIZ GONZAGA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4250",
+            "cidade": "SAO MARCOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4251",
+            "cidade": "SAO MARTINHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4252",
+            "cidade": "SAO MARTINHO DA SERRA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4253",
+            "cidade": "SAO MIGUEL DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4254",
+            "cidade": "SAO NICOLAU",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4255",
+            "cidade": "SAO PAULO DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4256",
+            "cidade": "SAO PEDRO DA SERRA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4257",
+            "cidade": "SAO PEDRO DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4258",
+            "cidade": "SAO PEDRO DO BUTIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4259",
+            "cidade": "SAO PEDRO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4260",
+            "cidade": "SAO SEBASTIAO DO CAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4261",
+            "cidade": "SAO SEPE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4262",
+            "cidade": "SAO VALENTIM",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4263",
+            "cidade": "SAO VALENTIM DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4264",
+            "cidade": "SAO VALERIO DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4265",
+            "cidade": "SAO VENDELINO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4266",
+            "cidade": "SAO VICENTE DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4267",
+            "cidade": "SAPIRANGA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4268",
+            "cidade": "SAPUCAIA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4269",
+            "cidade": "SARANDI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4270",
+            "cidade": "SEBERI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4271",
+            "cidade": "SEDE NOVA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4272",
+            "cidade": "SEGREDO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4273",
+            "cidade": "SELBACH",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4274",
+            "cidade": "SENADOR SALGADO FILHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4275",
+            "cidade": "SENTINELA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4276",
+            "cidade": "SERAFINA CORREA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4277",
+            "cidade": "SERIO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4278",
+            "cidade": "SERTAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4279",
+            "cidade": "SERTAO SANTANA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4280",
+            "cidade": "SETE DE SETEMBRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4281",
+            "cidade": "SEVERIANO DE ALMEIDA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4282",
+            "cidade": "SILVEIRA MARTINS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4283",
+            "cidade": "SINIMBU",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4284",
+            "cidade": "SOBRADINHO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4285",
+            "cidade": "SOLEDADE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4286",
+            "cidade": "TABAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4287",
+            "cidade": "TAPEJARA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4288",
+            "cidade": "TAPERA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4289",
+            "cidade": "TAPES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4290",
+            "cidade": "TAQUARA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4291",
+            "cidade": "TAQUARI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4292",
+            "cidade": "TAQUARUCU DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4293",
+            "cidade": "TAVARES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4294",
+            "cidade": "TENENTE PORTELA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4295",
+            "cidade": "TERRA DE AREIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4296",
+            "cidade": "TEUTONIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4297",
+            "cidade": "TIO HUGO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4298",
+            "cidade": "TIRADENTES DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4299",
+            "cidade": "TOROPI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4300",
+            "cidade": "TORRES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4301",
+            "cidade": "TRAMANDAI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4302",
+            "cidade": "TRAVESSEIRO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4303",
+            "cidade": "TRES ARROIOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4304",
+            "cidade": "TRES CACHOEIRAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4305",
+            "cidade": "TRES COROAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4306",
+            "cidade": "TRES DE MAIO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4307",
+            "cidade": "TRES FORQUILHAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4308",
+            "cidade": "TRES PALMEIRAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4309",
+            "cidade": "TRES PASSOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4310",
+            "cidade": "TRINDADE DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4311",
+            "cidade": "TRIUNFO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4312",
+            "cidade": "TUCUNDUVA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4313",
+            "cidade": "TUNAS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4314",
+            "cidade": "TUPANCI DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4315",
+            "cidade": "TUPANCIRETA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4316",
+            "cidade": "TUPANDI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4317",
+            "cidade": "TUPARENDI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4318",
+            "cidade": "TURUCU",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4319",
+            "cidade": "UBIRETAMA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4320",
+            "cidade": "UNIAO DA SERRA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4321",
+            "cidade": "UNISTALDA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4322",
+            "cidade": "URUGUAIANA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4323",
+            "cidade": "VACARIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4324",
+            "cidade": "VALE DO SOL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4325",
+            "cidade": "VALE REAL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4326",
+            "cidade": "VALE VERDE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4327",
+            "cidade": "VANINI",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4328",
+            "cidade": "VENANCIO AIRES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4329",
+            "cidade": "VERA CRUZ",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4330",
+            "cidade": "VERANOPOLIS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4331",
+            "cidade": "VESPASIANO CORREA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4332",
+            "cidade": "VIADUTOS",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4333",
+            "cidade": "VIAMAO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4334",
+            "cidade": "VICENTE DUTRA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4335",
+            "cidade": "VICTOR GRAEFF",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4336",
+            "cidade": "VILA FLORES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4337",
+            "cidade": "VILA LANGARO",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4338",
+            "cidade": "VILA MARIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4339",
+            "cidade": "VILA NOVA DO SUL",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4340",
+            "cidade": "VISTA ALEGRE",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4341",
+            "cidade": "VISTA ALEGRE DO PRATA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4342",
+            "cidade": "VISTA GAUCHA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4343",
+            "cidade": "VITORIA DAS MISSOES",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4344",
+            "cidade": "WESTFALIA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          },
+          {
+            "id": "4345",
+            "cidade": "XANGRI-LA",
+            "sigla": "RS",
+            "estado": "RIO GRANDE DO SUL"
+          }
+    ]
+}

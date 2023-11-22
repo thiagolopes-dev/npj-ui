@@ -1,0 +1,199 @@
+<main>
+  <p-card styleClass="card-adjust">
+    <h4>{{ editando ? "Edição de" : "Cadastro de" }} Processo</h4>
+    <div class="flex justify-content-start mb-2">
+      <div>
+        <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-caret-left"
+          pTooltip="Voltar" tooltipPosition="top" routerLink="/processos"></button>
+      </div>
+    </div>
+    <br />
+    <form #formProcesso="ngForm" autocomplete="off" (ngSubmit)="salvar(formProcesso)">
+      <p-tabView>
+        <p-tabPanel>
+          <ng-template pTemplate="header">
+            <i class="pi pi-file-edit" style="margin-right: 0.3125rem;"></i>
+            <span>Processo</span>
+          </ng-template>
+          <div class="grid">
+            <div class="col-12 md:col-6 lg:col-3">
+              <h6><span class="obrigatorio">*</span>Número do Processo</h6>
+              <input class="w-full"  pInputText name="processo"
+                type="text" [pKeyFilter]="regex.stringNumber" [(ngModel)]="newprocesso.numeroprocesso"
+                #processo="ngModel" required minlength="3" disabled upperCase>
+              <app-message [control]="processo" error="required" text="Informe o Numero do Processo"></app-message>
+              <app-message [control]="processo" error="minlength" text="Mínimo de {{
+              processo.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-3">
+              <h6><span class="obrigatorio">*</span>Cliente</h6>
+              <p-dropdown styleClass="w-full" [options]="clientes" [(ngModel)]="newprocesso.cliente" #cliente="ngModel"
+                name="cliente" placeholder="Selecione o Cliente" [showClear]="true" optionLabel="nome"
+                required></p-dropdown>
+
+              <app-message [control]="cliente" error="required" text="Informe o Cliente"></app-message>
+              <app-message [control]="cliente" error="minlength" text="Mínimo de {{
+              cliente.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-3">
+              <h6><span class="obrigatorio">*</span>Vara</h6>
+              <p-dropdown styleClass="w-full" [options]="varas" [(ngModel)]="newprocesso.vara" #vara="ngModel"
+                name="vara" placeholder="Selecione a Vara" [showClear]="true" optionLabel="descricao"
+                required></p-dropdown>
+              <app-message [control]="vara" error="required" text="Informe a Vara"></app-message>
+              <app-message [control]="vara" error="minlength" text="Mínimo de {{
+              vara.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-3">
+              <h6><span class="obrigatorio">*</span>Motivo</h6>
+              <p-dropdown styleClass="w-full" [options]="motivos" [(ngModel)]="newprocesso.motivo" #motivo="ngModel"
+                name="motivo" placeholder="Selecione o Motivo" [showClear]="true" optionLabel="descricao"
+                required></p-dropdown>
+              <app-message [control]="motivo" error="required" text="Informe o Motivo"></app-message>
+              <app-message [control]="motivo" error="minlength" text="Mínimo de {{
+              motivo.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+            </div>
+
+            <!-- <div class="col-12 md:col-6 lg:col-4">
+              <h6><span class="obrigatorio">*</span>Data</h6>
+              <p-calendar styleClass="w-full " #datacricao="ngModel" dateFormat="dd/mm/yy" [readonlyInput]="true"
+                [(ngModel)]="itensprocesso.datacriacao" name="datacricao" type="text" required></p-calendar>
+              <app-message [control]="datacricao" error="required" text="Informe a Data"></app-message>
+              <app-message [control]="datacricao" error="minlength" text="Mínimo de {{
+            datacricao.errors?.minlength?.requiredLength
+          }} caracteres"></app-message>
+            </div> -->
+
+            <div class="col-12 md:col-6 lg:col-3">
+              <h6><span class="obrigatorio">*</span>Status</h6>
+              <p-dropdown styleClass="w-full" [options]="statusoptions" [(ngModel)]="newprocesso.status"
+                #status="ngModel" name="status" placeholder="Selecione o Status" [showClear]="true"
+                optionLabel="descricao" required></p-dropdown>
+              <app-message [control]="status" error="required" text="Informe o Status"></app-message>
+              <app-message [control]="status" error="minlength" text="Mínimo de {{
+              status.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+            </div>
+
+        
+
+          </div>
+        </p-tabPanel>
+
+        <p-tabPanel>
+          <ng-template pTemplate="header">
+            <i class="pi pi-list" style="margin-right: 0.3125rem;"></i>
+            <span>Processo Informações</span>
+          </ng-template>
+          <div class="grid p-fluid p-justify-start">
+            <div class="col-12 md:col-6 lg:col-3">
+              <button pButton class="p-button-raised p-button-warning w-full md:w-12 lg:w-10" type="button" pTooltip="Nova Informação"
+                tooltipPosition="top" label="Nova Informação" icon="pi pi-plus" (click)="prepararNovaInfo()"></button>
+            </div>
+          </div>
+          
+        
+              <p-table #tabelaExtras styleClass="p-datatable-striped p-datatable-gridlines" [value]="newprocesso.itensprocesso"
+              [columns]="colsInfo" [globalFilterFields]="colsInfo"
+               [showCurrentPageReport]="true"
+              [scrollable]="true" [rows]="10" selectionMode="single">
+
+              <ng-template pTemplate="header" let-columns>
+                <tr>
+                  <th class="tdAcoes">&nbsp;</th>
+                  <th class="responsivetable" *ngFor="let colsInfo of columns"
+                    [ngStyle]="{'min-width': colsInfo.width}">
+                    {{colsInfo.header}}
+                  </th>
+                </tr>
+              </ng-template>
+              <ng-template pTemplate="body" pTemplate="body" let-info let-rowIndex="rowIndex" let-rowData
+                let-columns="columns">
+                <tr>
+                  <td class="tdAcoes">
+                    <button pButton pRipple type="button" class="p-button-raised p-button-warning" pTooltip="Editar"
+                      tooltipPosition="top" icon="pi pi-pencil" (click)="preparaEdicaoInfo(info, rowIndex)"></button>
+    
+                    <button pButton pRipple type="button" class="p-button-raised  p-button-danger ml-1" pTooltip="Excluir"
+                      tooltipPosition="top" icon="pi pi-trash" (click)="removerInfo(rowIndex)"></button>
+                  </td>
+    
+                  <td class="responsivetable" *ngFor="let colsitem of columns" [ngStyle]="{'min-width': colsitem.width}"
+                    pTooltip="{{rowData[colsitem.field]}}" tooltipPosition="top">
+                    <span class="p-column-title">{{colsitem.header}}:</span>
+                    {{ colsitem.data ? (rowData[colsitem.field]| date :
+                      colsitem.format) : colsitem.status ? (rowData[colsitem.field] ? 'Ativo' : 'Inativo') : rowData[colsitem.field]}}
+                  </td>
+                </tr>
+    
+              </ng-template>
+              <ng-template pTemplate="emptymessage" let-columns>
+                <tr>
+                  <td colspan="5">
+                    <p class="emptyMessage">Nenhum registro encontrado...</p>
+                  </td>
+                </tr>
+              </ng-template>
+            </p-table>
+          
+        </p-tabPanel>
+
+      </p-tabView>
+      <br />
+      <div class="flex flex-wrap justify-content-center">
+        <div class="col-12 md:col-6 lg:col-4">
+          <button pButton pRipple type="submit" label="Salvar" icon="fas fa-save"
+            [disabled]="formProcesso.invalid || salvando || newprocesso.itensprocesso.length === 0" class="p-button-raised p-button-warning w-full"></button>
+
+        </div>
+        <!-- <div class="col-12 md:col-6 lg:col-4">
+          <button pButton pRipple type="button" class="p-button-outlined p-button-primary w-full" icon="fas fa-trash"
+            pTooltip="Excluir" tooltipPosition="top"
+            (click)="confirmarExclusao()" label="Excluir"></button>
+        </div> -->
+      </div>
+
+      <div *ngIf="salvando" class="grid justify-content-center mt-4">
+        <div class="grid col-12 justify-content-center">
+          <p-progressSpinner [style]="{ width: '50px', height: '50px' }" styleClass="custom-spinner" strokeWidth="8"
+            animationDuration=".5s">
+          </p-progressSpinner>
+        </div>
+        <div class="grid col-12 justify-content-center">
+          <h6>Salvando aguarde...</h6>
+        </div>
+      </div>
+    </form>
+  </p-card>
+
+  <p-dialog header="Informações Processo" styleClass="mydialog" modal="true" [(visible)]="showDialogProcesso" *ngIf="itensprocesso"
+  dismissableMask="true">
+  <br>
+  <form #formInfo="ngForm" autocomplete="off" (ngSubmit)="confirmarItensProcesso(formInfo)">
+    <div class="grid flex justify-content-center">
+      <div class="col-12 md:col-6 lg:col-4">
+        <h6><span class="obrigatorio">*</span>Descrição</h6>
+        <input pInputText name="informacoes" id="informacoes" type="text" #informacoes="ngModel" [(ngModel)]="itensprocesso.informacoes" required>
+        <app-message [control]="informacoes" error="required" text="Detalhe as informações"></app-message>
+      </div>
+    </div>
+    <p-footer>
+      <div class="grid p-fluid justify-content-center mt-8">
+        <div class="col-12 md:col-6 lg:col-3">
+          <button pButton pRipple type="submit" label="Confirmar" icon="fas fa-save" [disabled]="formInfo.invalid"
+            class="p-button-raised p-button-warning w-full"></button>
+        </div>
+      </div>
+    </p-footer>
+  </form>
+</p-dialog>
+
+
+</main>

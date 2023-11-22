@@ -1,0 +1,1481 @@
+{
+    "data": [
+        
+    {
+        "id": "883",
+        "cidade": "ABADIA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "884",
+        "cidade": "ABADIANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "885",
+        "cidade": "ACREUNA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "886",
+        "cidade": "ADELANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "887",
+        "cidade": "AGUA FRIA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "888",
+        "cidade": "AGUA LIMPA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "889",
+        "cidade": "AGUAS LINDAS DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "890",
+        "cidade": "ALEXANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "891",
+        "cidade": "ALOANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "892",
+        "cidade": "ALTO HORIZONTE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "893",
+        "cidade": "ALTO PARAISO DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "894",
+        "cidade": "ALVORADA DO NORTE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "895",
+        "cidade": "AMARALINA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "896",
+        "cidade": "AMERICANO DO BRASIL",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "897",
+        "cidade": "AMORINOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "898",
+        "cidade": "ANAPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "899",
+        "cidade": "ANHANGUERA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "900",
+        "cidade": "ANICUNS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "901",
+        "cidade": "APARECIDA DE GOIANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "902",
+        "cidade": "APARECIDA DO RIO DOCE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "903",
+        "cidade": "APORE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "904",
+        "cidade": "ARACU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "905",
+        "cidade": "ARAGARCAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "906",
+        "cidade": "ARAGOIANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "907",
+        "cidade": "ARAGUAPAZ",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "908",
+        "cidade": "ARENOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "909",
+        "cidade": "ARUANA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "910",
+        "cidade": "AURILANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "911",
+        "cidade": "AVELINOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "912",
+        "cidade": "BALIZA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "913",
+        "cidade": "BARRO ALTO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "914",
+        "cidade": "BELA VISTA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "915",
+        "cidade": "BOM JARDIM DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "916",
+        "cidade": "BOM JESUS DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "917",
+        "cidade": "BONFINOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "918",
+        "cidade": "BONOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "919",
+        "cidade": "BRAZABRANTES",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "920",
+        "cidade": "BRITANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "921",
+        "cidade": "BURITI ALEGRE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "922",
+        "cidade": "BURITI DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "923",
+        "cidade": "BURITINOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "924",
+        "cidade": "CABECEIRAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "925",
+        "cidade": "CACHOEIRA ALTA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "926",
+        "cidade": "CACHOEIRA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "927",
+        "cidade": "CACHOEIRA DOURADA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "928",
+        "cidade": "CACU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "929",
+        "cidade": "CAIAPONIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "930",
+        "cidade": "CALDAS NOVAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "931",
+        "cidade": "CALDAZINHA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "932",
+        "cidade": "CAMPESTRE DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "933",
+        "cidade": "CAMPINACU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "934",
+        "cidade": "CAMPINORTE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "935",
+        "cidade": "CAMPO ALEGRE DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "936",
+        "cidade": "CAMPO LIMPO DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "937",
+        "cidade": "CAMPOS BELOS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "938",
+        "cidade": "CAMPOS VERDES",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "939",
+        "cidade": "CARMO DO RIO VERDE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "940",
+        "cidade": "CASTELANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "941",
+        "cidade": "CATALAO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "942",
+        "cidade": "CATURAI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "943",
+        "cidade": "CAVALCANTE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "944",
+        "cidade": "CERES",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "945",
+        "cidade": "CEZARINA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "946",
+        "cidade": "CHAPADAO DO CEU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "947",
+        "cidade": "CIDADE OCIDENTAL",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "948",
+        "cidade": "COCALZINHO DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "949",
+        "cidade": "COLINAS DO SUL",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "950",
+        "cidade": "CORREGO DO OURO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "951",
+        "cidade": "CORUMBA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "952",
+        "cidade": "CORUMBAIBA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "953",
+        "cidade": "CRISTALINA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "954",
+        "cidade": "CRISTIANOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "955",
+        "cidade": "CRIXAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "956",
+        "cidade": "CROMINIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "957",
+        "cidade": "CUMARI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "958",
+        "cidade": "DAMIANOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "959",
+        "cidade": "DAMOLANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "960",
+        "cidade": "DAVINOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "961",
+        "cidade": "DIORAMA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "962",
+        "cidade": "DIVINOPOLIS DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "963",
+        "cidade": "DOVERLANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "964",
+        "cidade": "EDEALINA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "965",
+        "cidade": "EDEIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "966",
+        "cidade": "ESTRELA DO NORTE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "967",
+        "cidade": "FAINA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "968",
+        "cidade": "FAZENDA NOVA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "969",
+        "cidade": "FIRMINOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "970",
+        "cidade": "FLORES DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "971",
+        "cidade": "FORMOSA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "972",
+        "cidade": "FORMOSO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "973",
+        "cidade": "GAMELEIRA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "974",
+        "cidade": "GOIANAPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "975",
+        "cidade": "GOIANDIRA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "976",
+        "cidade": "GOIANESIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "977",
+        "cidade": "GOIANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "978",
+        "cidade": "GOIANIRA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "979",
+        "cidade": "GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "980",
+        "cidade": "GOIATUBA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "981",
+        "cidade": "GOUVELANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "982",
+        "cidade": "GUAPO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "983",
+        "cidade": "GUARAITA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "984",
+        "cidade": "GUARANI DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "985",
+        "cidade": "GUARINOS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "986",
+        "cidade": "HEITORAI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "987",
+        "cidade": "HIDROLANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "988",
+        "cidade": "HIDROLINA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "989",
+        "cidade": "IACIARA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "990",
+        "cidade": "INACIOLANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "991",
+        "cidade": "INDIARA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "992",
+        "cidade": "INHUMAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "993",
+        "cidade": "IPAMERI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "994",
+        "cidade": "IPIRANGA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "995",
+        "cidade": "IPORA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "996",
+        "cidade": "ISRAELANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "997",
+        "cidade": "ITABERAI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "998",
+        "cidade": "ITAGUARI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "999",
+        "cidade": "ITAGUARU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1000",
+        "cidade": "ITAJA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1001",
+        "cidade": "ITAPACI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1002",
+        "cidade": "ITAPIRAPUA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1003",
+        "cidade": "ITAPURANGA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1004",
+        "cidade": "ITARUMA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1005",
+        "cidade": "ITAUCU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1006",
+        "cidade": "ITUMBIARA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1007",
+        "cidade": "IVOLANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1008",
+        "cidade": "JANDAIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1009",
+        "cidade": "JARAGUA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1010",
+        "cidade": "JATAI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1011",
+        "cidade": "JAUPACI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1012",
+        "cidade": "JESUPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1013",
+        "cidade": "JOVIANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1014",
+        "cidade": "JUSSARA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1015",
+        "cidade": "LAGOA SANTA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1016",
+        "cidade": "LEOPOLDO DE BULHOES",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1017",
+        "cidade": "LUZIANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1018",
+        "cidade": "MAIRIPOTABA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1019",
+        "cidade": "MAMBAI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1020",
+        "cidade": "MARA ROSA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1021",
+        "cidade": "MARZAGAO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1022",
+        "cidade": "MATRINCHA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1023",
+        "cidade": "MAURILANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1024",
+        "cidade": "MIMOSO DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1025",
+        "cidade": "MINACU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1026",
+        "cidade": "MINEIROS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1027",
+        "cidade": "MOIPORA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1028",
+        "cidade": "MONTE ALEGRE DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1029",
+        "cidade": "MONTES CLAROS DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1030",
+        "cidade": "MONTIVIDIU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1031",
+        "cidade": "MONTIVIDIU DO NORTE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1032",
+        "cidade": "MORRINHOS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1033",
+        "cidade": "MORRO AGUDO DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1034",
+        "cidade": "MOSSAMEDES",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1035",
+        "cidade": "MOZARLANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1036",
+        "cidade": "MUNDO NOVO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1037",
+        "cidade": "MUTUNOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1038",
+        "cidade": "NAZARIO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1039",
+        "cidade": "NEROPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1040",
+        "cidade": "NIQUELANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1041",
+        "cidade": "NOVA AMERICA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1042",
+        "cidade": "NOVA AURORA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1043",
+        "cidade": "NOVA CRIXAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1044",
+        "cidade": "NOVA GLORIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1045",
+        "cidade": "NOVA IGUACU DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1046",
+        "cidade": "NOVA ROMA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1047",
+        "cidade": "NOVA VENEZA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1048",
+        "cidade": "NOVO BRASIL",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1049",
+        "cidade": "NOVO GAMA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1050",
+        "cidade": "NOVO PLANALTO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1051",
+        "cidade": "ORIZONA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1052",
+        "cidade": "OURO VERDE DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1053",
+        "cidade": "OUVIDOR",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1054",
+        "cidade": "PADRE BERNARDO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1055",
+        "cidade": "PALESTINA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1056",
+        "cidade": "PALMEIRAS DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1057",
+        "cidade": "PALMELO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1058",
+        "cidade": "PALMINOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1059",
+        "cidade": "PANAMA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1060",
+        "cidade": "PARANAIGUARA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1061",
+        "cidade": "PARAUNA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1062",
+        "cidade": "PEROLANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1063",
+        "cidade": "PETROLINA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1064",
+        "cidade": "PILAR DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1065",
+        "cidade": "PIRACANJUBA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1066",
+        "cidade": "PIRANHAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1067",
+        "cidade": "PIRENOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1068",
+        "cidade": "PIRES DO RIO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1069",
+        "cidade": "PLANALTINA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1070",
+        "cidade": "PONTALINA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1071",
+        "cidade": "PORANGATU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1072",
+        "cidade": "PORTEIRAO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1073",
+        "cidade": "PORTELANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1074",
+        "cidade": "POSSE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1075",
+        "cidade": "PROFESSOR JAMIL",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1076",
+        "cidade": "QUIRINOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1077",
+        "cidade": "RIALMA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1078",
+        "cidade": "RIANAPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1079",
+        "cidade": "RIO QUENTE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1080",
+        "cidade": "RIO VERDE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1081",
+        "cidade": "RUBIATABA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1082",
+        "cidade": "SANCLERLANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1083",
+        "cidade": "SANTA BARBARA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1084",
+        "cidade": "SANTA CRUZ DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1085",
+        "cidade": "SANTA FE DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1086",
+        "cidade": "SANTA HELENA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1087",
+        "cidade": "SANTA ISABEL",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1088",
+        "cidade": "SANTA RITA DO ARAGUAIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1089",
+        "cidade": "SANTA RITA DO NOVO DESTINO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1090",
+        "cidade": "SANTA ROSA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1091",
+        "cidade": "SANTA TEREZA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1092",
+        "cidade": "SANTA TEREZINHA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1093",
+        "cidade": "SANTO ANTONIO DA BARRA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1094",
+        "cidade": "SANTO ANTONIO DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1095",
+        "cidade": "SANTO ANTONIO DO DESCOBERTO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1096",
+        "cidade": "SAO DOMINGOS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1097",
+        "cidade": "SAO FRANCISCO DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1098",
+        "cidade": "SAO JOAO D`ALIANCA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1099",
+        "cidade": "SAO JOAO DA PARAUNA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1100",
+        "cidade": "SAO LUIS DE MONTES BELOS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1101",
+        "cidade": "SAO LUIZ DO NORTE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1102",
+        "cidade": "SAO MIGUEL DO ARAGUAIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1103",
+        "cidade": "SAO MIGUEL DO PASSA QUATRO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1104",
+        "cidade": "SAO PATRICIO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1105",
+        "cidade": "SAO SIMAO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1106",
+        "cidade": "SENADOR CANEDO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1107",
+        "cidade": "SERRANOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1108",
+        "cidade": "SILVANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1109",
+        "cidade": "SIMOLANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1110",
+        "cidade": "SITIO D`ABADIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1111",
+        "cidade": "TAQUARAL DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1112",
+        "cidade": "TERESINA DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1113",
+        "cidade": "TEREZOPOLIS DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1114",
+        "cidade": "TRES RANCHOS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1115",
+        "cidade": "TRINDADE",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1116",
+        "cidade": "TROMBAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1117",
+        "cidade": "TURVANIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1118",
+        "cidade": "TURVELANDIA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1119",
+        "cidade": "UIRAPURU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1120",
+        "cidade": "URUACU",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1121",
+        "cidade": "URUANA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1122",
+        "cidade": "URUTAI",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1123",
+        "cidade": "VALPARAISO DE GOIAS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1124",
+        "cidade": "VARJAO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1125",
+        "cidade": "VIANOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1126",
+        "cidade": "VICENTINOPOLIS",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1127",
+        "cidade": "VILA BOA",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      },
+      {
+        "id": "1128",
+        "cidade": "VILA PROPICIO",
+        "sigla": "GO",
+        "estado": "GOIAS"
+      }
+    ]
+}

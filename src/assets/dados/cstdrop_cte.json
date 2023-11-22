@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "label": "00 - ICMS NORMAL",
+            "value": "00"
+        },
+        {
+            "label": "20 - ICMS BC REDUZIDA",
+            "value": "20"
+        },
+        {
+            "label": "40 - ICMS ISENÇÃO",
+            "value": "40"
+        },
+        {
+            "label": "41 - ICMS NÃO TRIBUTADA",
+            "value": "41"
+        },
+        {
+            "label": "51 - ICMS DIFERIDO",
+            "value": "51"
+        },
+        {
+            "label": "60 - ICMS COBRADO ANTERIORMENTE POR SUBSTITUIÇÃO TRIBUTÁRIA",
+            "value": "60"
+        },
+        {
+            "label": "90 - ICMS OUTROS",
+            "value": "90"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "uf": [
+        {"estado": "ACRE", "uf": "AC"},
+        {"estado": "ALAGOAS", "uf": "AL"},
+        {"estado": "AMAPÁ", "uf": "AP"},
+        {"estado": "AMAZONAS", "uf": "AM"},
+        {"estado": "BAHIA", "uf": "BA"},
+        {"estado": "CEARÁ", "uf": "CE"},
+        {"estado": "DISTRITO FEDERAL", "uf": "DF"},
+        {"estado": "ESPÍRITO SANTO", "uf": "ES"},
+        {"estado": "GOIÁS", "uf": "GO"},
+        {"estado": "MARANHÃO", "uf": "MA"},
+        {"estado": "MATO GROSSO", "uf": "MT"},
+        {"estado": "MATO GROSSO DO SUL", "uf": "MS"},
+        {"estado": "MINAS GERAIS", "uf": "MG"},
+        {"estado": "PARÁ", "uf": "PA"},
+        {"estado": "PARAÍBA", "uf": "PB"},
+        {"estado": "PARANÁ", "uf": "PR"},
+        {"estado": "PERNAMBUCO", "uf": "PE"},
+        {"estado": "PIAUÍ", "uf": "PI"},
+        {"estado": "RIO DE JANEIRO", "uf": "RJ"},
+        {"estado": "RIO GRANDE DO NORTE", "uf": "RN"},
+        {"estado": "RIO GRANDE DO SUL", "uf": "RS"},
+        {"estado": "RONDÔNIA", "uf": "RO"},
+        {"estado": "RORAIMA", "uf": "RR"},
+        {"estado": "SANTA CATARINA", "uf": "SC"},
+        {"estado": "SÃO PAULO", "uf": "SP"},
+        {"estado": "SERGIPE", "uf": "SE"},
+        {"estado": "TOCANTINS", "uf": "TO"}
+    ]
+}

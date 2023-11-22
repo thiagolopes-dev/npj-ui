@@ -1,0 +1,6 @@
+  .centralizar-texto {
+    text-align: center; /* Centraliza horizontalmente */
+    vertical-align: middle; /* Centraliza verticalmente */
+    margin-left: 30px;
+  }
+ 

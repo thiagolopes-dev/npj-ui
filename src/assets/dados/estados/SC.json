@@ -1,0 +1,1762 @@
+{
+    "data": [
+        {
+            "id": "4413",
+            "cidade": "ABDON BATISTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4414",
+            "cidade": "ABELARDO LUZ",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4415",
+            "cidade": "AGROLANDIA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4416",
+            "cidade": "AGRONOMICA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4417",
+            "cidade": "AGUA DOCE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4418",
+            "cidade": "AGUAS DE CHAPECO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4419",
+            "cidade": "AGUAS FRIAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4420",
+            "cidade": "AGUAS MORNAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4421",
+            "cidade": "ALFREDO WAGNER",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4422",
+            "cidade": "ALTO BELA VISTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4423",
+            "cidade": "ANCHIETA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4424",
+            "cidade": "ANGELINA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4425",
+            "cidade": "ANITA GARIBALDI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4426",
+            "cidade": "ANITAPOLIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4427",
+            "cidade": "ANTONIO CARLOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4428",
+            "cidade": "APIUNA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4429",
+            "cidade": "ARABUTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4430",
+            "cidade": "ARAQUARI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4431",
+            "cidade": "ARARANGUA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4432",
+            "cidade": "ARMAZEM",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4433",
+            "cidade": "ARROIO TRINTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4434",
+            "cidade": "ARVOREDO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4435",
+            "cidade": "ASCURRA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4436",
+            "cidade": "ATALANTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4437",
+            "cidade": "AURORA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4438",
+            "cidade": "BALNEARIO ARROIO DO SILVA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4439",
+            "cidade": "BALNEARIO BARRA DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4440",
+            "cidade": "BALNEARIO CAMBORIU",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4441",
+            "cidade": "BALNEARIO GAIVOTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4442",
+            "cidade": "BANDEIRANTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4443",
+            "cidade": "BARRA BONITA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4444",
+            "cidade": "BARRA VELHA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4445",
+            "cidade": "BELA VISTA DO TOLDO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4446",
+            "cidade": "BELMONTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4447",
+            "cidade": "BENEDITO NOVO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4448",
+            "cidade": "BIGUACU",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4449",
+            "cidade": "BLUMENAU",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4450",
+            "cidade": "BOCAINA DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4451",
+            "cidade": "BOM JARDIM DA SERRA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4452",
+            "cidade": "BOM JESUS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4453",
+            "cidade": "BOM JESUS DO OESTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4454",
+            "cidade": "BOM RETIRO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4455",
+            "cidade": "BOMBINHAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4456",
+            "cidade": "BOTUVERA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4457",
+            "cidade": "BRACO DO NORTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4458",
+            "cidade": "BRACO DO TROMBUDO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4459",
+            "cidade": "BRUNOPOLIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4460",
+            "cidade": "BRUSQUE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4461",
+            "cidade": "CACADOR",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4462",
+            "cidade": "CAIBI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4463",
+            "cidade": "CALMON",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4464",
+            "cidade": "CAMBORIU",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4465",
+            "cidade": "CAMPO ALEGRE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4466",
+            "cidade": "CAMPO BELO DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4467",
+            "cidade": "CAMPO ERE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4468",
+            "cidade": "CAMPOS NOVOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4469",
+            "cidade": "CANELINHA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4470",
+            "cidade": "CANOINHAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4471",
+            "cidade": "CAPAO ALTO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4472",
+            "cidade": "CAPINZAL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4473",
+            "cidade": "CAPIVARI DE BAIXO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4474",
+            "cidade": "CATANDUVAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4475",
+            "cidade": "CAXAMBU DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4476",
+            "cidade": "CELSO RAMOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4477",
+            "cidade": "CERRO NEGRO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4478",
+            "cidade": "CHAPADAO DO LAGEADO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4479",
+            "cidade": "CHAPECO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4480",
+            "cidade": "COCAL DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4481",
+            "cidade": "CONCORDIA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4482",
+            "cidade": "CORDILHEIRA ALTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4483",
+            "cidade": "CORONEL FREITAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4484",
+            "cidade": "CORONEL MARTINS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4485",
+            "cidade": "CORREIA PINTO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4486",
+            "cidade": "CORUPA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4487",
+            "cidade": "CRICIUMA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4488",
+            "cidade": "CUNHA PORA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4489",
+            "cidade": "CUNHATAI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4490",
+            "cidade": "CURITIBANOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4491",
+            "cidade": "DESCANSO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4492",
+            "cidade": "DIONISIO CERQUEIRA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4493",
+            "cidade": "DONA EMMA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4494",
+            "cidade": "DOUTOR PEDRINHO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4495",
+            "cidade": "ENTRE RIOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4496",
+            "cidade": "ERMO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4497",
+            "cidade": "ERVAL VELHO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4498",
+            "cidade": "FAXINAL DOS GUEDES",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4499",
+            "cidade": "FLOR DO SERTAO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4500",
+            "cidade": "FLORIANOPOLIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4501",
+            "cidade": "FORMOSA DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4502",
+            "cidade": "FORQUILHINHA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4503",
+            "cidade": "FRAIBURGO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4504",
+            "cidade": "FREI ROGERIO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4505",
+            "cidade": "GALVAO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4506",
+            "cidade": "GAROPABA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4507",
+            "cidade": "GARUVA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4508",
+            "cidade": "GASPAR",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4509",
+            "cidade": "GOVERNADOR CELSO RAMOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4510",
+            "cidade": "GRAO PARA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4511",
+            "cidade": "GRAVATAL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4512",
+            "cidade": "GUABIRUBA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4513",
+            "cidade": "GUARACIABA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4514",
+            "cidade": "GUARAMIRIM",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4515",
+            "cidade": "GUARUJA DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4516",
+            "cidade": "GUATAMBU",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4517",
+            "cidade": "HERVAL D`OESTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4518",
+            "cidade": "IBIAM",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4519",
+            "cidade": "IBICARE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4520",
+            "cidade": "IBIRAMA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4521",
+            "cidade": "ICARA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4522",
+            "cidade": "ILHOTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4523",
+            "cidade": "IMARUI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4524",
+            "cidade": "IMBITUBA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4525",
+            "cidade": "IMBUIA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4526",
+            "cidade": "INDAIAL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4527",
+            "cidade": "IOMERE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4528",
+            "cidade": "IPIRA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4529",
+            "cidade": "IPORA DO OESTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4530",
+            "cidade": "IPUACU",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4531",
+            "cidade": "IPUMIRIM",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4532",
+            "cidade": "IRACEMINHA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4533",
+            "cidade": "IRANI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4534",
+            "cidade": "IRATI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4535",
+            "cidade": "IRINEOPOLIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4536",
+            "cidade": "ITA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4537",
+            "cidade": "ITAIOPOLIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4538",
+            "cidade": "ITAJAI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4539",
+            "cidade": "ITAPEMA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4540",
+            "cidade": "ITAPIRANGA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4541",
+            "cidade": "ITAPOA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4542",
+            "cidade": "ITUPORANGA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4543",
+            "cidade": "JABORA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4544",
+            "cidade": "JACINTO MACHADO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4545",
+            "cidade": "JAGUARUNA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4546",
+            "cidade": "JARAGUA DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4547",
+            "cidade": "JARDINOPOLIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4548",
+            "cidade": "JOACABA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4549",
+            "cidade": "JOINVILLE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4550",
+            "cidade": "JOSE BOITEUX",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4551",
+            "cidade": "JUPIA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4552",
+            "cidade": "LACERDOPOLIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4553",
+            "cidade": "LAGES",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4554",
+            "cidade": "LAGUNA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4555",
+            "cidade": "LAJEADO GRANDE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4556",
+            "cidade": "LAURENTINO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4557",
+            "cidade": "LAURO MULLER",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4558",
+            "cidade": "LEBON REGIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4559",
+            "cidade": "LEOBERTO LEAL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4560",
+            "cidade": "LINDOIA DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4561",
+            "cidade": "LONTRAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4562",
+            "cidade": "LUIZ ALVES",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4563",
+            "cidade": "LUZERNA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4564",
+            "cidade": "MACIEIRA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4565",
+            "cidade": "MAFRA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4566",
+            "cidade": "MAJOR GERCINO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4567",
+            "cidade": "MAJOR VIEIRA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4568",
+            "cidade": "MARACAJA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4569",
+            "cidade": "MARAVILHA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4570",
+            "cidade": "MAREMA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4571",
+            "cidade": "MASSARANDUBA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4572",
+            "cidade": "MATOS COSTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4573",
+            "cidade": "MELEIRO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4574",
+            "cidade": "MIRIM DOCE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4575",
+            "cidade": "MODELO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4576",
+            "cidade": "MONDAI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4577",
+            "cidade": "MONTE CARLO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4578",
+            "cidade": "MONTE CASTELO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4579",
+            "cidade": "MORRO DA FUMACA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4580",
+            "cidade": "MORRO GRANDE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4581",
+            "cidade": "NAVEGANTES",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4582",
+            "cidade": "NOVA ERECHIM",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4583",
+            "cidade": "NOVA ITABERABA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4584",
+            "cidade": "NOVA TRENTO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4585",
+            "cidade": "NOVA VENEZA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4586",
+            "cidade": "NOVO HORIZONTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4587",
+            "cidade": "ORLEANS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4588",
+            "cidade": "OTACILIO COSTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4589",
+            "cidade": "OURO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4590",
+            "cidade": "OURO VERDE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4591",
+            "cidade": "PAIAL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4592",
+            "cidade": "PAINEL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4593",
+            "cidade": "PALHOCA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4594",
+            "cidade": "PALMA SOLA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4595",
+            "cidade": "PALMEIRA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4596",
+            "cidade": "PALMITOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4597",
+            "cidade": "PAPANDUVA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4598",
+            "cidade": "PARAISO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4599",
+            "cidade": "PASSO DE TORRES",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4600",
+            "cidade": "PASSOS MAIA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4601",
+            "cidade": "PAULO LOPES",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4602",
+            "cidade": "PEDRAS GRANDES",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4603",
+            "cidade": "PENHA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4604",
+            "cidade": "PERITIBA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4605",
+            "cidade": "PETROLANDIA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4606",
+            "cidade": "PICARRAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4607",
+            "cidade": "PINHALZINHO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4608",
+            "cidade": "PINHEIRO PRETO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4609",
+            "cidade": "PIRATUBA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4610",
+            "cidade": "PLANALTO ALEGRE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4611",
+            "cidade": "POMERODE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4612",
+            "cidade": "PONTE ALTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4613",
+            "cidade": "PONTE ALTA DO NORTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4614",
+            "cidade": "PONTE SERRADA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4615",
+            "cidade": "PORTO BELO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4616",
+            "cidade": "PORTO UNIAO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4617",
+            "cidade": "POUSO REDONDO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4618",
+            "cidade": "PRAIA GRANDE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4619",
+            "cidade": "PRESIDENTE CASTELO BRANCO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4620",
+            "cidade": "PRESIDENTE GETULIO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4621",
+            "cidade": "PRESIDENTE NEREU",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4622",
+            "cidade": "PRINCESA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4623",
+            "cidade": "QUILOMBO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4624",
+            "cidade": "RANCHO QUEIMADO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4625",
+            "cidade": "RIO DAS ANTAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4626",
+            "cidade": "RIO DO CAMPO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4627",
+            "cidade": "RIO DO OESTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4628",
+            "cidade": "RIO DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4629",
+            "cidade": "RIO DOS CEDROS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4630",
+            "cidade": "RIO FORTUNA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4631",
+            "cidade": "RIO NEGRINHO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4632",
+            "cidade": "RIO RUFINO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4633",
+            "cidade": "RIQUEZA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4634",
+            "cidade": "RODEIO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4635",
+            "cidade": "ROMELANDIA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4636",
+            "cidade": "SALETE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4637",
+            "cidade": "SALTINHO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4638",
+            "cidade": "SALTO VELOSO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4639",
+            "cidade": "SANGAO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4640",
+            "cidade": "SANTA CECILIA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4641",
+            "cidade": "SANTA HELENA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4642",
+            "cidade": "SANTA ROSA DE LIMA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4643",
+            "cidade": "SANTA ROSA DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4644",
+            "cidade": "SANTA TEREZINHA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4645",
+            "cidade": "SANTA TEREZINHA DO PROGRESSO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4646",
+            "cidade": "SANTIAGO DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4647",
+            "cidade": "SANTO AMARO DA IMPERATRIZ",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4648",
+            "cidade": "SAO BENTO DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4649",
+            "cidade": "SAO BERNARDINO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4650",
+            "cidade": "SAO BONIFACIO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4651",
+            "cidade": "SAO CARLOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4652",
+            "cidade": "SAO CRISTOVAO DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4653",
+            "cidade": "SAO DOMINGOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4654",
+            "cidade": "SAO FRANCISCO DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4655",
+            "cidade": "SAO JOAO BATISTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4656",
+            "cidade": "SAO JOAO DO ITAPERIU",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4657",
+            "cidade": "SAO JOAO DO OESTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4658",
+            "cidade": "SAO JOAO DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4659",
+            "cidade": "SAO JOAQUIM",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4660",
+            "cidade": "SAO JOSE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4661",
+            "cidade": "SAO JOSE DO CEDRO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4662",
+            "cidade": "SAO JOSE DO CERRITO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4663",
+            "cidade": "SAO LOURENCO DO OESTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4664",
+            "cidade": "SAO LUDGERO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4665",
+            "cidade": "SAO MARTINHO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4666",
+            "cidade": "SAO MIGUEL DA BOA VISTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4667",
+            "cidade": "SAO MIGUEL DO OESTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4668",
+            "cidade": "SAO PEDRO DE ALCANTARA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4669",
+            "cidade": "SAUDADES",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4670",
+            "cidade": "SCHROEDER",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4671",
+            "cidade": "SEARA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4672",
+            "cidade": "SERRA ALTA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4673",
+            "cidade": "SIDEROPOLIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4674",
+            "cidade": "SOMBRIO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4675",
+            "cidade": "SUL BRASIL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4676",
+            "cidade": "TAIO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4677",
+            "cidade": "TANGARA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4678",
+            "cidade": "TIGRINHOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4679",
+            "cidade": "TIJUCAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4680",
+            "cidade": "TIMBE DO SUL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4681",
+            "cidade": "TIMBO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4682",
+            "cidade": "TIMBO GRANDE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4683",
+            "cidade": "TRES BARRAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4684",
+            "cidade": "TREVISO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4685",
+            "cidade": "TREZE DE MAIO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4686",
+            "cidade": "TREZE TILIAS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4687",
+            "cidade": "TROMBUDO CENTRAL",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4688",
+            "cidade": "TUBARAO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4689",
+            "cidade": "TUNAPOLIS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4690",
+            "cidade": "TURVO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4691",
+            "cidade": "UNIAO DO OESTE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4692",
+            "cidade": "URUBICI",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4693",
+            "cidade": "URUPEMA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4694",
+            "cidade": "URUSSANGA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4695",
+            "cidade": "VARGEAO",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4696",
+            "cidade": "VARGEM",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4697",
+            "cidade": "VARGEM BONITA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4698",
+            "cidade": "VIDAL RAMOS",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4699",
+            "cidade": "VIDEIRA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4700",
+            "cidade": "VITOR MEIRELES",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4701",
+            "cidade": "WITMARSUM",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4702",
+            "cidade": "XANXERE",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4703",
+            "cidade": "XAVANTINA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4704",
+            "cidade": "XAXIM",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          },
+          {
+            "id": "4705",
+            "cidade": "ZORTEA",
+            "sigla": "SC",
+            "estado": "SANTA CATARINA"
+          }
+    ]
+}

@@ -1,0 +1,1306 @@
+{
+    "data": [
+        {
+            "id": "1129",
+            "cidade": "ACAILANDIA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1130",
+            "cidade": "AFONSO CUNHA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1131",
+            "cidade": "AGUA DOCE DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1132",
+            "cidade": "ALCANTARA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1133",
+            "cidade": "ALDEIAS ALTAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1134",
+            "cidade": "ALTAMIRA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1135",
+            "cidade": "ALTO ALEGRE DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1136",
+            "cidade": "ALTO ALEGRE DO PINDARE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1137",
+            "cidade": "ALTO PARNAIBA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1138",
+            "cidade": "AMAPA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1139",
+            "cidade": "AMARANTE DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1140",
+            "cidade": "ANAJATUBA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1141",
+            "cidade": "ANAPURUS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1142",
+            "cidade": "APICUM-ACU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1143",
+            "cidade": "ARAGUANA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1144",
+            "cidade": "ARAIOSES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1145",
+            "cidade": "ARAME",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1146",
+            "cidade": "ARARI",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1147",
+            "cidade": "AXIXA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1148",
+            "cidade": "BACABAL",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1149",
+            "cidade": "BACABEIRA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1150",
+            "cidade": "BACURI",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1151",
+            "cidade": "BACURITUBA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1152",
+            "cidade": "BALSAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1153",
+            "cidade": "BARAO DE GRAJAU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1154",
+            "cidade": "BARRA DO CORDA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1155",
+            "cidade": "BARREIRINHAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1156",
+            "cidade": "BELA VISTA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1157",
+            "cidade": "BELAGUA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1158",
+            "cidade": "BENEDITO LEITE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1159",
+            "cidade": "BEQUIMAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1160",
+            "cidade": "BERNARDO DO MEARIM",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1161",
+            "cidade": "BOA VISTA DO GURUPI",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1162",
+            "cidade": "BOM JARDIM",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1163",
+            "cidade": "BOM JESUS DAS SELVAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1164",
+            "cidade": "BOM LUGAR",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1165",
+            "cidade": "BREJO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1166",
+            "cidade": "BREJO DE AREIA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1167",
+            "cidade": "BURITI",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1168",
+            "cidade": "BURITI BRAVO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1169",
+            "cidade": "BURITICUPU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1170",
+            "cidade": "BURITIRANA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1171",
+            "cidade": "CACHOEIRA GRANDE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1172",
+            "cidade": "CAJAPIO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1173",
+            "cidade": "CAJARI",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1174",
+            "cidade": "CAMPESTRE DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1175",
+            "cidade": "CANDIDO MENDES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1176",
+            "cidade": "CANTANHEDE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1177",
+            "cidade": "CAPINZAL DO NORTE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1178",
+            "cidade": "CAROLINA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1179",
+            "cidade": "CARUTAPERA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1180",
+            "cidade": "CAXIAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1181",
+            "cidade": "CEDRAL",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1182",
+            "cidade": "CENTRAL DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1183",
+            "cidade": "CENTRO DO GUILHERME",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1184",
+            "cidade": "CENTRO NOVO DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1185",
+            "cidade": "CHAPADINHA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1186",
+            "cidade": "CIDELANDIA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1187",
+            "cidade": "CODO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1188",
+            "cidade": "COELHO NETO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1189",
+            "cidade": "COLINAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1190",
+            "cidade": "CONCEICAO DO LAGO-ACU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1191",
+            "cidade": "COROATA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1192",
+            "cidade": "CURURUPU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1193",
+            "cidade": "DAVINOPOLIS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1194",
+            "cidade": "DOM PEDRO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1195",
+            "cidade": "DUQUE BACELAR",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1196",
+            "cidade": "ESPERANTINOPOLIS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1197",
+            "cidade": "ESTREITO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1198",
+            "cidade": "FEIRA NOVA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1199",
+            "cidade": "FERNANDO FALCAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1200",
+            "cidade": "FORMOSA DA SERRA NEGRA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1201",
+            "cidade": "FORTALEZA DOS NOGUEIRAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1202",
+            "cidade": "FORTUNA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1203",
+            "cidade": "GODOFREDO VIANA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1204",
+            "cidade": "GONCALVES DIAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1205",
+            "cidade": "GOVERNADOR ARCHER",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1206",
+            "cidade": "GOVERNADOR EDISON LOBAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1207",
+            "cidade": "GOVERNADOR EUGENIO BARROS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1208",
+            "cidade": "GOVERNADOR LUIZ ROCHA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1209",
+            "cidade": "GOVERNADOR NEWTON BELLO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1210",
+            "cidade": "GOVERNADOR NUNES FREIRE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1211",
+            "cidade": "GRACA ARANHA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1212",
+            "cidade": "GRAJAU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1213",
+            "cidade": "GUIMARAES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1214",
+            "cidade": "HUMBERTO DE CAMPOS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1215",
+            "cidade": "ICATU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1216",
+            "cidade": "IGARAPE DO MEIO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1217",
+            "cidade": "IGARAPE GRANDE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1218",
+            "cidade": "IMPERATRIZ",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1219",
+            "cidade": "ITAIPAVA DO GRAJAU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1220",
+            "cidade": "ITAPECURU MIRIM",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1221",
+            "cidade": "ITINGA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1222",
+            "cidade": "JATOBA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1223",
+            "cidade": "JENIPAPO DOS VIEIRAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1224",
+            "cidade": "JOAO LISBOA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1225",
+            "cidade": "JOSELANDIA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1226",
+            "cidade": "JUNCO DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1227",
+            "cidade": "LAGO DA PEDRA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1228",
+            "cidade": "LAGO DO JUNCO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1229",
+            "cidade": "LAGO DOS RODRIGUES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1230",
+            "cidade": "LAGO VERDE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1231",
+            "cidade": "LAGOA DO MATO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1232",
+            "cidade": "LAGOA GRANDE DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1233",
+            "cidade": "LAJEADO NOVO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1234",
+            "cidade": "LIMA CAMPOS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1235",
+            "cidade": "LORETO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1236",
+            "cidade": "LUIS DOMINGUES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1237",
+            "cidade": "MAGALHAES DE ALMEIDA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1238",
+            "cidade": "MARACACUME",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1239",
+            "cidade": "MARAJA DO SENA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1240",
+            "cidade": "MARANHAOZINHO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1241",
+            "cidade": "MATA ROMA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1242",
+            "cidade": "MATINHA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1243",
+            "cidade": "MATOES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1244",
+            "cidade": "MATOES DO NORTE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1245",
+            "cidade": "MILAGRES DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1246",
+            "cidade": "MIRADOR",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1247",
+            "cidade": "MIRANDA DO NORTE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1248",
+            "cidade": "MIRINZAL",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1249",
+            "cidade": "MONCAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1250",
+            "cidade": "MONTES ALTOS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1251",
+            "cidade": "MORROS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1252",
+            "cidade": "NINA RODRIGUES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1253",
+            "cidade": "NOVA COLINAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1254",
+            "cidade": "NOVA IORQUE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1255",
+            "cidade": "NOVA OLINDA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1256",
+            "cidade": "OLHO D`AGUA DAS CUNHAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1257",
+            "cidade": "OLINDA NOVA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1258",
+            "cidade": "PACO DO LUMIAR",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1259",
+            "cidade": "PALMEIRANDIA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1260",
+            "cidade": "PARAIBANO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1261",
+            "cidade": "PARNARAMA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1262",
+            "cidade": "PASSAGEM FRANCA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1263",
+            "cidade": "PASTOS BONS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1264",
+            "cidade": "PAULINO NEVES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1265",
+            "cidade": "PAULO RAMOS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1266",
+            "cidade": "PEDREIRAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1267",
+            "cidade": "PEDRO DO ROSARIO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1268",
+            "cidade": "PENALVA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1269",
+            "cidade": "PERI MIRIM",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1270",
+            "cidade": "PERITORO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1271",
+            "cidade": "PINDARE-MIRIM",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1272",
+            "cidade": "PINHEIRO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1273",
+            "cidade": "PIO XII",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1274",
+            "cidade": "PIRAPEMAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1275",
+            "cidade": "POCAO DE PEDRAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1276",
+            "cidade": "PORTO FRANCO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1277",
+            "cidade": "PORTO RICO DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1278",
+            "cidade": "PRESIDENTE DUTRA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1279",
+            "cidade": "PRESIDENTE JUSCELINO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1280",
+            "cidade": "PRESIDENTE MEDICI",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1281",
+            "cidade": "PRESIDENTE SARNEY",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1282",
+            "cidade": "PRESIDENTE VARGAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1283",
+            "cidade": "PRIMEIRA CRUZ",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1284",
+            "cidade": "RAPOSA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1285",
+            "cidade": "RIACHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1286",
+            "cidade": "RIBAMAR FIQUENE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1287",
+            "cidade": "ROSARIO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1288",
+            "cidade": "SAMBAIBA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1289",
+            "cidade": "SANTA FILOMENA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1290",
+            "cidade": "SANTA HELENA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1291",
+            "cidade": "SANTA INES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1292",
+            "cidade": "SANTA LUZIA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1293",
+            "cidade": "SANTA LUZIA DO PARUA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1294",
+            "cidade": "SANTA QUITERIA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1295",
+            "cidade": "SANTA RITA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1296",
+            "cidade": "SANTANA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1297",
+            "cidade": "SANTO AMARO DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1298",
+            "cidade": "SANTO ANTONIO DOS LOPES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1299",
+            "cidade": "SAO BENEDITO DO RIO PRETO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1300",
+            "cidade": "SAO BENTO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1301",
+            "cidade": "SAO BERNARDO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1302",
+            "cidade": "SAO DOMINGOS DO AZEITAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1303",
+            "cidade": "SAO DOMINGOS DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1304",
+            "cidade": "SAO FELIX DE BALSAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1305",
+            "cidade": "SAO FRANCISCO DO BREJAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1306",
+            "cidade": "SAO FRANCISCO DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1307",
+            "cidade": "SAO JOAO BATISTA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1308",
+            "cidade": "SAO JOAO DO CARU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1309",
+            "cidade": "SAO JOAO DO PARAISO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1310",
+            "cidade": "SAO JOAO DO SOTER",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1311",
+            "cidade": "SAO JOAO DOS PATOS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1312",
+            "cidade": "SAO JOSE DE RIBAMAR",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1313",
+            "cidade": "SAO JOSE DOS BASILIOS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1314",
+            "cidade": "SAO LUIS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1315",
+            "cidade": "SAO LUIS GONZAGA DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1316",
+            "cidade": "SAO MATEUS DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1317",
+            "cidade": "SAO PEDRO DA AGUA BRANCA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1318",
+            "cidade": "SAO PEDRO DOS CRENTES",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1319",
+            "cidade": "SAO RAIMUNDO DAS MANGABEIRAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1320",
+            "cidade": "SAO RAIMUNDO DO DOCA BEZERRA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1321",
+            "cidade": "SAO ROBERTO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1322",
+            "cidade": "SAO VICENTE FERRER",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1323",
+            "cidade": "SATUBINHA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1324",
+            "cidade": "SENADOR ALEXANDRE COSTA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1325",
+            "cidade": "SENADOR LA ROCQUE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1326",
+            "cidade": "SERRANO DO MARANHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1327",
+            "cidade": "SITIO NOVO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1328",
+            "cidade": "SUCUPIRA DO NORTE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1329",
+            "cidade": "SUCUPIRA DO RIACHAO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1330",
+            "cidade": "TASSO FRAGOSO",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1331",
+            "cidade": "TIMBIRAS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1332",
+            "cidade": "TIMON",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1333",
+            "cidade": "TRIZIDELA DO VALE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1334",
+            "cidade": "TUFILANDIA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1335",
+            "cidade": "TUNTUM",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1336",
+            "cidade": "TURIACU",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1337",
+            "cidade": "TURILANDIA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1338",
+            "cidade": "TUTOIA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1339",
+            "cidade": "URBANO SANTOS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1340",
+            "cidade": "VARGEM GRANDE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1341",
+            "cidade": "VIANA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1342",
+            "cidade": "VILA NOVA DOS MARTIRIOS",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1343",
+            "cidade": "VITORIA DO MEARIM",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1344",
+            "cidade": "VITORINO FREIRE",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          },
+          {
+            "id": "1345",
+            "cidade": "ZE DOCA",
+            "sigla": "MA",
+            "estado": "MARANHAO"
+          }
+    ]
+}

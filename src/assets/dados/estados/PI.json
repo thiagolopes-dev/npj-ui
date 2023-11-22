@@ -1,0 +1,1342 @@
+{
+    "data": [
+        {
+            "id": "3368",
+            "cidade": "ACAUA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3369",
+            "cidade": "AGRICOLANDIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3370",
+            "cidade": "AGUA BRANCA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3371",
+            "cidade": "ALAGOINHA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3372",
+            "cidade": "ALEGRETE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3373",
+            "cidade": "ALTO LONGA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3374",
+            "cidade": "ALTOS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3375",
+            "cidade": "ALVORADA DO GURGUEIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3376",
+            "cidade": "AMARANTE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3377",
+            "cidade": "ANGICAL DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3378",
+            "cidade": "ANISIO DE ABREU",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3379",
+            "cidade": "ANTONIO ALMEIDA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3380",
+            "cidade": "AROAZES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3381",
+            "cidade": "AROEIRAS DO ITAIM",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3382",
+            "cidade": "ARRAIAL",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3383",
+            "cidade": "ASSUNCAO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3384",
+            "cidade": "AVELINO LOPES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3385",
+            "cidade": "BAIXA GRANDE DO RIBEIRO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3386",
+            "cidade": "BARRA D`ALCANTARA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3387",
+            "cidade": "BARRAS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3388",
+            "cidade": "BARREIRAS DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3389",
+            "cidade": "BARRO DURO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3390",
+            "cidade": "BATALHA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3391",
+            "cidade": "BELA VISTA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3392",
+            "cidade": "BELEM DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3393",
+            "cidade": "BENEDITINOS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3394",
+            "cidade": "BERTOLINIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3395",
+            "cidade": "BETANIA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3396",
+            "cidade": "BOA HORA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3397",
+            "cidade": "BOCAINA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3398",
+            "cidade": "BOM JESUS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3399",
+            "cidade": "BOM PRINCIPIO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3400",
+            "cidade": "BONFIM DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3401",
+            "cidade": "BOQUEIRAO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3402",
+            "cidade": "BRASILEIRA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3403",
+            "cidade": "BREJO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3404",
+            "cidade": "BURITI DOS LOPES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3405",
+            "cidade": "BURITI DOS MONTES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3406",
+            "cidade": "CABECEIRAS DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3407",
+            "cidade": "CAJAZEIRAS DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3408",
+            "cidade": "CAJUEIRO DA PRAIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3409",
+            "cidade": "CALDEIRAO GRANDE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3410",
+            "cidade": "CAMPINAS DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3411",
+            "cidade": "CAMPO ALEGRE DO FIDALGO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3412",
+            "cidade": "CAMPO GRANDE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3413",
+            "cidade": "CAMPO LARGO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3414",
+            "cidade": "CAMPO MAIOR",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3415",
+            "cidade": "CANAVIEIRA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3416",
+            "cidade": "CANTO DO BURITI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3417",
+            "cidade": "CAPITAO DE CAMPOS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3418",
+            "cidade": "CAPITAO GERVASIO OLIVEIRA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3419",
+            "cidade": "CARACOL",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3420",
+            "cidade": "CARAUBAS DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3421",
+            "cidade": "CARIDADE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3422",
+            "cidade": "CASTELO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3423",
+            "cidade": "CAXINGO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3424",
+            "cidade": "COCAL",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3425",
+            "cidade": "COCAL DE TELHA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3426",
+            "cidade": "COCAL DOS ALVES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3427",
+            "cidade": "COIVARAS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3428",
+            "cidade": "COLONIA DO GURGUEIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3429",
+            "cidade": "COLONIA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3430",
+            "cidade": "CONCEICAO DO CANINDE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3431",
+            "cidade": "CORONEL JOSE DIAS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3432",
+            "cidade": "CORRENTE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3433",
+            "cidade": "CRISTALANDIA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3434",
+            "cidade": "CRISTINO CASTRO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3435",
+            "cidade": "CURIMATA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3436",
+            "cidade": "CURRAIS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3437",
+            "cidade": "CURRAL NOVO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3438",
+            "cidade": "CURRALINHOS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3439",
+            "cidade": "DEMERVAL LOBAO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3440",
+            "cidade": "DIRCEU ARCOVERDE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3441",
+            "cidade": "DOM EXPEDITO LOPES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3442",
+            "cidade": "DOM INOCENCIO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3443",
+            "cidade": "DOMINGOS MOURAO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3444",
+            "cidade": "ELESBAO VELOSO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3445",
+            "cidade": "ELISEU MARTINS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3446",
+            "cidade": "ESPERANTINA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3447",
+            "cidade": "FARTURA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3448",
+            "cidade": "FLORES DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3449",
+            "cidade": "FLORESTA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3450",
+            "cidade": "FLORIANO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3451",
+            "cidade": "FRANCINOPOLIS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3452",
+            "cidade": "FRANCISCO AYRES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3453",
+            "cidade": "FRANCISCO MACEDO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3454",
+            "cidade": "FRANCISCO SANTOS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3455",
+            "cidade": "FRONTEIRAS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3456",
+            "cidade": "GEMINIANO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3457",
+            "cidade": "GILBUES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3458",
+            "cidade": "GUADALUPE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3459",
+            "cidade": "GUARIBAS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3460",
+            "cidade": "HUGO NAPOLEAO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3461",
+            "cidade": "ILHA GRANDE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3462",
+            "cidade": "INHUMA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3463",
+            "cidade": "IPIRANGA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3464",
+            "cidade": "ISAIAS COELHO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3465",
+            "cidade": "ITAINOPOLIS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3466",
+            "cidade": "ITAUEIRA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3467",
+            "cidade": "JACOBINA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3468",
+            "cidade": "JAICOS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3469",
+            "cidade": "JARDIM DO MULATO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3470",
+            "cidade": "JATOBA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3471",
+            "cidade": "JERUMENHA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3472",
+            "cidade": "JOAO COSTA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3473",
+            "cidade": "JOAQUIM PIRES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3474",
+            "cidade": "JOCA MARQUES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3475",
+            "cidade": "JOSE DE FREITAS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3476",
+            "cidade": "JUAZEIRO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3477",
+            "cidade": "JULIO BORGES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3478",
+            "cidade": "JUREMA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3479",
+            "cidade": "LAGOA ALEGRE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3480",
+            "cidade": "LAGOA DE SAO FRANCISCO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3481",
+            "cidade": "LAGOA DO BARRO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3482",
+            "cidade": "LAGOA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3483",
+            "cidade": "LAGOA DO SITIO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3484",
+            "cidade": "LAGOINHA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3485",
+            "cidade": "LANDRI SALES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3486",
+            "cidade": "LUIS CORREIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3487",
+            "cidade": "LUZILANDIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3488",
+            "cidade": "MADEIRO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3489",
+            "cidade": "MANOEL EMIDIO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3490",
+            "cidade": "MARCOLANDIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3491",
+            "cidade": "MARCOS PARENTE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3492",
+            "cidade": "MASSAPE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3493",
+            "cidade": "MATIAS OLIMPIO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3494",
+            "cidade": "MIGUEL ALVES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3495",
+            "cidade": "MIGUEL LEAO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3496",
+            "cidade": "MILTON BRANDAO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3497",
+            "cidade": "MONSENHOR GIL",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3498",
+            "cidade": "MONSENHOR HIPOLITO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3499",
+            "cidade": "MONTE ALEGRE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3500",
+            "cidade": "MORRO CABECA NO TEMPO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3501",
+            "cidade": "MORRO DO CHAPEU DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3502",
+            "cidade": "MURICI DOS PORTELAS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3503",
+            "cidade": "NAZARE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3504",
+            "cidade": "NOSSA SENHORA DE NAZARE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3505",
+            "cidade": "NOSSA SENHORA DOS REMEDIOS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3506",
+            "cidade": "NOVA SANTA RITA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3507",
+            "cidade": "NOVO ORIENTE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3508",
+            "cidade": "NOVO SANTO ANTONIO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3509",
+            "cidade": "OEIRAS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3510",
+            "cidade": "OLHO D`AGUA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3511",
+            "cidade": "PADRE MARCOS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3512",
+            "cidade": "PAES LANDIM",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3513",
+            "cidade": "PAJEU DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3514",
+            "cidade": "PALMEIRA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3515",
+            "cidade": "PALMEIRAIS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3516",
+            "cidade": "PAQUETA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3517",
+            "cidade": "PARNAGUA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3518",
+            "cidade": "PARNAIBA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3519",
+            "cidade": "PASSAGEM FRANCA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3520",
+            "cidade": "PATOS DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3521",
+            "cidade": "PAU D`ARCO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3522",
+            "cidade": "PAULISTANA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3523",
+            "cidade": "PAVUSSU",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3524",
+            "cidade": "PEDRO II",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3525",
+            "cidade": "PEDRO LAURENTINO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3526",
+            "cidade": "PICOS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3527",
+            "cidade": "PIMENTEIRAS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3528",
+            "cidade": "PIO IX",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3529",
+            "cidade": "PIRACURUCA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3530",
+            "cidade": "PIRIPIRI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3531",
+            "cidade": "PORTO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3532",
+            "cidade": "PORTO ALEGRE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3533",
+            "cidade": "PRATA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3534",
+            "cidade": "QUEIMADA NOVA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3535",
+            "cidade": "REDENCAO DO GURGUEIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3536",
+            "cidade": "REGENERACAO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3537",
+            "cidade": "RIACHO FRIO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3538",
+            "cidade": "RIBEIRA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3539",
+            "cidade": "RIBEIRO GONCALVES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3540",
+            "cidade": "RIO GRANDE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3541",
+            "cidade": "SANTA CRUZ DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3542",
+            "cidade": "SANTA CRUZ DOS MILAGRES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3543",
+            "cidade": "SANTA FILOMENA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3544",
+            "cidade": "SANTA LUZ",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3545",
+            "cidade": "SANTA ROSA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3546",
+            "cidade": "SANTANA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3547",
+            "cidade": "SANTO ANTONIO DE LISBOA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3548",
+            "cidade": "SANTO ANTONIO DOS MILAGRES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3549",
+            "cidade": "SANTO INACIO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3550",
+            "cidade": "SAO BRAZ DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3551",
+            "cidade": "SAO FELIX DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3552",
+            "cidade": "SAO FRANCISCO DE ASSIS DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3553",
+            "cidade": "SAO FRANCISCO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3554",
+            "cidade": "SAO GONCALO DO GURGUEIA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3555",
+            "cidade": "SAO GONCALO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3556",
+            "cidade": "SAO JOAO DA CANABRAVA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3557",
+            "cidade": "SAO JOAO DA FRONTEIRA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3558",
+            "cidade": "SAO JOAO DA SERRA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3559",
+            "cidade": "SAO JOAO DA VARJOTA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3560",
+            "cidade": "SAO JOAO DO ARRAIAL",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3561",
+            "cidade": "SAO JOAO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3562",
+            "cidade": "SAO JOSE DO DIVINO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3563",
+            "cidade": "SAO JOSE DO PEIXE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3564",
+            "cidade": "SAO JOSE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3565",
+            "cidade": "SAO JULIAO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3566",
+            "cidade": "SAO LOURENCO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3567",
+            "cidade": "SAO LUIS DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3568",
+            "cidade": "SAO MIGUEL DA BAIXA GRANDE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3569",
+            "cidade": "SAO MIGUEL DO FIDALGO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3570",
+            "cidade": "SAO MIGUEL DO TAPUIO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3571",
+            "cidade": "SAO PEDRO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3572",
+            "cidade": "SAO RAIMUNDO NONATO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3573",
+            "cidade": "SEBASTIAO BARROS",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3574",
+            "cidade": "SEBASTIAO LEAL",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3575",
+            "cidade": "SIGEFREDO PACHECO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3576",
+            "cidade": "SIMOES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3577",
+            "cidade": "SIMPLICIO MENDES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3578",
+            "cidade": "SOCORRO DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3579",
+            "cidade": "SUSSUAPARA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3580",
+            "cidade": "TAMBORIL DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3581",
+            "cidade": "TANQUE DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3582",
+            "cidade": "TERESINA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3583",
+            "cidade": "UNIAO",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3584",
+            "cidade": "URUCUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3585",
+            "cidade": "VALENCA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3586",
+            "cidade": "VARZEA BRANCA",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3587",
+            "cidade": "VARZEA GRANDE",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3588",
+            "cidade": "VERA MENDES",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3589",
+            "cidade": "VILA NOVA DO PIAUI",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          },
+          {
+            "id": "3590",
+            "cidade": "WALL FERRAZ",
+            "sigla": "PI",
+            "estado": "PIAUI"
+          }
+    ]
+}

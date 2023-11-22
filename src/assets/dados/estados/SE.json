@@ -1,0 +1,454 @@
+{
+    "data": [
+        {
+            "id": "5351",
+            "cidade": "AMPARO DE SAO FRANCISCO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5352",
+            "cidade": "AQUIDABA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5353",
+            "cidade": "ARACAJU",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5354",
+            "cidade": "ARAUA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5355",
+            "cidade": "AREIA BRANCA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5356",
+            "cidade": "BARRA DOS COQUEIROS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5357",
+            "cidade": "BOQUIM",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5358",
+            "cidade": "BREJO GRANDE",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5359",
+            "cidade": "CAMPO DO BRITO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5360",
+            "cidade": "CANHOBA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5361",
+            "cidade": "CANINDE DE SAO FRANCISCO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5362",
+            "cidade": "CAPELA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5363",
+            "cidade": "CARIRA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5364",
+            "cidade": "CARMOPOLIS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5365",
+            "cidade": "CEDRO DE SAO JOAO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5366",
+            "cidade": "CRISTINAPOLIS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5367",
+            "cidade": "CUMBE",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5368",
+            "cidade": "DIVINA PASTORA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5369",
+            "cidade": "ESTANCIA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5370",
+            "cidade": "FEIRA NOVA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5371",
+            "cidade": "FREI PAULO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5372",
+            "cidade": "GARARU",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5373",
+            "cidade": "GENERAL MAYNARD",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5374",
+            "cidade": "GRACHO CARDOSO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5375",
+            "cidade": "ILHA DAS FLORES",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5376",
+            "cidade": "INDIAROBA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5377",
+            "cidade": "ITABAIANA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5378",
+            "cidade": "ITABAIANINHA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5379",
+            "cidade": "ITABI",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5380",
+            "cidade": "ITAPORANGA D`AJUDA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5381",
+            "cidade": "JAPARATUBA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5382",
+            "cidade": "JAPOATA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5383",
+            "cidade": "LAGARTO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5384",
+            "cidade": "LARANJEIRAS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5385",
+            "cidade": "MACAMBIRA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5386",
+            "cidade": "MALHADA DOS BOIS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5387",
+            "cidade": "MALHADOR",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5388",
+            "cidade": "MARUIM",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5389",
+            "cidade": "MOITA BONITA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5390",
+            "cidade": "MONTE ALEGRE DE SERGIPE",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5391",
+            "cidade": "MURIBECA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5392",
+            "cidade": "NEOPOLIS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5393",
+            "cidade": "NOSSA SENHORA APARECIDA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5394",
+            "cidade": "NOSSA SENHORA DA GLORIA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5395",
+            "cidade": "NOSSA SENHORA DAS DORES",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5396",
+            "cidade": "NOSSA SENHORA DE LOURDES",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5397",
+            "cidade": "NOSSA SENHORA DO SOCORRO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5398",
+            "cidade": "PACATUBA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5399",
+            "cidade": "PEDRA MOLE",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5400",
+            "cidade": "PEDRINHAS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5401",
+            "cidade": "PINHAO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5402",
+            "cidade": "PIRAMBU",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5403",
+            "cidade": "POCO REDONDO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5404",
+            "cidade": "POCO VERDE",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5405",
+            "cidade": "PORTO DA FOLHA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5406",
+            "cidade": "PROPRIA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5407",
+            "cidade": "RIACHAO DO DANTAS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5408",
+            "cidade": "RIACHUELO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5409",
+            "cidade": "RIBEIROPOLIS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5410",
+            "cidade": "ROSARIO DO CATETE",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5411",
+            "cidade": "SALGADO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5412",
+            "cidade": "SANTA LUZIA DO ITANHY",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5413",
+            "cidade": "SANTA ROSA DE LIMA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5414",
+            "cidade": "SANTANA DO SAO FRANCISCO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5415",
+            "cidade": "SANTO AMARO DAS BROTAS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5416",
+            "cidade": "SAO CRISTOVAO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5417",
+            "cidade": "SAO DOMINGOS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5418",
+            "cidade": "SAO FRANCISCO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5419",
+            "cidade": "SAO MIGUEL DO ALEIXO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5420",
+            "cidade": "SIMAO DIAS",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5421",
+            "cidade": "SIRIRI",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5422",
+            "cidade": "TELHA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5423",
+            "cidade": "TOBIAS BARRETO",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5424",
+            "cidade": "TOMAR DO GERU",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          },
+          {
+            "id": "5425",
+            "cidade": "UMBAUBA",
+            "sigla": "SE",
+            "estado": "SERGIPE"
+          }
+    ]
+}

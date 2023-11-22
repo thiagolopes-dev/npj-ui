@@ -1,0 +1,173 @@
+<main>
+  <p-card styleClass="card-adjust">
+    <h4>{{ editando ? "Edição de" : "Cadastro de" }} Cliente</h4>
+    <div class="flex justify-content-start mb-2">
+      <div>
+        <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-caret-left"
+          pTooltip="Voltar" tooltipPosition="top" routerLink="/clientes"></button>
+      </div>
+    </div>
+    <br />
+    <form #formCliente="ngForm" autocomplete="off" (ngSubmit)="salvar(formCliente)">
+      <div class="grid">
+        <div class="field col-12 md:col-6 lg:col-3">
+          <h6><span class="obrigatorio">*</span>Nome</h6>
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            upperCase pInputText name="nome" type="text"
+            [pKeyFilter]="regex.string" [(ngModel)]="newcliente.nome" #nome="ngModel" minlength="3" maxlength="30"
+            required />
+          <app-message [control]="nome" error="required" text="Informe o seu nome"></app-message>
+          <app-message [control]="nome" error="minlength" text="Mínimo de {{
+              nome.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+        </div>
+
+        <div class="field col-12 md:col-6 lg:col-3">
+          <h6><span class="obrigatorio">*</span>CPF</h6>
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            name="cpf" pInputText type="text" (input)="validateCPFCNPJ()" [mask]="'000.000.000-00'" [pKeyFilter]="regex.number"
+            [(ngModel)]="newcliente.cpf" #cpf="ngModel" minlength="11" maxlength="14" aria-describedby="cpf" required
+            [dropSpecialCharacters]="true" />
+          <span class="cpfinvalid" *ngIf="cpfValid">{{stringCpf}}</span>
+          <app-message [control]="cpf" error="required" text="Informe o seu cpf"></app-message>
+          <app-message [control]="cpf" error="minlength" text="Mínimo de {{
+              cpf.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+        </div>
+
+        <div class="field col-12 md:col-6 lg:col-3">
+          <h6>RG</h6>
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            upperCase pInputText name="rg" type="text" [mask]="'00.000.000-0'"
+            [pKeyFilter]="regex.blockSpecial" [(ngModel)]="newcliente.rg" #rg="ngModel" minlength="7" maxlength="12"
+            [dropSpecialCharacters]="true" />
+        </div>
+
+        <div class="field col-12 md:col-6 lg:col-3">
+          <h6><span class="obrigatorio">*</span>CEP</h6>
+          <p-inputMask mask="99999-999" id="cep" name="cep" (onBlur)="consultaCEP($event.target.value, formCliente)"
+              [(ngModel)]="newcliente.cep" #cep="ngModel" unmask="true" required></p-inputMask>
+            <app-message [control]="cep" error="required" text="Informe o cep"></app-message>
+          <app-message [control]="cep" error="minlength" text="Mínimo de {{
+              cep.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+        </div>
+
+        <div class="field col-12 md:col-6 lg:col-3">
+          <h6><span class="obrigatorio">*</span>Logradouro</h6>
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            upperCase pInputText name="logradouro" type="text"
+            [pKeyFilter]="regex.stringEspecial" [(ngModel)]="newcliente.logradouro" #logradouro="ngModel" minlength="3"
+            maxlength="30" required />
+
+          <app-message [control]="logradouro" error="required" text="Informe o seu logradouro"></app-message>
+          <app-message [control]="logradouro" error="minlength" text="Mínimo de {{
+              logradouro.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+        </div>
+
+        <div class="field col-12 md:col-6 lg:col-3">
+          <h6><span class="obrigatorio">*</span>Bairro</h6>
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            upperCase pInputText name="bairro" type="text"
+            [(ngModel)]="newcliente.bairro" #bairro="ngModel" minlength="3" maxlength="30" required />
+          <app-message [control]="bairro" error="required" text="Informe o seu bairro"></app-message>
+          <app-message [control]="bairro" error="minlength" text="Mínimo de {{
+              bairro.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+        </div>
+
+        <div class="field col-12 md:col-6 lg:col-3">
+          <h6><span class="obrigatorio">*</span>Número</h6>
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            upperCase pInputText name="numero" type="text"
+            [pKeyFilter]="regex.number" [(ngModel)]="newcliente.numero" #numero="ngModel" minlength="1" maxlength="8"
+            required />
+          <app-message [control]="numero" error="required" text="Informe o seu numero"></app-message>
+          <app-message [control]="numero" error="minlength" text="Mínimo de {{
+              numero.errors?.minlength?.requiredLength
+            }} caracteres"></app-message>
+        </div>
+
+        <div class="field col-12 md:col-6 lg:col-3">
+          <h6><span></span>Complemento</h6>
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            upperCase pInputText name="complemento" type="text"
+            [pKeyFilter]="regex.stringEspecial" [(ngModel)]="newcliente.complemento" #complemento="ngModel"
+            minlength="0" maxlength="255" />
+        </div>
+
+        <div class="col-12 md:col-6 lg:col-3">
+          <h6><span class="obrigatorio">*</span>Estados</h6>
+          <p-dropdown styleClass="w-full" [options]="estados" [(ngModel)]="newcliente.uf" #uf="ngModel" name="uf"
+            placeholder="Selecione..." optionLabel="estado" optionValue="uf" filter="true" [virtualScroll]="true"
+            appendTo="body" (onChange)="buscarCidades(newcliente.uf)" [virtualScrollItemSize]="30" required
+            filterBy="uf,estado"></p-dropdown>
+          <app-message [control]="uf" error="required" text="Informe o estado"></app-message>
+        </div>
+
+
+        <div class="col-12 md:col-6 lg:col-3">
+          <h6><span class="obrigatorio">*</span>Cidades</h6>
+          <p-dropdown styleClass="w-full" [options]="cidadesFiltradas" [disabled]="!newcliente.uf"
+            [(ngModel)]="newcliente.cidade" #cidade="ngModel" name="cidade" placeholder="Selecione..." appendTo="body"
+            optionLabel="cidade" optionValue="cidade" filter="true" [virtualScroll]="true" required=""
+            [virtualScrollItemSize]="30">
+          </p-dropdown>
+          <app-message [control]="cidade" error="required" text="Informe a cidade"></app-message>
+        </div>
+
+        <div class="field col-12 md:col-6 lg:col-3">
+          <h6>Whatsapp</h6>
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            upperCase pInputText name="whatsapp" type="text"
+           [mask]="'(00) 0 0000-0000'" [pKeyFilter]="regex.stringEspecial"
+            [(ngModel)]="newcliente.whatsapp" #whatsapp="ngModel" minlength="9" maxlength="16"
+            [dropSpecialCharacters]="true" />
+        </div>
+      </div>
+      <div class="flex justify-content-center">
+        <div class="flex align-items-center justify-content-center">
+          <h6>Status</h6>
+        </div>
+      </div>
+      <div class="flex justify-content-center">
+        <div class="flex align-items-center justify-content-center">
+          <p-inputSwitch [(ngModel)]="newcliente.status" name="status" [ngModelOptions]="{ standalone: true }"
+            binary="true">
+          </p-inputSwitch>
+        </div>
+      </div>
+      <br />
+      <div class="flex flex-wrap justify-content-center">
+        <div class="col-12 md:col-6 lg:col-4">
+          <button pButton pRipple type="submit" label="Salvar" icon="fas fa-save"
+            [disabled]="formCliente.invalid || salvando || cpfValid" class="p-button-raised p-button-warning w-full"></button>
+        </div>
+        <!-- <div class="col-12 md:col-6 lg:col-4">
+          <button pButton pRipple type="button" class="p-button-outlined p-button-primary w-full" icon="fas fa-trash"
+            pTooltip="Excluir" tooltipPosition="top"
+            (click)="confirmarExclusao()" label="Excluir"></button>
+        </div> -->
+      </div>
+      <div *ngIf="salvando" class="grid justify-content-center mt-4">
+        <div class="grid col-12 justify-content-center">
+          <p-progressSpinner [style]="{ width: '50px', height: '50px' }" styleClass="custom-spinner" strokeWidth="8"
+            animationDuration=".5s">
+          </p-progressSpinner>
+        </div>
+        <div class="grid col-12 justify-content-center">
+          <h6>Salvando aguarde...</h6>
+        </div>
+      </div>
+    </form>
+  </p-card>
+</main>

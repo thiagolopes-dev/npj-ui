@@ -1,1 +1,825 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import "primeicons/primeicons.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+ font-family: 'Ubuntu', sans-serif;
+  font-size: 100%;
+  font-display: block;
+}
+
+main {
+  padding: 1.875rem 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+}
+
+.card-adjust {
+  min-height: 89vh;
+  margin-top: 2rem;
+  margin-right: 0.625rem;
+  margin-left: 0.625rem;
+}
+
+main>div {
+  margin: auto;
+}
+
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6c757d;
+  border-radius: 0.625rem;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+ font-family: 'Ubuntu', sans-serif;
+  /* font-weight: 500; */
+  font-size: 100%;
+  color: #6c757d;
+  margin: 0;
+  background-color: #f1f2f6;
+}
+
+
+h1 {
+  display: block;
+  font-size: 0.8rem;
+  margin-block-start: 0.67rem;
+  margin-block-end: 0.67rem;
+  margin-inline-start: 0rem;
+  margin-inline-end: 0rem;
+  font-weight: bold;
+}
+
+h4 {
+  color: #6c757d;
+ font-family: 'Ubuntu', sans-serif;
+  /* text-transform: uppercase; */
+  text-align: left;
+  font-size: 1.25rem;
+  margin-left: 0.0625rem;
+  margin-top: 0.4375rem;
+  margin-bottom: 0.375rem;
+}
+
+h5 {
+  color: #fafafa;
+ font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 0.0625rem;
+  text-align: center;
+  font-size: 1.875rem;
+  margin-top: 0rem;
+  margin-bottom: 0.3125rem;
+}
+
+h6 {
+  font-size: 0.8125rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #898989;
+  margin: 0rem;
+  margin-left: 0.375rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  color: #6c757d;
+ font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin-bottom: -4.0625rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+td {
+  word-break: break-all;
+}
+
+/* Turn Off Number Input Spinners Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+}
+
+/* Turn Off Number Input Spinners Firefox */
+
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
+
+img.acende {
+  opacity: 0.4;
+  -moz-opacity: 0.5;
+  filter: Alpha(Opacity=40);
+}
+
+img.acende:hover {
+  opacity: 1;
+  -moz-opacity: 1;
+  filter: Alpha(Opacity=100);
+}
+
+img.grow:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.only-print {
+  display: none;
+}
+
+
+
+@media print {
+  body {
+    min-width: 64rem;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  .only-print {
+    display: block !important;
+  }
+
+  .p-lg-1 {
+    width: 100% !important;
+  }
+
+  .p-lg-2 {
+    width: 91.66666667% !important;
+  }
+
+  .p-lg-3 {
+    width: 83.33333333% !important;
+  }
+
+  .p-lg-4 {
+    width: 75% !important;
+  }
+
+  .p-lg-6 {
+    width: 75% !important;
+  }
+
+  .p-lg-8 {
+    width: 75% !important;
+  }
+}
+
+
+.p-inputswitch.p-focus .p-inputswitch-slider {
+  box-shadow: none;
+}
+
+.p-card {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.1875rem 0.125rem 1rem -0.0625rem rgba(81, 82, 81, 0.72);
+  user-select: none;
+}
+
+.login .p-card {
+  background: #ecf0f1;
+  border-radius: 0.5rem;
+  box-shadow: 0.625rem 0.625rem 0.9375rem -0.3125rem rgba(0, 0, 0, 0.75);
+}
+
+.lista .p-card .p-card-body {
+  padding: 0rem;
+}
+
+.p-card .p-card-content {
+  margin-top: -2.5625rem;
+}
+
+.p-dropdown .p-dropdown-label.p-placeholder {
+  color: #6c757d;
+  margin-top: -0.1875rem;
+}
+
+.p-inputtext {
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 2.1875rem;
+  /* text-transform: uppercase; */
+}
+
+.p-autocomplete {
+  width: 100%;
+}
+
+p-inputnumber,
+.p-inputnumber {
+  width: 100% !important;
+}
+
+.p-button {
+  border: none;
+  height: 2.1875rem;
+}
+
+.p-button.p-button-icon-only {
+  width: 2.5rem;
+}
+
+.p-button.p-button-icon-only {
+  width: 2.5rem;
+  padding: 0.75rem 0;
+}
+
+/* .p-inputtext {
+  font-size: 0.7949rem;
+} */
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -1.1rem;
+  margin-top: -0.8rem;
+}
+
+.p-component {
+  font-size: 16px;
+  border-radius: 0.5rem;
+}
+
+.p-button:focus {
+  box-shadow: none;
+}
+
+.refresh {
+  margin-left: 0.625rem;
+}
+
+.p-tag {
+  border-radius: 0.5rem;
+}
+
+.p-float-label {
+  font-size: 0.875rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+.p-inputnumber-buttons-stacked .p-inputnumber-input {
+  height: 2.3125rem;
+}
+
+.p-inputnumber-buttons-stacked .p-inputnumber-button-group {
+  height: 2.3125rem;
+}
+
+.p-dialog {
+  border: none;
+  box-shadow: none;
+}
+
+.p-dialog .p-dialog-header {
+  color: #6c757d;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.p-dialog .p-dialog-footer {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.p-dialog .p-dialog-content,
+.p-dialog .p-dialog-footer,
+.p-dialog-header {
+  color: #6c757d;
+}
+
+.p-datepicker table td>span.p-highlight {
+  color: #ecf0f1;
+  background: #27ae60;
+}
+
+.p-datepicker table td.p-datepicker-today>span {
+  color: #ecf0f1;
+  background: #2980b9;
+}
+
+/* .p-button.p-button-danger,
+.p-buttonset.p-button-danger>.p-button,
+.p-splitbutton.p-button-danger>.p-button {
+  background-color: #dc3545;
+  padding: 0.375rem;
+} */
+
+.p-button.p-button-info {
+  padding: 0.4375rem;
+}
+
+.emptyMessage {
+  /* background-color: #f1f2f6; */
+  color: #dc3545 !important;
+  text-align: left;
+  padding-left: 0.625rem;
+}
+
+.p-tabview .p-tabview-nav,
+.p-tabview .p-tabview-panels,
+.p-tabview .p-tabview-nav li .p-tabview-nav-link,
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link,
+.p-paginator {
+  background: #fff;
+}
+
+.p-paginator {
+  font-weight: 600;
+  padding: 0.2rem;
+}
+
+.p-paginator .p-paginator-current {
+  margin-left: auto;
+}
+
+.p-paginator .p-paginator-current,
+.p-paginator .p-paginator-pages .p-paginator-page {
+  color: #6c757d;
+  border: none;
+}
+
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-last,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-prev {
+  color: #6c757d;
+  border: none;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background: #6c757d;
+  border-color: #212529;
+  border-radius: 3.125rem;
+  color: #ffff;
+  height: 1.3125rem;
+}
+
+.p-paginator .p-paginator-current,
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-last,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-pages .p-paginator-page,
+.p-paginator .p-paginator-prev {
+  font-weight: 400;
+}
+
+.p-paginator .p-dropdown {
+  margin-left: 0rem;
+  height: 1.5625rem;
+}
+
+.p-paginator .p-dropdown .p-dropdown-label {
+  padding: 0.1875rem;
+  margin-top: 0.0625rem;
+  margin-left: 0.4375rem;
+  margin-right: -0.625rem;
+}
+
+.p-tieredmenu.p-tieredmenu-overlay {
+  margin-left: -2.5rem;
+}
+
+.p-datatable-scrollable-header-box {
+  padding-right: 0rem !important;
+}
+
+.p-datatable .p-datatable-tbody>tr {
+  color: #545b62;
+}
+
+.p-datatable .p-datatable-header {
+  padding: 0rem;
+  background-color: #ffff;
+  border: none;
+}
+
+.p-datatable .p-datatable-footer {
+  background-color: #ffff;
+  border: none;
+}
+
+.p-datatable .p-datatable-tfoot>tr>td {
+  padding: 0.1rem;
+  background: #dfe4ea;
+}
+
+
+.p-datatable .p-datatable-tbody>tr>td {
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  text-align: left;
+  padding-left: 0.375rem !important;
+  padding: 0rem;
+  font-weight: 600;
+}
+
+
+.p-datatable .p-datatable-thead>tr>th {
+  color: #6c757d;
+  text-align: center;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+/* .p-datatable.p-datatable-striped .p-datatable-tbody>tr:nth-child(even).p-highlight {
+    background: #b4cff1;
+    color: #1d4ed8;
+} */
+
+.p-datatable .p-datatable-tbody>tr.p-highlight {
+  background: #99c6ff;
+  color: #2457e5;
+}
+
+.p-datatable.p-datatable-striped .p-datatable-tbody>tr:nth-child(even).p-highlight {
+  background: #99c6ff;
+  color: #2457e5;
+}
+
+.p-datatable-responsive-demo .p-datatable-tbody>tr>td .p-column-title {
+  display: none;
+}
+
+.p-datatable.p-datatable-striped .p-datatable-tbody>tr:nth-child(even) {
+  background: #efefef;
+}
+
+.p-datatable-scrollable-wrapper {
+  overflow: auto !important;
+}
+
+.p-datatable .p-datatable-loading-overlay {
+  background-color: #343a403b;
+  border-radius: 0.25rem;
+  color: #212529;
+  z-index: 1;
+}
+
+.p-datatable-scrollable-header,
+.p-datatable-scrollable-body,
+.p-datatable-scrollable-footer {
+  overflow: visible !important;
+}
+
+.p-datatable .p-sortable-column.p-highlight {
+  background: #f1f2f6;
+}
+
+.p-datatable .p-sortable-column .p-sortable-column-icon,
+.p-column-filter-menu-button {
+  color: #2196f3;
+}
+
+.p-column-filter-menu-button,
+.p-datatable .p-sortable-column .p-sortable-column-icon {
+  color: #6c757d;
+}
+
+.p-column-filter-row {
+  padding: 0.625rem;
+}
+
+.p-column-filter-row {
+  margin-left: -0.9375rem;
+}
+
+.buttonNavigation {
+  margin-top: -0.4375rem;
+}
+
+.p-divider .p-divider-content {
+  background-color: transparent;
+}
+
+/* .p-dialog-content {
+  overflow-y: auto !important;
+} */
+
+.obrigatorio {
+  color: #e74c3c;
+}
+
+.status {
+  min-width: 5.625rem;
+}
+
+.situacao {
+  min-width: 10.5rem;
+}
+
+.edit {
+  min-width: 3.125rem;
+}
+
+.btnAcoes {
+  min-width: 6rem;
+}
+
+.btnEditar {
+  min-width: 3.0625rem;
+}
+
+.btnPrevisao {
+  min-width: 6.4375rem;
+}
+
+.buttonDelete {
+  min-width: 2.1875rem;
+}
+
+.divider {
+  width: 90%;
+  margin-bottom: 0rem;
+}
+
+.btn-atualizar {
+  height: 1.8125rem;
+  margin-top: 0.25rem;
+}
+
+.mydialog {
+  z-index: 999;
+  width: 90%;
+}
+
+.mydialogLocal {
+  width: 31.25rem;
+}
+
+.p-splitbutton .p-menu {
+  left: -2.9014rem !important;
+}
+
+
+@media screen and (max-width: 20rem) {
+  .p-toast .p-toast-message {
+    margin-left: 7.5625rem;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  .hideDesktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  * {
+    font-size: 0.9375rem;
+    /* font-weight: 700; */
+  }
+
+  .card-adjust {
+    margin-top: 7%;
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
+  }
+
+  .p-component {
+    font-size: 0.9375rem;
+    border-radius: 0.5rem;
+  }
+
+  .p-dropdown .p-dropdown-label.p-placeholder {
+    font-weight: 600;
+  }
+
+
+  .alignCenter {
+    position: absolute;
+    left: 45%;
+  }
+
+  .p-dropdown {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  .ordemEntrega {
+    width: 100%;
+  }
+
+  .bar {
+    margin-left: 0% !important;
+  }
+
+
+  .p-datatable .p-datatable-tbody>tr>td>.p-column-title {
+    font-weight: 300 !important;
+  }
+
+  .p-toast .p-toast-message {
+    margin-left: 5.0625rem;
+  }
+
+  /* .p-dialog {
+    max-height: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+  } */
+
+}
+
+@media screen and (max-width: 187.5rem) {
+  .buttonDelete {
+    width: 4.5rem;
+  }
+
+  .ordemEntrega {
+    width: 3.125rem;
+  }
+}
+
+.labelIcons {
+  color: #f5f6f8;
+ font-family: 'Ubuntu', sans-serif;
+  margin-left: 0.3125rem;
+}
+
+.p-selectbutton .p-button {
+  background: #ced4da;
+  border-color: none;
+  border: none;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  padding: 0.5rem 0.5rem;
+}
+
+.msgAtraso {
+  color: red;
+  font-weight: 600;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.p-inputswitch .p-inputswitch-slider {
+  border-radius: 1.25rem;
+}
+
+.p-inputswitch .p-inputswitch-slider:before,
+.p-dropdown-panel,
+.p-autocomplete-panel,
+.p-datepicker,
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month,
+.p-datepicker .p-datepicker-header .p-datepicker-title select {
+  border-radius: 0.625rem;
+}
+
+.p-dropdown {
+  width: 100%;
+  height: 2.1875rem;
+  border-radius: 0.5rem;
+}
+
+.p-dropdown-label {
+  font-size: 0.8125rem;
+  margin-top: -0.1875rem;
+  font-weight: 600;
+}
+
+.p-datepicker .p-datepicker-header {
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.edit-vizu {
+  width: 7.625rem;
+}
+
+.p-multiselect .p-multiselect-label {
+  color: #6c757d;
+  padding: 0.5625rem 0.25rem;
+
+}
+
+.p-multiselect {
+  width: 105% !important;
+  margin-top: 0.1875rem;
+}
+
+.width-multiselect {
+  margin-top: -0.25rem;
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight {
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+}
+
+.noselection {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
+
+.cursorpointer {
+  cursor: pointer;
+}
+
+.p-toast .p-toast-message {
+  margin-left: 5.0625rem;
+}
+
+.p-toast-bottom-right {
+  right: 0.5rem !important;
+}
+
+.dialogColunas {
+  width: 18.75rem;
+}
+
+/* BUG textArea com com valor fixo por erro com tabview na versão 13 primeng */
+.p-inputtextarea-resizable {
+  height: 99px !important;
+}
+
+.btnResetColunas {
+  width: 100%;
+}
+
+.alignMultiselectColunas,
+.p-multiselect-panel {
+  max-width: 12.5rem;
+}
+
+.p-button.p-button-info:enabled:focus,
+.p-buttonset.p-button-info>.p-button:enabled:focus,
+.p-splitbutton.p-button-info>.p-button:enabled:focus {
+  box-shadow: none;
+}
+
+.p-dropdown-panel .p-dropdown-header .p-dropdown-filter {
+  text-transform: uppercase;
+}
+.p-link, .pi {
+  font-size: 0.75rem;
+}
+
+.p-button-label {
+  font-weight: 500  !important;
+}
+
+.p-datatable .p-datatable-loading-overlay {
+  background-color: transparent;
+}
+
+.p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link {
+  background: #e9ecef;
+  border-color: #dee2e6;
+  color: #1ea97c;
+}
+
+.p-inputswitch.p-inputswitch-checked:not(.p-disabled):hover .p-inputswitch-slider {
+  background: #6c757d;
+}
+
+.p-inputswitch.p-focus .p-inputswitch-slider {
+  box-shadow: none;
+}
+
+.p-inputswitch.p-inputswitch-checked:not(.p-disabled):hover .p-inputswitch-slider {
+  background: #D97706;
+}
+
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background: #D97706;
+}

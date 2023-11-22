@@ -1,0 +1,20 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    z-index: 3;
+}
+
+.colorNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px;
+    z-index: 998;
+    background-color: #f59e0b;
+    box-shadow: 0.1875rem 0.125rem 1rem -0.0625rem rgba(81, 82, 81, 0.72);
+}

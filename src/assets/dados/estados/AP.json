@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "id": "203",
+            "cidade": "AMAPA",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "204",
+            "cidade": "CALCOENE",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "205",
+            "cidade": "CUTIAS",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "206",
+            "cidade": "FERREIRA GOMES",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "207",
+            "cidade": "ITAUBAL",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "208",
+            "cidade": "LARANJAL DO JARI",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "209",
+            "cidade": "MACAPA",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "210",
+            "cidade": "MAZAGAO",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "211",
+            "cidade": "OIAPOQUE",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "212",
+            "cidade": "PEDRA BRANCA DO AMAPARI",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "213",
+            "cidade": "PORTO GRANDE",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "214",
+            "cidade": "PRACUUBA",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "215",
+            "cidade": "SANTANA",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "216",
+            "cidade": "SERRA DO NAVIO",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "217",
+            "cidade": "TARTARUGALZINHO",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          },
+          {
+            "id": "218",
+            "cidade": "VITORIA DO JARI",
+            "sigla": "AP",
+            "estado": "AMAPA"
+          }
+    ]
+}
