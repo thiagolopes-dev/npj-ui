@@ -16,6 +16,7 @@ import { Clientes } from 'src/app/core/models/cliente.model';
 import { FiltroClientes } from 'src/app/core/models/filtros.model';
 import { FiltroClientesService } from 'src/app/core/services/filtros-services/filtro-clientes.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
+import { Regex } from 'src/app/core/validators/regex.model';
 import { AuthService } from '../../seguranca/auth.service';
 import { ClientesService } from '../clientes.service';
 
@@ -28,7 +29,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
   @ViewChild('tabela') table: Table;
   @ViewChild('paginator') paginator: Paginator;
   @ViewChild('buttonFilter') buttonFilter: ElementRef;
-
+  regex = new Regex();
   rowsPerPageTable: number[] = [10, 25, 50, 100, 200];
   messagePageReport = 'Mostrando {first} a {last} de {totalRecords} registros';
   sinal = true;

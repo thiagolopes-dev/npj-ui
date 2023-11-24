@@ -1,16 +1,17 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { NgxSpinnerService } from 'ngx-spinner';
+import { LazyLoadEvent, MenuItem } from 'primeng/api';
+import { Paginator } from 'primeng/paginator';
 import { Table } from 'primeng/table';
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { StatusService } from '../status.service';
-import { Status } from 'src/app/core/models/status.model';
-import { Paginator } from 'primeng/paginator';
-import { LazyLoadEvent, MenuItem } from 'primeng/api';
 import { FiltroStatus } from 'src/app/core/models/filtros.model';
+import { Status } from 'src/app/core/models/status.model';
 import { FiltroStatusService } from 'src/app/core/services/filtros-services/filtro-status.service';
-import { AuthService } from '../../seguranca/auth.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
+import { Regex } from 'src/app/core/validators/regex.model';
+import { AuthService } from '../../seguranca/auth.service';
+import { StatusService } from '../status.service';
 
 
 @Component({
@@ -22,7 +23,7 @@ export class ListaStatusComponent implements OnInit, AfterViewInit {
   @ViewChild('tabela') table: Table;
   @ViewChild('paginator') paginator: Paginator;
   @ViewChild('buttonFilter') buttonFilter: ElementRef;
-
+  regex = new Regex();
   rowsPerPageTable: number[] = [10, 25, 50, 100, 200];
   messagePageReport = 'Mostrando {first} a {last} de {totalRecords} registros';
   sinal = true;

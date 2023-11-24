@@ -44,44 +44,44 @@
                   tooltipPosition="top">
               </div>
               <div *ngIf="cols.type === 'date' && cols.field === 'datacriacao'" class="flex p-2"
-                [ngStyle]="{'min-width': cols.width}">
-                <p-overlayPanel #dataCriacao>
-                  <ng-template pTemplate>
-                    <div class="grid flex justify-content-center align-items-center">
-                      <div class="col-1">
-                        <span class="spanDeAte">De</span>
-                      </div>
-                      <div class="col-5">
-                        <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaode"
-                          (keyup)="searchData('datacriacaode')" (blur)="searchData('datacriacaode')" type="tel"
-                          class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="datacriacaode"
-                          #dtcriacaode="ngModel" minlength="10" />
-                        <app-message [control]="dtcriacaode" error="minlength" text="Digite uma data completa">
-                        </app-message>
-                      </div>
-                      <div class="col-1"> 
-                        <span class="spanDeAte">Até</span>
-                      </div> 
-                      <div class="col-5">
-                        <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaoate"
-                          (keyup)="searchData('datacriacaoate')" (blur)="searchData('datacriacaoate')" type="tel"
-                          class="w-full" [(ngModel)]="datacriacaoate" [dropSpecialCharacters]="false"
-                          #dtcriacaoate="ngModel" minlength="10" />
-                        <app-message [control]="dtcriacaoate" error="minlength" text="Digite uma data completa">
-                        </app-message>
-                      </div>
+              [ngStyle]="{'min-width': cols.width}">
+              <p-overlayPanel #dataCriacao>
+                <ng-template pTemplate>
+                  <div class="grid flex justify-content-center align-items-center">
+                    <div class="col-1">
+                      <span class="spanDeAte">De</span>
                     </div>
-                    <div class="grid flex justify-content-end align-items-center mt-2 mr-1">
-                      <button pButton pRipple type="button" label="Limpar Filtro" class="p-button-raised p-button-warning"
-                        icon="fa-solid fa-filter" (click)="limparData('dataCriacao')"></button>
+                    <div class="col-5">
+                      <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaode"
+                        (keyup)="searchData('datacriacaode')" (blur)="searchData('datacriacaode')" type="tel"
+                        class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="datacriacaode"
+                        #dtcriacaode="ngModel" minlength="10" />
+                      <app-message [control]="dtcriacaode" error="minlength" text="Digite uma data completa">
+                      </app-message>
                     </div>
-                    
-                  </ng-template>
-                </p-overlayPanel>
-                <button pButton pRipple type="button" label="Pesquisar"
-                  [ngClass]="(datacriacaode || datacriacaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
-                  class="p-button-raised  w-full" (click)="dataCriacao.toggle($event)"></button>
-              </div>
+                    <div class="col-1"> 
+                      <span class="spanDeAte">Até</span>
+                    </div> 
+                    <div class="col-5">
+                      <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaoate"
+                        (keyup)="searchData('datacriacaoate')" (blur)="searchData('datacriacaoate')" type="tel"
+                        class="w-full" [(ngModel)]="datacriacaoate" [dropSpecialCharacters]="false"
+                        #dtcriacaoate="ngModel" minlength="10" />
+                      <app-message [control]="dtcriacaoate" error="minlength" text="Digite uma data completa">
+                      </app-message>
+                    </div>
+                  </div>
+                  <div class="grid flex justify-content-end align-items-center mt-2 mr-1">
+                    <button pButton pRipple type="button" label="Limpar Filtro" class="p-button-raised p-button-warning"
+                      icon="fa-solid fa-filter" (click)="limparData('dataCriacao')"></button>
+                  </div>
+                </ng-template>
+              </p-overlayPanel>
+              <button pButton pRipple type="button" label="Pesquisar"
+                [ngClass]="(datacriacaode || datacriacaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
+                class="p-button-raised  w-full" (click)="dataCriacao.toggle($event)"></button>
+            </div>
+
               <div *ngIf="cols.type === 'date' && cols.field === 'dataalteracao'" class="flex p-2"
                 [ngStyle]="{'min-width': cols.width}">
                 <p-overlayPanel #dataAlteracao>
