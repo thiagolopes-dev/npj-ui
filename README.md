@@ -35,7 +35,9 @@ Este projeto foi desenvolvido pelo Professor Thiago Henrique Lopes como parte do
 
 ## Autores
 
-- [@thiagolopes-dev](https://github.com/thiagolopes-dev)
+- [Thiago Lopes](https://github.com/thiagolopes-dev)
+- [Thiago Henry](https://github.com/ThiagoDHenry)
+- [Roberto Magerski](https://github.com/RobertoMagerski)
 
 
 ## Aprendizados
