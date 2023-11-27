@@ -253,7 +253,7 @@ export class CadastroProcessoComponent {
 
   carregarStatus() {
     return this.statusService
-      .ListarDrop()
+      .listarDropProcesso()
       .then((response) => {
         this.statusoptions = response.map((status) => ({
           descricao: status.descricao,
@@ -270,22 +270,9 @@ export class CadastroProcessoComponent {
 
   atribuirStatus() {
     this.newprocesso.status = this.statusoptions.find(
-      (obj) => obj.descricao === 'ABERTO'
+      (obj) => obj.descricao === 'AGUARDANDO DESPACHO'
     );
   }
-
-  // carregarMotivosPorCliente(clienteCodigo: number) {
-  //   this.motivosService.ListarDrop(clienteCodigo)
-  //     .then((motivos) => {
-  //       this.motivos = motivos.map((motivo) => ({
-  //         descricao: motivo.descricao,
-  //         codigo: motivo.codigo,
-  //       }));
-  //     })
-  //     .catch((erro) => {
-  //       this.errorHandler.handle(erro);
-  //     });
-  // }
 
   carregarDadosCliente(event: any) {
     this.agendamentoService

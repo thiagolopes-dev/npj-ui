@@ -829,3 +829,13 @@ p-inputnumber,
 .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
   background: #D97706;
 }
+
+.p-radiobutton .p-radiobutton-box.p-highlight {
+  border-color: #f59e1c;
+  background: #f59e1c;
+}
+
+.p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
+  border-color: #f59e1c;
+  background: #f59e1c;
+}

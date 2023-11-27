@@ -27,6 +27,10 @@ export class FiltroStatusService {
             filtro.descricao = value.qty;
         }
 
+        if (value.field === 'tipo') {
+            filtro.tipo = value.qty;
+        }
+
         if (value.field === 'usuariocriacao') {
             filtro.usuariocriacao = value.qty;
         }

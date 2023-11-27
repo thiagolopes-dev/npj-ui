@@ -216,7 +216,7 @@ export class CadastroAgendamentoComponent {
 
   carregarStatus() {
     return this.statusService
-      .ListarDrop()
+      .listarDropAgendamento()
       .then((response) => {
         this.statusoptions = response.map((status) => ({
           descricao: status.descricao,
@@ -233,7 +233,7 @@ export class CadastroAgendamentoComponent {
 
   atribuirStatus() {
     this.newagendamento.status = this.statusoptions.find(
-      (obj) => obj.descricao === 'ABERTO'
+      (obj) => obj.descricao === 'EM ANÁLISE'
     );
   }
 }

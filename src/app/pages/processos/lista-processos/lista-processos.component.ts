@@ -212,7 +212,7 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
 
   carregarStatus() {
     return this.statusService
-      .ListarDrop()
+      .listarDropProcesso()
       .then((response) => {
         this.statusoptions = response.map((status) => ({
           descricao: status.descricao,

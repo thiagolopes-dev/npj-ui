@@ -17,6 +17,7 @@ export class FiltroMotivos {
     itensPorPagina: number;
     codigo: string;
     descricao: string;
+    tipo: string;
     status: string;
     datacriacaode: string;
     datacriacaoate: string;

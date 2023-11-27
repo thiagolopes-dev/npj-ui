@@ -278,7 +278,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
 
   carregarStatus() {
     return this.statusService
-      .ListarDrop()
+      .listarDropAgendamento()
       .then((response) => {
         this.statusoptions = response.map((status) => ({
           descricao: status.descricao,

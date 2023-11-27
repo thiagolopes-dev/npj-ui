@@ -1,5 +1,5 @@
 <main>
-  <p-card styleClass="card-adjust">
+  <p-card styleClass="card-adjust" #cardPrincipal>
     <h4>Status</h4>
     <div class="flex justify-content-between mb-2">
       <div class="flex justify-content-start mb-2">
@@ -36,13 +36,22 @@
           <th class="tdAcoes">&nbsp;</th>
           <th *ngFor="let cols of columns; let i = index" [ngStyle]="{'min-width': cols.width}">
             <form #formFiltro="ngForm" autocomplete="off">
-              <div *ngIf="cols.type !== 'date' && cols.type !== 'status'" class="flex p-2"
+              <div *ngIf="cols.type !== 'date' && cols.type !== 'status' && cols.field !== 'tipo'" class="flex p-2"
                 [ngStyle]="{'min-width': cols.width}">
                 <input pInputText class="white-space-nowrap overflow-hidden text-overflow-ellipsis mr-2 w-full"
                   placeholder="Pesquisar" type="text" name="pesquisa{{i}}" [(ngModel)]="cols.qty" validateQuantity [pKeyFilter]="regex.stringNumber"
                   #qtyInput (keyup)="search(cols)" (blur)="applySearch(cols)" pTooltip="Pesquisa nessa coluna"
                   tooltipPosition="top">
               </div>
+              <div *ngIf="cols.type == 'text' && cols.field == 'tipo'" class="flex p-2"
+              [ngStyle]="{'min-width': cols.width}">
+              <p-dropdown class="w-full" [style]="{'min-width': '125px'}" name="tipo" placeholder="Selecione..."
+              [virtualScroll]="true" [virtualScrollItemSize]="31" [(ngModel)]="cols.qty"
+              (ngModelChange)="filtro.tipo = cols.qty" id="tipo" (onChange)="filtroLocalStorage()"
+              #status="ngModel" validateQuantity [options]="tipooptions" [filter]="false" optionLabel="label" optionValue="label" 
+              [emptyFilterMessage]="messageDrop" [showClear]="true" [appendTo]="cardPrincipal">
+            </p-dropdown>
+            </div>
               <div *ngIf="cols.type === 'date' && cols.field === 'datacriacao'" class="flex p-2"
                 [ngStyle]="{'min-width': cols.width}">
                 <p-overlayPanel #dataCriacao>
