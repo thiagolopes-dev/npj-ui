@@ -12,7 +12,7 @@ import { Regex } from 'src/app/core/validators/regex.model';
 
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
 import { ItensProcesso, Processos } from 'src/app/core/models/processo.model';
-import { ClientesService } from '../../clientes/clientes.service';
+import { AgendamentosService } from '../../agendamentos/agendamentos.service';
 import { MotivosService } from '../../motivos/motivos.service';
 import { AuthService } from '../../seguranca/auth.service';
 import { StatusService } from '../../status/status.service';
@@ -47,7 +47,7 @@ export class CadastroProcessoComponent {
 
   constructor(
     private processoService: ProcessosService,
-    private clientesService: ClientesService,
+    private agendamentoService: AgendamentosService,
     private motivosService: MotivosService,
     private statusService: StatusService,
     private varasService: VarasService,
@@ -68,7 +68,7 @@ export class CadastroProcessoComponent {
     this.idprocesso = this.route.snapshot.params['id'];
     this.title.setTitle('Cadastro de processos');
     this.carregarClientes();
-    this.carregarMotivos();
+    //this.carregarMotivos();
     this.carregarStatus();
     this.carregarVaras();
     if (this.idprocesso) {
@@ -148,6 +148,7 @@ export class CadastroProcessoComponent {
       .buscarPorID(_id)
       .then((obj) => {
         this.newprocesso = obj;
+        this.atribuirMotivos(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
       })
@@ -207,32 +208,34 @@ export class CadastroProcessoComponent {
   }
 
   carregarClientes() {
-    return this.clientesService
+    return this.agendamentoService
       .ListarDrop()
       .then((response) => {
-        this.clientes = response.map((cliente) => ({
-          nome: cliente.nome,
-          codigo: cliente.codigo,
+        this.clientes = response.map((agendamento) => ({
+          nome: agendamento.cliente.nome,
+          codigo: agendamento.cliente.codigo,
+          id: agendamento._id
         }));
       })
       .catch((erro) => {
         this.errorHandler.handle(erro);
       });
   }
-
-  carregarMotivos() {
-    return this.motivosService
-      .ListarDrop()
-      .then((response) => {
-        this.motivos = response.map((motivo) => ({
-          descricao: motivo.descricao,
-          codigo: motivo.codigo,
-        }));
-      })
-      .catch((erro) => {
-        this.errorHandler.handle(erro);
-      });
-  }
+  
+  
+  // carregarMotivos() {
+  //   return this.motivosService
+  //     .ListarDrop()
+  //     .then((response) => {
+  //       this.motivos = response.map((motivo) => ({
+  //         descricao: motivo.descricao,
+  //         codigo: motivo.codigo,
+  //       }));
+  //     })
+  //     .catch((erro) => {
+  //       this.errorHandler.handle(erro);
+  //     });
+  // }
 
   carregarVaras() {
     return this.varasService
@@ -250,7 +253,7 @@ export class CadastroProcessoComponent {
 
   carregarStatus() {
     return this.statusService
-      .ListarDrop()
+      .listarDropProcesso()
       .then((response) => {
         this.statusoptions = response.map((status) => ({
           descricao: status.descricao,
@@ -267,9 +270,32 @@ export class CadastroProcessoComponent {
 
   atribuirStatus() {
     this.newprocesso.status = this.statusoptions.find(
-      (obj) => obj.descricao === 'ABERTO'
+      (obj) => obj.descricao === 'AGUARDANDO DESPACHO'
     );
   }
+
+  carregarDadosCliente(event: any) {
+    this.agendamentoService
+      .buscarClienteID(event.value.id)
+      .then((obj: any) => {
+       this.atribuirMotivos(obj); 
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro)
+      });
+  }
+
+  atribuirMotivos(obj: any){
+    this.motivos = [];
+    this.motivos.push(obj.motivo);
+    setTimeout(() => {
+      this.newprocesso.motivo = this.motivos.find(
+        (element) => element.codigo === obj.motivo?.codigo
+      );
+
+    }, 100);   
+  }
+  
 
   prepararNovaInfo() {
     this.showDialogProcesso = true;
@@ -286,8 +312,6 @@ export class CadastroProcessoComponent {
     this.itensprocesso.usuariocriacao = this.auth.jwtPayload.username;
     this.itensprocesso.datacriacao = new Date();
     this.newprocesso.itensprocesso.push({ ...this.itensprocesso });
-    // this.newprocesso.itensprocesso[this.infoIndex] = { ... this.itensprocesso };
-    console.log(this.itensprocesso);
     this.showDialogProcesso = false;
     frm.reset();
   }

@@ -26,6 +26,7 @@ export class ListaStatusComponent implements OnInit, AfterViewInit {
   regex = new Regex();
   rowsPerPageTable: number[] = [10, 25, 50, 100, 200];
   messagePageReport = 'Mostrando {first} a {last} de {totalRecords} registros';
+  messageDrop = 'Nenhum resultado encontrado...';
   sinal = true;
   selectionCols: Status;
   status: Status[];
@@ -48,6 +49,7 @@ export class ListaStatusComponent implements OnInit, AfterViewInit {
   noRecords = true;
   state = 'state-status';
   nameColumns = 'statusColumns';
+  tipooptions: any[];
 
   constructor(
     private title: Title,
@@ -106,12 +108,13 @@ export class ListaStatusComponent implements OnInit, AfterViewInit {
     this.cols = [
       { field: 'codigo', header: 'Código', width: '130px', key: 1, type: 'numeric', qty: '' },
       { field: 'descricao', header: 'Descrição', key: 2, width: '250px', type: 'text', qty: '' },
+      { field: 'tipo', header: 'Tipo', key: 3, width: '250px', type: 'text', qty: '' },
    
       {
         field: 'usuarioalteracao',
         header: 'Usuário Alteração',
         width: '200px',
-        key: 3,
+        key: 4,
         type: 'text',
         qty: ''
       },
@@ -121,7 +124,7 @@ export class ListaStatusComponent implements OnInit, AfterViewInit {
         width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
-        key: 4,
+        key: 5,
         type: 'date',
         dataalteracaode: '',
         dataalteracaoate: ''
@@ -130,7 +133,7 @@ export class ListaStatusComponent implements OnInit, AfterViewInit {
         field: 'usuariocriacao',
         header: 'Usuário Criação',
         width: '200px',
-        key: 5,
+        key: 6,
         type: 'text',
         qty: ''
       },
@@ -140,7 +143,7 @@ export class ListaStatusComponent implements OnInit, AfterViewInit {
         width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
-        key: 6,
+        key: 7,
         type: 'date',
         datacriacaode: '',
         datacriacaoate: ''
@@ -152,10 +155,15 @@ export class ListaStatusComponent implements OnInit, AfterViewInit {
         width: '120px',
         type: 'status',
         status: true,
-        key: 7,
+        key: 8,
         qty: ''
       }
     ];
+
+    this.tipooptions = [
+      { label: 'AGENDAMENTO', value: 'AGENDAMENTO' },
+      { label: 'PROCESSO', value: 'PROCESSO' }
+    ]
 
     if (!localStorage.getItem('statusColumns')) {
       this.setColumnsDefaultValue();
@@ -195,6 +203,11 @@ export class ListaStatusComponent implements OnInit, AfterViewInit {
   }
 
   refresh() {
+    this.carregar();
+  }
+
+  filtroLocalStorage() {
+    this.saveLocalStorage(null);
     this.carregar();
   }
 

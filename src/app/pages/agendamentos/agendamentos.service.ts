@@ -27,6 +27,16 @@ export class AgendamentosService {
     );
   }
 
+  ListarDrop(): Promise<any> {
+    return firstValueFrom(
+      this.http.get(`${this.agendamentoURL}/all`),
+    ).then((response: any) => {
+     // this.converterStringsParaDatas(response);
+      return response;
+    });
+  }
+
+
   validarParametros(filtro: FiltroAgendamentos) {
     const obj: { [k: string]: any } = {};
 
@@ -132,6 +142,12 @@ export class AgendamentosService {
         this.converteStringParaData(response);
         return response;
       } 
+    );
+  }
+
+  buscarClienteID(_id: string) {
+    return firstValueFrom(this.http.get(`${this.agendamentoURL}/${_id}`)).then(
+      (response) => response,
     );
   }
 

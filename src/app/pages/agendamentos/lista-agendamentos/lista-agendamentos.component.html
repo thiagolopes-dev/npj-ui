@@ -1,5 +1,5 @@
 <main>
-  <p-card styleClass="card-adjust">
+  <p-card styleClass="card-adjust" #cardPrincipal>
     <h4>Agendamentos</h4>
     <div class="flex justify-content-between mb-2">
       <div class="flex justify-content-start mb-2">
@@ -34,14 +34,33 @@
   
         <tr>
           <th class="tdAcoes">&nbsp;</th>
+         
           <th *ngFor="let cols of columns; let i = index" [ngStyle]="{'min-width': cols.width}">
-            <div *ngIf="cols.type !== 'date' && cols.type !== 'status'" class="flex p-2"
+            <div *ngIf="cols.type !== 'date' && cols.field !== 'descstatus' && cols.field !== 'descmotivo' " class="flex p-2"
               [ngStyle]="{'min-width': cols.width}">
               <input pInputText class="white-space-nowrap overflow-hidden text-overflow-ellipsis mr-2 w-full"
                 placeholder="Pesquisar" type="text" name="pesquisa{{i}}" [(ngModel)]="cols.qty" validateQuantity
                 #qtyInput (keyup)="search(cols)" (blur)="applySearch(cols)" pTooltip="Pesquisa nessa coluna"
                 tooltipPosition="top" [pKeyFilter]="regex.stringNumber">
             </div>
+            <div *ngIf="cols.type == 'text' && cols.field == 'descstatus'" class="flex p-2"
+            [ngStyle]="{'min-width': cols.width}">
+            <p-dropdown class="w-full" [style]="{'min-width': '125px'}" name="status" placeholder="Selecione..."
+            [virtualScroll]="true" [virtualScrollItemSize]="31" [(ngModel)]="cols.qty"
+            (ngModelChange)="filtro.descstatus = cols.qty" id="status" (onChange)="filtroLocalStorage()"
+            #status="ngModel" validateQuantity [options]="statusoptions" [filter]="false" optionLabel="descricao" optionValue="descricao" 
+            [emptyFilterMessage]="messageDrop" [showClear]="true" [appendTo]="cardPrincipal">
+          </p-dropdown>
+          </div>
+          <div *ngIf="cols.type == 'text' && cols.field == 'descmotivo'" class="flex p-2"
+          [ngStyle]="{'min-width': cols.width}">
+          <p-dropdown class="w-full" [style]="{'min-width': '125px'}" name="motivo" placeholder="Selecione..."
+          [virtualScroll]="true" [virtualScrollItemSize]="31" [(ngModel)]="cols.qty"
+          (ngModelChange)="filtro.descmotivo = cols.qty" id="motivo" (onChange)="filtroLocalStorage()"
+          #motivo="ngModel" validateQuantity [options]="motivosoptions" [filter]="false" optionLabel="descricao" optionValue="descricao" 
+          [emptyFilterMessage]="messageDrop" [showClear]="true" [appendTo]="cardPrincipal">
+        </p-dropdown>
+        </div>
             <div *ngIf="cols.type === 'date' && cols.field === 'dataatendimento'" class="flex p-2"
             [ngStyle]="{'min-width': cols.width}">
             <p-overlayPanel #dataAtendimento>

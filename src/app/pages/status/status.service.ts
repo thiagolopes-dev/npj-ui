@@ -27,9 +27,18 @@ export class StatusService {
     );
   }
 
-  ListarDrop(): Promise<any> {
+  listarDropAgendamento(): Promise<any> {
     return firstValueFrom(
-      this.http.get(`${this.statusURL}/all`),
+      this.http.get(`${this.statusURL}/all?tipo=AGENDAMENTO`),
+    ).then((response: any) => {
+      this.converterStringsParaDatas(response);
+      return response;
+    });
+  }
+
+  listarDropProcesso(): Promise<any> {
+    return firstValueFrom(
+      this.http.get(`${this.statusURL}/all?tipo=PROCESSO`),
     ).then((response: any) => {
       this.converterStringsParaDatas(response);
       return response;
@@ -48,6 +57,10 @@ export class StatusService {
 
     if (filtro.descricao) {
       obj.descricao = filtro.descricao;
+    }
+
+    if (filtro.tipo) {
+      obj.tipo = filtro.tipo;
     }
 
     if (filtro.usuariocriacao) {

@@ -1,15 +1,15 @@
 <main>
-  <p-card styleClass="card-adjust">
+  <p-card styleClass="card-adjust" #cardPrincipal>
     <h4>Processos</h4>
     <div class="flex justify-content-between mb-2">
       <div class="flex justify-content-start mb-2">
         <div>
-          <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-plus" pTooltip="Novo"
-            tooltipPosition="top" routerLink="novo"></button>
+          <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-plus"
+            pTooltip="Novo" tooltipPosition="top" routerLink="novo"></button>
         </div>
         <div>
-          <button pButton pRipple type="button" class=" p-button-raised p-button-warning ml-2" pTooltip="Atualizar" tooltipPosition="top"
-            icon="pi pi-refresh" (click)="refresh()"></button>
+          <button pButton pRipple type="button" class=" p-button-raised p-button-warning ml-2" pTooltip="Atualizar"
+            tooltipPosition="top" icon="pi pi-refresh" (click)="refresh()"></button>
         </div>
       </div>
       <!-- <div>
@@ -17,13 +17,14 @@
           (onClick)="ua.onDropdownButtonClick(null)" [model]="items"></p-splitButton>
       </div> -->
     </div>
-  
-    <p-table #tabela [value]="processos" [columns]="selectedColumns" styleClass="p-datatable-striped p-datatable-gridlines"
-      [rowsPerPageOptions]="rowsPerPageTable" [rowHover]="true" [showCurrentPageReport]="true"
-      (onLazyLoad)="changePage($event)" (onColReorder)="eventReorder()" selectionMode="single"
-      [(selection)]="selectionCols" [reorderableColumns]="true" [rows]="filtro.itensPorPagina" [lazy]="true"
-      [totalRecords]="totalRegistros" responsiveLayout="scroll" stateKey="state-processos" stateStorage="local" dataKey="numeroprocesso">
-  
+
+    <p-table #tabela [value]="processos" [columns]="selectedColumns"
+      styleClass="p-datatable-striped p-datatable-gridlines" [rowsPerPageOptions]="rowsPerPageTable" [rowHover]="true"
+      [showCurrentPageReport]="true" (onLazyLoad)="changePage($event)" (onColReorder)="eventReorder()"
+      selectionMode="single" [(selection)]="selectionCols" [reorderableColumns]="true" [rows]="filtro.itensPorPagina"
+      [lazy]="true" [totalRecords]="totalRegistros" responsiveLayout="scroll" stateKey="state-processos"
+      stateStorage="local" dataKey="numeroprocesso">
+
       <ng-template pTemplate="header" let-columns>
         <tr>
           <th class="tdAcoes">&nbsp;</th>
@@ -31,56 +32,87 @@
             {{cols.header}}
           </th>
         </tr>
-  
+
         <tr>
           <th class="tdAcoes">&nbsp;</th>
           <th *ngFor="let cols of columns; let i = index" [ngStyle]="{'min-width': cols.width}">
             <form #formFiltro="ngForm" autocomplete="off">
-              <div *ngIf="cols.type !== 'date' && cols.type !== 'status'" class="flex p-2"
-                [ngStyle]="{'min-width': cols.width}">
+              <div *ngIf="cols.type !== 'date' && cols.field !== 'descstatus' && cols.field !== 'descmotivo' && cols.field !== 'descvara' "
+                class="flex p-2" [ngStyle]="{'min-width': cols.width}">
                 <input pInputText class="white-space-nowrap overflow-hidden text-overflow-ellipsis mr-2 w-full"
                   placeholder="Pesquisar" type="text" name="pesquisa{{i}}" [(ngModel)]="cols.qty" validateQuantity
                   #qtyInput (keyup)="search(cols)" (blur)="applySearch(cols)" pTooltip="Pesquisa nessa coluna"
-                  tooltipPosition="top">
+                  tooltipPosition="top" [pKeyFilter]="regex.stringNumber">
               </div>
-              <div *ngIf="cols.type === 'date' && cols.field === 'datacriacao'" class="flex p-2"
+              <div *ngIf="cols.type == 'text' && cols.field == 'descstatus'" class="flex p-2"
+                [ngStyle]="{'min-width': cols.width}">
+                <p-dropdown class="w-full" [style]="{'min-width': '125px'}" name="status" placeholder="Selecione..."
+                  [virtualScroll]="true" [virtualScrollItemSize]="31" [(ngModel)]="cols.qty"
+                  (ngModelChange)="filtro.descstatus = cols.qty" id="status" (onChange)="filtroLocalStorage()"
+                  #status="ngModel" validateQuantity [options]="statusoptions" [filter]="false" optionLabel="descricao"
+                  optionValue="descricao" [emptyFilterMessage]="messageDrop" [showClear]="true"
+                  [appendTo]="cardPrincipal">
+                </p-dropdown>
+              </div>
+              <div *ngIf="cols.type == 'text' && cols.field == 'descmotivo'" class="flex p-2"
+                [ngStyle]="{'min-width': cols.width}">
+                <p-dropdown class="w-full" [style]="{'min-width': '125px'}" name="motivo" placeholder="Selecione..."
+                  [virtualScroll]="true" [virtualScrollItemSize]="31" [(ngModel)]="cols.qty"
+                  (ngModelChange)="filtro.descmotivo = cols.qty" id="motivo" (onChange)="filtroLocalStorage()"
+                  #motivo="ngModel" validateQuantity [options]="motivosoptions" [filter]="false" optionLabel="descricao"
+                  optionValue="descricao" [emptyFilterMessage]="messageDrop" [showClear]="true"
+                  [appendTo]="cardPrincipal">
+                </p-dropdown>
+              </div>
+              <div *ngIf="cols.type == 'text' && cols.field == 'descvara'" class="flex p-2"
               [ngStyle]="{'min-width': cols.width}">
-              <p-overlayPanel #dataCriacao>
-                <ng-template pTemplate>
-                  <div class="grid flex justify-content-center align-items-center">
-                    <div class="col-1">
-                      <span class="spanDeAte">De</span>
-                    </div>
-                    <div class="col-5">
-                      <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaode"
-                        (keyup)="searchData('datacriacaode')" (blur)="searchData('datacriacaode')" type="tel"
-                        class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="datacriacaode"
-                        #dtcriacaode="ngModel" minlength="10" />
-                      <app-message [control]="dtcriacaode" error="minlength" text="Digite uma data completa">
-                      </app-message>
-                    </div>
-                    <div class="col-1"> 
-                      <span class="spanDeAte">Até</span>
-                    </div> 
-                    <div class="col-5">
-                      <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaoate"
-                        (keyup)="searchData('datacriacaoate')" (blur)="searchData('datacriacaoate')" type="tel"
-                        class="w-full" [(ngModel)]="datacriacaoate" [dropSpecialCharacters]="false"
-                        #dtcriacaoate="ngModel" minlength="10" />
-                      <app-message [control]="dtcriacaoate" error="minlength" text="Digite uma data completa">
-                      </app-message>
-                    </div>
-                  </div>
-                  <div class="grid flex justify-content-end align-items-center mt-2 mr-1">
-                    <button pButton pRipple type="button" label="Limpar Filtro" class="p-button-raised p-button-warning"
-                      icon="fa-solid fa-filter" (click)="limparData('dataCriacao')"></button>
-                  </div>
-                </ng-template>
-              </p-overlayPanel>
-              <button pButton pRipple type="button" label="Pesquisar"
-                [ngClass]="(datacriacaode || datacriacaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
-                class="p-button-raised  w-full" (click)="dataCriacao.toggle($event)"></button>
+              <p-dropdown class="w-full" [style]="{'min-width': '125px'}" name="vara" placeholder="Selecione..."
+                [virtualScroll]="true" [virtualScrollItemSize]="31" [(ngModel)]="cols.qty"
+                (ngModelChange)="filtro.descvara = cols.qty" id="motivo" (onChange)="filtroLocalStorage()"
+                #vara="ngModel" validateQuantity [options]="varaoptions" [filter]="false" optionLabel="descricao"
+                optionValue="descricao" [emptyFilterMessage]="messageDrop" [showClear]="true"
+                [appendTo]="cardPrincipal">
+              </p-dropdown>
             </div>
+              <div *ngIf="cols.type === 'date' && cols.field === 'datacriacao'" class="flex p-2"
+                [ngStyle]="{'min-width': cols.width}">
+                <p-overlayPanel #dataCriacao>
+                  <ng-template pTemplate>
+                    <div class="grid flex justify-content-center align-items-center">
+                      <div class="col-1">
+                        <span class="spanDeAte">De</span>
+                      </div>
+                      <div class="col-5">
+                        <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaode"
+                          (keyup)="searchData('datacriacaode')" (blur)="searchData('datacriacaode')" type="tel"
+                          class="w-full" [dropSpecialCharacters]="false" [(ngModel)]="datacriacaode"
+                          #dtcriacaode="ngModel" minlength="10" />
+                        <app-message [control]="dtcriacaode" error="minlength" text="Digite uma data completa">
+                        </app-message>
+                      </div>
+                      <div class="col-1">
+                        <span class="spanDeAte">Até</span>
+                      </div>
+                      <div class="col-5">
+                        <input pInputText matInput mask="d0/M0/0000" placeholder="00/00/0000" name="dtcriacaoate"
+                          (keyup)="searchData('datacriacaoate')" (blur)="searchData('datacriacaoate')" type="tel"
+                          class="w-full" [(ngModel)]="datacriacaoate" [dropSpecialCharacters]="false"
+                          #dtcriacaoate="ngModel" minlength="10" />
+                        <app-message [control]="dtcriacaoate" error="minlength" text="Digite uma data completa">
+                        </app-message>
+                      </div>
+                    </div>
+                    <div class="grid flex justify-content-end align-items-center mt-2 mr-1">
+                      <button pButton pRipple type="button" label="Limpar Filtro"
+                        class="p-button-raised p-button-warning" icon="fa-solid fa-filter"
+                        (click)="limparData('dataCriacao')"></button>
+                    </div>
+                  </ng-template>
+                </p-overlayPanel>
+                <button pButton pRipple type="button" label="Pesquisar"
+                  [ngClass]="(datacriacaode || datacriacaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
+                  class="p-button-raised  w-full" (click)="dataCriacao.toggle($event)"></button>
+              </div>
 
               <div *ngIf="cols.type === 'date' && cols.field === 'dataalteracao'" class="flex p-2"
                 [ngStyle]="{'min-width': cols.width}">
@@ -111,11 +143,12 @@
                       </div>
                     </div>
                     <div class="grid flex justify-content-end align-items-center mt-2 mr-1">
-                      <button pButton pRipple type="button" label="Limpar Filtro" class="p-button-raised p-button-warning"
-                        icon="fa-solid fa-filter" (click)="limparData('dataAlteracao')"></button>
+                      <button pButton pRipple type="button" label="Limpar Filtro"
+                        class="p-button-raised p-button-warning" icon="fa-solid fa-filter"
+                        (click)="limparData('dataAlteracao')"></button>
                     </div>
                   </ng-template>
-                  
+
                 </p-overlayPanel>
                 <button pButton pRipple type="button" label="Pesquisar"
                   [ngClass]="(dataalteracaode || dataalteracaoate) ? 'p-button-warning' : 'p-button-raised p-button-secondary p-button-outlined'"
@@ -125,13 +158,12 @@
           </th>
         </tr>
       </ng-template>
-  
+
       <ng-template pTemplate="body" let-processo let-columns="columns" let-rowData>
         <tr class="ui-selectable-row" [pSelectableRow]="processo">
           <td class="tdEditar">
-            <button pButton pRipple type="button" class="p-button-text p-button-warning"
-              pTooltip="Editar" icon="pi pi-pencil" tooltipPosition="top" [routerLink]="['/processos', processo._id]"
-              ></button>
+            <button pButton pRipple type="button" class="p-button-text p-button-warning" pTooltip="Editar"
+              icon="pi pi-pencil" tooltipPosition="top" [routerLink]="['/processos', processo._id]"></button>
           </td>
           <td class="responsivetable" *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}"
             pReorderableColumn
@@ -142,7 +174,7 @@
             cols.format) : cols.status ? (rowData[cols.field] ? 'Ativo' : 'Inativo') : rowData[cols.field]}}
           </td>
         </tr>
-  
+
       </ng-template>
       <ng-template pTemplate="summary">
         <div class="flex flex-wrap justify-content-between flex-wrap card-container purple-container"
@@ -165,7 +197,7 @@
           </div>
         </div>
       </ng-template>
-  
+
       <ng-template pTemplate="emptymessage" let-columns>
         <tr [hidden]="noRecords">
           <td colspan="18">
