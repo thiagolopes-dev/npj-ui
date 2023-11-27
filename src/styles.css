@@ -567,6 +567,12 @@ p-inputnumber,
   width: 90%;
 }
 
+.mydialogProcesso{
+  z-index: 999;
+  width: 90%;
+  min-height: 85vh;
+}
+
 .mydialogLocal {
   width: 31.25rem;
 }
@@ -768,9 +774,9 @@ p-inputnumber,
 }
 
 /* BUG textArea com com valor fixo por erro com tabview na versão 13 primeng */
-.p-inputtextarea-resizable {
+/* .p-inputtextarea-resizable {
   height: 99px !important;
-}
+} */
 
 .btnResetColunas {
   width: 100%;

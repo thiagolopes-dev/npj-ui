@@ -17,7 +17,9 @@ import { FiltroAgendamentos } from 'src/app/core/models/filtros.model';
 import { FiltroAgendamentosService } from 'src/app/core/services/filtros-services/filtro-agendamentos.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
 import { Regex } from 'src/app/core/validators/regex.model';
+import { MotivosService } from '../../motivos/motivos.service';
 import { AuthService } from '../../seguranca/auth.service';
+import { StatusService } from '../../status/status.service';
 import { AgendamentosService } from '../agendamentos.service';
 
 @Component({
@@ -33,6 +35,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   regex = new Regex();
   rowsPerPageTable: number[] = [10, 25, 50, 100, 200];
   messagePageReport = 'Mostrando {first} a {last} de {totalRecords} registros';
+  messageDrop = 'Nenhum resultado encontrado...';
   sinal = true;
   selectionCols: Agendamentos;
   agendamentos: Agendamentos[];
@@ -55,6 +58,8 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
   dataatendimentoate: string;
   firstLoading = true;
   noRecords = true;
+  statusoptions: any[];
+  motivosoptions: any [];
   state = 'state-agendamentos';
   nameColumns = 'agendamentosColumns';
 
@@ -63,6 +68,8 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
     private agendamentosService: AgendamentosService,
     private errorHandler: ErrorHandlerService,
     private filtroAgendamento: FiltroAgendamentosService,
+    private statusService: StatusService,
+    private motivosService: MotivosService,
     public auth: AuthService,
     private spinner: NgxSpinnerService,
     private localstorageTableService: LocalstorageTableService,
@@ -209,7 +216,8 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
         datacriacaoate: '',
       },
     ];
-
+    this.carregarStatus();
+    this.carregarMotivos();
     if (!localStorage.getItem('agendamentosColumns')) {
       this.setColumnsDefaultValue();
     } else {
@@ -219,6 +227,12 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
       );
     }
   }
+
+  filtroLocalStorage() {
+    this.saveLocalStorage(null);
+    this.carregar();
+  }
+
 
   ngAfterViewInit() {
     this.table.filterGlobal('', 'contains');
@@ -260,6 +274,34 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
 
   refresh() {
     this.carregar();
+  }
+
+  carregarStatus() {
+    return this.statusService
+      .ListarDrop()
+      .then((response) => {
+        this.statusoptions = response.map((status) => ({
+          descricao: status.descricao,
+          codigo: status.codigo,
+        }));
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
+
+  carregarMotivos() {
+    return this.motivosService
+      .ListarDrop()
+      .then((response) => {
+        this.motivosoptions = response.map((status) => ({
+          descricao: status.descricao,
+          codigo: status.codigo,
+        }));
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
   }
 
   carregar() {
@@ -304,7 +346,7 @@ export class ListaAgendamentosComponent implements OnInit, AfterViewInit {
 
   buscarFiltroLocalStorage() {
     this.selectedColumns.forEach((element: any) => {
-      if (element.qty) {
+      if (element.qty !== null && element.qty !== undefined && element.qty.toString().trim() !== '') {
         this.filtro[element.field] = element.qty;
       }
       if (element.field === 'dataatendimento') {

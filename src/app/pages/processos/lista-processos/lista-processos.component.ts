@@ -10,7 +10,10 @@ import { Processos } from 'src/app/core/models/processo.model';
 import { FiltroProcessosService } from 'src/app/core/services/filtros-services/filtro-processos.service';
 import { LocalstorageTableService } from 'src/app/core/services/localstorage-table.service';
 import { Regex } from 'src/app/core/validators/regex.model';
+import { MotivosService } from '../../motivos/motivos.service';
 import { AuthService } from '../../seguranca/auth.service';
+import { StatusService } from '../../status/status.service';
+import { VarasService } from '../../varas/varas.service';
 import { ProcessosService } from '../processos.service';
 
 @Component({
@@ -25,6 +28,7 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
   regex = new Regex();
   rowsPerPageTable: number[] = [10, 25, 50, 100, 200];
   messagePageReport = 'Mostrando {first} a {last} de {totalRecords} registros';
+  messageDrop = 'Nenhum resultado encontrado...';
   sinal = true;
   selectionCols: Processos;
   processos: Processos[];
@@ -43,6 +47,9 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
   datacriacaoate: string;
   dataalteracaode: string;
   dataalteracaoate: string;
+  statusoptions: any[];
+  motivosoptions: any [];
+  varaoptions: any [];
   firstLoading = true;
   noRecords = true;
   state = 'state-processos';
@@ -53,6 +60,9 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
     private processosService: ProcessosService,
     private errorHandler: ErrorHandlerService,
     private filtroProcesso: FiltroProcessosService,
+    private statusService: StatusService,
+    private motivosService: MotivosService,
+    private varasService: VarasService,
     public auth: AuthService,
     private spinner: NgxSpinnerService,
     private localstorageTableService: LocalstorageTableService
@@ -119,7 +129,9 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
         datacriacaoate: ''
       },
     ];
-
+    this.carregarStatus();
+    this.carregarMotivos();
+    this.carregarVaras();
     if (!localStorage.getItem('processosColumns')) {
       this.setColumnsDefaultValue();
     } else {
@@ -192,6 +204,54 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
       this.carregar();
     }
   }
+
+  filtroLocalStorage() {
+    this.saveLocalStorage(null);
+    this.carregar();
+  }
+
+  carregarStatus() {
+    return this.statusService
+      .ListarDrop()
+      .then((response) => {
+        this.statusoptions = response.map((status) => ({
+          descricao: status.descricao,
+          codigo: status.codigo,
+        }));
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
+
+  carregarMotivos() {
+    return this.motivosService
+      .ListarDrop()
+      .then((response) => {
+        this.motivosoptions = response.map((status) => ({
+          descricao: status.descricao,
+          codigo: status.codigo,
+        }));
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
+
+  carregarVaras() {
+    return this.varasService
+      .ListarDrop()
+      .then((response) => {
+        this.varaoptions = response.map((status) => ({
+          descricao: status.descricao,
+          codigo: status.codigo,
+        }));
+      })
+      .catch((erro) => {
+        this.errorHandler.handle(erro);
+      });
+  }
+
 
   search(value: any) {
     if (this.timeout) { clearTimeout(this.timeout); }
