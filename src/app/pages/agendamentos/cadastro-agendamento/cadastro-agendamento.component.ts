@@ -70,7 +70,7 @@ export class CadastroAgendamentoComponent {
     if (form.invalid) {
       return; //Não prosseguir se o formulário não for válido
     }
-      this.removeHrsDataAtendimento();
+    this.removeHrsDataAtendimento();
     if (this.editando) {
       this.atualizarAgendamento(form);
     } else {
@@ -78,10 +78,10 @@ export class CadastroAgendamentoComponent {
     }
   }
 
-  //pode estar deixando a data errdada 
-  removeHrsDataAtendimento(){
-      let horaformatada =  moment(this.newagendamento.dataatendimento).format("YYYY-MM-DD");
-      this.newagendamento.dataatendimento = new Date(horaformatada);
+  //pode estar deixando a data errdada
+  removeHrsDataAtendimento() {
+    let horaformatada = moment(this.newagendamento.dataatendimento).format("YYYY-MM-DD");
+    this.newagendamento.dataatendimento = new Date(horaformatada);
   }
 
   adicionarAgendamento(form: NgForm) {
@@ -222,7 +222,7 @@ export class CadastroAgendamentoComponent {
           descricao: status.descricao,
           codigo: status.codigo,
         }));
-        if(!this.idagendamento){
+        if (!this.idagendamento) {
           this.atribuirStatus();
         }
       })
@@ -233,7 +233,7 @@ export class CadastroAgendamentoComponent {
 
   atribuirStatus() {
     this.newagendamento.status = this.statusoptions.find(
-      (obj) => obj.descricao === 'EM ANÁLISE'
+      (obj) => obj.descricao === 'EM ANALISE'
     );
   }
 }

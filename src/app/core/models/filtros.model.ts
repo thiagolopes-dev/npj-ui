@@ -63,6 +63,8 @@ export class FiltroClientes {
   usuariocriacao: string;
   usuarioalteracao: string;
   status: string;
+  datanascde: string;
+  datanascate: string;
 }
 
 export class FiltroAgendamentos {

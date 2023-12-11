@@ -237,6 +237,7 @@ p-inputnumber,
 .p-button {
   border: none;
   height: 2.1875rem;
+  background: #f59e1c;
 }
 
 .p-button.p-button-icon-only {

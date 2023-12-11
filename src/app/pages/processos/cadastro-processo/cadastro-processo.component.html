@@ -17,16 +17,18 @@
           </ng-template>
           <div class="grid">
             <div class="col-12 md:col-6 lg:col-2">
-              <h6><span class="obrigatorio">*</span>Número do Processo</h6>
-              <input class="w-full" pInputText name="processo" type="text" [pKeyFilter]="regex.stringNumber"
-                [(ngModel)]="newprocesso.numeroprocesso" #processo="ngModel" required minlength="3" disabled upperCase>
-              <app-message [control]="processo" error="required" text="Informe o Numero do Processo"></app-message>
-              <app-message [control]="processo" error="minlength" text="Mínimo de {{
-              processo.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
+              <h6>ID Sistema</h6>
+              <input class="w-full" pInputText name="codigo" type="text"
+                [(ngModel)]="newprocesso.codigo" #codigo="ngModel" disabled>
             </div>
 
-            <div class="col-12 md:col-6 lg:col-3">
+            <div class="col-12 md:col-6 lg:col-2">
+              <h6>Número do Processo</h6>
+              <input class="w-full" pInputText name="numeroprocesso" type="text"
+                [(ngModel)]="newprocesso.numeroprocesso" #numeroprocesso="ngModel">
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-4">
               <h6><span class="obrigatorio">*</span>Clientes Aprovados</h6>
               <p-dropdown styleClass="w-full" [options]="clientes" (onChange)="carregarDadosCliente($event)"
                 [(ngModel)]="newprocesso.cliente" #cliente="ngModel" name="cliente" placeholder="Selecione o Cliente"
@@ -38,7 +40,7 @@
             }} caracteres"></app-message>
             </div>
 
-            <div class="col-12 md:col-6 lg:col-3">
+            <div class="col-12 md:col-6 lg:col-4">
               <h6><span class="obrigatorio">*</span>Motivo</h6>
               <p-dropdown styleClass="w-full" [options]="motivos" [disabled]="true" [(ngModel)]="newprocesso.motivo"
                 #motivo="ngModel" name="motivo" placeholder="Selecione o Motivo" [showClear]="true"
@@ -66,6 +68,19 @@
               <app-message [control]="status" error="minlength" text="Mínimo de {{
               status.errors?.minlength?.requiredLength
             }} caracteres"></app-message>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-3">
+              <h6>Aluno</h6>
+              <input class="w-full" pInputText name="aluno" type="text"
+                [pKeyFilter]="regex.stringNumber" [(ngModel)]="newprocesso.aluno" #aluno="ngModel"
+                minlength="4" upperCase>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-4">
+              <h6>Observação</h6>
+              <textarea name="observacao" [(ngModel)]="newprocesso.observacao" rows="5" cols="200" pInputTextarea
+                   #observacao="ngModel" [autoResize]="true"></textarea>
             </div>
           </div>
         </p-tabPanel>

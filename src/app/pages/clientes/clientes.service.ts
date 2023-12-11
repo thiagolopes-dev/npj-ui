@@ -114,6 +114,14 @@ export class ClientesService {
       obj.dataalteracaoate = filtro.dataalteracaoate;
     }
 
+    if (filtro.datanascde) {
+      obj.datanascde = filtro.datanascde;
+    }
+
+    if (filtro.datanascate) {
+      obj.datanascate = filtro.datanascate;
+    }
+
     if (filtro.status) {
       obj.status = filtro.status;
     }
@@ -130,6 +138,11 @@ export class ClientesService {
       }
       if (element.dataalteracao) {
         element.dataalteracao = moment(element.dataalteracao, 'YYYY-MM-DD H:mm')
+          .tz('America/Sao_Paulo')
+          .toDate();
+      }
+      if (element.datanasc) {
+        element.datanasc = moment(element.datanasc, 'YYYY-MM-DD H:mm')
           .tz('America/Sao_Paulo')
           .toDate();
       }

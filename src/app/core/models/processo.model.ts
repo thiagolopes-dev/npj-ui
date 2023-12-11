@@ -5,7 +5,8 @@ import { Varas } from './varas.model';
 
 export class Processos {
   _id?: string;
-  numeroprocesso?: number;
+  codigo?: number;
+  numeroprocesso?: string;
   cliente = new Clientes();
   vara =  new Varas();
   status = new Status();
@@ -13,6 +14,8 @@ export class Processos {
   datacriacao?: Date;
  // usuariocriacao= new Usuarios();
   itensprocesso = new Array<ItensProcesso>();
+  observacao: string;
+  aluno: string;
 
 }
 

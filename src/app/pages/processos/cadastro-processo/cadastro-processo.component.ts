@@ -82,7 +82,7 @@ export class CadastroProcessoComponent {
       { field: 'informacoes', header: 'Informações', width: '250px' },
       { field: 'datacriacao', header: 'Data Criação', width: '130px', data: true, format: `dd/MM/yyyy H:mm`, },
       { field: 'usuariocriacao', header: 'Usuário Criação', width: '150px' },
-      
+
     ];
   }
 
@@ -221,8 +221,8 @@ export class CadastroProcessoComponent {
         this.errorHandler.handle(erro);
       });
   }
-  
-  
+
+
   // carregarMotivos() {
   //   return this.motivosService
   //     .ListarDrop()
@@ -259,7 +259,7 @@ export class CadastroProcessoComponent {
           descricao: status.descricao,
           codigo: status.codigo,
         }));
-        if(!this.idprocesso){
+        if (!this.idprocesso) {
           this.atribuirStatus();
         }
       })
@@ -270,7 +270,7 @@ export class CadastroProcessoComponent {
 
   atribuirStatus() {
     this.newprocesso.status = this.statusoptions.find(
-      (obj) => obj.descricao === 'AGUARDANDO DESPACHO'
+      (obj) => obj.descricao === 'PETICAO INICIAL'
     );
   }
 
@@ -278,14 +278,14 @@ export class CadastroProcessoComponent {
     this.agendamentoService
       .buscarClienteID(event.value.id)
       .then((obj: any) => {
-       this.atribuirMotivos(obj); 
+        this.atribuirMotivos(obj);
       })
       .catch((erro) => {
         this.errorHandler.handle(erro)
       });
   }
 
-  atribuirMotivos(obj: any){
+  atribuirMotivos(obj: any) {
     this.motivos = [];
     this.motivos.push(obj.motivo);
     setTimeout(() => {
@@ -293,9 +293,9 @@ export class CadastroProcessoComponent {
         (element) => element.codigo === obj.motivo?.codigo
       );
 
-    }, 100);   
+    }, 100);
   }
-  
+
 
   prepararNovaInfo() {
     this.showDialogProcesso = true;

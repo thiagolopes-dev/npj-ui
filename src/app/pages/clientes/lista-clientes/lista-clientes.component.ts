@@ -52,6 +52,8 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
   dataalteracaoate: string;
   firstLoading = true;
   noRecords = true;
+  datanascde: string;
+  datanascate: string;
   state = 'state-clientes';
   nameColumns = 'clientesColumns';
 
@@ -81,7 +83,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       } else {
         col.datacriacaoate = null;
       }
-
+    
       if (col.dataalteracaode === null || col.dataalteracaode === undefined) {
       } else {
         col.dataalteracaode = null;
@@ -90,11 +92,22 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       } else {
         col.dataalteracaoate = null;
       }
+      if (col.datanascde === null || col.datanascde === undefined) {
+      } else {
+        col.datanascde = null;
+      }
+      if (col.datanascate === null || col.datanascate === undefined) {
+      } else {
+        col.datanascate = null;
+      }
     });
     this.datacriacaode = null;
     this.datacriacaoate = null;
     this.dataalteracaode = null;
     this.dataalteracaoate = null;
+    this.datanascde = null;
+    this.datanascate = null;
+    this.datacriacaoate = null;
     this.filtro = new FiltroClientes();
     this.filtroDefault();
     this.saveLocalStorage(null);
@@ -132,9 +145,20 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         qty: '',
       },
       {
+        field: 'datanasc',
+        header: 'Data Nasc',
+        width: '200px',
+        data: true,
+        format: `dd/MM/yyyy`,
+        key: 3,
+        type: 'date',
+        datanascde: '',
+        datanascate: '',
+      },
+      {
         field: 'cpf',
         header: 'Cpf',
-        key: 3,
+        key: 4,
         width: '250px',
         type: 'number',
         qty: '',
@@ -142,7 +166,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'rg',
         header: 'Rg',
-        key: 4,
+        key: 5,
         width: '250px',
         type: 'number',
         qty: '',
@@ -150,7 +174,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'cep',
         header: 'Cep',
-        key: 5,
+        key: 6,
         width: '250px',
         type: 'number',
         qty: '',
@@ -158,7 +182,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'logradouro',
         header: 'Logradouro',
-        key: 6,
+        key: 7,
         width: '250px',
         type: 'text',
         qty: '',
@@ -166,7 +190,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'bairro',
         header: 'Bairro',
-        key: 7,
+        key: 8,
         width: '250px',
         type: 'text',
         qty: '',
@@ -174,7 +198,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'numero',
         header: 'Numero',
-        key: 8,
+        key: 9,
         width: '250px',
         type: 'number',
         qty: '',
@@ -182,7 +206,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'cidade',
         header: 'Cidade',
-        key: 9,
+        key: 10,
         width: '250px',
         type: 'text',
         qty: '',
@@ -190,7 +214,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'uf',
         header: 'Uf',
-        key: 10,
+        key: 11,
         width: '250px',
         type: 'text',
         qty: '',
@@ -198,7 +222,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'complemento',
         header: 'Complemento',
-        key: 11,
+        key: 12,
         width: '250px',
         type: 'text',
         qty: '',
@@ -206,7 +230,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
       {
         field: 'whatsapp',
         header: 'Whatsapp',
-        key: 12,
+        key: 13,
         width: '250px',
         type: 'number',
         qty: '',
@@ -216,7 +240,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         field: 'usuarioalteracao',
         header: 'Usuário Alteração',
         width: '200px',
-        key: 13,
+        key: 14,
         type: 'text',
         qty: '',
       },
@@ -226,7 +250,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
-        key: 14,
+        key: 15,
         type: 'date',
         dataalteracaode: '',
         dataalteracaoate: '',
@@ -235,7 +259,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         field: 'usuariocriacao',
         header: 'Usuário Criação',
         width: '200px',
-        key: 15,
+        key: 16,
         type: 'text',
         qty: '',
       },
@@ -245,7 +269,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         width: '200px',
         data: true,
         format: `dd/MM/yyyy H:mm`,
-        key: 16,
+        key: 17,
         type: 'date',
         datacriacaode: '',
         datacriacaoate: '',
@@ -257,7 +281,7 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         width: '120px',
         type: 'status',
         status: true,
-        key: 17,
+        key: 18,
         qty: '',
       },
     ];
@@ -394,6 +418,25 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
           this.dataalteracaoate = valorFormatadoate.replace(/-/g, '');
         }
       }
+      if (element.field === 'datanasc') {
+        if (element.datanascde) {
+          this.filtro.datanascde = element.datanascde;
+          const valorFormatadode = element.datanascde
+            .split('-')
+            .reverse()
+            .join('-');
+          this.datanascde = valorFormatadode.replace(/-/g, '');
+        }
+
+        if (element.datanascate) {
+          this.filtro.datanascate = element.datanascate;
+          const valorFormatadoate = element.datanascate
+            .split('-')
+            .reverse()
+            .join('-');
+          this.datanascate = valorFormatadoate.replace(/-/g, '');
+        }
+      }
     });
   }
 
@@ -506,6 +549,37 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         this.filtro.dataalteracaoate = '';
       }
     }
+
+    if (tipo === 'datanascde') {
+      if (this.datanascde && this.datanascde.length === 10) {
+        const dia = this.datanascde.substring(0, 2);
+        const mes = this.datanascde.substring(3, 5);
+        const ano = this.datanascde.substring(6, 10);
+        this.filtro.datanascde = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.datanascde,
+          'datanasc',
+        );
+      } else {
+        this.filtro.datanascde = '';
+      }
+    }
+    if (tipo === 'datanascate') {
+      if (this.datanascate && this.datanascate.length === 10) {
+        const dia = this.datanascate.substring(0, 2);
+        const mes = this.datanascate.substring(3, 5);
+        const ano = this.datanascate.substring(6, 10);
+        this.filtro.datanascate = ano + '-' + mes + '-' + dia;
+        this.salvarDataLocalStorage(
+          tipo,
+          this.filtro.datanascate,
+          'datanasc',
+        );
+      } else {
+        this.filtro.datanascate = '';
+      }
+    }
     if (this.timeout) {
       clearTimeout(this.timeout);
     }
@@ -538,6 +612,18 @@ export class ListaClientesComponent implements OnInit, AfterViewInit {
         'dataalteracao',
         'dataalteracaode',
         'dataalteracaoate',
+      );
+    }
+
+    if (tipo === 'dataNasc') {
+      this.filtro.datanascde = '';
+      this.filtro.datanascate = '';
+      this.datanascde = '';
+      this.datanascate = '';
+      this.removerDataLocalStorage(
+        'datanasc',
+        'datanascde',
+        'datanascate',
       );
     }
 
