@@ -4,3 +4,13 @@
     margin-left: 30px;
   }
  
+  .cpfinvalid {
+    display: flex;
+    background: #ffe7e6;
+    color: #ff5757;
+    border-radius: 20px;
+    padding-left: 0.625rem;
+    margin-top: 4px;
+    font-size: 15px;
+    width: 100% !important;
+}

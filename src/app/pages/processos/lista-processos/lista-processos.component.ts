@@ -104,10 +104,11 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
     this.filtroDefault();
 
     this.cols = [
-      { field: 'numeroprocesso', header: 'Numero do Processo', width: '180px', key: 1, type: 'numeric', qty: '' },
-      { field: 'desccliente', header: 'Cliente', key: 4, width: '250px', type: 'text', qty: '' },
-      { field: 'descmotivo', header: 'Motivo', key: 5, width: '250px', type: 'text', qty: '' },
-      { field: 'descstatus', header: 'Status', key: 6, width: '250px', type: 'text', qty: '' },
+      { field: 'codigo', header: 'ID', width: '180px', key: 1, type: 'numeric', qty: '' },
+      { field: 'numeroprocesso', header: 'Numero do Processo', width: '180px', key: 2, type: 'numeric', qty: '' },
+      { field: 'desccliente', header: 'Cliente', key: 3, width: '250px', type: 'text', qty: '' },
+      { field: 'descmotivo', header: 'Motivo', key: 4, width: '250px', type: 'text', qty: '' },
+      { field: 'descstatus', header: 'Status', key: 5, width: '250px', type: 'text', qty: '' },
       { field: 'descvara', header: 'Varas', key: 6, width: '250px', type: 'text', qty: '' },   
       {
         field: 'usuariocriacao',

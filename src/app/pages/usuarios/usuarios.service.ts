@@ -1,7 +1,7 @@
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import * as moment from 'moment-timezone';
-import { Observable, firstValueFrom } from 'rxjs';
+import { firstValueFrom } from 'rxjs';
 import { FiltrosUsuario } from 'src/app/core/models/filtros.model';
 import { Usuarios } from 'src/app/core/models/usuarios.model';
 import { environment } from 'src/environments/environment';
@@ -112,20 +112,7 @@ export class UsuariosService {
     );
   }
 
-  private converteStringsParaDatas(obj: any[]) {
-    obj.forEach((element) => {
-      if (element.datagravacao) {
-        element.datagravacao = moment(element.datagravacao, 'YYYY-MM-DD H:mm')
-          .tz('America/Sao_Paulo')
-          .toDate();
-      }
-      if (element.datacriacao) {
-        element.datacriacao = moment(element.datacriacao, 'YYYY-MM-DD H:mm')
-          .tz('America/Sao_Paulo')
-          .toDate();
-      }
-    });
-  }
+
 
   async buscarSidebar(): Promise<any> {
     return firstValueFrom(this.http.get(`${this.sidebarUrl}`)).then(
@@ -140,42 +127,44 @@ export class UsuariosService {
     return response;
   }
 
-  // alterarSenha(user: Usuarios): Promise<Usuarios> {
-  //   return firstValueFrom(
-  //     this.http.patch(`${this.usuariosUrl}/${user._id}`, user)
-  //   ).then((response) => response as Usuarios);
-  // }
-
-  // async alterarSenhaUsuario(senha: string): Promise<Usuarios> {
-  //   const requestBody = { password: senha };
-  //   return firstValueFrom(
-  //     this.http.put<Usuarios>(`${this.usuariosUrl}/alterarsenha`, requestBody)
-  //   );
-  // }
-
   buscarPorIdSenha(id: number) {
     return firstValueFrom(this.http.get(`${this.usuariosUrl}/${id}`)).then(
       (response) => response as Usuarios,
     );
   }
 
-  private converterStringsParaDatasFiltro(obj: any[]) {
-    obj.forEach((element) => {
-      if (element.datausucriacao) {
-        element.datausucriacao = moment(
-          element.datausucriacao,
-          'YYYY-MM-DD H:mm',
-        )
-          .tz('America/Sao_Paulo')
-          .toDate();
-      }
-      if (element.datagravacao) {
-        element.datagravacao = moment(element.datagravacao, 'YYYY-MM-DD H:mm')
-          .tz('America/Sao_Paulo')
-          .toDate();
-      }
-    });
-  }
+    // private converteStringsParaDatas(obj: any[]) {
+  //   obj.forEach((element) => {
+  //     if (element.datagravacao) {
+  //       element.datagravacao = moment(element.datagravacao, 'YYYY-MM-DD H:mm')
+  //         .tz('America/Sao_Paulo')
+  //         .toDate();
+  //     }
+  //     if (element.datacriacao) {
+  //       element.datacriacao = moment(element.datacriacao, 'YYYY-MM-DD H:mm')
+  //         .tz('America/Sao_Paulo')
+  //         .toDate();
+  //     }
+  //   });
+  // }
+
+  // private converterStringsParaDatasFiltro(obj: any[]) {
+  //   obj.forEach((element) => {
+  //     if (element.datausucriacao) {
+  //       element.datausucriacao = moment(
+  //         element.datausucriacao,
+  //         'YYYY-MM-DD H:mm',
+  //       )
+  //         .tz('America/Sao_Paulo')
+  //         .toDate();
+  //     }
+  //     if (element.datagravacao) {
+  //       element.datagravacao = moment(element.datagravacao, 'YYYY-MM-DD H:mm')
+  //         .tz('America/Sao_Paulo')
+  //         .toDate();
+  //     }
+  //   });
+  // }
 
   buscarPorId(id: number) {
     return firstValueFrom(this.http.get(`${this.usuariosUrl}/${id}`)).then(

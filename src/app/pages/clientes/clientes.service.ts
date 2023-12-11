@@ -129,6 +129,15 @@ export class ClientesService {
     return obj;
   }
 
+  private converterStringsParaData(obj: any) { 
+      if (obj.datanasc) {
+        obj.datanasc = moment(obj.datanasc, 'YYYY-MM-DD H:mm')
+          .tz('America/Sao_Paulo')
+          .toDate();
+      }
+    
+  }
+
   private converterStringsParaDatas(obj: any[]) {
     obj.forEach((element) => {
       if (element.datacriacao) {
@@ -167,7 +176,10 @@ export class ClientesService {
 
   buscarPorID(id: number) {
     return firstValueFrom(this.http.get(`${this.clienteURL}/${id}`)).then(
-      (response) => response as Clientes,
+      (response) => {
+        this.converterStringsParaData(response);
+            return response;
+      },
     );
   }
 

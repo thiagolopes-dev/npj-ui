@@ -14,6 +14,7 @@ export class Processos {
   datacriacao?: Date;
  // usuariocriacao= new Usuarios();
   itensprocesso = new Array<ItensProcesso>();
+  partes = new Array<Partes>();
   observacao: string;
   aluno: string;
 
@@ -22,6 +23,16 @@ export class Processos {
 export class ItensProcesso {
   codigo?: number;
   informacoes?: string;
+  usuariocriacao?: string;
+  datacriacao?: Date;
+}
+
+export class Partes {
+  nome?: string;
+  cpf?: string;
+  whats?: string;
+  telefone?: string;
+  email?: string;
   usuariocriacao?: string;
   datacriacao?: Date;
 }
