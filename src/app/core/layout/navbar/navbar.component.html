@@ -1,103 +1,115 @@
 <div class="colorNav">
   <div class="flex justify-content-between flex-wrap">
-    <div>
+    <div class="d-flex align-items-center">
       <span class="cursor-pointer">
-        <i
-          class="pi pi-bars text-white"
-          (click)="sibebar = true"
-          style="font-size: 1.2rem"
-        ></i>
+        <i class="pi pi-bars text-white" (click)="sibebar = true" style="font-size: 1.5rem"></i>
       </span>
       <span class="cursor-pointer ml-2">
-        <i
-          class="pi pi-home text-white"
-          style="font-size: 1.2rem"
-          routerLink="/dashboard"
-        ></i>
+        <i class="pi pi-home text-white" style="font-size: 1.5rem" routerLink="/dashboard"></i>
       </span>
     </div>
-   <div>
-    
-   </div>
-    <i class="pi pi-arrow-right text-white cursor-pointer" style="font-size: 1.2rem" (click)="confirmarLogout()"></i>
-    <!-- <button pButton class="p-button-text btnSenha" icon="pi pi-chevron-right" label="Sair"
-    (click)="confirmarLogout(sair)"></button> -->
+    <div class="d-flex align-items-center">
+      <i class="pi pi-user cursor-pointer text-white" style="font-size: 1.5rem" (click)="op.toggle($event)"></i>
+
+      <!-- <i class="pi pi-lock textIcons cursor-pointer" style="font-size: 1.2rem" routerLink="/alterarsenha"></i>
+      <i class="pi pi-arrow-right textIcons cursor-pointer ml-3" style="font-size: 1.2rem" (click)="confirmarLogout(sair)"></i> -->
+      <!-- Adicione seu novo ícone aqui -->
+    </div>
+  </div>
 </div>
-</div>
+
+<p-overlayPanel #op>
+  <ng-template pTemplate="content">
+    <div class="col-12">
+      <button pButton class="p-button-text p-button-warning" icon="pi pi-lock" label="Alterar Senha" (click)="op.toggle($event)" routerLink="/alterarsenha"></button>
+    </div>
+    <div class="col-12">
+      <button pButton class="p-button-text p-button-warning" icon="pi pi-arrow-right" label="Sair" (click)="confirmarLogout()"></button>
+    </div>
+
+  </ng-template>
+</p-overlayPanel>
 
 <p-sidebar [(visible)]="sibebar" >
   <div class="flex flex-wrap">
     <div class="col-12">
-      <p-button
-        styleClass="p-button-text p-button-warning w-full text-1xl"
+      <button pButton
+        class="p-button-text text-white w-full text-1xl btn-menu"
         label="Início"
         routerLink="/dashboard"
+        routerLinkActive="ativo"
         (click)="sibebar = false"
-      ></p-button>
+      ></button>
     </div>
     <div class="col-12">
       <p-button
-        styleClass="p-button-text p-button-warning w-full text-1xl"
+        styleClass="p-button-text text-white w-full text-1xl btn-menu"
         label="Usuários"
         [routerLink]="auth.jwtPayload?.permissao.usuarios ? '/usuarios' : null"
         [disabled]="!auth.jwtPayload?.permissao.usuarios"
+        routerLinkActive="ativo"
         (click)="sibebar = false"
       ></p-button>
     </div>
     <div class="col-12">
-      <p-button
-        styleClass="p-button-text p-button-warning w-full text-1xl"
+      <button pButton
+        class="p-button-text text-white w-full text-1xl btn-menu"
         label="Motivos"
         [routerLink]="auth.jwtPayload?.permissao.motivos ? '/motivos' : null"
         [disabled]="!auth.jwtPayload?.permissao.motivos"
+        routerLinkActive="ativo"
         (click)="sibebar = false"
-      ></p-button>
+      ></button>
     </div>
     <div class="col-12">
-      <p-button
-        styleClass="p-button-text p-button-warning w-full text-1xl"
+      <button pButton
+        class="p-button-text text-white w-full text-1xl btn-menu"
         label="Varas"
         [routerLink]="auth.jwtPayload?.permissao.varas ? '/varas' : null"
         [disabled]="!auth.jwtPayload?.permissao.varas"
         (click)="sibebar = false"
-      ></p-button>
+      ></button>
     </div>
     <div class="col-12">
-      <p-button
-        styleClass="p-button-text p-button-warning w-full text-1xl"
+      <button pButton
+        class="p-button-text text-white w-full text-1xl btn-menu"
         label="Status"
         [routerLink]="auth.jwtPayload?.permissao.status ? '/status' : null"
         [disabled]="!auth.jwtPayload?.permissao.status"
+        routerLinkActive="ativo"
         (click)="sibebar = false"
-      ></p-button>
+      ></button>
     </div>
     <p-divider class="w-full"></p-divider>
     <div class="col-12">
-      <p-button
-        styleClass="p-button-text p-button-warning w-full text-1xl"
+      <button pButton
+        class="p-button-text text-white w-full text-1xl btn-menu"
         label="Clientes"
         [routerLink]="auth.jwtPayload?.permissao.clientes ? '/clientes' : null"
         [disabled]="!auth.jwtPayload?.permissao.clientes"
+        routerLinkActive="ativo"
         (click)="sibebar = false"
-      ></p-button>
+      ></button>
     </div>
     <div class="col-12">
-      <p-button
-        styleClass="p-button-text p-button-warning w-full text-1xl"
+      <button pButton
+        class="p-button-text text-white w-full text-1xl btn-menu"
         label="Agendamentos"
         [routerLink]="auth.jwtPayload?.permissao.agendamentos ? '/agendamentos' : null"
         [disabled]="!auth.jwtPayload?.permissao.agendamentos"
+        routerLinkActive="ativo"
         (click)="sibebar = false"
-      ></p-button>
+      ></button>
     </div>
     <div class="col-12">
-      <p-button
-        styleClass="p-button-text p-button-warning w-full text-1xl"
+      <button pButton
+        class="p-button-text text-white w-full text-1xl btn-menu"
         label="Processos"
         [routerLink]="auth.jwtPayload?.permissao.processos ? '/processos' : null"
         [disabled]="!auth.jwtPayload?.permissao.processos"
+        routerLinkActive="ativo"
         (click)="sibebar = false"
-      ></p-button>
+      ></button>
     </div>
     
   </div>

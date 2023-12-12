@@ -3,132 +3,68 @@
     <h4>{{ editando ? "Edição de" : "Cadastro de" }} Agendamento</h4>
     <div class="flex justify-content-start mb-2">
       <div>
-        <button
-          pButton
-          pRipple
-          type="button"
-          class="p-button-raised p-button-warning"
-          icon="pi pi-caret-left"
-          pTooltip="Voltar"
-          tooltipPosition="top"
-          routerLink="/agendamentos"
-        ></button>
+        <button pButton pRipple type="button" class="p-button-raised p-button-warning" icon="pi pi-caret-left"
+          pTooltip="Voltar" tooltipPosition="top" routerLink="/agendamentos"></button>
       </div>
     </div>
     <br />
-    <form
-      #formAgendamento="ngForm"
-      autocomplete="off"
-      (ngSubmit)="salvar(formAgendamento)"
-    >
+    <form #formAgendamento="ngForm" autocomplete="off" (ngSubmit)="salvar(formAgendamento)">
       <div class="grid">
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Data Atendimento</h6>
           <!-- TODO Forma de input uppercase sem diretiva -->
-          <p-calendar
-            styleClass="w-full"
-            name="dataatendimento"
-            [showTime]="true"
-            dateFormat="dd/mm/yy"
-            [readonlyInput]="true"
-            [(ngModel)]="newagendamento.dataatendimento"
-            #dataatendimento="ngModel"
-            required
-          />
-          <app-message
-            [control]="dataatendimento"
-            error="required"
-            text="Informe a Data"
-          ></app-message>
-          <app-message
-            [control]="dataatendimento"
-            error="minlength"
-            text="Mínimo de {{
+          <p-calendar styleClass="w-full" name="dataatendimento" [showTime]="true" dateFormat="dd/mm/yy"
+            [readonlyInput]="true" [(ngModel)]="newagendamento.dataatendimento" #dataatendimento="ngModel" required />
+          <app-message [control]="dataatendimento" error="required" text="Informe a Data"></app-message>
+          <app-message [control]="dataatendimento" error="minlength" text="Mínimo de {{
               dataatendimento.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
+            }} caracteres"></app-message>
         </div>
-        
+
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Cliente</h6>
-          <p-dropdown
-          styleClass="w-full" [options]="clientes"
-            [(ngModel)]="newagendamento.cliente"
-            #cliente="ngModel"
-            name="cliente"
-            placeholder="Selecione o Cliente"
-            [showClear]="true"
-            optionLabel="nome"
-            required
-          ></p-dropdown>
-          
-          <app-message
-            [control]="cliente"
-            error="required"
-            text="Informe o Cliente"
-          ></app-message>
-          <app-message
-            [control]="cliente"
-            error="minlength"
-            text="Mínimo de {{
+          <p-dropdown styleClass="w-full" [options]="clientes" [(ngModel)]="newagendamento.cliente" #cliente="ngModel"
+            name="cliente" placeholder="Selecione o Cliente" [showClear]="true" optionLabel="nome"
+            required></p-dropdown>
+
+          <app-message [control]="cliente" error="required" text="Informe o Cliente"></app-message>
+          <app-message [control]="cliente" error="minlength" text="Mínimo de {{
               cliente.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
+            }} caracteres"></app-message>
         </div>
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Motivo</h6>
           <!-- TODO Forma de input uppercase sem diretiva -->
-          <p-dropdown
-          styleClass="w-full" [options]="motivos"
-            [(ngModel)]="newagendamento.motivo"
-            #motivo="ngModel"
-            name="motivo"
-            placeholder="Selecione Motivo"
-            [showClear]="true"
-            optionLabel="descricao"
-            required
-          />
-          <app-message
-            [control]="motivo"
-            error="required"
-            text="Informe o Motivo"
-          ></app-message>
-          <app-message
-            [control]="motivo"
-            error="minlength"
-            text="Mínimo de {{
+          <p-dropdown styleClass="w-full" [options]="motivos" [(ngModel)]="newagendamento.motivo" #motivo="ngModel"
+            name="motivo" placeholder="Selecione Motivo" [showClear]="true" optionLabel="descricao" required />
+          <app-message [control]="motivo" error="required" text="Informe o Motivo"></app-message>
+          <app-message [control]="motivo" error="minlength" text="Mínimo de {{
               motivo.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
+            }} caracteres"></app-message>
         </div>
 
+      
         <div class="col-12 md:col-6 lg:col-4">
           <h6><span class="obrigatorio">*</span>Status</h6>
           <!-- TODO Forma de input uppercase sem diretiva -->
-          <p-dropdown
-          styleClass="w-full" [options]="statusoptions"
-            [(ngModel)]="newagendamento.status"
-            #status="ngModel"
-            name="status"
-            placeholder="Selecione Status"
-            [showClear]="true"
-            optionLabel="descricao"
-            required
-          />
-          <app-message
-            [control]="status"
-            error="required"
-            text="Informe o Status"
-          ></app-message>
-          <app-message
-            [control]="status"
-            error="minlength"
-            text="Mínimo de {{
+          <p-dropdown styleClass="w-full" [options]="statusoptions" [(ngModel)]="newagendamento.status"
+            #status="ngModel" name="status" placeholder="Selecione Status" [showClear]="true" optionLabel="descricao"
+            required />
+          <app-message [control]="status" error="required" text="Informe o Status"></app-message>
+          <app-message [control]="status" error="minlength" text="Mínimo de {{
               status.errors?.minlength?.requiredLength
-            }} caracteres"
-          ></app-message>
+            }} caracteres"></app-message>
         </div>
+
+        <div class="col-12 md:col-6 lg:col-4">
+          <h6>Observação</h6>
+          <textarea name="observacao" [(ngModel)]="newagendamento.observacao" rows="5" cols="200" pInputTextarea
+               #observacao="ngModel" [autoResize]="true"></textarea>
+        </div>
+
       </div>
+
+    
 
       <!-- <div class="flex justify-content-center">
         <div class="flex align-items-center justify-content-center">
@@ -150,15 +86,8 @@
       <br />
       <div class="flex flex-wrap justify-content-center">
         <div class="col-12 md:col-6 lg:col-4">
-          <button
-            pButton
-            pRipple
-            type="submit"
-            label="Salvar"
-            icon="fas fa-save"
-            [disabled]="formAgendamento.invalid || salvando"
-            class="p-button-raised p-button-warning w-full"
-          ></button>
+          <button pButton pRipple type="submit" label="Salvar" icon="fas fa-save"
+            [disabled]="formAgendamento.invalid || salvando" class="p-button-raised p-button-warning w-full"></button>
 
         </div>
         <!-- <div class="col-12 md:col-6 lg:col-4">
@@ -167,15 +96,11 @@
             (click)="confirmarExclusao()" label="Excluir"></button>
         </div> -->
       </div>
-      
+
       <div *ngIf="salvando" class="grid justify-content-center mt-4">
         <div class="grid col-12 justify-content-center">
-          <p-progressSpinner
-            [style]="{ width: '50px', height: '50px' }"
-            styleClass="custom-spinner"
-            strokeWidth="8"
-            animationDuration=".5s"
-          >
+          <p-progressSpinner [style]="{ width: '50px', height: '50px' }" styleClass="custom-spinner" strokeWidth="8"
+            animationDuration=".5s">
           </p-progressSpinner>
         </div>
         <div class="grid col-12 justify-content-center">

@@ -121,10 +121,12 @@ export class CadastroClienteComponent {
         this.newcliente = obj;
         this.atualizarTituloEdicao();
         this.spinner.hide();
-        const uf = this.newcliente.uf;
-        setTimeout(() => {
-          this.buscarCidades(uf);
-        }, 300);
+        if(this.newcliente.uf){
+          const uf = this.newcliente.uf;
+          setTimeout(() => {
+            this.buscarCidades(uf);
+          }, 300);
+        }
       })
       .catch((erro) => {
         this.spinner.hide();

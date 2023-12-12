@@ -114,11 +114,28 @@ export class ClientesService {
       obj.dataalteracaoate = filtro.dataalteracaoate;
     }
 
+    if (filtro.datanascde) {
+      obj.datanascde = filtro.datanascde;
+    }
+
+    if (filtro.datanascate) {
+      obj.datanascate = filtro.datanascate;
+    }
+
     if (filtro.status) {
       obj.status = filtro.status;
     }
 
     return obj;
+  }
+
+  private converterStringsParaData(obj: any) { 
+      if (obj.datanasc) {
+        obj.datanasc = moment(obj.datanasc, 'YYYY-MM-DD H:mm')
+          .tz('America/Sao_Paulo')
+          .toDate();
+      }
+    
   }
 
   private converterStringsParaDatas(obj: any[]) {
@@ -130,6 +147,11 @@ export class ClientesService {
       }
       if (element.dataalteracao) {
         element.dataalteracao = moment(element.dataalteracao, 'YYYY-MM-DD H:mm')
+          .tz('America/Sao_Paulo')
+          .toDate();
+      }
+      if (element.datanasc) {
+        element.datanasc = moment(element.datanasc, 'YYYY-MM-DD H:mm')
           .tz('America/Sao_Paulo')
           .toDate();
       }
@@ -154,7 +176,10 @@ export class ClientesService {
 
   buscarPorID(id: number) {
     return firstValueFrom(this.http.get(`${this.clienteURL}/${id}`)).then(
-      (response) => response as Clientes,
+      (response) => {
+        this.converterStringsParaData(response);
+            return response;
+      },
     );
   }
 

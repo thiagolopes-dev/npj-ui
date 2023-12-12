@@ -2,16 +2,16 @@ import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
+import * as cpfCnpj from 'cpf-cnpj-validator';
 import { NgxSpinnerService } from 'ngx-spinner';
 import {
   ConfirmEventType,
   ConfirmationService,
   MessageService,
 } from 'primeng/api';
-import { Regex } from 'src/app/core/validators/regex.model';
-
 import { ErrorHandlerService } from 'src/app/core/errorhandler.service';
-import { ItensProcesso, Processos } from 'src/app/core/models/processo.model';
+import { ItensProcesso, Partes, Processos } from 'src/app/core/models/processo.model';
+import { Regex } from 'src/app/core/validators/regex.model';
 import { AgendamentosService } from '../../agendamentos/agendamentos.service';
 import { MotivosService } from '../../motivos/motivos.service';
 import { AuthService } from '../../seguranca/auth.service';
@@ -41,9 +41,15 @@ export class CadastroProcessoComponent {
   displayTextarea = false;
   visible: boolean = false;
   itensprocesso: ItensProcesso;
+  partes: Partes;
   infoIndex: number;
+  parteIndex: number;
   showDialogProcesso: boolean = false;
+  showDialogParte: boolean = false;
   colsInfo = [];
+  colsPartes = [];
+  cpfValid = false;
+  stringCpf = '';
 
   constructor(
     private processoService: ProcessosService,
@@ -79,10 +85,20 @@ export class CadastroProcessoComponent {
 
     this.colsInfo = [
       // { field: 'codigo', header: 'Código', width: '100px' },
-      { field: 'informacoes', header: 'Informações', width: '250px' },
+      { field: 'cpf', header: 'Informações', width: '250px' },
       { field: 'datacriacao', header: 'Data Criação', width: '130px', data: true, format: `dd/MM/yyyy H:mm`, },
       { field: 'usuariocriacao', header: 'Usuário Criação', width: '150px' },
-      
+
+    ];
+
+    this.colsPartes = [
+      { field: 'nome', header: 'Nome', width: '250px' },
+      { field: 'cpf', header: 'CPF', width: '150px' },
+      { field: 'whats', header: 'Whats', width: '150px' },
+      { field: 'telefone', header: 'Telefone', width: '150px' },
+      { field: 'email', header: 'E-mail', width: '200px' },
+      { field: 'datacriacao', header: 'Data Criação', width: '130px', data: true, format: `dd/MM/yyyy H:mm`, },
+      { field: 'usuariocriacao', header: 'Usuário Criação', width: '150px' },
     ];
   }
 
@@ -148,6 +164,9 @@ export class CadastroProcessoComponent {
       .buscarPorID(_id)
       .then((obj) => {
         this.newprocesso = obj;
+        if(!this.newprocesso.partes){
+          this.newprocesso.partes = [];
+        }
         this.atribuirMotivos(obj);
         this.atualizarTituloEdicao();
         this.spinner.hide();
@@ -221,8 +240,8 @@ export class CadastroProcessoComponent {
         this.errorHandler.handle(erro);
       });
   }
-  
-  
+
+
   // carregarMotivos() {
   //   return this.motivosService
   //     .ListarDrop()
@@ -259,7 +278,7 @@ export class CadastroProcessoComponent {
           descricao: status.descricao,
           codigo: status.codigo,
         }));
-        if(!this.idprocesso){
+        if (!this.idprocesso) {
           this.atribuirStatus();
         }
       })
@@ -270,7 +289,7 @@ export class CadastroProcessoComponent {
 
   atribuirStatus() {
     this.newprocesso.status = this.statusoptions.find(
-      (obj) => obj.descricao === 'AGUARDANDO DESPACHO'
+      (obj) => obj.descricao === 'PETICAO INICIAL'
     );
   }
 
@@ -278,14 +297,14 @@ export class CadastroProcessoComponent {
     this.agendamentoService
       .buscarClienteID(event.value.id)
       .then((obj: any) => {
-       this.atribuirMotivos(obj); 
+        this.atribuirMotivos(obj);
       })
       .catch((erro) => {
         this.errorHandler.handle(erro)
       });
   }
 
-  atribuirMotivos(obj: any){
+  atribuirMotivos(obj: any) {
     this.motivos = [];
     this.motivos.push(obj.motivo);
     setTimeout(() => {
@@ -293,9 +312,9 @@ export class CadastroProcessoComponent {
         (element) => element.codigo === obj.motivo?.codigo
       );
 
-    }, 100);   
+    }, 100);
   }
-  
+
 
   prepararNovaInfo() {
     this.showDialogProcesso = true;
@@ -341,5 +360,41 @@ export class CadastroProcessoComponent {
         }
       },
     });
+  }
+
+  validateCPFCNPJ() {
+    if (this.partes.cpf.length === 11) {
+      if (cpfCnpj.cpf.isValid(this.partes.cpf)) {
+        this.cpfValid = false;
+      } else {
+        this.cpfValid = true;
+        this.stringCpf = 'CPF é Inválido';
+      }
+    }
+  }
+
+  prepararNovaParte(){
+    this.showDialogParte = true;
+    this.partes = new Partes();
+    this.parteIndex = this.newprocesso.partes.length;
+  }
+
+  preparaEdicaoPartes(parte: Partes, index: number) {
+    this.partes = { ...parte };
+    this.showDialogParte = true;
+    this.parteIndex = index;
+  }
+
+  removerParte(index: number){
+    this.newprocesso.partes.splice(index, 1);
+  }
+
+  confirmarParte(frm: NgForm) {
+    this.partes.usuariocriacao = this.auth.jwtPayload.username;
+    this.partes.datacriacao = new Date();
+    this.newprocesso.partes[this.parteIndex] = { ... this.partes};
+    // this.newprocesso.partes.push({ ...this.partes });
+    this.showDialogParte = false;
+    frm.reset();
   }
 }

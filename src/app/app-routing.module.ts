@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NaoAutorizadoComponent } from './core/layout/navbar/nao-autorizado/nao-autorizado.component';
-import { PaginaNaoEncontradaComponent } from './core/layout/navbar/pagina-nao-encontrada/pagina-nao-encontrada.component';
+import { AlterarSenhaComponent } from './core/layout/alterar-senha/alterar-senha.component';
+import { NaoAutorizadoComponent } from './core/layout/nao-autorizado/nao-autorizado.component';
+import { PaginaNaoEncontradaComponent } from './core/layout/pagina-nao-encontrada/pagina-nao-encontrada.component';
 
 const routes: Routes = [
 
@@ -53,6 +54,8 @@ const routes: Routes = [
         (s) => s.UsuariosModule,
       ),
   },
+  { path: 'alterarsenha', component: AlterarSenhaComponent },
+  
   { path: 'nao-autorizado', component: NaoAutorizadoComponent },
 
   { path: 'pagina-nao-encontrada', component: PaginaNaoEncontradaComponent },

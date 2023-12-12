@@ -23,18 +23,23 @@
             }} caracteres"></app-message>
         </div>
 
+        <div class="col-12 md:col-6 lg:col-3">
+          <h6><span class="obrigatorio">*</span>Data Nascimento</h6>
+          <p-calendar styleClass="w-full" name="datanasc" showButtonBar="true" [monthNavigator]="true"
+            [yearNavigator]="true" yearRange="1940:2030" dateFormat="dd/mm/yy" [(ngModel)]="newcliente.datanasc"
+            #datanasc="ngModel" [showIcon]="true" required></p-calendar>
+          <app-message [control]="datanasc" error="required" text="Informe a Data Nascimento">
+          </app-message>
+        </div>
+
         <div class="field col-12 md:col-6 lg:col-3">
-          <h6><span class="obrigatorio">*</span>CPF</h6>
+          <h6>CPF</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
             name="cpf" pInputText type="text" (input)="validateCPFCNPJ()" [mask]="'000.000.000-00'" [pKeyFilter]="regex.number"
-            [(ngModel)]="newcliente.cpf" #cpf="ngModel" minlength="11" maxlength="14" aria-describedby="cpf" required
+            [(ngModel)]="newcliente.cpf" #cpf="ngModel" minlength="11" maxlength="14" aria-describedby="cpf"
             [dropSpecialCharacters]="true" />
           <span class="cpfinvalid" *ngIf="cpfValid">{{stringCpf}}</span>
-          <app-message [control]="cpf" error="required" text="Informe o seu cpf"></app-message>
-          <app-message [control]="cpf" error="minlength" text="Mínimo de {{
-              cpf.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
         </div>
 
         <div class="field col-12 md:col-6 lg:col-3">
@@ -47,56 +52,40 @@
         </div>
 
         <div class="field col-12 md:col-6 lg:col-3">
-          <h6><span class="obrigatorio">*</span>CEP</h6>
+          <h6>CEP</h6>
           <p-inputMask mask="99999-999" id="cep" name="cep" (onBlur)="consultaCEP($event.target.value, formCliente)"
-              [(ngModel)]="newcliente.cep" #cep="ngModel" unmask="true" required></p-inputMask>
-            <app-message [control]="cep" error="required" text="Informe o cep"></app-message>
-          <app-message [control]="cep" error="minlength" text="Mínimo de {{
-              cep.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
+              [(ngModel)]="newcliente.cep" #cep="ngModel" unmask="true"></p-inputMask>
         </div>
 
         <div class="field col-12 md:col-6 lg:col-3">
-          <h6><span class="obrigatorio">*</span>Logradouro</h6>
+          <h6>Logradouro</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
             upperCase pInputText name="logradouro" type="text"
             [pKeyFilter]="regex.stringEspecial" [(ngModel)]="newcliente.logradouro" #logradouro="ngModel" minlength="3"
-            maxlength="30" required />
-
-          <app-message [control]="logradouro" error="required" text="Informe o seu logradouro"></app-message>
-          <app-message [control]="logradouro" error="minlength" text="Mínimo de {{
-              logradouro.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
+            maxlength="30">
         </div>
 
         <div class="field col-12 md:col-6 lg:col-3">
-          <h6><span class="obrigatorio">*</span>Bairro</h6>
+          <h6>Bairro</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
             upperCase pInputText name="bairro" type="text"
-            [(ngModel)]="newcliente.bairro" #bairro="ngModel" minlength="3" maxlength="30" required />
-          <app-message [control]="bairro" error="required" text="Informe o seu bairro"></app-message>
-          <app-message [control]="bairro" error="minlength" text="Mínimo de {{
-              bairro.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
+            [(ngModel)]="newcliente.bairro" #bairro="ngModel" minlength="3" maxlength="30" />
         </div>
 
         <div class="field col-12 md:col-6 lg:col-3">
-          <h6><span class="obrigatorio">*</span>Número</h6>
+          <h6>Número</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
             upperCase pInputText name="numero" type="text"
             [pKeyFilter]="regex.number" [(ngModel)]="newcliente.numero" #numero="ngModel" minlength="1" maxlength="8"
-            required />
-          <app-message [control]="numero" error="required" text="Informe o seu numero"></app-message>
-          <app-message [control]="numero" error="minlength" text="Mínimo de {{
-              numero.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
+             />
+       
         </div>
 
         <div class="field col-12 md:col-6 lg:col-3">
-          <h6><span></span>Complemento</h6>
+          <h6>Complemento</h6>
           <input
             class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
             upperCase pInputText name="complemento" type="text"
@@ -105,23 +94,22 @@
         </div>
 
         <div class="col-12 md:col-6 lg:col-3">
-          <h6><span class="obrigatorio">*</span>Estados</h6>
+          <h6>Estados</h6>
           <p-dropdown styleClass="w-full" [options]="estados" [(ngModel)]="newcliente.uf" #uf="ngModel" name="uf"
             placeholder="Selecione..." optionLabel="estado" optionValue="uf" filter="true" [virtualScroll]="true"
-            appendTo="body" (onChange)="buscarCidades(newcliente.uf)" [virtualScrollItemSize]="30" required
+            appendTo="body" (onChange)="buscarCidades(newcliente.uf)" [virtualScrollItemSize]="30" 
             filterBy="uf,estado"></p-dropdown>
-          <app-message [control]="uf" error="required" text="Informe o estado"></app-message>
         </div>
 
 
         <div class="col-12 md:col-6 lg:col-3">
-          <h6><span class="obrigatorio">*</span>Cidades</h6>
+          <h6>Cidades</h6>
           <p-dropdown styleClass="w-full" [options]="cidadesFiltradas" [disabled]="!newcliente.uf"
             [(ngModel)]="newcliente.cidade" #cidade="ngModel" name="cidade" placeholder="Selecione..." appendTo="body"
-            optionLabel="cidade" optionValue="cidade" filter="true" [virtualScroll]="true" required=""
+            optionLabel="cidade" optionValue="cidade" filter="true" [virtualScroll]="true"
             [virtualScrollItemSize]="30">
           </p-dropdown>
-          <app-message [control]="cidade" error="required" text="Informe a cidade"></app-message>
+        
         </div>
 
         <div class="field col-12 md:col-6 lg:col-3">

@@ -237,6 +237,7 @@ p-inputnumber,
 .p-button {
   border: none;
   height: 2.1875rem;
+  background: #f59e1c;
 }
 
 .p-button.p-button-icon-only {
@@ -838,4 +839,13 @@ p-inputnumber,
 .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
   border-color: #f59e1c;
   background: #f59e1c;
+}
+
+.p-sidebar {
+  background: #f59e0b;
+  color: #ffffff;
+}
+
+.p-sidebar .p-sidebar-header .p-sidebar-close, .p-sidebar .p-sidebar-header .p-sidebar-icon {
+  color: #ffffff !important;
 }

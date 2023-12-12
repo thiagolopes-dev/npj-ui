@@ -17,16 +17,18 @@
           </ng-template>
           <div class="grid">
             <div class="col-12 md:col-6 lg:col-2">
-              <h6><span class="obrigatorio">*</span>Número do Processo</h6>
-              <input class="w-full" pInputText name="processo" type="text" [pKeyFilter]="regex.stringNumber"
-                [(ngModel)]="newprocesso.numeroprocesso" #processo="ngModel" required minlength="3" disabled upperCase>
-              <app-message [control]="processo" error="required" text="Informe o Numero do Processo"></app-message>
-              <app-message [control]="processo" error="minlength" text="Mínimo de {{
-              processo.errors?.minlength?.requiredLength
-            }} caracteres"></app-message>
+              <h6>ID Sistema</h6>
+              <input class="w-full" pInputText name="codigo" type="text"
+                [(ngModel)]="newprocesso.codigo" #codigo="ngModel" disabled>
             </div>
 
-            <div class="col-12 md:col-6 lg:col-3">
+            <div class="col-12 md:col-6 lg:col-2">
+              <h6>Número do Processo</h6>
+              <input class="w-full" pInputText name="numeroprocesso" type="text"
+                [(ngModel)]="newprocesso.numeroprocesso" #numeroprocesso="ngModel">
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-4">
               <h6><span class="obrigatorio">*</span>Clientes Aprovados</h6>
               <p-dropdown styleClass="w-full" [options]="clientes" (onChange)="carregarDadosCliente($event)"
                 [(ngModel)]="newprocesso.cliente" #cliente="ngModel" name="cliente" placeholder="Selecione o Cliente"
@@ -38,7 +40,7 @@
             }} caracteres"></app-message>
             </div>
 
-            <div class="col-12 md:col-6 lg:col-3">
+            <div class="col-12 md:col-6 lg:col-4">
               <h6><span class="obrigatorio">*</span>Motivo</h6>
               <p-dropdown styleClass="w-full" [options]="motivos" [disabled]="true" [(ngModel)]="newprocesso.motivo"
                 #motivo="ngModel" name="motivo" placeholder="Selecione o Motivo" [showClear]="true"
@@ -67,6 +69,19 @@
               status.errors?.minlength?.requiredLength
             }} caracteres"></app-message>
             </div>
+
+            <div class="col-12 md:col-6 lg:col-3">
+              <h6>Aluno</h6>
+              <input class="w-full" pInputText name="aluno" type="text"
+                [pKeyFilter]="regex.stringNumber" [(ngModel)]="newprocesso.aluno" #aluno="ngModel"
+                minlength="4" upperCase>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-4">
+              <h6>Observação</h6>
+              <textarea name="observacao" [(ngModel)]="newprocesso.observacao" rows="5" cols="200" pInputTextarea
+                   #observacao="ngModel" [autoResize]="true"></textarea>
+            </div>
           </div>
         </p-tabPanel>
 
@@ -75,6 +90,8 @@
             <i class="pi pi-list" style="margin-right: 0.3125rem;"></i>
             <span>Processo Informações</span>
           </ng-template>
+
+          
           <div class="grid p-fluid p-justify-start">
             <div class="col-12 md:col-6 lg:col-3">
               <button pButton class="p-button-raised p-button-warning w-full md:w-12 lg:w-10" type="button"
@@ -120,6 +137,66 @@
             <ng-template pTemplate="emptymessage" let-columns>
               <tr>
                 <td colspan="5">
+                  <p class="emptyMessage">Nenhum registro encontrado...</p>
+                </td>
+              </tr>
+            </ng-template>
+          </p-table>
+
+        </p-tabPanel>
+
+        <p-tabPanel>
+          <ng-template pTemplate="header">
+            <i class="pi pi-user" style="margin-right: 0.3125rem;"></i>
+            <span>Partes Envolvidas</span>
+          </ng-template>
+
+          
+          <div class="grid p-fluid p-justify-start">
+            <div class="col-12 md:col-6 lg:col-3">
+              <button pButton class="p-button-raised p-button-warning w-full md:w-12 lg:w-10" type="button"
+                pTooltip="Nova Informação" tooltipPosition="top" label="Novo" icon="pi pi-plus"
+                (click)="prepararNovaParte()"></button>
+            </div>
+          </div>
+
+
+          <p-table #tabelaPartes styleClass="p-datatable-striped p-datatable-gridlines"
+            [value]="newprocesso.partes" [columns]="colsPartes" [globalFilterFields]="colsPartes"
+            [showCurrentPageReport]="true" [scrollable]="true" [rows]="10" selectionMode="single">
+
+            <ng-template pTemplate="header" let-columns>
+              <tr>
+                <th class="tdAcoes">&nbsp;</th>
+                <th class="responsivetable" *ngFor="let colsPartes of columns" [ngStyle]="{'min-width': colsPartes.width}">
+                  {{colsPartes.header}}
+                </th>
+              </tr>
+            </ng-template>
+            <ng-template pTemplate="body" pTemplate="body" let-parte let-rowIndex="rowIndex" let-rowData
+              let-columns="columns">
+              <tr>
+                <td class="tdAcoes">
+                  <button pButton pRipple type="button" class="p-button-raised p-button-warning" pTooltip="Editar"
+                    tooltipPosition="top" icon="pi pi-pencil" (click)="preparaEdicaoPartes(parte, rowIndex)"></button>
+
+                  <button pButton pRipple type="button" class="p-button-raised  p-button-danger ml-1" pTooltip="Excluir"
+                    tooltipPosition="top" icon="pi pi-trash" (click)="removerParte(rowIndex)"></button>
+                </td>
+
+                <td class="responsivetable" *ngFor="let colsitem of columns" [ngStyle]="{'min-width': colsitem.width}"
+                  pTooltip="{{rowData[colsitem.field]}}" tooltipPosition="top">
+                  <span class="p-column-title">{{colsitem.header}}:</span>
+                  {{ colsitem.data ? (rowData[colsitem.field]| date :
+                  colsitem.format) : colsitem.status ? (rowData[colsitem.field] ? 'Ativo' : 'Inativo') :
+                  rowData[colsitem.field]}}
+                </td>
+              </tr>
+
+            </ng-template>
+            <ng-template pTemplate="emptymessage" let-columns>
+              <tr>
+                <td colspan="8">
                   <p class="emptyMessage">Nenhum registro encontrado...</p>
                 </td>
               </tr>
@@ -178,6 +255,57 @@
         </div>
       </div>
     </p-footer>
+    </form>
+  </p-dialog>
+
+  <p-dialog header="Partes Envolvidas" styleClass="mydialogProcesso" modal="true" [(visible)]="showDialogParte"
+    *ngIf="partes" dismissableMask="true">
+    <br>
+    <form #frmParte="ngForm" autocomplete="off" (ngSubmit)="confirmarParte(frmParte)">
+      <div class="grid ">
+  
+        <div class="col-12 md:col-6 lg:col-3">
+          <h6>Nome</h6>
+          <input pInputText name="nome" type="text" [(ngModel)]="partes.nome" maxlength="80" upperCase>
+        </div>
+
+        <div class="col-12 md:col-6 lg:col-3">
+          <h6>CPF</h6>
+          <input
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            name="cpf" pInputText type="text" (input)="validateCPFCNPJ()" [mask]="'000.000.000-00'" [pKeyFilter]="regex.number"
+            [(ngModel)]="partes.cpf" #cpf="ngModel" minlength="11" maxlength="14" aria-describedby="cpf"
+            [dropSpecialCharacters]="true" />
+          <span class="cpfinvalid" *ngIf="cpfValid">{{stringCpf}}</span>
+        </div>
+  
+        <div class="col-12 md:col-6 lg:col-3">
+          <h6>WhatsApp</h6>
+          <p-inputMask mask="(99)99999-999?9" name="whats" type="tel" [(ngModel)]="partes.whats" #whats="ngModel">
+          </p-inputMask>
+        </div>
+  
+        <div class="col-12 md:col-6 lg:col-3">
+          <h6>Telefone</h6>
+          <p-inputMask mask="(99)99999-999?9" name="telefone" type="tel" [(ngModel)]="partes.telefone"
+            #telefone="ngModel"></p-inputMask>
+        </div>
+  
+        <div class="col-12 md:col-6 lg:col-3">
+          <h6>E-mail</h6>
+          <input pInputText name="email" type="email" pKeyFilter="email" email maxlength="40" [(ngModel)]="partes.email"
+            #email="ngModel" email>
+          <app-message [control]="email" error="email" text="Informe um E-mail válido"></app-message>
+        </div>
+      </div>
+      <p-footer>
+        <div class="grid flex justify-content-center mt-8">
+          <div class="col-12 md:col-6 lg:col-3">
+            <button pButton pRipple type="submit" label="Confirmar" icon="fas fa-save" [disabled]="frmParte.invalid"
+              class="p-button-raised p-button-warning w-full"></button>
+          </div>
+        </div>
+      </p-footer>
     </form>
   </p-dialog>
 

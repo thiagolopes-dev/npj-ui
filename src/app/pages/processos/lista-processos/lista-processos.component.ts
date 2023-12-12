@@ -54,6 +54,9 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
   noRecords = true;
   state = 'state-processos';
   nameColumns = 'processosColumns';
+  showDialogPartes: boolean = false;
+  partes: any;
+  colsPartes = [];
 
   constructor(
     private title: Title,
@@ -104,10 +107,11 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
     this.filtroDefault();
 
     this.cols = [
-      { field: 'numeroprocesso', header: 'Numero do Processo', width: '180px', key: 1, type: 'numeric', qty: '' },
-      { field: 'desccliente', header: 'Cliente', key: 4, width: '250px', type: 'text', qty: '' },
-      { field: 'descmotivo', header: 'Motivo', key: 5, width: '250px', type: 'text', qty: '' },
-      { field: 'descstatus', header: 'Status', key: 6, width: '250px', type: 'text', qty: '' },
+      { field: 'codigo', header: 'ID', width: '180px', key: 1, type: 'numeric', qty: '' },
+      { field: 'numeroprocesso', header: 'Numero do Processo', width: '180px', key: 2, type: 'numeric', qty: '' },
+      { field: 'desccliente', header: 'Cliente', key: 3, width: '250px', type: 'text', qty: '' },
+      { field: 'descmotivo', header: 'Motivo', key: 4, width: '250px', type: 'text', qty: '' },
+      { field: 'descstatus', header: 'Status', key: 5, width: '250px', type: 'text', qty: '' },
       { field: 'descvara', header: 'Varas', key: 6, width: '250px', type: 'text', qty: '' },   
       {
         field: 'usuariocriacao',
@@ -129,6 +133,17 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
         datacriacaoate: ''
       },
     ];
+
+    this.colsPartes = [
+      { field: 'nome', header: 'Nome', width: '250px' },
+      { field: 'cpf', header: 'CPF', width: '150px' },
+      { field: 'whats', header: 'Whats', width: '150px' },
+      { field: 'telefone', header: 'Telefone', width: '150px' },
+      { field: 'email', header: 'E-mail', width: '200px' },
+      { field: 'datacriacao', header: 'Data Criação', width: '130px', data: true, format: `dd/MM/yyyy H:mm`, },
+      { field: 'usuariocriacao', header: 'Usuário Criação', width: '150px' },
+    ];
+
     this.carregarStatus();
     this.carregarMotivos();
     this.carregarVaras();
@@ -424,6 +439,28 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
 
   verifyFocus() {
     this.buttonFilter.nativeElement.focus();
+  }
+
+  showParte(id: string) {
+    this.showDialogPartes = true;
+    this.carregarParte(id);
+  }
+
+  carregarParte(id: string) {
+    this.spinner.show();
+    this.processosService
+      .buscarPorID(id)
+      .then((response) => {
+        // console.log('Dados recuperados:', response);
+        this.partes = response.partes;
+
+        // console.log('Variável partes:', this.partes.partes);
+        this.spinner.hide();
+      })
+      .catch((erro) => {
+        this.spinner.hide();
+        this.errorHandler.handle(erro);
+      });
   }
 
 }

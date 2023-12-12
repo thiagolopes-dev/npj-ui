@@ -9,4 +9,5 @@ export class Agendamentos {
     cliente = new Clientes();
     motivo = new Motivos();
     status = new Status();
+    observacao: string;
 }
