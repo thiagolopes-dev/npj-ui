@@ -221,7 +221,7 @@ export class UsuariosService {
   async alterarSenhaUsuario(senha: string): Promise<Usuarios> {
     const requestBody = { password: senha };
     return firstValueFrom(
-      this.http.put<Usuarios>(`${this.usuariosUrl}/alterarsenha`, requestBody),
+      this.http.put<Usuarios>(`${this.usuariosUrl}/senha/alterar`, requestBody),
     );
   }
 

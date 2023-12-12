@@ -21,15 +21,15 @@
 
           <div class="col-12 md:col-6 lg:col-3">
             <h6>*Confirmar Senha</h6>
-            <input pInputText name="password" type="password" maxlength="60" ngValidateEqual="senha" minlength="6"
-              [(ngModel)]="usuario.password" #password="ngModel" required #cpass>
+            <input pInputText name="cpassword" type="password" maxlength="60" ngValidateEqual="senha" minlength="6"
+              [(ngModel)]="usuario.cpassword" #cpassword="ngModel" required #cpass>
             <span (click)="cpass.type = cpass.type =='password'?'text':'password'"
               class="pi pi-eye-slash field-icon"
               [ngClass]="(cpass.type =='password')?'pi-eye-slash':'pi pi-eye'"></span>
-            <app-message [control]="password" error="required" text="Repita a senha"></app-message>
-            <app-message [control]="password" error="minlength" text="Mínimo de 6 caracteres"></app-message>
-            <div *ngIf="(password.dirty || password.touched) && password.invalid">
-              <p class="text-danger" role="alert" *ngIf="password.hasError('notEqual') && senha.valid">
+            <app-message [control]="cpassword" error="required" text="Repita a senha"></app-message>
+            <app-message [control]="cpassword" error="minlength" text="Mínimo de 6 caracteres"></app-message>
+            <div *ngIf="(cpassword.dirty || cpassword.touched) && cpassword.invalid">
+              <p class="text-danger" role="alert" *ngIf="cpassword.hasError('notEqual') && senha.valid">
                 As senhas não correspondem...
               </p>
             </div>
