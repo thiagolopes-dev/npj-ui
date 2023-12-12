@@ -54,6 +54,9 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
   noRecords = true;
   state = 'state-processos';
   nameColumns = 'processosColumns';
+  showDialogPartes: boolean = false;
+  partes: any;
+  colsPartes = [];
 
   constructor(
     private title: Title,
@@ -130,6 +133,17 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
         datacriacaoate: ''
       },
     ];
+
+    this.colsPartes = [
+      { field: 'nome', header: 'Nome', width: '250px' },
+      { field: 'cpf', header: 'CPF', width: '150px' },
+      { field: 'whats', header: 'Whats', width: '150px' },
+      { field: 'telefone', header: 'Telefone', width: '150px' },
+      { field: 'email', header: 'E-mail', width: '200px' },
+      { field: 'datacriacao', header: 'Data Criação', width: '130px', data: true, format: `dd/MM/yyyy H:mm`, },
+      { field: 'usuariocriacao', header: 'Usuário Criação', width: '150px' },
+    ];
+
     this.carregarStatus();
     this.carregarMotivos();
     this.carregarVaras();
@@ -425,6 +439,28 @@ export class ListaProcessosComponent implements OnInit, AfterViewInit {
 
   verifyFocus() {
     this.buttonFilter.nativeElement.focus();
+  }
+
+  showParte(id: string) {
+    this.showDialogPartes = true;
+    this.carregarParte(id);
+  }
+
+  carregarParte(id: string) {
+    this.spinner.show();
+    this.processosService
+      .buscarPorID(id)
+      .then((response) => {
+        // console.log('Dados recuperados:', response);
+        this.partes = response.partes;
+
+        // console.log('Variável partes:', this.partes.partes);
+        this.spinner.hide();
+      })
+      .catch((erro) => {
+        this.spinner.hide();
+        this.errorHandler.handle(erro);
+      });
   }
 
 }

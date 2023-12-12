@@ -18,3 +18,10 @@
     background-color: #f59e0b;
     box-shadow: 0.1875rem 0.125rem 1rem -0.0625rem rgba(81, 82, 81, 0.72);
 }
+
+.p-button.btn-menu.ativo {
+    color: #ffffff;
+    background-color: #155ccf;
+    border-radius: 0.625rem;
+    outline: none;
+  }

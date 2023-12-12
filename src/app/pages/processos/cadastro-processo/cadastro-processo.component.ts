@@ -99,7 +99,7 @@ export class CadastroProcessoComponent {
       { field: 'email', header: 'E-mail', width: '200px' },
       { field: 'datacriacao', header: 'Data Criação', width: '130px', data: true, format: `dd/MM/yyyy H:mm`, },
       { field: 'usuariocriacao', header: 'Usuário Criação', width: '150px' },
-    ]
+    ];
   }
 
   get editando() {

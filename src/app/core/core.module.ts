@@ -8,26 +8,30 @@ import { ClientesService } from '../pages/clientes/clientes.service';
 import { MotivosService } from '../pages/motivos/motivos.service';
 import { ProcessosService } from '../pages/processos/processos.service';
 import { AuthService } from '../pages/seguranca/auth.service';
+import { SharedModule } from '../pages/shared/shared.module';
 import { StatusService } from '../pages/status/status.service';
 import { UsuariosService } from '../pages/usuarios/usuarios.service';
 import { VarasService } from '../pages/varas/varas.service';
 import { PrimeNGModule } from '../primeng.module';
 import { ErrorHandlerService } from './errorhandler.service';
-import { NaoAutorizadoComponent } from './layout/navbar/nao-autorizado/nao-autorizado.component';
+import { AlterarSenhaComponent } from './layout/alterar-senha/alterar-senha.component';
+import { NaoAutorizadoComponent } from './layout/nao-autorizado/nao-autorizado.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
-import { PaginaNaoEncontradaComponent } from './layout/navbar/pagina-nao-encontrada/pagina-nao-encontrada.component';
+import { PaginaNaoEncontradaComponent } from './layout/pagina-nao-encontrada/pagina-nao-encontrada.component';
 
 @NgModule({
   declarations: [
     NavbarComponent,   
     PaginaNaoEncontradaComponent,
-    NaoAutorizadoComponent
+    NaoAutorizadoComponent,
+    AlterarSenhaComponent
   ],
   imports: [
     PrimeNGModule,
     RouterModule,
     ToastModule,
-    ConfirmDialogModule
+    ConfirmDialogModule,
+    SharedModule
   ],
   providers: [
     AuthService,

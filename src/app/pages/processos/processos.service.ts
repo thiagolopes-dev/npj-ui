@@ -4,8 +4,8 @@ import { firstValueFrom } from 'rxjs';
 import { environment } from 'src/environments/environment';
 
 import * as moment from 'moment-timezone';
-import { Processos } from 'src/app/core/models/processo.model';
 import { FiltroProcessos } from 'src/app/core/models/filtros.model';
+import { Processos } from 'src/app/core/models/processo.model';
 
 @Injectable({
   providedIn: 'root',
@@ -112,11 +112,26 @@ export class ProcessosService {
     ).then((response) => response as Processos);
   }
 
+
   buscarPorID(id: string) {
     return firstValueFrom(this.http.get(`${this.processoURL}/${id}`)).then(
-      (response) => response as Processos,
+      (response) => {
+        this.converterStringsParaData(response);
+            return response as Processos;
+      },
     );
   }
+  
+
+  private converterStringsParaData(obj: any) { 
+    console.log(obj);
+    if (obj.datacriacao) {
+      obj.datacriacao = moment(obj.datacriacao, 'YYYY-MM-DD H:mm')
+        .tz('America/Sao_Paulo')
+        .toDate();
+    }  
+}
+
 
   excluir(id: string) {
     return firstValueFrom(this.http.delete(`${this.processoURL}/${id}`)).then(
@@ -124,11 +139,4 @@ export class ProcessosService {
     );
   }
 
-  converteStringParaDatas(obj: any) {
-    obj.forEach((element: any) => {
-      element.datagravacao = moment(element.datagravacao, 'YYYY/MM/DD H:mm')
-        .tz('America/Sao_Paulo')
-        .toDate();
-    });
-  }
 }

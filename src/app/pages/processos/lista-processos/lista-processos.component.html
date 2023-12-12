@@ -161,9 +161,12 @@
 
       <ng-template pTemplate="body" let-processo let-columns="columns" let-rowData>
         <tr class="ui-selectable-row" [pSelectableRow]="processo">
-          <td class="tdEditar">
+          <td class="btnAcoes">
             <button pButton pRipple type="button" class="p-button-text p-button-warning" pTooltip="Editar"
               icon="pi pi-pencil" tooltipPosition="top" [routerLink]="['/processos', processo._id]"></button>
+
+              <button pButton pRipple type="button" pTooltip="Partes Envolvidas" tooltipPosition="top"
+              class="p-button-text p-button-warning ml-1" icon="pi pi-user" (click)="showParte(processo._id)"></button>
           </td>
           <td class="responsivetable" *ngFor="let cols of columns" [ngStyle]="{'min-width': cols.width}"
             pReorderableColumn
@@ -208,3 +211,46 @@
     </p-table>
   </p-card>
 </main>
+
+<p-dialog header="Partes Envolvidas" dismissableMask="true" modal="true" [(visible)]="showDialogPartes" styleClass="mydialog">
+  <p-table #tabelaPartes [value]="partes" [columns]="colsPartes" paginator="true"
+    styleClass="p-datatable-striped p-datatable-gridlines" selectionMode="single" [globalFilterFields]="colsPartes"
+    [currentPageReportTemplate]="messagePageReport" [rowsPerPageOptions]="rowsPerPageTable"
+    [showCurrentPageReport]="true" [rows]="10">
+    <ng-template pTemplate="caption">
+      <div class="flex flex-wrap">
+        <div class="mr-2 mb-2 responsivetable">
+          <span class="p-input-icon-left">
+            <i class="pi pi-search"></i>
+            <input pInputText type="text" (input)="tabelaPartes.filterGlobal($event.target.value, 'contains')"
+              placeholder="Pesquisa Global" pTooltip="Pesquisa em todas colunas" tooltipPosition="top">
+          </span>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="header" let-columns>
+      <tr>
+        <th *ngFor="let colsPartes of columns" [ngStyle]="{'min-width': colsPartes.width}">
+          {{colsPartes.header}}
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-columns="columns">
+      <tr class="ui-selectable-row" [pSelectableRow]="rowData">
+        <td *ngFor="let colsPartes of columns" [ngStyle]="{'min-width': colsPartes.width}"
+          pTooltip="{{rowData[colsPartes.field]}}" tooltipPosition="top">
+          <span class="p-column-title">{{colsPartes.header}}:</span>
+          {{ 
+            colsPartes.currency ? (rowData[colsPartes.field]| currency : colsPartes.format): rowData[colsPartes.field]
+              &&
+            colsPartes.data ? (rowData[colsPartes.field]| date : colsPartes.format) : rowData[colsPartes.field]
+            &&
+            colsPartes.status ? (rowData[colsPartes.field] ? 'Ativo' : 'Inativo') : rowData[colsPartes.field]
+            }}
+        </td>
+      </tr>
+    </ng-template>
+    <p-footer>
+    </p-footer>
+  </p-table>
+</p-dialog>

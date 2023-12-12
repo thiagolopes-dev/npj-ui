@@ -1,0 +1,59 @@
+<main>
+  <p-card styleClass="card-adjust">
+    <br>
+    <div class="grid justify-content-center">
+      <h4>ALTERAR SENHA</h4>
+    </div>
+    <br>
+      <form #f="ngForm" autocomplete="off" (ngSubmit)="alterarSenha(f)">
+        <div class="grid  justify-content-center">
+          <div class="col-12 md:col-6 lg:col-3">
+            <h6>*Nova Senha</h6>
+            <input pPassword type="password" name="senha" promptLabel="Digite sua senha" weakLabel="Fraco"
+              mediumLabel="Médio " strongLabel="Forte" [(ngModel)]="usuario.password" #senha="ngModel"
+              minlength="6" maxlength="60" required #pass>
+            <span (click)="pass.type = pass.type =='password'?'text':'password'"
+              class="pi pi-eye-slash field-icon"
+              [ngClass]="(pass.type =='password')?'pi-eye-slash':'pi pi-eye'"></span>
+            <app-message [control]="senha" error="required" text="Informe uma senha"></app-message>
+            <app-message [control]="senha" error="minlength" text="Mínimo de 6 caracteres"></app-message>
+          </div>
+
+          <div class="col-12 md:col-6 lg:col-3">
+            <h6>*Confirmar Senha</h6>
+            <input pInputText name="password" type="password" maxlength="60" ngValidateEqual="senha" minlength="6"
+              [(ngModel)]="usuario.password" #password="ngModel" required #cpass>
+            <span (click)="cpass.type = cpass.type =='password'?'text':'password'"
+              class="pi pi-eye-slash field-icon"
+              [ngClass]="(cpass.type =='password')?'pi-eye-slash':'pi pi-eye'"></span>
+            <app-message [control]="password" error="required" text="Repita a senha"></app-message>
+            <app-message [control]="password" error="minlength" text="Mínimo de 6 caracteres"></app-message>
+            <div *ngIf="(password.dirty || password.touched) && password.invalid">
+              <p class="text-danger" role="alert" *ngIf="password.hasError('notEqual') && senha.valid">
+                As senhas não correspondem...
+              </p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <p-footer>
+          <div class="grid  justify-content-center mt-2">
+            <div class="col-12 md:col-6 lg:col-3">
+              <button pButton pRipple type="submit" label="Confirmar" icon="fas fa-save"
+              [disabled]="f.invalid || salvando" class="p-button-raised p-button-primary w-full"></button>
+            </div>
+          </div>
+          <div *ngIf="salvando" class="grid justify-content-center mt-4">
+            <div class="grid col-12 justify-content-center">
+              <p-progressSpinner [style]="{width: '50px', height: '50px'}" styleClass="custom-spinner" strokeWidth="8"
+                animationDuration=".5s">
+              </p-progressSpinner>
+            </div>
+            <div class="grid col-12 justify-content-center">
+              <h6>Salvando aguarde...</h6>
+            </div>
+          </div>
+        </p-footer>
+      </form>
+  </p-card>
+</main>
